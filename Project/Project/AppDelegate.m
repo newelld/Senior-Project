@@ -7,31 +7,38 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RootViewController.h"
 #import "MasterViewController.h"
 
 @implementation AppDelegate
 
+@synthesize navigationController;
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
-        UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
-        splitViewController.delegate = (id)navigationController.topViewController;
-        
-        UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
-        MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
-        controller.managedObjectContext = self.managedObjectContext;
-    } else {
-        UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-        MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
-        controller.managedObjectContext = self.managedObjectContext;
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    RootViewController *rootViewController = [[RootViewController alloc]
+                                              initWithStyle:UITableViewStylePlain];
+    
+    NSManagedObjectContext *context = [self managedObjectContext];
+    if (!context) {
+        // Handle the error.
     }
+    // Pass the managed object context to the view controller.
+    rootViewController.managedObjectContext = context;
+    
+    UINavigationController *aNavigationController = [[UINavigationController alloc]
+                                                     initWithRootViewController:rootViewController];
+    self.navigationController = aNavigationController;
+    
+    [_window addSubview:[navigationController view]];
+    [_window makeKeyAndVisible];
+    
+    //[rootViewController release];
+    //[aNavigationController release];
+    
     return YES;
 }
 							

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		547E2A2616DC2758004F5D59 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547E2A2516DC2758004F5D59 /* RootViewController.m */; };
+		547E2A2F16DC3113004F5D59 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547E2A2E16DC3113004F5D59 /* CoreLocation.framework */; };
 		54D3C78116D5A19D0027B9EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D3C78016D5A19D0027B9EC /* UIKit.framework */; };
 		54D3C78316D5A19D0027B9EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D3C78216D5A19D0027B9EC /* Foundation.framework */; };
 		54D3C78516D5A19D0027B9EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D3C78416D5A19D0027B9EC /* CoreGraphics.framework */; };
@@ -41,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		547E2A2416DC2758004F5D59 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		547E2A2516DC2758004F5D59 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		547E2A2E16DC3113004F5D59 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		54D3C77D16D5A19D0027B9EC /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D3C78016D5A19D0027B9EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		54D3C78216D5A19D0027B9EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				547E2A2F16DC3113004F5D59 /* CoreLocation.framework in Frameworks */,
 				54D3C78116D5A19D0027B9EC /* UIKit.framework in Frameworks */,
 				54D3C78316D5A19D0027B9EC /* Foundation.framework in Frameworks */,
 				54D3C78516D5A19D0027B9EC /* CoreGraphics.framework in Frameworks */,
@@ -99,6 +105,7 @@
 		54D3C77416D5A19D0027B9EC = {
 			isa = PBXGroup;
 			children = (
+				547E2A2E16DC3113004F5D59 /* CoreLocation.framework */,
 				54D3C78816D5A19D0027B9EC /* Project */,
 				54D3C7B616D5A19D0027B9EC /* ProjectTests */,
 				54D3C77F16D5A19D0027B9EC /* Frameworks */,
@@ -132,6 +139,8 @@
 			children = (
 				54D3C79116D5A19D0027B9EC /* AppDelegate.h */,
 				54D3C79216D5A19D0027B9EC /* AppDelegate.m */,
+				547E2A2416DC2758004F5D59 /* RootViewController.h */,
+				547E2A2516DC2758004F5D59 /* RootViewController.m */,
 				54D3C79A16D5A19D0027B9EC /* MainStoryboard_iPhone.storyboard */,
 				54D3C79D16D5A19D0027B9EC /* MainStoryboard_iPad.storyboard */,
 				54D3C7A316D5A19D0027B9EC /* MasterViewController.h */,
@@ -292,6 +301,7 @@
 				54D3C7A216D5A19D0027B9EC /* Project.xcdatamodeld in Sources */,
 				54D3C7A516D5A19D0027B9EC /* MasterViewController.m in Sources */,
 				54D3C7A816D5A19D0027B9EC /* DetailViewController.m in Sources */,
+				547E2A2616DC2758004F5D59 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +492,7 @@
 				54D3C7C316D5A19D0027B9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54D3C7C416D5A19D0027B9EC /* Build configuration list for PBXNativeTarget "ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +501,7 @@
 				54D3C7C616D5A19D0027B9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
