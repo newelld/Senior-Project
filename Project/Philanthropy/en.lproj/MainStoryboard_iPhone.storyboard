@@ -196,8 +196,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="grandvalley3.jpg" width="16" height="16"/>
-        <image name="gvsu1.jpg" width="16" height="16"/>
+        <image name="grandvalley3.jpg" width="200" height="255"/>
+        <image name="gvsu1.jpg" width="500" height="379"/>
     </resources>
     <classes>
         <class className="MapViewController" superclassName="UIViewController">
