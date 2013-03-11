@@ -7,84 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		542D2F5E16EE55D500B140A6 /* MYBIG FILE.m in Sources */ = {isa = PBXBuildFile; fileRef = 542D2F5D16EE55D500B140A6 /* MYBIG FILE.m */; };
 		54600BA216DC6475004AFA84 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54600BA116DC6475004AFA84 /* MapKit.framework */; };
 		54600BA516DC6678004AFA84 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54600BA416DC6678004AFA84 /* MapViewController.m */; };
 		54600BAA16DC6BFC004AFA84 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54600BA816DC6BFC004AFA84 /* MapViewController.xib */; };
+		54777C6116EE5DC4000BD24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54777C6016EE5DC4000BD24C /* main.m */; };
 		54B7C33916DD59CA00324612 /* gvsuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B7C33816DD59CA00324612 /* gvsuTableViewController.m */; };
 		54BD2E6D16B06C470099FB02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6C16B06C470099FB02 /* UIKit.framework */; };
 		54BD2E6F16B06C470099FB02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6E16B06C470099FB02 /* Foundation.framework */; };
 		54BD2E7116B06C470099FB02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E7016B06C470099FB02 /* CoreGraphics.framework */; };
-		54BD2E7716B06C480099FB02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54BD2E7516B06C480099FB02 /* InfoPlist.strings */; };
-		54BD2E7916B06C480099FB02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E7816B06C480099FB02 /* main.m */; };
 		54BD2E7D16B06C480099FB02 /* gvsuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E7C16B06C480099FB02 /* gvsuAppDelegate.m */; };
-		54BD2E7F16B06C480099FB02 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 54BD2E7E16B06C480099FB02 /* Default.png */; };
-		54BD2E8116B06C480099FB02 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54BD2E8016B06C480099FB02 /* Default@2x.png */; };
-		54BD2E8316B06C480099FB02 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54BD2E8216B06C480099FB02 /* Default-568h@2x.png */; };
 		54BD2E8616B06C480099FB02 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BD2E8416B06C480099FB02 /* MainStoryboard_iPhone.storyboard */; };
 		54BD2E8916B06C480099FB02 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BD2E8716B06C480099FB02 /* MainStoryboard_iPad.storyboard */; };
 		54BD2E8C16B06C480099FB02 /* gvsuMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8B16B06C480099FB02 /* gvsuMasterViewController.m */; };
 		54BD2E8F16B06C480099FB02 /* gvsuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */; };
-		54BD2E9716B06C480099FB02 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E9616B06C480099FB02 /* SenTestingKit.framework */; };
-		54BD2E9816B06C480099FB02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6C16B06C470099FB02 /* UIKit.framework */; };
-		54BD2E9916B06C480099FB02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6E16B06C470099FB02 /* Foundation.framework */; };
-		54BD2EA116B06C480099FB02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54BD2E9F16B06C480099FB02 /* InfoPlist.strings */; };
-		54BD2EA416B06C480099FB02 /* PhilanthropyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2EA316B06C480099FB02 /* PhilanthropyTests.m */; };
 		54BD2EB816B072AD0099FB02 /* gvsuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2EB716B072AD0099FB02 /* gvsuViewController.m */; };
-		54C057D316DC7B96003801ED /* gvsu1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C057D216DC7B96003801ED /* gvsu1.jpg */; };
-		54C057D516DC7B9F003801ED /* grandvalley3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C057D416DC7B9F003801ED /* grandvalley3.jpg */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		54BD2E9A16B06C480099FB02 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54BD2E5F16B06C470099FB02 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 54BD2E6716B06C470099FB02;
-			remoteInfo = Philanthropy;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		542D2F5C16EE55D500B140A6 /* MYBIG FILE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MYBIG FILE.h"; sourceTree = "<group>"; };
-		542D2F5D16EE55D500B140A6 /* MYBIG FILE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MYBIG FILE.m"; sourceTree = "<group>"; };
+		542C4D8216EE584200D556E0 /* Philanthropy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Philanthropy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Philanthropy-Info.plist"; path = "Philanthropy/Philanthropy-Info.plist"; sourceTree = "<group>"; };
 		54600BA116DC6475004AFA84 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		54600BA316DC6678004AFA84 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		54600BA416DC6678004AFA84 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		54600BA616DC6BFC004AFA84 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		54600BA716DC6BFC004AFA84 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		54600BA816DC6BFC004AFA84 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		54777C6016EE5DC4000BD24C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Philanthropy/main.m; sourceTree = "<group>"; };
 		54B7C33716DD59CA00324612 /* gvsuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gvsuTableViewController.h; sourceTree = "<group>"; };
 		54B7C33816DD59CA00324612 /* gvsuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuTableViewController.m; sourceTree = "<group>"; };
-		54BD2E6816B06C470099FB02 /* Philanthropy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Philanthropy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54BD2E6C16B06C470099FB02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		54BD2E6E16B06C470099FB02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54BD2E7016B06C470099FB02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		54BD2E7416B06C480099FB02 /* Philanthropy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Philanthropy-Info.plist"; sourceTree = "<group>"; };
-		54BD2E7616B06C480099FB02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		54BD2E7816B06C480099FB02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		54BD2E7A16B06C480099FB02 /* Philanthropy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Philanthropy-Prefix.pch"; sourceTree = "<group>"; };
 		54BD2E7B16B06C480099FB02 /* gvsuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvsuAppDelegate.h; sourceTree = "<group>"; };
 		54BD2E7C16B06C480099FB02 /* gvsuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gvsuAppDelegate.m; sourceTree = "<group>"; };
-		54BD2E7E16B06C480099FB02 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		54BD2E8016B06C480099FB02 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		54BD2E8216B06C480099FB02 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		54BD2E8516B06C480099FB02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		54BD2E8816B06C480099FB02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		54BD2E8A16B06C480099FB02 /* gvsuMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvsuMasterViewController.h; sourceTree = "<group>"; };
 		54BD2E8B16B06C480099FB02 /* gvsuMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gvsuMasterViewController.m; sourceTree = "<group>"; };
 		54BD2E8D16B06C480099FB02 /* gvsuDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvsuDetailViewController.h; sourceTree = "<group>"; };
 		54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gvsuDetailViewController.m; sourceTree = "<group>"; };
-		54BD2E9516B06C480099FB02 /* PhilanthropyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhilanthropyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54BD2E9616B06C480099FB02 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		54BD2E9E16B06C480099FB02 /* PhilanthropyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhilanthropyTests-Info.plist"; sourceTree = "<group>"; };
-		54BD2EA016B06C480099FB02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		54BD2EA216B06C480099FB02 /* PhilanthropyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhilanthropyTests.h; sourceTree = "<group>"; };
-		54BD2EA316B06C480099FB02 /* PhilanthropyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhilanthropyTests.m; sourceTree = "<group>"; };
 		54BD2EB616B072AD0099FB02 /* gvsuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gvsuViewController.h; sourceTree = "<group>"; };
 		54BD2EB716B072AD0099FB02 /* gvsuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuViewController.m; sourceTree = "<group>"; };
-		54C057D216DC7B96003801ED /* gvsu1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gvsu1.jpg; sourceTree = "<group>"; };
-		54C057D416DC7B9F003801ED /* grandvalley3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grandvalley3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,16 +63,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54BD2E9116B06C480099FB02 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54BD2E9716B06C480099FB02 /* SenTestingKit.framework in Frameworks */,
-				54BD2E9816B06C480099FB02 /* UIKit.framework in Frameworks */,
-				54BD2E9916B06C480099FB02 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -116,19 +70,11 @@
 			isa = PBXGroup;
 			children = (
 				54BD2E7216B06C470099FB02 /* Philanthropy */,
-				54BD2E9C16B06C480099FB02 /* PhilanthropyTests */,
 				54BD2E6B16B06C470099FB02 /* Frameworks */,
-				54BD2E6916B06C470099FB02 /* Products */,
+				542C4D8216EE584200D556E0 /* Philanthropy.app */,
+				542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */,
+				54777C6016EE5DC4000BD24C /* main.m */,
 			);
-			sourceTree = "<group>";
-		};
-		54BD2E6916B06C470099FB02 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				54BD2E6816B06C470099FB02 /* Philanthropy.app */,
-				54BD2E9516B06C480099FB02 /* PhilanthropyTests.octest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		54BD2E6B16B06C470099FB02 /* Frameworks */ = {
@@ -163,46 +109,8 @@
 				54600BA616DC6BFC004AFA84 /* MapViewController.h */,
 				54600BA716DC6BFC004AFA84 /* MapViewController.m */,
 				54600BA816DC6BFC004AFA84 /* MapViewController.xib */,
-				54BD2E7316B06C480099FB02 /* Supporting Files */,
-				542D2F5C16EE55D500B140A6 /* MYBIG FILE.h */,
-				542D2F5D16EE55D500B140A6 /* MYBIG FILE.m */,
 			);
 			path = Philanthropy;
-			sourceTree = "<group>";
-		};
-		54BD2E7316B06C480099FB02 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				54C057D416DC7B9F003801ED /* grandvalley3.jpg */,
-				54C057D216DC7B96003801ED /* gvsu1.jpg */,
-				54BD2E7416B06C480099FB02 /* Philanthropy-Info.plist */,
-				54BD2E7516B06C480099FB02 /* InfoPlist.strings */,
-				54BD2E7816B06C480099FB02 /* main.m */,
-				54BD2E7A16B06C480099FB02 /* Philanthropy-Prefix.pch */,
-				54BD2E7E16B06C480099FB02 /* Default.png */,
-				54BD2E8016B06C480099FB02 /* Default@2x.png */,
-				54BD2E8216B06C480099FB02 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		54BD2E9C16B06C480099FB02 /* PhilanthropyTests */ = {
-			isa = PBXGroup;
-			children = (
-				54BD2EA216B06C480099FB02 /* PhilanthropyTests.h */,
-				54BD2EA316B06C480099FB02 /* PhilanthropyTests.m */,
-				54BD2E9D16B06C480099FB02 /* Supporting Files */,
-			);
-			path = PhilanthropyTests;
-			sourceTree = "<group>";
-		};
-		54BD2E9D16B06C480099FB02 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				54BD2E9E16B06C480099FB02 /* PhilanthropyTests-Info.plist */,
-				54BD2E9F16B06C480099FB02 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,27 +130,8 @@
 			);
 			name = Philanthropy;
 			productName = Philanthropy;
-			productReference = 54BD2E6816B06C470099FB02 /* Philanthropy.app */;
+			productReference = 542C4D8216EE584200D556E0 /* Philanthropy.app */;
 			productType = "com.apple.product-type.application";
-		};
-		54BD2E9416B06C480099FB02 /* PhilanthropyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 54BD2EAA16B06C480099FB02 /* Build configuration list for PBXNativeTarget "PhilanthropyTests" */;
-			buildPhases = (
-				54BD2E9016B06C480099FB02 /* Sources */,
-				54BD2E9116B06C480099FB02 /* Frameworks */,
-				54BD2E9216B06C480099FB02 /* Resources */,
-				54BD2E9316B06C480099FB02 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				54BD2E9B16B06C480099FB02 /* PBXTargetDependency */,
-			);
-			name = PhilanthropyTests;
-			productName = PhilanthropyTests;
-			productReference = 54BD2E9516B06C480099FB02 /* PhilanthropyTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -262,12 +151,11 @@
 				en,
 			);
 			mainGroup = 54BD2E5D16B06C470099FB02;
-			productRefGroup = 54BD2E6916B06C470099FB02 /* Products */;
+			productRefGroup = 54BD2E5D16B06C470099FB02;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				54BD2E6716B06C470099FB02 /* Philanthropy */,
-				54BD2E9416B06C480099FB02 /* PhilanthropyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,87 +165,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54BD2E7716B06C480099FB02 /* InfoPlist.strings in Resources */,
-				54BD2E7F16B06C480099FB02 /* Default.png in Resources */,
-				54BD2E8116B06C480099FB02 /* Default@2x.png in Resources */,
-				54BD2E8316B06C480099FB02 /* Default-568h@2x.png in Resources */,
 				54BD2E8616B06C480099FB02 /* MainStoryboard_iPhone.storyboard in Resources */,
 				54BD2E8916B06C480099FB02 /* MainStoryboard_iPad.storyboard in Resources */,
 				54600BAA16DC6BFC004AFA84 /* MapViewController.xib in Resources */,
-				54C057D316DC7B96003801ED /* gvsu1.jpg in Resources */,
-				54C057D516DC7B9F003801ED /* grandvalley3.jpg in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		54BD2E9216B06C480099FB02 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54BD2EA116B06C480099FB02 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		54BD2E9316B06C480099FB02 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		54BD2E6416B06C470099FB02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54BD2E7916B06C480099FB02 /* main.m in Sources */,
 				54BD2E7D16B06C480099FB02 /* gvsuAppDelegate.m in Sources */,
 				54BD2E8C16B06C480099FB02 /* gvsuMasterViewController.m in Sources */,
 				54BD2E8F16B06C480099FB02 /* gvsuDetailViewController.m in Sources */,
 				54BD2EB816B072AD0099FB02 /* gvsuViewController.m in Sources */,
 				54600BA516DC6678004AFA84 /* MapViewController.m in Sources */,
 				54B7C33916DD59CA00324612 /* gvsuTableViewController.m in Sources */,
-				542D2F5E16EE55D500B140A6 /* MYBIG FILE.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		54BD2E9016B06C480099FB02 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54BD2EA416B06C480099FB02 /* PhilanthropyTests.m in Sources */,
+				54777C6116EE5DC4000BD24C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		54BD2E9B16B06C480099FB02 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 54BD2E6716B06C470099FB02 /* Philanthropy */;
-			targetProxy = 54BD2E9A16B06C480099FB02 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		54BD2E7516B06C480099FB02 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54BD2E7616B06C480099FB02 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		54BD2E8416B06C480099FB02 /* MainStoryboard_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -372,14 +205,6 @@
 				54BD2E8816B06C480099FB02 /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		54BD2E9F16B06C480099FB02 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54BD2EA016B06C480099FB02 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,6 +236,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -430,6 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,40 +288,6 @@
 			};
 			name = Release;
 		};
-		54BD2EAB16B06C480099FB02 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Philanthropy.app/Philanthropy";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Philanthropy/Philanthropy-Prefix.pch";
-				INFOPLIST_FILE = "PhilanthropyTests/PhilanthropyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		54BD2EAC16B06C480099FB02 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Philanthropy.app/Philanthropy";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Philanthropy/Philanthropy-Prefix.pch";
-				INFOPLIST_FILE = "PhilanthropyTests/PhilanthropyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -512,15 +305,6 @@
 			buildConfigurations = (
 				54BD2EA816B06C480099FB02 /* Debug */,
 				54BD2EA916B06C480099FB02 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		54BD2EAA16B06C480099FB02 /* Build configuration list for PBXNativeTarget "PhilanthropyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				54BD2EAB16B06C480099FB02 /* Debug */,
-				54BD2EAC16B06C480099FB02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
