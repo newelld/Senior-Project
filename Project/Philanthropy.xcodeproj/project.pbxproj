@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		542D2F5E16EE55D500B140A6 /* MYBIG FILE.m in Sources */ = {isa = PBXBuildFile; fileRef = 542D2F5D16EE55D500B140A6 /* MYBIG FILE.m */; };
 		54600BA216DC6475004AFA84 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54600BA116DC6475004AFA84 /* MapKit.framework */; };
 		54600BA516DC6678004AFA84 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54600BA416DC6678004AFA84 /* MapViewController.m */; };
 		54600BAA16DC6BFC004AFA84 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54600BA816DC6BFC004AFA84 /* MapViewController.xib */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		542D2F5C16EE55D500B140A6 /* MYBIG FILE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MYBIG FILE.h"; sourceTree = "<group>"; };
+		542D2F5D16EE55D500B140A6 /* MYBIG FILE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MYBIG FILE.m"; sourceTree = "<group>"; };
 		54600BA116DC6475004AFA84 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		54600BA316DC6678004AFA84 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		54600BA416DC6678004AFA84 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
@@ -161,6 +164,8 @@
 				54600BA716DC6BFC004AFA84 /* MapViewController.m */,
 				54600BA816DC6BFC004AFA84 /* MapViewController.xib */,
 				54BD2E7316B06C480099FB02 /* Supporting Files */,
+				542D2F5C16EE55D500B140A6 /* MYBIG FILE.h */,
+				542D2F5D16EE55D500B140A6 /* MYBIG FILE.m */,
 			);
 			path = Philanthropy;
 			sourceTree = "<group>";
@@ -322,6 +327,7 @@
 				54BD2EB816B072AD0099FB02 /* gvsuViewController.m in Sources */,
 				54600BA516DC6678004AFA84 /* MapViewController.m in Sources */,
 				54B7C33916DD59CA00324612 /* gvsuTableViewController.m in Sources */,
+				542D2F5E16EE55D500B140A6 /* MYBIG FILE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
