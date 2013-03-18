@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface gvsuTableViewController : UITableViewController
-
+@interface gvsuTableViewController : UITableViewController {
+    NSArray *data;
+}
 @end

@@ -9,10 +9,11 @@
 #import "gvsuTableViewController.h"
 
 @interface gvsuTableViewController ()
-
+@property (nonatomic, retain) NSArray *data;
 @end
 
 @implementation gvsuTableViewController
+@synthesize data;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -25,13 +26,16 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    NSString *mylist = [[NSBundle mainBundle] pathForResource:@"DataFile" ofType:@"plist"];
+    data = [[NSArray alloc]initWithContentsOfFile:mylist];
+    NSLog(@"%@", data);
+    [super viewDidLoad];
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,7 +55,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 10;
+    return [data count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -59,9 +63,12 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    // Configure the cell...
-    cell.textLabel.text = @"Hello, world";
-    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] ;
+    }
+    cell.textLabel.text = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
+    cell.detailTextLabel.text = [[data objectAtIndex:indexPath.row]objectForKey:@"Campus"];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
