@@ -128,7 +128,7 @@
                                 <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x7c-i9-wHh">
@@ -150,8 +150,8 @@
                         </prototypes>
                         <sections/>
                         <connections>
-                            <outlet property="dataSource" destination="dVQ-aA-0Ym" id="mFB-Su-VMW"/>
-                            <outlet property="delegate" destination="dVQ-aA-0Ym" id="IrA-4a-MtV"/>
+                            <outlet property="dataSource" destination="22H-gi-7g4" id="agh-AI-3Rj"/>
+                            <outlet property="delegate" destination="22H-gi-7g4" id="nxE-rn-l0P"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="q8s-bk-nW5"/>
