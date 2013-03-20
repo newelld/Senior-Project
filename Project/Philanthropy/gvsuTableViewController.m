@@ -5,7 +5,7 @@
 //  Created by Nickolas Workman on 2/26/13.
 //  Copyright (c) 2013 Nickolas Workman. All rights reserved.
 //
-
+#import "DetailViewController.h"
 #import "gvsuTableViewController.h"
 
 @interface gvsuTableViewController ()
@@ -56,15 +56,17 @@
     }
     cell.textLabel.text = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
     cell.detailTextLabel.text = [[data objectAtIndex:indexPath.row]objectForKey:@"Campus"];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{    
-    
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    DetailViewController *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"detail"];
+    detail.building = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
+    detail.campus = [[data objectAtIndex:indexPath.row]objectForKey:@"Campus"];
+    [self.navigationController pushViewController:detail animated:YES];
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{    
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 60;    
 }
 

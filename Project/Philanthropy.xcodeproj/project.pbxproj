@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		541D83BE16EE631C00D0D2AA /* gvsu1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 541D83BC16EE631C00D0D2AA /* gvsu1.jpg */; };
 		541D83BF16EE631C00D0D2AA /* grandvalley3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 541D83BD16EE631C00D0D2AA /* grandvalley3.jpg */; };
+		5446E11416F94ABC00C876C8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5446E11316F94ABC00C876C8 /* DetailViewController.m */; };
 		544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E047816F7C3C800FC64B4 /* gvsuCell.m */; };
 		544E047C16F7CA4F00FC64B4 /* gvsuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E047B16F7CA4F00FC64B4 /* gvsuTableView.m */; };
 		54600BA216DC6475004AFA84 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54600BA116DC6475004AFA84 /* MapKit.framework */; };
@@ -25,7 +26,6 @@
 		54BD2E8916B06C480099FB02 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BD2E8716B06C480099FB02 /* MainStoryboard_iPad.storyboard */; };
 		54BD2E8C16B06C480099FB02 /* gvsuMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8B16B06C480099FB02 /* gvsuMasterViewController.m */; };
 		54BD2E8F16B06C480099FB02 /* gvsuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */; };
-		54BD2EB816B072AD0099FB02 /* gvsuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2EB716B072AD0099FB02 /* gvsuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +33,10 @@
 		541D83BD16EE631C00D0D2AA /* grandvalley3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grandvalley3.jpg; sourceTree = "<group>"; };
 		542C4D8216EE584200D556E0 /* Philanthropy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Philanthropy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Philanthropy-Info.plist"; path = "Philanthropy/Philanthropy-Info.plist"; sourceTree = "<group>"; };
+		5446E11216F94ABC00C876C8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5446E11316F94ABC00C876C8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5446E11516F94D4700C876C8 /* gvsuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvsuViewController.h; sourceTree = "<group>"; };
+		5446E11616F94D4700C876C8 /* gvsuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gvsuViewController.m; sourceTree = "<group>"; };
 		544E047716F7C3C800FC64B4 /* gvsuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gvsuCell.h; sourceTree = "<group>"; };
 		544E047816F7C3C800FC64B4 /* gvsuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuCell.m; sourceTree = "<group>"; };
 		544E047A16F7CA4F00FC64B4 /* gvsuTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gvsuTableView.h; sourceTree = "<group>"; };
@@ -59,8 +63,6 @@
 		54BD2E8D16B06C480099FB02 /* gvsuDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvsuDetailViewController.h; sourceTree = "<group>"; };
 		54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gvsuDetailViewController.m; sourceTree = "<group>"; };
 		54BD2E9616B06C480099FB02 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		54BD2EB616B072AD0099FB02 /* gvsuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gvsuViewController.h; sourceTree = "<group>"; };
-		54BD2EB716B072AD0099FB02 /* gvsuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +108,8 @@
 			children = (
 				548065F816F773D000BE44F8 /* DataFile.plist */,
 				54BD2E7B16B06C480099FB02 /* gvsuAppDelegate.h */,
-				54BD2EB616B072AD0099FB02 /* gvsuViewController.h */,
 				54600BA316DC6678004AFA84 /* MapViewController.h */,
 				54600BA416DC6678004AFA84 /* MapViewController.m */,
-				54BD2EB716B072AD0099FB02 /* gvsuViewController.m */,
 				54BD2E7C16B06C480099FB02 /* gvsuAppDelegate.m */,
 				54BD2E8416B06C480099FB02 /* MainStoryboard_iPhone.storyboard */,
 				541D83BC16EE631C00D0D2AA /* gvsu1.jpg */,
@@ -119,11 +119,15 @@
 				54BD2E8B16B06C480099FB02 /* gvsuMasterViewController.m */,
 				54BD2E8D16B06C480099FB02 /* gvsuDetailViewController.h */,
 				54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */,
+				5446E11516F94D4700C876C8 /* gvsuViewController.h */,
+				5446E11616F94D4700C876C8 /* gvsuViewController.m */,
 				54600BA616DC6BFC004AFA84 /* MapViewController.h */,
 				54600BA716DC6BFC004AFA84 /* MapViewController.m */,
 				54600BA816DC6BFC004AFA84 /* MapViewController.xib */,
 				54B7C33716DD59CA00324612 /* gvsuTableViewController.h */,
 				54B7C33816DD59CA00324612 /* gvsuTableViewController.m */,
+				5446E11216F94ABC00C876C8 /* DetailViewController.h */,
+				5446E11316F94ABC00C876C8 /* DetailViewController.m */,
 				544E047A16F7CA4F00FC64B4 /* gvsuTableView.h */,
 				544E047B16F7CA4F00FC64B4 /* gvsuTableView.m */,
 				544E047716F7C3C800FC64B4 /* gvsuCell.h */,
@@ -203,12 +207,12 @@
 				54BD2E7D16B06C480099FB02 /* gvsuAppDelegate.m in Sources */,
 				54BD2E8C16B06C480099FB02 /* gvsuMasterViewController.m in Sources */,
 				54BD2E8F16B06C480099FB02 /* gvsuDetailViewController.m in Sources */,
-				54BD2EB816B072AD0099FB02 /* gvsuViewController.m in Sources */,
 				54600BA516DC6678004AFA84 /* MapViewController.m in Sources */,
 				54B7C33916DD59CA00324612 /* gvsuTableViewController.m in Sources */,
 				54777C6116EE5DC4000BD24C /* main.m in Sources */,
 				544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */,
 				544E047C16F7CA4F00FC64B4 /* gvsuTableView.m in Sources */,
+				5446E11416F94ABC00C876C8 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
