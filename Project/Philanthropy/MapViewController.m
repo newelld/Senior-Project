@@ -12,7 +12,7 @@
 
 - (IBAction)getLocation{
     mapView.showsUserLocation = YES;
-    mapView.delegate = self;
+    //mapView.delegate = self;
     [mapView setUserTrackingMode:MKUserTrackingModeFollow animated: YES ];
     
     NSArray *names = {[NSArray arrayWithObjects:
