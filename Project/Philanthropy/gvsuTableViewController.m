@@ -10,10 +10,12 @@
 
 @interface gvsuTableViewController ()
 @property (nonatomic, retain) NSArray *data;
+@property (nonatomic, retain) NSArray *filteredData;
+@property (nonatomic, assign) bool searching;
 @end
 
 @implementation gvsuTableViewController
-@synthesize data;
+@synthesize data, filteredData, searching;
 
 - (void)didReceiveMemoryWarning
 {
@@ -33,15 +35,36 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     NSString *mylist = [[NSBundle mainBundle] pathForResource:@"DataFile" ofType:@"plist"];
     data = [[NSArray alloc]initWithContentsOfFile:mylist];
-    NSLog(@"%@", data);
+    filteredData = [[NSMutableArray alloc]init];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+- (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
+{
+    [filteredData removeAllObjects];
+    
+    for (NSDictionary *building in data)
+    {
+            NSRange rng = [[building valueForKey:@"Building Name"] rangeOfString:searchString options:(NSCaseInsensitiveSearch|NSDiacriticInsensitiveSearch)];
+            
+            if (rng.length != 0)
+            {
+                //NSLog(@"%@", building);
+                [filteredData addObject:building];
+            }
+    }
+    return YES;
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [data count];
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+    {
+        return [filteredData count];
+    } else {
+        return [data count];
+    } 
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -54,7 +77,14 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
         
     }
-    cell.textLabel.text = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
+    NSArray *rows;
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+    {
+        rows = [filteredData copy];
+    } else {
+        rows = data;
+    }
+    cell.textLabel.text = [[rows objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
     cell.detailTextLabel.text = [[data objectAtIndex:indexPath.row]objectForKey:@"Campus"];
     return cell;
 }
