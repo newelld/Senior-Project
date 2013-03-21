@@ -241,8 +241,11 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="tJe-jQ-7uu">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Description" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="tJe-jQ-7uu">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="411" id="m3m-rj-m9J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -250,7 +253,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="tJe-jQ-7uu" firstAttribute="leading" secondItem="Tsp-Qe-srn" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="5Ip-py-QsK"/>
-                            <constraint firstItem="tJe-jQ-7uu" firstAttribute="top" secondItem="Tsp-Qe-srn" secondAttribute="top" constant="137" id="9mc-YT-7j7"/>
                             <constraint firstItem="FMB-pU-emZ" firstAttribute="top" secondItem="Tsp-Qe-srn" secondAttribute="top" constant="47" id="AGD-N3-Bbs"/>
                             <constraint firstAttribute="trailing" secondItem="tJe-jQ-7uu" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="NRe-HB-lgH"/>
                             <constraint firstAttribute="trailing" secondItem="A7S-LS-8LS" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="YdI-6t-tI4"/>
@@ -258,6 +260,7 @@
                             <constraint firstAttribute="trailing" secondItem="FMB-pU-emZ" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="iTl-OZ-mry"/>
                             <constraint firstItem="A7S-LS-8LS" firstAttribute="leading" secondItem="Tsp-Qe-srn" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="mx4-8m-k4F"/>
                             <constraint firstItem="FMB-pU-emZ" firstAttribute="leading" secondItem="Tsp-Qe-srn" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="oal-CJ-1OJ"/>
+                            <constraint firstItem="tJe-jQ-7uu" firstAttribute="bottom" secondItem="Tsp-Qe-srn" secondAttribute="bottom" type="default" id="usx-Ya-b4N"/>
                         </constraints>
                     </view>
                     <connections>
