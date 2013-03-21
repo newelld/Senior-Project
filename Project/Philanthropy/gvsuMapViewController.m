@@ -1,14 +1,14 @@
 //
-//  MapViewController.m
+//  gvsuMapViewController.m
 //  Philanthropy
 //
 //  Created by Nickolas Workman on 2/25/13.
 //  Copyright (c) 2013 Nickolas Workman. All rights reserved.
 //
  
-#import "MapViewController.h"
+#import "gvsuMapViewController.h"
 
-@implementation MapViewController
+@implementation gvsuMapViewController
 NSArray *data;
 
 - (IBAction)getLocation{
