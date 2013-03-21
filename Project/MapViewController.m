@@ -1,37 +1,3 @@
-//#import "MapViewController.h"
-//#import <GoogleMaps/GoogleMaps.h>
-//
-//@implementation MapViewController {
-//    GMSMapView *mapView_;
-//}
-//
-//// You don't need to modify the default initWithNibName:bundle: method.
-//
-//- (void)loadView {
-//    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.8683
-//                                                            longitude:151.2086
-//                                                                 zoom:6];
-//    mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
-//    mapView_.myLocationEnabled = YES;
-//    self.view = mapView_;
-//    
-//    GMSMarkerOptions *options = [[GMSMarkerOptions alloc] init];
-//    options.position = CLLocationCoordinate2DMake(-33.8683, 151.2086);
-//    options.title = @"Sydney";
-//    options.snippet = @"Australia";
-//    [mapView_ addMarkerWithOptions:options];
-//}
-//@end
-
-
-//
-//  MapViewController.m
-//  Philanthropy
-//
-//  Created by Nickolas Workman on 2/25/13.
-//  Copyright (c) 2013 Nickolas Workman. All rights reserved.
-//
-
 #import "MapViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
 
@@ -41,7 +7,7 @@
 NSArray *data;
 
 - (IBAction)getLocation{
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:42.961329900896835 longitude:-85.88285207748413 zoom:6];
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:42.961329900896835 longitude:-85.88285207748413 zoom:12];
     mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView.myLocationEnabled = YES;
     self.view = mapView;
