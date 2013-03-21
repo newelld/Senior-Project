@@ -11,11 +11,10 @@
 @interface gvsuTableViewController ()
 @property (nonatomic, retain) NSArray *data;
 @property (nonatomic, retain) NSArray *filteredData;
-@property (nonatomic, assign) bool searching;
 @end
 
 @implementation gvsuTableViewController
-@synthesize data, filteredData, searching;
+@synthesize data, filteredData;
 
 - (void)didReceiveMemoryWarning
 {
@@ -93,6 +92,7 @@
     DetailViewController *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"detail"];
     detail.building = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
     detail.campus = [[data objectAtIndex:indexPath.row]objectForKey:@"Campus"];
+    detail.description = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Description"];
     [self.navigationController pushViewController:detail animated:YES];
 }
 

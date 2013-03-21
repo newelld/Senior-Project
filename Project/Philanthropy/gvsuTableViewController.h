@@ -11,6 +11,5 @@
 @interface gvsuTableViewController : UITableViewController {
     NSArray *data;
     NSMutableArray *filteredData;
-    bool searching;
 }
 @end

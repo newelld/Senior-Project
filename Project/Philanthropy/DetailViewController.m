@@ -9,7 +9,7 @@
 #import "DetailViewController.h"
 
 @implementation DetailViewController
-@synthesize building, campus, buildingLabel, campusLabel;
+@synthesize building, campus, description, buildingLabel, campusLabel, descriptionLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -44,6 +44,7 @@
     [super viewDidLoad];
     buildingLabel.text = building;
     campusLabel.text = campus;
+    descriptionLabel.text = description;
 }
 
 

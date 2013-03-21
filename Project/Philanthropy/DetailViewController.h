@@ -13,9 +13,11 @@
 @interface DetailViewController : UIViewController{
     NSString *building;
     NSString *campus;
+    NSString *description;
     IBOutlet UILabel *buildingLabel;
     IBOutlet UILabel *campusLabel;
+    IBOutlet UILabel *descriptionLabel;
 }
-@property (nonatomic, retain)NSString *building, *campus;
-@property (nonatomic, retain)IBOutlet UILabel *buildingLabel, *campusLabel;
+@property (nonatomic, retain)NSString *building, *campus, *description;
+@property (nonatomic, retain)IBOutlet UILabel *buildingLabel, *campusLabel, *descriptionLabel;
 @end
