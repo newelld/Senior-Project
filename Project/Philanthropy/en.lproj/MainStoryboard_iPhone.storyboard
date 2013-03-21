@@ -266,38 +266,6 @@
         <image name="grandvalley3.jpg" width="200" height="255"/>
         <image name="gvsu1.jpg" width="500" height="379"/>
     </resources>
-    <classes>
-        <class className="DetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="buildingLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="campusLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="MapViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="getLocation"/>
-                <relationship kind="action" name="setMap:"/>
-                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="gvsuCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuCell.h"/>
-        </class>
-        <class className="gvsuTableView" superclassName="UITableView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuTableView.h"/>
-        </class>
-        <class className="gvsuTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuTableViewController.h"/>
-        </class>
-        <class className="gvsuViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

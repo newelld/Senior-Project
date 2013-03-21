@@ -1,12 +1,16 @@
+//
+//  MapViewController.h
+//  Philanthropy
+//
+//  Created by Nickolas Workman on 3/21/13.
+//  Copyright (c) 2013 Nickolas Workman. All rights reserved.
+//
+
 #import <UIKit/UIKit.h>
-#import <MapKit/MapKit.h>
 
-@interface MapViewController : UIViewController {    
-	MKMapView *mapView;
-    NSArray *data;    
+@interface MapViewController : UIViewController{
+    
 }
-
-@property (nonatomic, retain) IBOutlet MKMapView *mapView;
 
 - (IBAction)getLocation;
 - (IBAction)setMap:(id)sender;
