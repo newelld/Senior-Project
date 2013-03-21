@@ -9,6 +9,7 @@
 #import "MapViewController.h"
 
 @implementation MapViewController
+NSArray *data;
 
 - (IBAction)getLocation{
     mapView.showsUserLocation = YES;
@@ -27,7 +28,7 @@
         @"Zumberge Library",
         @"Henry Hall",
         nil]
-    };
+          };
     
     NSArray *cords = {[NSArray arrayWithObjects:
         @"42.963589", @"-85.674575", /* Pew */
@@ -43,16 +44,25 @@
         nil]
     };
     
-    NSMutableArray *locations = [[NSMutableArray alloc] init];
-    
     CLLocationCoordinate2D coordinate;
     MKPointAnnotation *annotation;
+    NSMutableArray *locations = [[NSMutableArray alloc] init];
     
-    for(int i = 0; i< 10; i++)
+    
+   // cell.textLabel.text = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
+   // cell.detailTextLabel.text = [[data objectAtIndex:indexPath.row]objectForKey:@"Campus"];
+    
+    
+    for(int i = 0; i < [data count]; i++)
     {
+        NSString *full_coords = [[data objectAtIndex:i]objectForKey:@"GPS Coordinates"];
+        NSArray *delimated_coords = [full_coords componentsSeparatedByString:@","];;
+        NSString *x = delimated_coords[0];
+        NSString *y = delimated_coords[1];
+        
         annotation = [[MKPointAnnotation alloc] init];
-        coordinate.latitude = [[cords objectAtIndex:i] doubleValue];
-        coordinate.longitude = [[cords objectAtIndex:(i+1)] doubleValue];
+        coordinate.latitude = [x doubleValue];
+        coordinate.longitude = [y doubleValue];
         [annotation setCoordinate:coordinate];
         [annotation setTitle:[names objectAtIndex:i]];
     
@@ -60,20 +70,6 @@
     }
     
     [self.mapView addAnnotations:locations];
-    
-    //CLLocationCoordinate2D coordinate;
-    //coordinate.latitude = 42.963589;
-    //coordinate.longitude = -85.674575;
-    //Create Pin
-    //MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
-    //[annotation setCoordinate:coordinate];
-    //[annotation setTitle:@"MY HOUSE"];
-    
-    
-    
-    
-    // ADD YOUR PIN TO THE MAP VIEW
-    //[self.mapView addAnnotation:annotation];
 }
 
 - (IBAction)setMap:(id)sender{
@@ -86,8 +82,7 @@
             break;
         case 2:
             mapView.mapType = MKMapTypeHybrid;
-            break;
-        
+            break;        
     }
 }
 
@@ -106,6 +101,12 @@
 {
     [self getLocation];
     mapView.showsUserLocation = YES;
+    
+    //Grabbing the data from the PLIST
+    NSString *mylist = [[NSBundle mainBundle] pathForResource:@"DataFile" ofType:@"plist"];
+    data = [[NSArray alloc]initWithContentsOfFile:mylist];
+    NSLog(@"%@", data);
+
     // Do any additional setup after loading the view from its nib.
 }
 
