@@ -84,7 +84,7 @@
         rows = data;
     }
     cell.textLabel.text = [[rows objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
-    cell.detailTextLabel.text = [[data objectAtIndex:indexPath.row]objectForKey:@"Donor Name"];
+    cell.detailTextLabel.text = [[rows objectAtIndex:indexPath.row]objectForKey:@"Donor Name"];
     return cell;
 }
 

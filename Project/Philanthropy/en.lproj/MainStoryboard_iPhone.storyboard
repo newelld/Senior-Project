@@ -241,7 +241,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Description" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="tJe-jQ-7uu">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Description" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="tJe-jQ-7uu">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="411" id="m3m-rj-m9J"/>
                                 </constraints>
@@ -285,6 +285,7 @@
                 <relationship kind="outlet" name="buildingLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="campusLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="donorLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
         <class className="MapViewController" superclassName="UIViewController">
