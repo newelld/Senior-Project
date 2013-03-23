@@ -16,7 +16,7 @@
     NSDictionary *building;
 }
 
-- (void)locationUpdate:(CLLocation *) location;
+- (void)locationDisplay:(CLLocation *) location;
 - (void)locationError:(NSError *) error;
 - (void)closestBuilding;
 

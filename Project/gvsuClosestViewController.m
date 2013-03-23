@@ -41,7 +41,7 @@
     [super didReceiveMemoryWarning];
 }
 
-- (void)locationUpdate:(CLLocation *)location {
+- (void)locationDisplay:(CLLocation *)location {
 	//locationLabel.text = [location description];
     locationLabel.text = [building valueForKey:@"Building Name"];
 }

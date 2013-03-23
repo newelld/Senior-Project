@@ -26,7 +26,7 @@
 	didUpdateToLocation:(CLLocation *)newLocation
 		   fromLocation:(CLLocation *)oldLocation
 {
-	[self.delegate locationUpdate:newLocation];
+	[self.delegate locationDisplay:newLocation];
 }
 
 
