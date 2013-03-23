@@ -189,10 +189,9 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Label" lineBreakMode="headTruncation" numberOfLines="0" minimumFontSize="10" preferredMaxLayoutWidth="159" translatesAutoresizingMaskIntoConstraints="NO" id="JGc-tR-e4S">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Label" textAlignment="center" lineBreakMode="headTruncation" numberOfLines="0" minimumFontSize="10" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="JGc-tR-e4S">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="159" id="IbJ-4A-8qZ"/>
-                                    <constraint firstAttribute="height" constant="130" id="r8H-Lm-dnn"/>
+                                    <constraint firstAttribute="height" constant="45" id="LZH-Sr-XNp"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -201,8 +200,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="JGc-tR-e4S" firstAttribute="leading" secondItem="Ba9-gL-yoi" secondAttribute="leading" constant="51" id="0d7-Ei-FRG"/>
-                            <constraint firstItem="JGc-tR-e4S" firstAttribute="centerY" secondItem="Ba9-gL-yoi" secondAttribute="centerY" type="default" id="ILc-uI-Hkt"/>
+                            <constraint firstItem="JGc-tR-e4S" firstAttribute="leading" secondItem="Ba9-gL-yoi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="9z6-CN-hQB"/>
+                            <constraint firstAttribute="trailing" secondItem="JGc-tR-e4S" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="BkS-cd-GTl"/>
+                            <constraint firstItem="JGc-tR-e4S" firstAttribute="top" secondItem="Ba9-gL-yoi" secondAttribute="top" constant="20" symbolic="YES" type="default" id="jUC-bd-uJV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Closest Building" id="brh-fq-nDR"/>
