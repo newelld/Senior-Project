@@ -40,8 +40,7 @@
 
 - (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
 {
-    [filteredData removeAllObjects];
-    
+    [filteredData removeAllObjects];    
     for (NSDictionary *building in data)
     {
             NSRange rng = [[building valueForKey:@"Building Name"] rangeOfString:searchString options:(NSCaseInsensitiveSearch|NSDiacriticInsensitiveSearch)];
