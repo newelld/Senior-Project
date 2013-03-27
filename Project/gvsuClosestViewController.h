@@ -11,6 +11,8 @@
 
 @interface gvsuClosestViewController : UIViewController <gvsuCLControllerDelegate>{
     IBOutlet UILabel *locationLabel;
+    IBOutlet UIImageView *locationPic;
+    
     gvsuCLController *clController;
     NSArray *data;
     NSDictionary *building;

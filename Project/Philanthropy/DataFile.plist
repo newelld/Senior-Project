@@ -17,8 +17,10 @@
 		<string>Pew</string>
 		<key>Donor Name</key>
 		<string>Robert C. Pew</string>
-		<key>Image</key>
+		<key>GPS Coordinates</key>
 		<string></string>
+		<key>Image</key>
+		<string>gvsu1.jpg</string>
 		<key>Primary Birth Date</key>
 		<string>1923-2012</string>
 		<key>Secondary Birth Date</key>
@@ -790,7 +792,7 @@
 		<key>GPS Coordinates</key>
 		<string>42.96699057961106, -85.88583469390869</string>
 		<key>Image</key>
-		<string></string>
+		<string>gvsu1.jpg</string>
 		<key>Primary Birth Date</key>
 		<string>1922-1976</string>
 		<key>Secondary Birth Date</key>

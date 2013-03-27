@@ -44,6 +44,10 @@
 - (void)locationDisplay:(CLLocation *)location {
 	//locationLabel.text = [location description];
     locationLabel.text = [building valueForKey:@"Building Name"];
+    
+    locationPic.image = [UIImage imageNamed:[building valueForKey:@"Image"]];
+    
+   // [locationPic setImage:image];
 }
 
 - (void)locationError:(NSError *)error {
