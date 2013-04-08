@@ -63,7 +63,6 @@
 		54C2952717137CE900490AE7 /* Cook, Peter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951217137CE900490AE7 /* Cook, Peter.jpg */; };
 		54C2952817137CE900490AE7 /* Cook, Peter & Pat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951317137CE900490AE7 /* Cook, Peter & Pat.jpg */; };
 		54C2952917137CE900490AE7 /* Art  Hills.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951417137CE900490AE7 /* Art  Hills.jpg */; };
-		54C2952B1713811B00490AE7 /* DataFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54C2952A1713811A00490AE7 /* DataFile.plist */; };
 		54C2952E1713820400490AE7 /* gvsuCLController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2952D1713820000490AE7 /* gvsuCLController.h */; };
 		54C295311713821400490AE7 /* gvsuClosestViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295301713821000490AE7 /* gvsuClosestViewController.h */; };
 		54C295341713821C00490AE7 /* ClosestDetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295331713821900490AE7 /* ClosestDetailViewController.h */; };
@@ -74,8 +73,6 @@
 		54C295431713825400490AE7 /* gvsuCell.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295421713825100490AE7 /* gvsuCell.h */; };
 		54C295461713826D00490AE7 /* MapViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295451713826900490AE7 /* MapViewController.h */; };
 		54C29549171382A800490AE7 /* Philanthropy-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 54C29548171382A400490AE7 /* Philanthropy-Prefix.pch */; };
-		54C2954C171382B200490AE7 /* new.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54C2954B171382AF00490AE7 /* new.plist */; };
-		54C2954D171382B500490AE7 /* Philanthropy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */; };
 		54C29550171382CC00490AE7 /* gvsuAppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2954F171382C700490AE7 /* gvsuAppDelegate.h */; };
 		54C29551171382D100490AE7 /* Philanthropy.app in Resources */ = {isa = PBXBuildFile; fileRef = 542C4D8216EE584200D556E0 /* Philanthropy.app */; };
 		54C29554171382F800490AE7 /* gvsuMasterViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C29553171382F500490AE7 /* gvsuMasterViewController.h */; };
@@ -144,7 +141,6 @@
 		54C2951217137CE900490AE7 /* Cook, Peter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cook, Peter.jpg"; sourceTree = "<group>"; };
 		54C2951317137CE900490AE7 /* Cook, Peter & Pat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cook, Peter & Pat.jpg"; sourceTree = "<group>"; };
 		54C2951417137CE900490AE7 /* Art  Hills.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Art  Hills.jpg"; sourceTree = "<group>"; };
-		54C2952A1713811A00490AE7 /* DataFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataFile.plist; sourceTree = "<group>"; };
 		54C2952C1713820000490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuCLController.h; sourceTree = "<group>"; };
 		54C2952F1713821000490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuClosestViewController.h; sourceTree = "<group>"; };
 		54C295321713821900490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/ClosestDetailViewController.h; sourceTree = "<group>"; };
@@ -155,7 +151,6 @@
 		54C295411713825100490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuCell.h; sourceTree = "<group>"; };
 		54C295441713826900490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/MapViewController.h; sourceTree = "<group>"; };
 		54C29547171382A400490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = "en.lproj/Philanthropy-Prefix.pch"; sourceTree = "<group>"; };
-		54C2954A171382AF00490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/new.plist; sourceTree = "<group>"; };
 		54C2954E171382C700490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuAppDelegate.h; sourceTree = "<group>"; };
 		54C29552171382F500490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuMasterViewController.h; sourceTree = "<group>"; };
 		54C29555171382FD00490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuViewController.h; sourceTree = "<group>"; };
@@ -322,9 +317,7 @@
 		54BD2E7216B06C470099FB02 /* Philanthropy */ = {
 			isa = PBXGroup;
 			children = (
-				54C2952A1713811A00490AE7 /* DataFile.plist */,
 				54C29548171382A400490AE7 /* Philanthropy-Prefix.pch */,
-				54C2954B171382AF00490AE7 /* new.plist */,
 				542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */,
 				54777C6016EE5DC4000BD24C /* main.m */,
 				54C2954F171382C700490AE7 /* gvsuAppDelegate.h */,
@@ -413,7 +406,6 @@
 				54C2952717137CE900490AE7 /* Cook, Peter.jpg in Resources */,
 				54C2952817137CE900490AE7 /* Cook, Peter & Pat.jpg in Resources */,
 				54C2952917137CE900490AE7 /* Art  Hills.jpg in Resources */,
-				54C2952B1713811B00490AE7 /* DataFile.plist in Resources */,
 				54C2952E1713820400490AE7 /* gvsuCLController.h in Resources */,
 				54C295311713821400490AE7 /* gvsuClosestViewController.h in Resources */,
 				54C295341713821C00490AE7 /* ClosestDetailViewController.h in Resources */,
@@ -424,8 +416,6 @@
 				54C295431713825400490AE7 /* gvsuCell.h in Resources */,
 				54C295461713826D00490AE7 /* MapViewController.h in Resources */,
 				54C29549171382A800490AE7 /* Philanthropy-Prefix.pch in Resources */,
-				54C2954C171382B200490AE7 /* new.plist in Resources */,
-				54C2954D171382B500490AE7 /* Philanthropy-Info.plist in Resources */,
 				54C29550171382CC00490AE7 /* gvsuAppDelegate.h in Resources */,
 				54C29551171382D100490AE7 /* Philanthropy.app in Resources */,
 				54C29554171382F800490AE7 /* gvsuMasterViewController.h in Resources */,
@@ -551,14 +541,6 @@
 				54C29547171382A400490AE7 /* en */,
 			);
 			name = "Philanthropy-Prefix.pch";
-			sourceTree = "<group>";
-		};
-		54C2954B171382AF00490AE7 /* new.plist */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C2954A171382AF00490AE7 /* en */,
-			);
-			name = new.plist;
 			sourceTree = "<group>";
 		};
 		54C2954F171382C700490AE7 /* gvsuAppDelegate.h */ = {
