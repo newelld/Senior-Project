@@ -35,7 +35,7 @@
 		54777C6116EE5DC4000BD24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54777C6016EE5DC4000BD24C /* main.m */; };
 		548065F916F773D000BE44F8 /* DataFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 548065F816F773D000BE44F8 /* DataFile.plist */; };
 		54B62CE71711C1ED00ABEE95 /* ClosestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B62CE61711C1ED00ABEE95 /* ClosestDetailViewController.m */; };
-		54B62CF317137D2F00ABEE95 /* DataFile.plist.new in Resources */ = {isa = PBXBuildFile; fileRef = 54B62CF217137D2F00ABEE95 /* DataFile.plist.new */; };
+		54B62CF317137D2F00ABEE95 /* NewDataFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54B62CF217137D2F00ABEE95 /* NewDataFile.plist */; };
 		54B7C33916DD59CA00324612 /* gvsuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B7C33816DD59CA00324612 /* gvsuTableViewController.m */; };
 		54BD2E6D16B06C470099FB02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6C16B06C470099FB02 /* UIKit.framework */; };
 		54BD2E6F16B06C470099FB02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6E16B06C470099FB02 /* Foundation.framework */; };
@@ -88,7 +88,7 @@
 		548065F816F773D000BE44F8 /* DataFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataFile.plist; sourceTree = "<group>"; };
 		54B62CE51711C1ED00ABEE95 /* ClosestDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClosestDetailViewController.h; sourceTree = "<group>"; };
 		54B62CE61711C1ED00ABEE95 /* ClosestDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClosestDetailViewController.m; sourceTree = "<group>"; };
-		54B62CF217137D2F00ABEE95 /* DataFile.plist.new */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DataFile.plist.new; sourceTree = "<group>"; };
+		54B62CF217137D2F00ABEE95 /* NewDataFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewDataFile.plist; sourceTree = "<group>"; };
 		54B7C33716DD59CA00324612 /* gvsuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gvsuTableViewController.h; path = Philanthropy/gvsuTableViewController.h; sourceTree = "<group>"; };
 		54B7C33816DD59CA00324612 /* gvsuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuTableViewController.m; path = Philanthropy/gvsuTableViewController.m; sourceTree = "<group>"; };
 		54BD2E6C16B06C470099FB02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -248,7 +248,7 @@
 			children = (
 				5432BBB516FAE0CF0014AB2B /* Philanthropy-Prefix.pch */,
 				548065F816F773D000BE44F8 /* DataFile.plist */,
-				54B62CF217137D2F00ABEE95 /* DataFile.plist.new */,
+				54B62CF217137D2F00ABEE95 /* NewDataFile.plist */,
 				542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */,
 				54777C6016EE5DC4000BD24C /* main.m */,
 				54BD2E7B16B06C480099FB02 /* gvsuAppDelegate.h */,
@@ -318,7 +318,7 @@
 				5432BBB416FADFE20014AB2B /* GoogleMaps.bundle in Resources */,
 				5432BBBA16FAE4600014AB2B /* MapViewController.xib in Resources */,
 				54715AE716FB3EF70030E4D7 /* Default-568h@2x.png in Resources */,
-				54B62CF317137D2F00ABEE95 /* DataFile.plist.new in Resources */,
+				54B62CF317137D2F00ABEE95 /* NewDataFile.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
