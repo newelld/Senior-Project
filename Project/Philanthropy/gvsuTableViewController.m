@@ -95,7 +95,9 @@
         rows = data;
     }
     cell.textLabel.text = [[rows objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
+    cell.textLabel.font = [UIFont boldSystemFontOfSize:11.0];
     cell.detailTextLabel.text = [[rows objectAtIndex:indexPath.row]objectForKey:@"Donor Name"];
+    cell.detailTextLabel.font = [UIFont boldSystemFontOfSize:11.0];
     cell.imageView.image = [UIImage imageNamed:[[rows objectAtIndex:indexPath.row]objectForKey:@"Image"]];
     return cell;
 }

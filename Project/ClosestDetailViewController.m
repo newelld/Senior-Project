@@ -54,8 +54,11 @@
     self.navigationItem.titleView = label;
     
     buildingLabel.text = donorName;
+    buildingLabel.adjustsFontSizeToFitWidth=YES;
     descriptionLabel.text = description;
+    descriptionLabel.adjustsFontSizeToFitWidth=YES;
     donorLabel.text = donor;
+    donorLabel.adjustsFontSizeToFitWidth=YES;
 }
 
 
