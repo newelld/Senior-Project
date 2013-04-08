@@ -35,6 +35,18 @@
     NSString *mylist = [[NSBundle mainBundle] pathForResource:@"DataFile" ofType:@"plist"];
     data = [[NSArray alloc]initWithContentsOfFile:mylist];
     filteredData = [[NSMutableArray alloc]init];
+    
+    CGRect frame = CGRectMake(0, 0, 400, 44);
+    UILabel *label = [[UILabel alloc] initWithFrame:frame];
+    label.backgroundColor = [UIColor clearColor];
+    label.font = [UIFont boldSystemFontOfSize:18.0];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = [UIColor whiteColor];
+    label.text = @"Directory";
+    [label setShadowColor:[UIColor darkGrayColor]];
+    [label setShadowOffset:CGSizeMake(0, -0.5)];
+    self.navigationItem.titleView = label;
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -83,13 +95,17 @@
         rows = data;
     }
     cell.textLabel.text = [[rows objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
+    cell.textLabel.font = [UIFont boldSystemFontOfSize:11.0];
     cell.detailTextLabel.text = [[rows objectAtIndex:indexPath.row]objectForKey:@"Donor Name"];
+    cell.detailTextLabel.font = [UIFont boldSystemFontOfSize:11.0];
+    cell.imageView.image = [UIImage imageNamed:[[rows objectAtIndex:indexPath.row]objectForKey:@"Image"]];
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     DetailViewController *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"detail"];
     detail.building = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
+    detail.donorName = [[data objectAtIndex:indexPath.row]objectForKey:@"Donor Name"];
     detail.campus = [[data objectAtIndex:indexPath.row]objectForKey:@"Campus"];
     detail.description = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Description"];
     [self.navigationController pushViewController:detail animated:YES];

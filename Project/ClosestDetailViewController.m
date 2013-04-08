@@ -1,14 +1,14 @@
 //
-//  DetailViewController.m
+//  ClosestDetailViewController.m
 //  Philanthropy
 //
-//  Created by Thomas Peterson on 3/19/13.
+//  Created by Thomas Peterson on 4/7/13.
 //  Copyright (c) 2013 Nickolas Workman. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "ClosestDetailViewController.h"
 
-@implementation DetailViewController
+@implementation ClosestDetailViewController
 @synthesize building, campus, description, donor, donorName, buildingLabel, campusLabel, descriptionLabel, donorLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

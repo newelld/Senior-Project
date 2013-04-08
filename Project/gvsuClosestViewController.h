@@ -9,12 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "gvsuCLController.h"
 
-@interface gvsuClosestViewController : UIViewController <gvsuCLControllerDelegate>{
+@interface gvsuClosestViewController : UITableViewController <gvsuCLControllerDelegate>{
     IBOutlet UILabel *locationLabel;
     IBOutlet UIImageView *locationPic;
     
     gvsuCLController *clController;
     NSArray *data;
+    NSMutableArray *filteredData;
     NSDictionary *building;
 }
 

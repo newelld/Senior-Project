@@ -1,8 +1,8 @@
 //
-//  DetailViewController.h
+//  ClosestDetailViewController.h
 //  Philanthropy
 //
-//  Created by Thomas Peterson on 3/19/13.
+//  Created by Thomas Peterson on 4/7/13.
 //  Copyright (c) 2013 Nickolas Workman. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController{
+@interface ClosestDetailViewController : UIViewController{
     NSString *building;
     NSString *campus;
     NSString *description;
