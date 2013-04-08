@@ -41,7 +41,6 @@
 		54BD2E6F16B06C470099FB02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6E16B06C470099FB02 /* Foundation.framework */; };
 		54BD2E7116B06C470099FB02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E7016B06C470099FB02 /* CoreGraphics.framework */; };
 		54BD2E7D16B06C480099FB02 /* gvsuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E7C16B06C480099FB02 /* gvsuAppDelegate.m */; };
-		54BD2E8616B06C480099FB02 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BD2E8416B06C480099FB02 /* MainStoryboard_iPhone.storyboard */; };
 		54BD2E8916B06C480099FB02 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BD2E8716B06C480099FB02 /* MainStoryboard_iPad.storyboard */; };
 		54BD2E8C16B06C480099FB02 /* gvsuMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8B16B06C480099FB02 /* gvsuMasterViewController.m */; };
 		54BD2E8F16B06C480099FB02 /* gvsuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */; };
@@ -310,7 +309,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54BD2E8616B06C480099FB02 /* MainStoryboard_iPhone.storyboard in Resources */,
 				54BD2E8916B06C480099FB02 /* MainStoryboard_iPad.storyboard in Resources */,
 				541D83BE16EE631C00D0D2AA /* gvsu1.jpg in Resources */,
 				541D83BF16EE631C00D0D2AA /* grandvalley3.jpg in Resources */,
