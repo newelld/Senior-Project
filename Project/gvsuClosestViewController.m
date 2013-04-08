@@ -38,6 +38,14 @@
     NSString *mylist = [[NSBundle mainBundle] pathForResource:@"DataFile" ofType:@"plist"];
     data = [[NSArray alloc]initWithContentsOfFile:mylist];
     filteredData = [[NSMutableArray alloc]init];
+    
+    UILabel* tlabel=[[UILabel alloc] initWithFrame:CGRectMake(0,0, 300, 40)];
+    tlabel.text=@"Buildings Near Me";
+    tlabel.textColor=[UIColor whiteColor];
+    tlabel.backgroundColor =[UIColor clearColor];
+    tlabel.adjustsFontSizeToFitWidth=YES;
+    self.navigationItem.titleView=tlabel;
+    
     [self closestBuilding];
 }
 

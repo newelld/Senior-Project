@@ -42,7 +42,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = building;
+    UILabel* tlabel=[[UILabel alloc] initWithFrame:CGRectMake(0,0, 300, 40)];
+    tlabel.text=building;
+    tlabel.textColor=[UIColor whiteColor];
+    tlabel.backgroundColor =[UIColor clearColor];
+    tlabel.adjustsFontSizeToFitWidth=YES;
+    self.navigationItem.titleView=tlabel;
     
     buildingLabel.text = donorName;
     descriptionLabel.text = description;
