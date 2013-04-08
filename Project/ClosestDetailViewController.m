@@ -42,12 +42,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UILabel* tlabel=[[UILabel alloc] initWithFrame:CGRectMake(0,0, 300, 40)];
-    tlabel.text=building;
-    tlabel.textColor=[UIColor whiteColor];
-    tlabel.backgroundColor =[UIColor clearColor];
-    tlabel.adjustsFontSizeToFitWidth=YES;
-    self.navigationItem.titleView=tlabel;
+    CGRect frame = CGRectMake(0, 0, 400, 44);
+    UILabel *label = [[UILabel alloc] initWithFrame:frame];
+    label.backgroundColor = [UIColor clearColor];
+    label.adjustsFontSizeToFitWidth=YES;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = [UIColor whiteColor];
+    label.text = building;
+    [label setShadowColor:[UIColor darkGrayColor]];
+    [label setShadowOffset:CGSizeMake(0, -0.5)];
+    self.navigationItem.titleView = label;
     
     buildingLabel.text = donorName;
     descriptionLabel.text = description;

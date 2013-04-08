@@ -36,12 +36,16 @@
     data = [[NSArray alloc]initWithContentsOfFile:mylist];
     filteredData = [[NSMutableArray alloc]init];
     
-    UILabel* tlabel=[[UILabel alloc] initWithFrame:CGRectMake(0,0, 300, 40)];
-    tlabel.text=@"Directory";
-    tlabel.textColor=[UIColor whiteColor];
-    tlabel.backgroundColor =[UIColor clearColor];
-    tlabel.adjustsFontSizeToFitWidth=YES;
-    self.navigationItem.titleView=tlabel;
+    CGRect frame = CGRectMake(0, 0, 400, 44);
+    UILabel *label = [[UILabel alloc] initWithFrame:frame];
+    label.backgroundColor = [UIColor clearColor];
+    label.font = [UIFont boldSystemFontOfSize:18.0];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = [UIColor whiteColor];
+    label.text = @"Directory";
+    [label setShadowColor:[UIColor darkGrayColor]];
+    [label setShadowOffset:CGSizeMake(0, -0.5)];
+    self.navigationItem.titleView = label;
     
 	// Do any additional setup after loading the view, typically from a nib.
 }
