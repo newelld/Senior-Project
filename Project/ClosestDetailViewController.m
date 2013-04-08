@@ -9,7 +9,7 @@
 #import "ClosestDetailViewController.h"
 
 @implementation ClosestDetailViewController
-@synthesize building, campus, description, donor, buildingLabel, campusLabel, descriptionLabel, donorLabel;
+@synthesize building, campus, description, donor, donorName, buildingLabel, campusLabel, descriptionLabel, donorLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -42,8 +42,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    buildingLabel.text = building;
-    campusLabel.text = campus;
+    self.title = building;
+    
+    buildingLabel.text = donorName;
     descriptionLabel.text = description;
     donorLabel.text = donor;
 }

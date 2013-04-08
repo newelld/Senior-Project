@@ -35,6 +35,8 @@
     NSString *mylist = [[NSBundle mainBundle] pathForResource:@"DataFile" ofType:@"plist"];
     data = [[NSArray alloc]initWithContentsOfFile:mylist];
     filteredData = [[NSMutableArray alloc]init];
+    
+    self.title = @"Directory";
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -91,6 +93,7 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     DetailViewController *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"detail"];
     detail.building = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
+    detail.donorName = [[data objectAtIndex:indexPath.row]objectForKey:@"Donor Name"];
     detail.campus = [[data objectAtIndex:indexPath.row]objectForKey:@"Campus"];
     detail.description = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Description"];
     [self.navigationController pushViewController:detail animated:YES];
