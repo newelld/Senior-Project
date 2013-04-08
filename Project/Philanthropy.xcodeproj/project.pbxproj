@@ -45,6 +45,27 @@
 		54BD2E8916B06C480099FB02 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BD2E8716B06C480099FB02 /* MainStoryboard_iPad.storyboard */; };
 		54BD2E8C16B06C480099FB02 /* gvsuMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8B16B06C480099FB02 /* gvsuMasterViewController.m */; };
 		54BD2E8F16B06C480099FB02 /* gvsuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */; };
+		54C2951517137CE900490AE7 /* Zumberge, James.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950017137CE900490AE7 /* Zumberge, James.jpg */; };
+		54C2951617137CE900490AE7 /* Weed, Ella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950117137CE900490AE7 /* Weed, Ella.jpg */; };
+		54C2951717137CE900490AE7 /* Seidman, Bill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950217137CE900490AE7 /* Seidman, Bill.jpg */; };
+		54C2951817137CE900490AE7 /* Seidman, Bill and Sally.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950317137CE900490AE7 /* Seidman, Bill and Sally.jpg */; };
+		54C2951917137CE900490AE7 /* Secchia, Peter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950417137CE900490AE7 /* Secchia, Peter.jpg */; };
+		54C2951A17137CE900490AE7 /* Pew, Robert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950517137CE900490AE7 /* Pew, Robert.jpg */; };
+		54C2951B17137CE900490AE7 /* Pew, Mary Idema.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950617137CE900490AE7 /* Pew, Mary Idema.jpg */; };
+		54C2951C17137CE900490AE7 /* Padnos, Seymour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950717137CE900490AE7 /* Padnos, Seymour.jpg */; };
+		54C2951D17137CE900490AE7 /* Niemeyer, Glenn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950817137CE900490AE7 /* Niemeyer, Glenn.jpg */; };
+		54C2951E17137CE900490AE7 /* Murray, Mark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950917137CE900490AE7 /* Murray, Mark.jpg */; };
+		54C2951F17137CE900490AE7 /* Meijer, Fred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950A17137CE900490AE7 /* Meijer, Fred.jpg */; };
+		54C2952017137CE900490AE7 /* Lubbers, Don.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950B17137CE900490AE7 /* Lubbers, Don.jpg */; };
+		54C2952117137CE900490AE7 /* Kirkhof, Russel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950C17137CE900490AE7 /* Kirkhof, Russel.jpg */; };
+		54C2952217137CE900490AE7 /* Kennedy, John.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950D17137CE900490AE7 /* Kennedy, John.jpg */; };
+		54C2952317137CE900490AE7 /* Keller, Fred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950E17137CE900490AE7 /* Keller, Fred.jpg */; };
+		54C2952417137CE900490AE7 /* Johnson, Paul A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950F17137CE900490AE7 /* Johnson, Paul A.jpg */; };
+		54C2952517137CE900490AE7 /* Eberhard, LV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951017137CE900490AE7 /* Eberhard, LV.jpg */; };
+		54C2952617137CE900490AE7 /* DeVos, Rich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951117137CE900490AE7 /* DeVos, Rich.jpg */; };
+		54C2952717137CE900490AE7 /* Cook, Peter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951217137CE900490AE7 /* Cook, Peter.jpg */; };
+		54C2952817137CE900490AE7 /* Cook, Peter & Pat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951317137CE900490AE7 /* Cook, Peter & Pat.jpg */; };
+		54C2952917137CE900490AE7 /* Art  Hills.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951417137CE900490AE7 /* Art  Hills.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +124,27 @@
 		54BD2E8D16B06C480099FB02 /* gvsuDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gvsuDetailViewController.h; path = Philanthropy/gvsuDetailViewController.h; sourceTree = "<group>"; };
 		54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuDetailViewController.m; path = Philanthropy/gvsuDetailViewController.m; sourceTree = "<group>"; };
 		54BD2E9616B06C480099FB02 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		54C2950017137CE900490AE7 /* Zumberge, James.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Zumberge, James.jpg"; sourceTree = "<group>"; };
+		54C2950117137CE900490AE7 /* Weed, Ella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Weed, Ella.jpg"; sourceTree = "<group>"; };
+		54C2950217137CE900490AE7 /* Seidman, Bill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Seidman, Bill.jpg"; sourceTree = "<group>"; };
+		54C2950317137CE900490AE7 /* Seidman, Bill and Sally.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Seidman, Bill and Sally.jpg"; sourceTree = "<group>"; };
+		54C2950417137CE900490AE7 /* Secchia, Peter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Secchia, Peter.jpg"; sourceTree = "<group>"; };
+		54C2950517137CE900490AE7 /* Pew, Robert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pew, Robert.jpg"; sourceTree = "<group>"; };
+		54C2950617137CE900490AE7 /* Pew, Mary Idema.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pew, Mary Idema.jpg"; sourceTree = "<group>"; };
+		54C2950717137CE900490AE7 /* Padnos, Seymour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Padnos, Seymour.jpg"; sourceTree = "<group>"; };
+		54C2950817137CE900490AE7 /* Niemeyer, Glenn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Niemeyer, Glenn.jpg"; sourceTree = "<group>"; };
+		54C2950917137CE900490AE7 /* Murray, Mark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Murray, Mark.jpg"; sourceTree = "<group>"; };
+		54C2950A17137CE900490AE7 /* Meijer, Fred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Meijer, Fred.jpg"; sourceTree = "<group>"; };
+		54C2950B17137CE900490AE7 /* Lubbers, Don.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lubbers, Don.jpg"; sourceTree = "<group>"; };
+		54C2950C17137CE900490AE7 /* Kirkhof, Russel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kirkhof, Russel.jpg"; sourceTree = "<group>"; };
+		54C2950D17137CE900490AE7 /* Kennedy, John.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kennedy, John.jpg"; sourceTree = "<group>"; };
+		54C2950E17137CE900490AE7 /* Keller, Fred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Keller, Fred.jpg"; sourceTree = "<group>"; };
+		54C2950F17137CE900490AE7 /* Johnson, Paul A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Johnson, Paul A.jpg"; sourceTree = "<group>"; };
+		54C2951017137CE900490AE7 /* Eberhard, LV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eberhard, LV.jpg"; sourceTree = "<group>"; };
+		54C2951117137CE900490AE7 /* DeVos, Rich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DeVos, Rich.jpg"; sourceTree = "<group>"; };
+		54C2951217137CE900490AE7 /* Cook, Peter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cook, Peter.jpg"; sourceTree = "<group>"; };
+		54C2951317137CE900490AE7 /* Cook, Peter & Pat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cook, Peter & Pat.jpg"; sourceTree = "<group>"; };
+		54C2951417137CE900490AE7 /* Art  Hills.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Art  Hills.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +188,27 @@
 		5447D03C16FABD1A008A70D3 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				54C2950017137CE900490AE7 /* Zumberge, James.jpg */,
+				54C2950117137CE900490AE7 /* Weed, Ella.jpg */,
+				54C2950217137CE900490AE7 /* Seidman, Bill.jpg */,
+				54C2950317137CE900490AE7 /* Seidman, Bill and Sally.jpg */,
+				54C2950417137CE900490AE7 /* Secchia, Peter.jpg */,
+				54C2950517137CE900490AE7 /* Pew, Robert.jpg */,
+				54C2950617137CE900490AE7 /* Pew, Mary Idema.jpg */,
+				54C2950717137CE900490AE7 /* Padnos, Seymour.jpg */,
+				54C2950817137CE900490AE7 /* Niemeyer, Glenn.jpg */,
+				54C2950917137CE900490AE7 /* Murray, Mark.jpg */,
+				54C2950A17137CE900490AE7 /* Meijer, Fred.jpg */,
+				54C2950B17137CE900490AE7 /* Lubbers, Don.jpg */,
+				54C2950C17137CE900490AE7 /* Kirkhof, Russel.jpg */,
+				54C2950D17137CE900490AE7 /* Kennedy, John.jpg */,
+				54C2950E17137CE900490AE7 /* Keller, Fred.jpg */,
+				54C2950F17137CE900490AE7 /* Johnson, Paul A.jpg */,
+				54C2951017137CE900490AE7 /* Eberhard, LV.jpg */,
+				54C2951117137CE900490AE7 /* DeVos, Rich.jpg */,
+				54C2951217137CE900490AE7 /* Cook, Peter.jpg */,
+				54C2951317137CE900490AE7 /* Cook, Peter & Pat.jpg */,
+				54C2951417137CE900490AE7 /* Art  Hills.jpg */,
 				54715AE616FB3EF70030E4D7 /* Default-568h@2x.png */,
 				541D83BC16EE631C00D0D2AA /* gvsu1.jpg */,
 				541D83BD16EE631C00D0D2AA /* grandvalley3.jpg */,
@@ -319,6 +382,27 @@
 				5432BBBA16FAE4600014AB2B /* MapViewController.xib in Resources */,
 				54715AE716FB3EF70030E4D7 /* Default-568h@2x.png in Resources */,
 				54B62CE91713528300ABEE95 /* DataFile.plist.new in Resources */,
+				54C2951517137CE900490AE7 /* Zumberge, James.jpg in Resources */,
+				54C2951617137CE900490AE7 /* Weed, Ella.jpg in Resources */,
+				54C2951717137CE900490AE7 /* Seidman, Bill.jpg in Resources */,
+				54C2951817137CE900490AE7 /* Seidman, Bill and Sally.jpg in Resources */,
+				54C2951917137CE900490AE7 /* Secchia, Peter.jpg in Resources */,
+				54C2951A17137CE900490AE7 /* Pew, Robert.jpg in Resources */,
+				54C2951B17137CE900490AE7 /* Pew, Mary Idema.jpg in Resources */,
+				54C2951C17137CE900490AE7 /* Padnos, Seymour.jpg in Resources */,
+				54C2951D17137CE900490AE7 /* Niemeyer, Glenn.jpg in Resources */,
+				54C2951E17137CE900490AE7 /* Murray, Mark.jpg in Resources */,
+				54C2951F17137CE900490AE7 /* Meijer, Fred.jpg in Resources */,
+				54C2952017137CE900490AE7 /* Lubbers, Don.jpg in Resources */,
+				54C2952117137CE900490AE7 /* Kirkhof, Russel.jpg in Resources */,
+				54C2952217137CE900490AE7 /* Kennedy, John.jpg in Resources */,
+				54C2952317137CE900490AE7 /* Keller, Fred.jpg in Resources */,
+				54C2952417137CE900490AE7 /* Johnson, Paul A.jpg in Resources */,
+				54C2952517137CE900490AE7 /* Eberhard, LV.jpg in Resources */,
+				54C2952617137CE900490AE7 /* DeVos, Rich.jpg in Resources */,
+				54C2952717137CE900490AE7 /* Cook, Peter.jpg in Resources */,
+				54C2952817137CE900490AE7 /* Cook, Peter & Pat.jpg in Resources */,
+				54C2952917137CE900490AE7 /* Art  Hills.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
