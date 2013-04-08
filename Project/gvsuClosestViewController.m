@@ -145,6 +145,7 @@
     rows = [filteredData copy];
     cell.textLabel.text = [[rows objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
     cell.detailTextLabel.text = [[rows objectAtIndex:indexPath.row]objectForKey:@"Donor Name"];
+    cell.imageView.image = [UIImage imageNamed:[[rows objectAtIndex:indexPath.row]objectForKey:@"Image"]];
     return cell;
 }
 
