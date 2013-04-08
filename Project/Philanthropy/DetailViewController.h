@@ -10,7 +10,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController{
+@interface DetailViewController : UIViewController
+{
     NSString *building;
     NSString *campus;
     NSString *description;
@@ -23,4 +24,5 @@
 }
 @property (nonatomic, retain)NSString *building, *campus, *description, *donor, *donorName;
 @property (nonatomic, retain)IBOutlet UILabel *buildingLabel, *campusLabel, *descriptionLabel, *donorLabel;
+
 @end
