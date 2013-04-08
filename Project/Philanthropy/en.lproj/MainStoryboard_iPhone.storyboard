@@ -199,16 +199,16 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rRv-H6-qU1">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="r6O-zN-Weu"/>
-                                    <constraint firstAttribute="width" constant="240" id="w7e-6F-g6X"/>
+                                    <constraint firstAttribute="width" constant="245" id="Eg2-yL-p3O"/>
+                                    <constraint firstAttribute="height" constant="233" id="hPW-uq-8Jt"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="rRv-H6-qU1" firstAttribute="centerX" secondItem="JGc-tR-e4S" secondAttribute="centerX" type="default" id="6QI-9C-Bw7"/>
                             <constraint firstItem="JGc-tR-e4S" firstAttribute="leading" secondItem="Ba9-gL-yoi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="9z6-CN-hQB"/>
                             <constraint firstAttribute="trailing" secondItem="JGc-tR-e4S" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="BkS-cd-GTl"/>
+                            <constraint firstItem="rRv-H6-qU1" firstAttribute="leading" secondItem="Ba9-gL-yoi" secondAttribute="leading" constant="35" id="MTS-DT-n13"/>
                             <constraint firstItem="rRv-H6-qU1" firstAttribute="top" secondItem="Ba9-gL-yoi" secondAttribute="top" constant="86" id="gwU-Bp-TEn"/>
                             <constraint firstItem="JGc-tR-e4S" firstAttribute="top" secondItem="Ba9-gL-yoi" secondAttribute="top" constant="20" symbolic="YES" type="default" id="jUC-bd-uJV"/>
                         </constraints>
