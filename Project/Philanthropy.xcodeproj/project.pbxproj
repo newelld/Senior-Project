@@ -37,7 +37,6 @@
 		54B62CE71711C1ED00ABEE95 /* ClosestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B62CE61711C1ED00ABEE95 /* ClosestDetailViewController.m */; };
 		54B62CFC1713928A00ABEE95 /* Senior Project Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54B62CFB1713928A00ABEE95 /* Senior Project Data.plist */; };
 		54B62CFD17139FBD00ABEE95 /* Philanthropy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */; };
-		54B62CFE17139FC900ABEE95 /* Philanthropy.app in Resources */ = {isa = PBXBuildFile; fileRef = 542C4D8216EE584200D556E0 /* Philanthropy.app */; };
 		54B62CFF17139FD700ABEE95 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BD2E8416B06C480099FB02 /* MainStoryboard_iPhone.storyboard */; };
 		54B62D001713A00000ABEE95 /* gvsuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5446E11616F94D4700C876C8 /* gvsuViewController.m */; };
 		54B7C33916DD59CA00324612 /* gvsuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B7C33816DD59CA00324612 /* gvsuTableViewController.m */; };
@@ -322,7 +321,6 @@
 				54715AE716FB3EF70030E4D7 /* Default-568h@2x.png in Resources */,
 				54B62CFC1713928A00ABEE95 /* Senior Project Data.plist in Resources */,
 				54B62CFD17139FBD00ABEE95 /* Philanthropy-Info.plist in Resources */,
-				54B62CFE17139FC900ABEE95 /* Philanthropy.app in Resources */,
 				54B62CFF17139FD700ABEE95 /* MainStoryboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
