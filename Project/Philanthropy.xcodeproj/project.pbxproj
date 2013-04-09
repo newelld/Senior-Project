@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540C03C21713A35E0012425F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540C03C01713A35E0012425F /* MainStoryboard_iPhone.storyboard */; };
+		540C03C31713A35E0012425F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540C03C11713A35E0012425F /* MainStoryboard_iPad.storyboard */; };
 		541D83BE16EE631C00D0D2AA /* gvsu1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 541D83BC16EE631C00D0D2AA /* gvsu1.jpg */; };
 		541D83BF16EE631C00D0D2AA /* grandvalley3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 541D83BD16EE631C00D0D2AA /* grandvalley3.jpg */; };
 		5432BB9616FAD7380014AB2B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BB9516FAD7380014AB2B /* AVFoundation.framework */; };
@@ -79,6 +81,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		540C03C01713A35E0012425F /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		540C03C11713A35E0012425F /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		541D83BC16EE631C00D0D2AA /* gvsu1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gvsu1.jpg; path = Philanthropy/gvsu1.jpg; sourceTree = "<group>"; };
 		541D83BD16EE631C00D0D2AA /* grandvalley3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grandvalley3.jpg; path = Philanthropy/grandvalley3.jpg; sourceTree = "<group>"; };
 		542C4D8216EE584200D556E0 /* Philanthropy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Philanthropy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,7 +119,6 @@
 		54BD2E6E16B06C470099FB02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54BD2E7016B06C470099FB02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		54BD2E7C16B06C480099FB02 /* gvsuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gvsuAppDelegate.m; sourceTree = "<group>"; };
-		54BD2E8516B06C480099FB02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		54BD2E8B16B06C480099FB02 /* gvsuMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuMasterViewController.m; path = Philanthropy/gvsuMasterViewController.m; sourceTree = "<group>"; };
 		54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuDetailViewController.m; path = Philanthropy/gvsuDetailViewController.m; sourceTree = "<group>"; };
 		54BD2E9616B06C480099FB02 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -244,7 +247,8 @@
 		5447D03E16FAC949008A70D3 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				54BD2E8416B06C480099FB02 /* MainStoryboard_iPhone.storyboard */,
+				540C03C01713A35E0012425F /* MainStoryboard_iPhone.storyboard */,
+				540C03C11713A35E0012425F /* MainStoryboard_iPad.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -418,6 +422,8 @@
 				54C29554171382F800490AE7 /* gvsuMasterViewController.h in Resources */,
 				54C295571713830000490AE7 /* gvsuViewController.h in Resources */,
 				54981AC517138FCD007DBCD6 /* DataFile.plist in Resources */,
+				540C03C21713A35E0012425F /* MainStoryboard_iPhone.storyboard in Resources */,
+				540C03C31713A35E0012425F /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,15 +453,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		54BD2E8416B06C480099FB02 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54BD2E8516B06C480099FB02 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			path = Philanthropy;
-			sourceTree = "<group>";
-		};
 		54C2952D1713820000490AE7 /* gvsuCLController.h */ = {
 			isa = PBXVariantGroup;
 			children = (
