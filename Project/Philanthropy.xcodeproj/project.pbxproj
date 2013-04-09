@@ -28,6 +28,7 @@
 		5446E11416F94ABC00C876C8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5446E11316F94ABC00C876C8 /* DetailViewController.m */; };
 		544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E047816F7C3C800FC64B4 /* gvsuCell.m */; };
 		544E047C16F7CA4F00FC64B4 /* gvsuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E047B16F7CA4F00FC64B4 /* gvsuTableView.m */; };
+		5455F21B171434810088DA27 /* gvsuWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5455F21A171434810088DA27 /* gvsuWebViewController.m */; };
 		54600BA216DC6475004AFA84 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54600BA116DC6475004AFA84 /* MapKit.framework */; };
 		54715AE716FB3EF70030E4D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54715AE616FB3EF70030E4D7 /* Default-568h@2x.png */; };
 		54715AEE16FDE9B30030E4D7 /* gvsuCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54715AED16FDE9B30030E4D7 /* gvsuCLController.m */; };
@@ -81,6 +82,8 @@
 		544E047816F7C3C800FC64B4 /* gvsuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuCell.m; path = Philanthropy/gvsuCell.m; sourceTree = "<group>"; };
 		544E047A16F7CA4F00FC64B4 /* gvsuTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gvsuTableView.h; path = Philanthropy/gvsuTableView.h; sourceTree = "<group>"; };
 		544E047B16F7CA4F00FC64B4 /* gvsuTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuTableView.m; path = Philanthropy/gvsuTableView.m; sourceTree = "<group>"; };
+		5455F219171434810088DA27 /* gvsuWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gvsuWebViewController.h; sourceTree = "<group>"; };
+		5455F21A171434810088DA27 /* gvsuWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuWebViewController.m; sourceTree = "<group>"; };
 		54600BA116DC6475004AFA84 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		54715AE616FB3EF70030E4D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		54715AEC16FDE9B30030E4D7 /* gvsuCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gvsuCLController.h; sourceTree = "<group>"; };
@@ -199,6 +202,15 @@
 			name = Startup_Screen;
 			sourceTree = "<group>";
 		};
+		5455F218171434350088DA27 /* Donate */ = {
+			isa = PBXGroup;
+			children = (
+				5455F219171434810088DA27 /* gvsuWebViewController.h */,
+				5455F21A171434810088DA27 /* gvsuWebViewController.m */,
+			);
+			name = Donate;
+			sourceTree = "<group>";
+		};
 		54715AE816FDE8BD0030E4D7 /* Closest */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +229,7 @@
 		54BD2E5D16B06C470099FB02 = {
 			isa = PBXGroup;
 			children = (
+				5455F218171434350088DA27 /* Donate */,
 				54715AE816FDE8BD0030E4D7 /* Closest */,
 				5447D03D16FABD46008A70D3 /* Directory */,
 				5447D03B16FABCF5008A70D3 /* Map */,
@@ -355,6 +368,7 @@
 				54B62CE71711C1ED00ABEE95 /* ClosestDetailViewController.m in Sources */,
 				54B62D0C1713E98400ABEE95 /* Detail2ViewController.m in Sources */,
 				54B62D0F1713ED8500ABEE95 /* gvsuClosestDetail2ViewController.m in Sources */,
+				5455F21B171434810088DA27 /* gvsuWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
