@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import <UIKit/UIKit.h>
-
 @interface ClosestDetailViewController : UIViewController{
     NSString *building;
     NSString *campus;

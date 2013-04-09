@@ -168,7 +168,14 @@
     detail.donorName = [[filteredData objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
     detail.campus = [[filteredData objectAtIndex:indexPath.row]objectForKey:@"Campus"];
     detail.description = [[filteredData objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
+    
+    ClosestDetailViewController *detail2 = [self.storyboard instantiateViewControllerWithIdentifier:@"closestdetail2"];
+    detail2.building = [[filteredData objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
+    detail2.donorName = [[filteredData objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
+    detail2.campus = [[filteredData objectAtIndex:indexPath.row]objectForKey:@"Campus"];
+    detail2.description = [[filteredData objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
     [self.navigationController pushViewController:detail animated:YES];
+    [self.navigationController pushViewController:detail2 animated:YES];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{

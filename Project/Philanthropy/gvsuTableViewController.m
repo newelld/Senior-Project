@@ -112,6 +112,7 @@
     detail.donorName = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
     detail.campus = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Campus"];
     detail.description = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
+    detail.donor2 = [sortedData objectAtIndex:indexPath.row];
     [self.navigationController pushViewController:detail animated:YES];
 }
 

@@ -113,7 +113,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mJ2-T8-14t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-607" y="5"/>
+            <point key="canvasLocation" x="-699" y="301"/>
         </scene>
         <!--Gvsu Table View Controller-->
         <scene sceneID="jBg-SE-M6D">
@@ -204,6 +204,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="tJe-jQ-7uu" firstAttribute="leading" secondItem="Tsp-Qe-srn" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="5Ip-py-QsK"/>
                             <constraint firstItem="FMB-pU-emZ" firstAttribute="top" secondItem="Tsp-Qe-srn" secondAttribute="top" constant="47" id="AGD-N3-Bbs"/>
@@ -212,13 +213,22 @@
                             <constraint firstItem="FMB-pU-emZ" firstAttribute="leading" secondItem="Tsp-Qe-srn" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="oal-CJ-1OJ"/>
                             <constraint firstItem="tJe-jQ-7uu" firstAttribute="bottom" secondItem="Tsp-Qe-srn" secondAttribute="bottom" type="default" id="usx-Ya-b4N"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ltc-OV-kcW" appends="YES" id="kz1-at-NtR"/>
+                        </connections>
                     </view>
+                    <navigationItem key="navigationItem" id="fs7-hP-2CA"/>
                     <connections>
                         <outlet property="buildingLabel" destination="FMB-pU-emZ" id="vZq-3F-heQ"/>
                         <outlet property="descriptionLabel" destination="tJe-jQ-7uu" id="hO6-yc-Xgs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xVm-GA-XWw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="ltc-OV-kcW">
+                    <connections>
+                        <segue destination="ER0-o2-ivE" kind="push" id="hs3-Um-vzE"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-274" y="-1168"/>
         </scene>
@@ -263,7 +273,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="-166" y="-408"/>
+            <point key="canvasLocation" x="-538" y="-417"/>
         </scene>
         <!--Closest Detail View Controller-->
         <scene sceneID="MX5-em-FS7">
@@ -288,6 +298,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="iH3-TX-Ufn" firstAttribute="leading" secondItem="Ws9-Sp-cYR" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="6Xh-xL-PMw"/>
                             <constraint firstItem="2Ai-ld-ac6" firstAttribute="top" secondItem="Ws9-Sp-cYR" secondAttribute="top" constant="47" id="Fov-8C-e8E"/>
@@ -296,6 +307,9 @@
                             <constraint firstAttribute="trailing" secondItem="2Ai-ld-ac6" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="cyo-YJ-ici"/>
                             <constraint firstItem="2Ai-ld-ac6" firstAttribute="leading" secondItem="Ws9-Sp-cYR" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="iPw-WI-K2p"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Aao-ee-xJp" appends="YES" id="YWX-h1-W06"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="buildingLabel" destination="2Ai-ld-ac6" id="FhO-ot-fyf"/>
@@ -303,13 +317,170 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zvs-ko-Zdb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="Aao-ee-xJp">
+                    <connections>
+                        <segue destination="2qa-Gf-BtU" kind="push" id="s50-3O-DMG"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="258" y="-408"/>
+            <point key="canvasLocation" x="-58" y="-417"/>
+        </scene>
+        <!--Closest Detail2 View Controller-->
+        <scene sceneID="Dzn-mq-A6v">
+            <objects>
+                <viewController storyboardIdentifier="closestdetail2" id="2qa-Gf-BtU" customClass="ClosestDetail2ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vtr-Ch-JUh">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Donor Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUC-ay-vXc">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Description" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="H96-6G-VZ3">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="411" id="bk0-aG-gK6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="H96-6G-VZ3" firstAttribute="bottom" secondItem="vtr-Ch-JUh" secondAttribute="bottom" type="default" id="1CT-pr-pxo"/>
+                            <constraint firstAttribute="trailing" secondItem="H96-6G-VZ3" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="JVZ-mw-Ct8"/>
+                            <constraint firstItem="KUC-ay-vXc" firstAttribute="top" secondItem="vtr-Ch-JUh" secondAttribute="top" constant="47" id="bYk-pa-f46"/>
+                            <constraint firstItem="KUC-ay-vXc" firstAttribute="leading" secondItem="vtr-Ch-JUh" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="dza-gF-tgw"/>
+                            <constraint firstAttribute="trailing" secondItem="KUC-ay-vXc" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="hl2-95-C6O"/>
+                            <constraint firstItem="H96-6G-VZ3" firstAttribute="leading" secondItem="vtr-Ch-JUh" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="s1z-zU-Pza"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="SQb-HT-Ewj"/>
+                    <connections>
+                        <outlet property="buildingLabel" destination="H96-6G-VZ3" id="gLf-42-IGc"/>
+                        <outlet property="descriptionLabel" destination="H96-6G-VZ3" id="MAW-fa-2gQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ah-6k-ccV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="381" y="-417"/>
+        </scene>
+        <!--Detail2 View Controller-->
+        <scene sceneID="0uv-ab-6uF">
+            <objects>
+                <viewController storyboardIdentifier="detail2" id="ER0-o2-ivE" customClass="Detail2ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G81-oO-erl">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Donor Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEC-OG-4Ny">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Description" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="23r-XT-F5q">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="411" id="hWr-wv-X4c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CEC-OG-4Ny" firstAttribute="leading" secondItem="G81-oO-erl" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="1w8-4c-1bL"/>
+                            <constraint firstItem="CEC-OG-4Ny" firstAttribute="top" secondItem="G81-oO-erl" secondAttribute="top" constant="47" id="71M-Mc-AAB"/>
+                            <constraint firstAttribute="trailing" secondItem="CEC-OG-4Ny" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="8Da-XQ-8nJ"/>
+                            <constraint firstAttribute="trailing" secondItem="23r-XT-F5q" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="IMP-yQ-qlI"/>
+                            <constraint firstItem="23r-XT-F5q" firstAttribute="bottom" secondItem="G81-oO-erl" secondAttribute="bottom" type="default" id="OQ6-58-mXx"/>
+                            <constraint firstItem="23r-XT-F5q" firstAttribute="leading" secondItem="G81-oO-erl" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="bcU-yp-d0S"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="L3x-FO-47T"/>
+                    <connections>
+                        <outlet property="buildingLabel" destination="CEC-OG-4Ny" id="6Xy-CA-nIZ"/>
+                        <outlet property="descriptionLabel" destination="23r-XT-F5q" id="iTP-VB-su1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TJk-kb-mIB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="lvE-0b-OfQ"/>
+            </objects>
+            <point key="canvasLocation" x="166" y="-1168"/>
         </scene>
     </scenes>
     <resources>
         <image name="grandvalley3.jpg" width="200" height="255"/>
     </resources>
+    <classes>
+        <class className="ClosestDetail2ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ClosestDetail2ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="buildingLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="campusLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="donorLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="ClosestDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ClosestDetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="buildingLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="campusLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="donorLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="Detail2ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Detail2ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="buildingLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="campusLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="donorLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="DetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="buildingLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="campusLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="donorLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="getLocation"/>
+                <relationship kind="action" name="setMap:"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="gvsuCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuCell.h"/>
+        </class>
+        <class className="gvsuClosestViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuClosestViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="locationLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="locationPic" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="gvsuTableView" superclassName="UITableView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuTableView.h"/>
+        </class>
+        <class className="gvsuTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuTableViewController.h"/>
+        </class>
+        <class className="gvsuViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
