@@ -33,6 +33,8 @@
 		54715AEE16FDE9B30030E4D7 /* gvsuCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54715AED16FDE9B30030E4D7 /* gvsuCLController.m */; };
 		54715AF116FDEA6D0030E4D7 /* gvsuClosestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54715AF016FDEA6D0030E4D7 /* gvsuClosestViewController.m */; };
 		54777C6116EE5DC4000BD24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54777C6016EE5DC4000BD24C /* main.m */; };
+		54981AC317138FC1007DBCD6 /* NewDataFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54981AC217138FC1007DBCD6 /* NewDataFile.plist */; };
+		54981AC517138FCD007DBCD6 /* DataFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54981AC417138FCD007DBCD6 /* DataFile.plist */; };
 		54B62CE71711C1ED00ABEE95 /* ClosestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B62CE61711C1ED00ABEE95 /* ClosestDetailViewController.m */; };
 		54B7C33916DD59CA00324612 /* gvsuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B7C33816DD59CA00324612 /* gvsuTableViewController.m */; };
 		54BD2E6D16B06C470099FB02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6C16B06C470099FB02 /* UIKit.framework */; };
@@ -72,9 +74,7 @@
 		54C295401713824600490AE7 /* gvsuTableView.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2953F1713824200490AE7 /* gvsuTableView.h */; };
 		54C295431713825400490AE7 /* gvsuCell.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295421713825100490AE7 /* gvsuCell.h */; };
 		54C295461713826D00490AE7 /* MapViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295451713826900490AE7 /* MapViewController.h */; };
-		54C29549171382A800490AE7 /* Philanthropy-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 54C29548171382A400490AE7 /* Philanthropy-Prefix.pch */; };
 		54C29550171382CC00490AE7 /* gvsuAppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2954F171382C700490AE7 /* gvsuAppDelegate.h */; };
-		54C29551171382D100490AE7 /* Philanthropy.app in Resources */ = {isa = PBXBuildFile; fileRef = 542C4D8216EE584200D556E0 /* Philanthropy.app */; };
 		54C29554171382F800490AE7 /* gvsuMasterViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C29553171382F500490AE7 /* gvsuMasterViewController.h */; };
 		54C295571713830000490AE7 /* gvsuViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C29556171382FD00490AE7 /* gvsuViewController.h */; };
 		54C295581713830200490AE7 /* gvsuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5446E11616F94D4700C876C8 /* gvsuViewController.m */; };
@@ -110,6 +110,8 @@
 		54715AED16FDE9B30030E4D7 /* gvsuCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuCLController.m; sourceTree = "<group>"; };
 		54715AF016FDEA6D0030E4D7 /* gvsuClosestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuClosestViewController.m; sourceTree = "<group>"; };
 		54777C6016EE5DC4000BD24C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54981AC217138FC1007DBCD6 /* NewDataFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewDataFile.plist; sourceTree = "<group>"; };
+		54981AC417138FCD007DBCD6 /* DataFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataFile.plist; sourceTree = "<group>"; };
 		54B62CE61711C1ED00ABEE95 /* ClosestDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClosestDetailViewController.m; sourceTree = "<group>"; };
 		54B7C33816DD59CA00324612 /* gvsuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuTableViewController.m; path = Philanthropy/gvsuTableViewController.m; sourceTree = "<group>"; };
 		54BD2E6C16B06C470099FB02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -150,10 +152,10 @@
 		54C2953E1713824200490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuTableView.h; sourceTree = "<group>"; };
 		54C295411713825100490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuCell.h; sourceTree = "<group>"; };
 		54C295441713826900490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/MapViewController.h; sourceTree = "<group>"; };
-		54C29547171382A400490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = "en.lproj/Philanthropy-Prefix.pch"; sourceTree = "<group>"; };
 		54C2954E171382C700490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuAppDelegate.h; sourceTree = "<group>"; };
 		54C29552171382F500490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuMasterViewController.h; sourceTree = "<group>"; };
 		54C29555171382FD00490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuViewController.h; sourceTree = "<group>"; };
+		54C862D0171392DB0086E97C /* Philanthropy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Philanthropy-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,7 +319,9 @@
 		54BD2E7216B06C470099FB02 /* Philanthropy */ = {
 			isa = PBXGroup;
 			children = (
-				54C29548171382A400490AE7 /* Philanthropy-Prefix.pch */,
+				54C862D0171392DB0086E97C /* Philanthropy-Prefix.pch */,
+				54981AC417138FCD007DBCD6 /* DataFile.plist */,
+				54981AC217138FC1007DBCD6 /* NewDataFile.plist */,
 				542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */,
 				54777C6016EE5DC4000BD24C /* main.m */,
 				54C2954F171382C700490AE7 /* gvsuAppDelegate.h */,
@@ -415,11 +419,11 @@
 				54C295401713824600490AE7 /* gvsuTableView.h in Resources */,
 				54C295431713825400490AE7 /* gvsuCell.h in Resources */,
 				54C295461713826D00490AE7 /* MapViewController.h in Resources */,
-				54C29549171382A800490AE7 /* Philanthropy-Prefix.pch in Resources */,
 				54C29550171382CC00490AE7 /* gvsuAppDelegate.h in Resources */,
-				54C29551171382D100490AE7 /* Philanthropy.app in Resources */,
 				54C29554171382F800490AE7 /* gvsuMasterViewController.h in Resources */,
 				54C295571713830000490AE7 /* gvsuViewController.h in Resources */,
+				54981AC317138FC1007DBCD6 /* NewDataFile.plist in Resources */,
+				54981AC517138FCD007DBCD6 /* DataFile.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,14 +539,6 @@
 			name = MapViewController.h;
 			sourceTree = "<group>";
 		};
-		54C29548171382A400490AE7 /* Philanthropy-Prefix.pch */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C29547171382A400490AE7 /* en */,
-			);
-			name = "Philanthropy-Prefix.pch";
-			sourceTree = "<group>";
-		};
 		54C2954F171382C700490AE7 /* gvsuAppDelegate.h */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -647,6 +643,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Philanthropy/Philanthropy-Prefix.pch";
 				INFOPLIST_FILE = "Philanthropy/Philanthropy-Info.plist";
+				OTHER_CFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -664,6 +661,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Philanthropy/Philanthropy-Prefix.pch";
 				INFOPLIST_FILE = "Philanthropy/Philanthropy-Info.plist";
+				OTHER_CFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
