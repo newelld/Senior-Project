@@ -164,10 +164,10 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     ClosestDetailViewController *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"closestdetail"];
-    detail.building = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
-    detail.donorName = [[data objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
-    detail.campus = [[data objectAtIndex:indexPath.row]objectForKey:@"Campus"];
-    detail.description = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
+    detail.building = [[filteredData objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
+    detail.donorName = [[filteredData objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
+    detail.campus = [[filteredData objectAtIndex:indexPath.row]objectForKey:@"Campus"];
+    detail.description = [[filteredData objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
     [self.navigationController pushViewController:detail animated:YES];
 }
 
