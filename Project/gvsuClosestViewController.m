@@ -174,6 +174,7 @@
     detail.description1 = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
     detail.description2 = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Description 2"];
     [self.navigationController pushViewController:detail animated:YES];
+    [self.navigationController pushViewController:detail animated:YES];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{

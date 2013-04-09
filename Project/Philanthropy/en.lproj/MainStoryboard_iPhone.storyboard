@@ -28,9 +28,6 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbO-k8-Lri">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="bhS-hW-LoJ"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Near Me">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -44,9 +41,6 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWa-9O-xLk">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="HId-zT-9vA"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Map">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -61,7 +55,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBD-Ft-iCN">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="JfU-Y5-afo"/>
+                                    <constraint firstAttribute="width" constant="240" id="5JR-eG-Axv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Directory">
@@ -74,24 +68,39 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="grandvalley3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="U3T-X2-EjB">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="3uk-dE-4VK"/>
+                                    <constraint firstAttribute="height" constant="284" id="SBo-ug-0DW"/>
+                                    <constraint firstAttribute="width" constant="219" id="XTc-T7-VPL"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCh-6g-WW2">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Donate">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZF5-Iy-UDi" kind="push" id="Xfl-X7-I1U"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="DbO-k8-Lri" firstAttribute="trailing" secondItem="wWa-9O-xLk" secondAttribute="trailing" type="default" id="6PP-CE-LPN"/>
-                            <constraint firstItem="DbO-k8-Lri" firstAttribute="top" secondItem="vBD-Ft-iCN" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Aca-pa-u5Q"/>
-                            <constraint firstItem="U3T-X2-EjB" firstAttribute="top" secondItem="rqB-p2-kWc" secondAttribute="top" constant="20" symbolic="YES" type="default" id="QpP-R1-SL0"/>
+                            <constraint firstAttribute="bottom" secondItem="UCh-6g-WW2" secondAttribute="bottom" constant="11" id="9uG-Vs-AVL"/>
+                            <constraint firstItem="vBD-Ft-iCN" firstAttribute="top" secondItem="U3T-X2-EjB" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="BbX-Yl-z91"/>
+                            <constraint firstItem="UCh-6g-WW2" firstAttribute="top" secondItem="wWa-9O-xLk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="IEf-0N-87y"/>
+                            <constraint firstItem="UCh-6g-WW2" firstAttribute="leading" secondItem="wWa-9O-xLk" secondAttribute="leading" type="default" id="Q8b-g4-hJH"/>
                             <constraint firstItem="vBD-Ft-iCN" firstAttribute="leading" secondItem="DbO-k8-Lri" secondAttribute="leading" type="default" id="RD8-JL-thk"/>
-                            <constraint firstItem="U3T-X2-EjB" firstAttribute="trailing" secondItem="vBD-Ft-iCN" secondAttribute="trailing" type="default" id="YVg-ef-t10"/>
-                            <constraint firstItem="vBD-Ft-iCN" firstAttribute="top" secondItem="U3T-X2-EjB" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="a7n-tb-K6J"/>
-                            <constraint firstItem="U3T-X2-EjB" firstAttribute="leading" secondItem="vBD-Ft-iCN" secondAttribute="leading" type="default" id="c0a-Nc-2UP"/>
+                            <constraint firstItem="UCh-6g-WW2" firstAttribute="trailing" secondItem="wWa-9O-xLk" secondAttribute="trailing" type="default" id="Vxx-Wk-aFB"/>
+                            <constraint firstItem="U3T-X2-EjB" firstAttribute="centerX" secondItem="vBD-Ft-iCN" secondAttribute="centerX" type="default" id="Ygu-4R-492"/>
+                            <constraint firstItem="DbO-k8-Lri" firstAttribute="top" secondItem="vBD-Ft-iCN" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="dAD-Bp-J0X"/>
+                            <constraint firstItem="wWa-9O-xLk" firstAttribute="top" secondItem="DbO-k8-Lri" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="jq3-Cj-ARu"/>
                             <constraint firstItem="DbO-k8-Lri" firstAttribute="trailing" secondItem="vBD-Ft-iCN" secondAttribute="trailing" type="default" id="ptd-ba-Xdx"/>
-                            <constraint firstItem="wWa-9O-xLk" firstAttribute="top" secondItem="DbO-k8-Lri" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="ruR-vj-dRr"/>
-                            <constraint firstAttribute="bottom" secondItem="wWa-9O-xLk" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="u3e-v3-W9s"/>
+                            <constraint firstItem="UCh-6g-WW2" firstAttribute="centerX" secondItem="rqB-p2-kWc" secondAttribute="centerX" type="default" id="wYO-ow-RT0"/>
                             <constraint firstItem="DbO-k8-Lri" firstAttribute="leading" secondItem="wWa-9O-xLk" secondAttribute="leading" type="default" id="xC7-aR-Ul7"/>
-                            <constraint firstItem="DbO-k8-Lri" firstAttribute="centerX" secondItem="rqB-p2-kWc" secondAttribute="centerX" type="default" id="zUp-NU-NxD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gXc-xF-io0"/>
@@ -99,6 +108,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epO-8s-DXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1190" y="-417"/>
+        </scene>
+        <!--Gvsu Web View Controller-->
+        <scene sceneID="LF4-lC-viv">
+            <objects>
+                <viewController id="ZF5-Iy-UDi" customClass="gvsuWebViewController" sceneMemberID="viewController">
+                    <webView key="view" contentMode="scaleToFill" id="iMf-KF-Rpb">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </webView>
+                    <navigationItem key="navigationItem" id="usZ-SP-YVt"/>
+                    <connections>
+                        <outlet property="webView" destination="iMf-KF-Rpb" id="0ll-r7-NEg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uHl-Bh-Bsn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-548" y="623"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="8YX-DE-ExS">
@@ -113,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mJ2-T8-14t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-607" y="5"/>
+            <point key="canvasLocation" x="-107" y="381"/>
         </scene>
         <!--Gvsu Table View Controller-->
         <scene sceneID="jBg-SE-M6D">
@@ -179,7 +206,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="-770" y="-1168"/>
+            <point key="canvasLocation" x="-514" y="-1108"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="Ccp-iF-Qr9">
@@ -205,6 +232,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="JGc-tR-e4S" firstAttribute="leading" secondItem="Ba9-gL-yoi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="9z6-CN-hQB"/>
                             <constraint firstAttribute="trailing" secondItem="JGc-tR-e4S" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="BkS-cd-GTl"/>
@@ -212,15 +240,24 @@
                             <constraint firstItem="rRv-H6-qU1" firstAttribute="top" secondItem="Ba9-gL-yoi" secondAttribute="top" constant="86" id="gwU-Bp-TEn"/>
                             <constraint firstItem="JGc-tR-e4S" firstAttribute="top" secondItem="Ba9-gL-yoi" secondAttribute="top" constant="20" symbolic="YES" type="default" id="jUC-bd-uJV"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ltc-OV-kcW" appends="YES" id="kz1-at-NtR"/>
+                        </connections>
                     </view>
+                    <navigationItem key="navigationItem" id="fs7-hP-2CA"/>
                     <connections>
                         <outlet property="buildingLabel" destination="FMB-pU-emZ" id="vZq-3F-heQ"/>
                         <outlet property="descriptionLabel" destination="tJe-jQ-7uu" id="hO6-yc-Xgs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xVm-GA-XWw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="ltc-OV-kcW">
+                    <connections>
+                        <segue destination="ER0-o2-ivE" kind="push" id="hs3-Um-vzE"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-274" y="-1168"/>
+            <point key="canvasLocation" x="-18" y="-1108"/>
         </scene>
         <!--Gvsu Closest View Controller-->
         <scene sceneID="JK6-Fb-ymx">
@@ -263,7 +300,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="-166" y="-408"/>
+            <point key="canvasLocation" x="-282" y="-357"/>
         </scene>
         <!--Closest Detail View Controller-->
         <scene sceneID="MX5-em-FS7">
@@ -288,6 +325,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="iH3-TX-Ufn" firstAttribute="leading" secondItem="Ws9-Sp-cYR" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="6Xh-xL-PMw"/>
                             <constraint firstItem="2Ai-ld-ac6" firstAttribute="top" secondItem="Ws9-Sp-cYR" secondAttribute="top" constant="47" id="Fov-8C-e8E"/>
@@ -296,6 +334,9 @@
                             <constraint firstAttribute="trailing" secondItem="2Ai-ld-ac6" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="cyo-YJ-ici"/>
                             <constraint firstItem="2Ai-ld-ac6" firstAttribute="leading" secondItem="Ws9-Sp-cYR" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="iPw-WI-K2p"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Aao-ee-xJp" appends="YES" id="YWX-h1-W06"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="buildingLabel" destination="2Ai-ld-ac6" id="FhO-ot-fyf"/>
@@ -303,13 +344,176 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zvs-ko-Zdb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="Aao-ee-xJp">
+                    <connections>
+                        <segue destination="2qa-Gf-BtU" kind="push" id="s50-3O-DMG"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="258" y="-408"/>
+            <point key="canvasLocation" x="198" y="-357"/>
+        </scene>
+        <!--Closest Detail2 View Controller-->
+        <scene sceneID="Dzn-mq-A6v">
+            <objects>
+                <viewController storyboardIdentifier="closestdetail2" id="2qa-Gf-BtU" customClass="ClosestDetail2ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vtr-Ch-JUh">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Donor Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUC-ay-vXc">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Description" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="H96-6G-VZ3">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="411" id="bk0-aG-gK6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="H96-6G-VZ3" firstAttribute="bottom" secondItem="vtr-Ch-JUh" secondAttribute="bottom" type="default" id="1CT-pr-pxo"/>
+                            <constraint firstAttribute="trailing" secondItem="H96-6G-VZ3" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="JVZ-mw-Ct8"/>
+                            <constraint firstItem="KUC-ay-vXc" firstAttribute="top" secondItem="vtr-Ch-JUh" secondAttribute="top" constant="47" id="bYk-pa-f46"/>
+                            <constraint firstItem="KUC-ay-vXc" firstAttribute="leading" secondItem="vtr-Ch-JUh" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="dza-gF-tgw"/>
+                            <constraint firstAttribute="trailing" secondItem="KUC-ay-vXc" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="hl2-95-C6O"/>
+                            <constraint firstItem="H96-6G-VZ3" firstAttribute="leading" secondItem="vtr-Ch-JUh" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="s1z-zU-Pza"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="SQb-HT-Ewj"/>
+                    <connections>
+                        <outlet property="buildingLabel" destination="H96-6G-VZ3" id="gLf-42-IGc"/>
+                        <outlet property="descriptionLabel" destination="H96-6G-VZ3" id="MAW-fa-2gQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ah-6k-ccV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="637" y="-357"/>
+        </scene>
+        <!--Detail2 View Controller-->
+        <scene sceneID="0uv-ab-6uF">
+            <objects>
+                <viewController storyboardIdentifier="detail2" id="ER0-o2-ivE" customClass="Detail2ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G81-oO-erl">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Donor Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEC-OG-4Ny">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Description" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="23r-XT-F5q">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="411" id="hWr-wv-X4c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CEC-OG-4Ny" firstAttribute="leading" secondItem="G81-oO-erl" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="1w8-4c-1bL"/>
+                            <constraint firstItem="CEC-OG-4Ny" firstAttribute="top" secondItem="G81-oO-erl" secondAttribute="top" constant="47" id="71M-Mc-AAB"/>
+                            <constraint firstAttribute="trailing" secondItem="CEC-OG-4Ny" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="8Da-XQ-8nJ"/>
+                            <constraint firstAttribute="trailing" secondItem="23r-XT-F5q" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="IMP-yQ-qlI"/>
+                            <constraint firstItem="23r-XT-F5q" firstAttribute="bottom" secondItem="G81-oO-erl" secondAttribute="bottom" type="default" id="OQ6-58-mXx"/>
+                            <constraint firstItem="23r-XT-F5q" firstAttribute="leading" secondItem="G81-oO-erl" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="bcU-yp-d0S"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="L3x-FO-47T"/>
+                    <connections>
+                        <outlet property="buildingLabel" destination="CEC-OG-4Ny" id="6Xy-CA-nIZ"/>
+                        <outlet property="descriptionLabel" destination="23r-XT-F5q" id="iTP-VB-su1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TJk-kb-mIB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="lvE-0b-OfQ"/>
+            </objects>
+            <point key="canvasLocation" x="422" y="-1108"/>
         </scene>
     </scenes>
     <resources>
         <image name="grandvalley3.jpg" width="200" height="255"/>
     </resources>
+    <classes>
+        <class className="ClosestDetail2ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ClosestDetail2ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="buildingLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="campusLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="donorLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="ClosestDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ClosestDetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="buildingLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="campusLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="donorLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="Detail2ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Detail2ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="buildingLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="campusLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="donorLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="DetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="buildingLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="campusLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="donorLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="getLocation"/>
+                <relationship kind="action" name="setMap:"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="gvsuCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuCell.h"/>
+        </class>
+        <class className="gvsuClosestViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuClosestViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="locationLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="locationPic" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="gvsuTableView" superclassName="UITableView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuTableView.h"/>
+        </class>
+        <class className="gvsuTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuTableViewController.h"/>
+        </class>
+        <class className="gvsuViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuViewController.h"/>
+        </class>
+        <class className="gvsuWebViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuWebViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
