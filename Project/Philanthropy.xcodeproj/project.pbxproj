@@ -33,7 +33,6 @@
 		54715AEE16FDE9B30030E4D7 /* gvsuCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54715AED16FDE9B30030E4D7 /* gvsuCLController.m */; };
 		54715AF116FDEA6D0030E4D7 /* gvsuClosestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54715AF016FDEA6D0030E4D7 /* gvsuClosestViewController.m */; };
 		54777C6116EE5DC4000BD24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54777C6016EE5DC4000BD24C /* main.m */; };
-		54981AC317138FC1007DBCD6 /* NewDataFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54981AC217138FC1007DBCD6 /* NewDataFile.plist */; };
 		54981AC517138FCD007DBCD6 /* DataFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54981AC417138FCD007DBCD6 /* DataFile.plist */; };
 		54B62CE71711C1ED00ABEE95 /* ClosestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B62CE61711C1ED00ABEE95 /* ClosestDetailViewController.m */; };
 		54B7C33916DD59CA00324612 /* gvsuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B7C33816DD59CA00324612 /* gvsuTableViewController.m */; };
@@ -41,7 +40,6 @@
 		54BD2E6F16B06C470099FB02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6E16B06C470099FB02 /* Foundation.framework */; };
 		54BD2E7116B06C470099FB02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E7016B06C470099FB02 /* CoreGraphics.framework */; };
 		54BD2E7D16B06C480099FB02 /* gvsuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E7C16B06C480099FB02 /* gvsuAppDelegate.m */; };
-		54BD2E8616B06C480099FB02 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BD2E8416B06C480099FB02 /* MainStoryboard_iPhone.storyboard */; };
 		54BD2E8C16B06C480099FB02 /* gvsuMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8B16B06C480099FB02 /* gvsuMasterViewController.m */; };
 		54BD2E8F16B06C480099FB02 /* gvsuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */; };
 		54C2951517137CE900490AE7 /* Zumberge, James.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950017137CE900490AE7 /* Zumberge, James.jpg */; };
@@ -110,7 +108,6 @@
 		54715AED16FDE9B30030E4D7 /* gvsuCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuCLController.m; sourceTree = "<group>"; };
 		54715AF016FDEA6D0030E4D7 /* gvsuClosestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuClosestViewController.m; sourceTree = "<group>"; };
 		54777C6016EE5DC4000BD24C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		54981AC217138FC1007DBCD6 /* NewDataFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewDataFile.plist; sourceTree = "<group>"; };
 		54981AC417138FCD007DBCD6 /* DataFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataFile.plist; sourceTree = "<group>"; };
 		54B62CE61711C1ED00ABEE95 /* ClosestDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClosestDetailViewController.m; sourceTree = "<group>"; };
 		54B7C33816DD59CA00324612 /* gvsuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuTableViewController.m; path = Philanthropy/gvsuTableViewController.m; sourceTree = "<group>"; };
@@ -321,7 +318,6 @@
 			children = (
 				54C862D0171392DB0086E97C /* Philanthropy-Prefix.pch */,
 				54981AC417138FCD007DBCD6 /* DataFile.plist */,
-				54981AC217138FC1007DBCD6 /* NewDataFile.plist */,
 				542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */,
 				54777C6016EE5DC4000BD24C /* main.m */,
 				54C2954F171382C700490AE7 /* gvsuAppDelegate.h */,
@@ -383,7 +379,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54BD2E8616B06C480099FB02 /* MainStoryboard_iPhone.storyboard in Resources */,
 				541D83BE16EE631C00D0D2AA /* gvsu1.jpg in Resources */,
 				541D83BF16EE631C00D0D2AA /* grandvalley3.jpg in Resources */,
 				5432BBB416FADFE20014AB2B /* GoogleMaps.bundle in Resources */,
@@ -422,7 +417,6 @@
 				54C29550171382CC00490AE7 /* gvsuAppDelegate.h in Resources */,
 				54C29554171382F800490AE7 /* gvsuMasterViewController.h in Resources */,
 				54C295571713830000490AE7 /* gvsuViewController.h in Resources */,
-				54981AC317138FC1007DBCD6 /* NewDataFile.plist in Resources */,
 				54981AC517138FCD007DBCD6 /* DataFile.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
