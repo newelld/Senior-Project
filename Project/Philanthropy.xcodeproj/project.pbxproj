@@ -30,6 +30,7 @@
 		544C0E3E17142B8900A9C773 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855BA17141ABF00AACF76 /* TableViewCell.m */; };
 		544C0E401714513000A9C773 /* searchbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 544C0E3F1714512F00A9C773 /* searchbar.png */; };
 		544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E047816F7C3C800FC64B4 /* gvsuCell.m */; };
+		5455F21D1714740A0088DA27 /* LakerLegacies.png in Resources */ = {isa = PBXBuildFile; fileRef = 5455F21C1714740A0088DA27 /* LakerLegacies.png */; };
 		54600BA216DC6475004AFA84 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54600BA116DC6475004AFA84 /* MapKit.framework */; };
 		54715AEE16FDE9B30030E4D7 /* gvsuCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54715AED16FDE9B30030E4D7 /* gvsuCLController.m */; };
 		54715AF116FDEA6D0030E4D7 /* gvsuClosestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54715AF016FDEA6D0030E4D7 /* gvsuClosestViewController.m */; };
@@ -60,7 +61,7 @@
 		54C2952617137CE900490AE7 /* DeVos, Rich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951117137CE900490AE7 /* DeVos, Rich.jpg */; };
 		54C2952717137CE900490AE7 /* Cook, Peter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951217137CE900490AE7 /* Cook, Peter.jpg */; };
 		54C2952817137CE900490AE7 /* Cook, Peter & Pat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951317137CE900490AE7 /* Cook, Peter & Pat.jpg */; };
-		54C2952917137CE900490AE7 /* Art  Hills.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951417137CE900490AE7 /* Art  Hills.jpg */; };
+		54C2952917137CE900490AE7 /* Art Hills.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951417137CE900490AE7 /* Art Hills.jpg */; };
 		54C2952E1713820400490AE7 /* gvsuCLController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2952D1713820000490AE7 /* gvsuCLController.h */; };
 		54C295311713821400490AE7 /* gvsuClosestViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295301713821000490AE7 /* gvsuClosestViewController.h */; };
 		54C295371713822700490AE7 /* gvsuDetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295361713822500490AE7 /* gvsuDetailViewController.h */; };
@@ -203,6 +204,7 @@
 		5446E11616F94D4700C876C8 /* gvsuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuViewController.m; path = Philanthropy/gvsuViewController.m; sourceTree = "<group>"; };
 		544C0E3F1714512F00A9C773 /* searchbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchbar.png; sourceTree = "<group>"; };
 		544E047816F7C3C800FC64B4 /* gvsuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuCell.m; path = Philanthropy/gvsuCell.m; sourceTree = "<group>"; };
+		5455F21C1714740A0088DA27 /* LakerLegacies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LakerLegacies.png; sourceTree = "<group>"; };
 		54600BA116DC6475004AFA84 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		54715AED16FDE9B30030E4D7 /* gvsuCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuCLController.m; sourceTree = "<group>"; };
 		54715AF016FDEA6D0030E4D7 /* gvsuClosestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuClosestViewController.m; sourceTree = "<group>"; };
@@ -234,7 +236,7 @@
 		54C2951117137CE900490AE7 /* DeVos, Rich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DeVos, Rich.jpg"; sourceTree = "<group>"; };
 		54C2951217137CE900490AE7 /* Cook, Peter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cook, Peter.jpg"; sourceTree = "<group>"; };
 		54C2951317137CE900490AE7 /* Cook, Peter & Pat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cook, Peter & Pat.jpg"; sourceTree = "<group>"; };
-		54C2951417137CE900490AE7 /* Art  Hills.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Art  Hills.jpg"; sourceTree = "<group>"; };
+		54C2951417137CE900490AE7 /* Art Hills.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Art Hills.jpg"; sourceTree = "<group>"; };
 		54C2952C1713820000490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuCLController.h; sourceTree = "<group>"; };
 		54C2952F1713821000490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuClosestViewController.h; sourceTree = "<group>"; };
 		54C295351713822500490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuDetailViewController.h; sourceTree = "<group>"; };
@@ -405,6 +407,7 @@
 		5447D03C16FABD1A008A70D3 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				5455F21C1714740A0088DA27 /* LakerLegacies.png */,
 				54D856741714263100AACF76 /* Building Thumbnails */,
 				54D855FD17141CAA00AACF76 /* Icons */,
 				544C0E3D1714273300A9C773 /* Donors */,
@@ -474,7 +477,7 @@
 				54C2951117137CE900490AE7 /* DeVos, Rich.jpg */,
 				54C2951217137CE900490AE7 /* Cook, Peter.jpg */,
 				54C2951317137CE900490AE7 /* Cook, Peter & Pat.jpg */,
-				54C2951417137CE900490AE7 /* Art  Hills.jpg */,
+				54C2951417137CE900490AE7 /* Art Hills.jpg */,
 			);
 			name = Donors;
 			sourceTree = "<group>";
@@ -754,7 +757,7 @@
 				54C2952617137CE900490AE7 /* DeVos, Rich.jpg in Resources */,
 				54C2952717137CE900490AE7 /* Cook, Peter.jpg in Resources */,
 				54C2952817137CE900490AE7 /* Cook, Peter & Pat.jpg in Resources */,
-				54C2952917137CE900490AE7 /* Art  Hills.jpg in Resources */,
+				54C2952917137CE900490AE7 /* Art Hills.jpg in Resources */,
 				54C2952E1713820400490AE7 /* gvsuCLController.h in Resources */,
 				54C295311713821400490AE7 /* gvsuClosestViewController.h in Resources */,
 				54C295371713822700490AE7 /* gvsuDetailViewController.h in Resources */,
@@ -864,6 +867,7 @@
 				54D856721714262200AACF76 /* WinterHall.png in Resources */,
 				54D856731714262200AACF76 /* Zumberge.png in Resources */,
 				544C0E401714513000A9C773 /* searchbar.png in Resources */,
+				5455F21D1714740A0088DA27 /* LakerLegacies.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

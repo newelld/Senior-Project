@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeScreenViewController : UIViewController
+@interface HomeScreenViewController : UIViewController {
+       
+    IBOutlet UIImageView *logoView;
+    IBOutlet UIImageView *imageView;
+}
+
+@property(nonatomic, retain) IBOutlet UIImageView *logoView, *imageView;
 
 @end
