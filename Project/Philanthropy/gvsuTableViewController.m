@@ -11,10 +11,11 @@
 @interface gvsuTableViewController ()
 @property (nonatomic, retain) NSArray *data;
 @property (nonatomic, retain) NSArray *filteredData;
+@property (nonatomic, retain) NSArray *sortedData;
 @end
 
 @implementation gvsuTableViewController
-@synthesize data, filteredData;
+@synthesize data, filteredData, sortedData;
 
 - (void)didReceiveMemoryWarning
 {
@@ -35,7 +36,9 @@
     NSString *mylist = [[NSBundle mainBundle] pathForResource:@"Senior Project Data" ofType:@"plist"];
     data = [[NSArray alloc]initWithContentsOfFile:mylist];
     filteredData = [[NSMutableArray alloc]init];
-    
+    sortedData = [[NSArray alloc]init];
+    NSSortDescriptor *descriptor = [[NSSortDescriptor alloc] initWithKey:@"Building Name" ascending:YES];
+    sortedData = [data sortedArrayUsingDescriptors:[NSArray arrayWithObject:descriptor]];
     
     CGRect frame = CGRectMake(0, 0, 400, 44);
     UILabel *label = [[UILabel alloc] initWithFrame:frame];
@@ -54,7 +57,7 @@
 - (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
 {
     [filteredData removeAllObjects];    
-    for (NSDictionary *building in data)
+    for (NSDictionary *building in sortedData)
     {
             NSRange rng = [[building valueForKey:@"Building Name"] rangeOfString:searchString options:(NSCaseInsensitiveSearch|NSDiacriticInsensitiveSearch)];
             
@@ -74,7 +77,7 @@
     {
         return [filteredData count];
     } else {
-        return [data count];
+        return [sortedData count];
     } 
 }
 
@@ -93,7 +96,7 @@
     {
         rows = [filteredData copy];
     } else {
-        rows = data;
+        rows = sortedData;
     }
     cell.textLabel.text = [[rows objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
     cell.textLabel.font = [UIFont boldSystemFontOfSize:11.0];
@@ -105,10 +108,10 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     DetailViewController *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"detail"];
-    detail.building = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
-    detail.donorName = [[data objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
-    detail.campus = [[data objectAtIndex:indexPath.row]objectForKey:@"Campus"];
-    detail.description = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
+    detail.building = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
+    detail.donorName = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
+    detail.campus = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Campus"];
+    detail.description = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
     [self.navigationController pushViewController:detail animated:YES];
 }
 
