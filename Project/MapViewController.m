@@ -1,8 +1,10 @@
 #import "MapViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import "ClosestDetailViewController.h"
 
 @implementation MapViewController{
     GMSMapView *mapView;
+    id<GMSMarker> marker;
 }
 NSArray *data;
 
@@ -10,12 +12,12 @@ NSArray *data;
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:42.961329900896835 longitude:-85.88285207748413 zoom:12];
     mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView.myLocationEnabled = YES;
+    mapView.delegate = self;
     self.view = mapView;
-
     
     //[mapView setUserTrackingMode:MKUserTrackingModeFollow animated: YES ];
     
-    NSString *mylist = [[NSBundle mainBundle] pathForResource:@"DataFile" ofType:@"plist"];
+    NSString *mylist = [[NSBundle mainBundle] pathForResource:@"Senior Project Data" ofType:@"plist"];
     data = [[NSArray alloc]initWithContentsOfFile:mylist];
     NSInteger count = [data count];
     NSLog(@"%@", data);
@@ -46,7 +48,6 @@ NSArray *data;
             //coordinate.longitude = [y doubleValue];
             //[annotation setCoordinate:coordinate];
             //[annotation setTitle:[[data objectAtIndex:i]objectForKey:@"Building Name"]];
-            
             [mapView addMarkerWithOptions:locations];
             //[locations addObject:annotation];
         }
@@ -54,6 +55,33 @@ NSArray *data;
     
     
     //[self.mapView addAnnotations:locations];
+}
+
+- (BOOL)mapView:(GMSMapView *)mapView didTapMarker:(id<GMSMarker>)marker {
+    NSString *title = marker.title;
+    if (title != nil) {
+        //NSLog(@"%@", title);
+    } 
+    return NO;
+}
+
+-(void)mapView:(GMSMapView *)mapView
+didTapInfoWindowOfMarker:(id<GMSMarker>)marker
+{
+    NSString* title = marker.title;
+    for (NSDictionary *building in data)
+    {
+        NSString *string = [building valueForKey:@"Building Name"];
+        if ([string isEqualToString:title])
+        {
+            ClosestDetailViewController *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"detail"];
+            detail.building = [building objectForKey:@"Building Name"];
+            detail.donorName = [building objectForKey:@"Donor Name 1"];
+            detail.campus = [building objectForKey:@"Campus"];
+            detail.description = [building objectForKey:@"Building Description 1"];
+            [self.navigationController pushViewController:detail animated:YES];
+        }
+    }
 }
 
 - (IBAction)setMap:(id)sender{

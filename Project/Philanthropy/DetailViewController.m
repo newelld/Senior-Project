@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Nickolas Workman. All rights reserved.
 //
 
+#import "Detail2ViewController.h"
 #import "DetailViewController.h"
 
 @implementation DetailViewController

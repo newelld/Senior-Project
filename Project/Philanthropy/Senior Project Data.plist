@@ -1,1211 +1,1210 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-
 <plist version="1.0">
-        <array>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>1</integer>
-                        <key>Campus</key>
-                        <string>Pew</string>
-                        <key>Building Name</key>
-                        <string>Robert C. Pew Grand Rapids Campus</string>
-                        <key>Donor Name 1</key>
-                        <string>Robert C. Pew</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1923-2012</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Robert C. Pew was the distinguished founder and President of Steelcase from 1966 to 1974.  He was a prominent member of the citizen\x92s group that established the GVSU charter.  He was also instrumental in chairing the committee that raised over nine million dollars to build and equip the Eberhard Center.   He was a member of the board of trustees from 1985 to 1988 as well as donating 10 acres of real estate that were pivotal in building the Grand Rapids campus the bears his name.  He was a member of the board of trustees.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>Null</string>
-                        <key>Building Image</key>
-                        <string>pew.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Pew, Robert.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>2</integer>
-                        <key>Campus</key>
-                        <string>Pew</string>
-                        <key>Building Name</key>
-                        <string>Beckering Family Carillon Tower</string>
-                        <key>Donor Name 1</key>
-                        <string>Thomas E. Beckering</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Thomas E. Beckering was the third generation owner of Pioneer Construction.  He was influential in propelling Pioneer Construction to become one of the largest full-service construction companies in the Midwest.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>Null</string>
-                        <key>Building Image</key>
-                        <string>NULL</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>3</integer>
-                        <key>Campus</key>
-                        <string>Pew</string>
-                        <key>Building Name</key>
-                        <string>Cook-DeVos Center for Health Sciences</string>
-                        <key>Donor Name 1</key>
-                        <string>Peter C. Cook</string>
-                        <key>Donor Name 2</key>
-                        <string>Richard M. DeVos</string>
-                        <key>Primary Birth Date</key>
-                        <string>1914-2010</string>
-                        <key>Secondary Birth Date</key>
-                        <string>1926-?</string>
-                        <key>Building Description 1</key>
-                        <string>Peter C. Cook created Mazda Great Lakes, the first and only independent direct distributorship in the U.S. until Mazda bought it back.  He is a renowned member of the prestigious Grand Valley Hall of Fame.  He also enjoyed playing the trumpet, as well as he had a love for Dixie bands.  He believed strongly in giving back to his community stating that, \x93There are two necessary things in giving: one is to be willing, the other is to be able.  Able is secondary because many people who are not willing to do become able but still never give.  People who have little yet give what they can become the big givers because they are able.  That\x92s because they had always been willing.\x94</string>
-                        <key>Building Description 2</key>
-                        <string>Richard M. DeVos was the president and chairman of the Grand valley University Foundation.  He is the co-founder of Amway Corporation.  He is both an entrepreneur and a philanthropist.  He has a love for sports, owning the Orlando Magic, and NBA franchise in Florida, naming the arena for the company he started.  He was instrumental in leading the revitalization of downtown Grand Rapids when he opened the Amway Grand plaza Hotel.  He is one of Grand Valleys\x92 most charitable donors leading nearly every campaign since the early 1990\x92s.  </string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.97069996517887, -85.66144645214081)</string>
-                        <key>Building Image</key>
-                        <string>CHS.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Cook, Peter.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>DeVos, Rich.jpg</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>5</integer>
-                        <key>Campus</key>
-                        <string>Pew</string>
-                        <key>Building Name</key>
-                        <string>L.V. Eberhard Center</string>
-                        <key>Donor Name 1</key>
-                        <string>L.V. Eberhard</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1902-1991</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>L.V Eberhard is the founder of Eberhard Foods, a company who spent more the 70 years in the grocery business.  He donated to Grand Valley in 1988 for the expansion of the downtown campus as well as financing addition scholarship for students in need.  He was a member of the Grand Valley University Foundation Advisory Cabinet form 1989 to 1991.  He is a noted charitable member of our community, receiving the Enrichment Award in 1988.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96407001707781, -85.67709445953369)</string>
-                        <key>Building Image</key>
-                        <string>Eberhard.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Eberhard, LV.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>6</integer>
-                        <key>Campus</key>
-                        <string>Pew</string>
-                        <key>Building Name</key>
-                        <string>L. William Seidman Center</string>
-                        <key>Donor Name 1</key>
-                        <string>L. William Seidman</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1921-2009</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>L. William \x93Bill\x94 Seidman is the Founder of Grand Valle State University, leading the efforts to charter a public university in West Michigan.  He served as the board of control chairman for two separate sessions, both between 1960 and 1974 as well as between 1977 and 1983.  He is a member of the Grand Valley State University Hall of Fame.  And he even served as the chairman of the FDIC between 1985 and 1991.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>Null</string>
-                        <key>Building Image</key>
-                        <string>NULL</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>7</integer>
-                        <key>Campus</key>
-                        <string>Pew</string>
-                        <key>Building Name</key>
-                        <string>Fred M. Keller Engineering Labs</string>
-                        <key>Donor Name 1</key>
-                        <string>Fred M. Keller</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1910-2004</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Fred M. Keller is the individual who patented the single-action flush lever.   As a business man he bout Paragon Tool &amp; Die Company for a single dollar, he would later become a member of the Greater Grand Rapids Business Hall of Fame.   Although being recognized for his charitable contributions to our community by receiving the Enrichment Award in 2000, he is not the only charitable one in his family.  Both Fred and his wife, Bernie believed in giving back to their community and were both recognized as two of the community\x92s largest philanthropists.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96350865651097, -85.67745387554168)</string>
-                        <key>Building Image</key>
-                        <string>Kennedy.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Keller, Fred.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>8</integer>
-                        <key>Campus</key>
-                        <string>Pew</string>
-                        <key>Building Name</key>
-                        <string>John C. Kennedy Hall of Engineering</string>
-                        <key>Donor Name 1</key>
-                        <string>John C. Kennedy III</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1958-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>John C. Kennedy III is currently a member of the Grand Valley State University Board of Trustees, starting his term in 2010.  He founded Autocam in 1988 when he was only thirty.  He is a member of the West Michigan Business Hall of Fame.  He remains highly involve in West Michigan, including Grand Rapids Catholic Secondary Schools as well as Saint Mary\x92s Health Care.  Both his wife Nancy and he have received the Chaille Community Philanthropy Award from the Grand Rapids Community Foundation in 2012.  He is also a recipient of the Grand Valley University Foundation Leadership Award in 2002.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96397580307465, -85.67788034677505)</string>
-                        <key>Building Image</key>
-                        <string>Kennedy.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Kennedy, John.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>9</integer>
-                        <key>Campus</key>
-                        <string>Pew</string>
-                        <key>Building Name</key>
-                        <string>Peter F Secchia Hall</string>
-                        <key>Donor Name 1</key>
-                        <string>Peter F. Secchia</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1937-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Peter F. Secchia served as the United States ambassador to Italy between 1989 and 1993, and was declared Michigan\x92s Entrepreneur of the Year in 1994.  He received an honorary Doctor of Laws Degree from GVSU in 1991.  He also donated the bronze sculpture of Chief Noonday that is located near the blue bridge.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96315142439234, -85.68065375089645)</string>
-                        <key>Building Image</key>
-                        <string>SecciaHall.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Secchia, Peter.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>10</integer>
-                        <key>Campus</key>
-                        <string>Pew</string>
-                        <key>Building Name</key>
-                        <string>Richard M.DeVos Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Richard M. DeVos</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1926-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Richard M. DeVos was the president and chairman of the Grand valley University Foundation.  He is the co-founder of Amway Corporation.  He is both an entrepreneur and a philanthropist.  He has a love for sports, owning the Orlando Magic, and NBA franchise in Florida, naming the arena for the company he started.  He was instrumental in leading the revitalization of downtown Grand Rapids when he opened the Amway Grand plaza Hotel.  He is one of Grand Valleys\x92 most charitable donors leading nearly every campaign since the early 1990\x92s.  </string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96507299470907, -85.68017363548279)</string>
-                        <key>Building Image</key>
-                        <string>DeVosCenter.png</string>
-                        <key>Donor Image 1</key>
-                        <string>DeVos, Rich.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>11</integer>
-                        <key>Campus</key>
-                        <string>Pew</string>
-                        <key>Building Name</key>
-                        <string>Meijer Public Broadcast Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Frederik Meijer</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1919-2011</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Frederik Meijer worked in his father\x92s grocery store, and together they created the first \x93supercenter\x94 concept with Meijer thrifty acres in 1962.  He created the Fredrik Meijer gardens and sculpture park in in Grand Rapids.  At Grand Valley he also helped establish the Fredrik Meijer Honors College as well as the Meijer campus in Holland.  He served as the Grand Valley University Foundation Director between 1981 and 2011. He had a love for the arts, education, health and the many parks of West Michigan.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>Null</string>
-                        <key>Building Image</key>
-                        <string>NULL</string>
-                        <key>Donor Image 1</key>
-                        <string>Meijer, Fred.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>12</integer>
-                        <key>Campus</key>
-                        <string>Pew</string>
-                        <key>Building Name</key>
-                        <string>Steelcase Library</string>
-                        <key>Donor Name 1</key>
-                        <string>Steelcase Foundation / Steelcase Inc.</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Steelcase was founded in Grand Rapids in 1912 and has become one of the world\x92s largest furniture manufacturers.  Steelcase donated a substantial portion of land to Grand Valley that became part of the Robert C. Pew campus.  As a company they have always believed in supporting their community through their beliefs and values stating that, \x93being a good neighbor is just an important part of being a good company.\x94  Like there founder, Robert C. Pew, as a company they have always been supportive of the arts, the environment, human services and economic development throughout West Michigan.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96383055620375, -85.68098902702331)</string>
-                        <key>Building Image</key>
-                        <string>NULL</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>13</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Alexander Calder Fine Arts Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Alexander Calder</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Alexander Calder is the American sculptor credited with inventing the mobile.  He also created prolific paintings, lithographs, toys, tapestry and jewelry.  One of his most famous sculptures is the, \x93La Grand Vitesse\x94 which still stands in downtown Grand Rapids.  La Grand Vitesse was the first public art in the United States that was funded with federal money, being financed by the National Endowment for the Arts.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.961329900896835, -85.88285207748413)</string>
-                        <key>Building Image</key>
-                        <string>Calder.png</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>14</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Arthur C Hills Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Arthur C. Hills</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1920-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Arthur C. Hills was part of the Original faculty at Grand Valley State University when the school opened in 1958.  In 1963 he was charged with creating an arts curriculum and organize arts activities for all students.  In the spring of 1964 he produced the fine arts on campus series for students and community.  He is renowned for creating the Grand Valley alma mater, \x93Hail to Thee Grand Valley.\x94  He remained an active member of the Grand Valley community till the day he retired in 1988.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96845080888109, -85.88424146175384)</string>
-                        <key>Building Image</key>
-                        <string>HillsLivingCenter.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Art Hills.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>15</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Icie Macy Hoobler Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Icie Macy Hoobler</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1892-1984</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Icie Macy Hoobler served as a member of the Grand Valley State College Board of Trustees between 1960 and 1968.  She was a scientist, an educator, a leader, an author and much more.  She was the first woman president of the American Chemical Society.  Her works included heading the Nutrition Research Project for the Merrill-Palmer School in Detroit, where she studied the effects of various foods on growth and well-being of children.  She is an honorary recipient of a Grand Valley doctorate as well as Humane Letters.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96651953051644, -85.88443994522095)</string>
-                        <key>Building Image</key>
-                        <string>Hoobler.png</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>16</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>James M. Copeland Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>James M. Copeland</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>?-1968</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>James M. Copeland served as a member of the Grand Valley State College Board of Trustees between 1960 and 1968 where he was instrumental in starting the Grand Valley State College Library.  As a businessman he was the President of Security National Bank in Manistee as well as the President of the Wyoming State Bank in Grand Rapids.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.967689295791125, -85.88625311851501)</string>
-                        <key>Building Image</key>
-                        <string>Copeland.png</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>17</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Edward J. Frey Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Edward J. Frey</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1910-1988</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Edward J. Frey served on the Grand Valley State College founding committee, and was instrumental in selecting the first president, James H. Zumberge.  He is the heir to the Union Bank and Trust Company.  Frey and his wife Frances we both civic leaders in West Michigan, establishing the Frey Foundation in 1974 to help fund the arts, education, economic development, and to help improve the lives of women and children.  He also helped establish Grand Rapids Chapter of Junior Achievement.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96976969584623, -85.88456869125366)</string>
-                        <key>Building Image</key>
-                        <string>FreyLivingCenter.png</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>18</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Paul A. Johnson Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Paul A. Johnson</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1919-2003</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Paul A. Johnson served on the Grand Valley State College founding committee, as well as serving on the Grand Valley University Foundation between 1981 and 2003.  He was a member of the Grand Valley State University Board of Trustees between 1968 and 1994.  In his business life he acted as the chairman of JSJ Corporation, and also the Kent County Director of Road Maintenance between 1978 and 1986.  HE would also receive an Honorary Doctorate in Humanities in 1994.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96598567051525, -85.88424682617187)</string>
-                        <key>Building Image</key>
-                        <string>Johnson.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Johnson, Paul A.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>19</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Kelly Family Sports Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Brain and Paqui Kelly</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1961-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>1966-?</string>
-                        <key>Building Description 1</key>
-                        <string>Brian Kelley served as GVSU\x92s Head Football Coach from 1991-2003 and in 2009 was inducted into the Laker Hall of Fame.  While acting as head coach he led GVSU to National Championships in 2002 &amp; 2003.  Paqui, Brian\x92s wife, met Brian while she was working at GVSU in Financial Aid.  And together they started the Kelly Cares Foundation in 2007.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96710834132109, -85.89247584342956)</string>
-                        <key>Building Image</key>
-                        <string>Turf.png</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>20</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Russel H. Kirkhof Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Russel H. Kirkhof</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1986-1979</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Russel H. Kirkhof donated a million dollars to Grand Valley State College in 1978 to help maintain the landscaping throughout campus.  The Kirkhof Center and Kirkhof College of Nursing were both named in honor of this gift, which at the time was the largest gift ever received by the university.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96270389991014, -85.88877439498901)</string>
-                        <key>Building Image</key>
-                        <string>Kirkhof.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Kirkhof, Russel.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>21</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>William A Kirkpatrick Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>William A.Kirkpatrick</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1917-2000</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>William A. Kirkpatrick served as a member of the Grand Valley State College Board of Trustees between 1960 and 1978.  In his business life he acted as President, Treasurer, and Board Member, Kalamazoo Paper Box Company.  As well as serving as President of Goodwill Industries\x97Southwestern Michigan.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96839585464383, -85.88316321372986)</string>
-                        <key>Building Image</key>
-                        <string>Kirkpatrick_Living_Center_3.jpg</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>22</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Robert Kliener Commons</string>
-                        <key>Donor Name 1</key>
-                        <string>Robert Kleiner</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1916-1987</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Robert Kleiner served on the Grand Valley State University Board of Trustees between 1983 and 1987.  He was a practicing attorney as well as a supporter of Democratic Party, acting as a Democratic National Convention Delegate in 1964, 1968 and 1976.  With a love for art he was also a member of the Grand Rapids Art Museum Board.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96885118827063, -85.88569521903991)</string>
-                        <key>Building Image</key>
-                        <string>Kleiner.png</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>23</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Grace Olsen Kistler Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Grace Olsen Kistler</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1899-1967</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Grace Olsen Kistler was a member of the Grand Valley State College Board of Control between 1960 and 1967.  She was a devoted volunteer and community leader, serving as a Board Member of the Ottawa County Red Cross.  She was the president of the State Federation of Women\x92s Clubs in Michigan.  And she even served as the secretary of the North Ottawa Community Hospital Authority.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96834875097281, -85.88537335395813)</string>
-                        <key>Building Image</key>
-                        <string>Kistler.png</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>24</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Loutit Lecture Halls</string>
-                        <key>Donor Name 1</key>
-                        <string>Loutit Foundation</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>The Loutit Foundation was formed in 1957 by William R. Loutit.  The Loutit family has ties to Grand Haven and Spring Lake that date back to 1856 when Captain William R. Loutit settled in the area and grew a lumber and shipping business.  They were huge supporters of Grand Valley State College\x92s construction of a new science building\x97GVSU was first and only public institution to receive funding from the foundation.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.965035702291395, -85.8881413936615)</string>
-                        <key>Building Image</key>
-                        <string>NULL</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>25</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Arend D Lubbers Stadium</string>
-                        <key>Donor Name 1</key>
-                        <string>Arend D. Lubbers</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1931-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Arend D. Lubbers served as the Grand Valley State University President between 1969 and 2001, becoming president of GVSU at only 37 years old.  He was very influential in establishing the Seidman College of Business, Kirkhof College of Nursing, Schools of Education, Social Work, Health Sciences, Engineering, and Communication during his tenure.   Famous nation-wide LIFE Magazine named him to list of top 100 young men under 40 in the U.S.  He is also a Laker Hall of Fame Inductee.  </string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.9689218431865, -85.89470744132995)</string>
-                        <key>Building Image</key>
-                        <string>NULL</string>
-                        <key>Donor Image 1</key>
-                        <string>Lubbers, Don.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>26</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Mark A. Murry Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Mark A. Murray</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1954-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Mark A. Murray was the third President of Grand Valley State University serving between 2001 and 2006.  Participating in politics in his career he also served as Treasurer of Michigan under Governor John Engler.  As an educator he acted as Michigan Education Assessment Program (MEAP) testing and developed the Michigan Merit Award.  In 2006 he would move on to become President of Meijer, Inc.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.95956328564849, -85.88736891746521)</string>
-                        <key>Building Image</key>
-                        <string>Murray.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Murray, Mark.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>27</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Glen A. Niemeyer East Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Glenn A. Niemeyer</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1934-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Glenn A. Niemeyer was one of first faculty members appointed at Grand Valley in 1963, serving as the Dean of the College of Arts &amp; Sciences between 1970 and 1976, as well as the Vice President for Academic Affairs between 1976 and 1980, and even as Provost between 1980 and 2001.  He chaired the North Central Association Higher Learning Commission, as well as acting as Vice President of North Central Association of Colleges and Schools.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.960207124635716, -85.88514804840088)</string>
-                        <key>Building Image</key>
-                        <string>NeimeyerLivingEast.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Niemeyer, Glenn.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>28</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Glen A. Niemeyer Honors Hall</string>
-                        <key>Donor Name 1</key>
-                        <string>Glenn A. Niemeyer</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1934-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Glenn A. Niemeyer was one of first faculty members appointed at Grand Valley in 1963, serving as the Dean of the College of Arts &amp; Sciences between 1970 and 1976, as well as the Vice President for Academic Affairs between 1976 and 1980, and even as Provost between 1980 and 2001.  He chaired the North Central Association Higher Learning Commission, as well as acting as Vice President of North Central Association of Colleges and Schools.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.95986950259231, -85.88581323623657)</string>
-                        <key>Building Image</key>
-                        <string>NeimeyerHall.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Niemeyer, Glenn.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>29</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Glen A. Niemeyer West Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Glenn A. Niemeyer</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1934-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Glenn A. Niemeyer was one of first faculty members appointed at Grand Valley in 1963, serving as the Dean of the College of Arts &amp; Sciences between 1970 and 1976, as well as the Vice President for Academic Affairs between 1976 and 1980, and even as Provost between 1980 and 2001.  He chaired the North Central Association Higher Learning Commission, as well as acting as Vice President of North Central Association of Colleges and Schools.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.959704616734996, -85.88633894920349)</string>
-                        <key>Building Image</key>
-                        <string>NeimeyerLivingWest.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Niemeyer, Glenn.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>30</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Arnold C. Ott Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Arnold C. Ott</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1917-2008</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Arnold C. Ott served on Grand Valley\x92s Board of Trustees for 29 years, which is the longest serving board member at a public university in Michigan.  He founded the Ott Chemical Company in Muskegon in 1956.  He was a prolific inventor authoring 50+ domestic and foreign patents, even acting as a Science Consultant for the Amway Corporation.  HE would eventually establish the Arnold C. Ott Lectureship in Chemistry in 2001 at GVSU.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96570303687424, -85.88480472564697)</string>
-                        <key>Building Image</key>
-                        <string>Ott.png</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>31</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Seymour &amp; Esther Padnos Hall of Science</string>
-                        <key>Donor Name 1</key>
-                        <string>Seymour and Esther Padnos</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1920-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>1928-?</string>
-                        <key>Building Description 1</key>
-                        <string>Seymour Padnos is the Chairman and CEO, Louis Padnos Iron &amp; Metal Company, 1955-Present.  He was inducted into GVSU Hall of Fame in 1988 as well as the West MI Business Hall of Fame.  He served as trustee to the Gerald R. Ford Foundation.  Both Seymore and Esther, Seymores Wife, were huge supporters of projects for the State of Michigan and the Holland area.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96512206364521, -85.88751912117004)</string>
-                        <key>Building Image</key>
-                        <string>Padnos.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Padnos, Seymour.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>32</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Robert C. Pew Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Robert C. Pew</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1923-2012</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Robert C. Pew was the distinguished founder and President of Steelcase from 1966 to 1974.  He was a prominent member of the citizen\x92s group that established the GVSU charter.  He was also instrumental in chairing the committee that raised over nine million dollars to build and equip the Eberhard Center.   He was a member of the board of trustees from 1985 to 1988 as well as donating 10 acres of real estate that were pivotal in building the Grand Rapids campus the bears his name.  He was a member of the board of trustees.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96884333771941, -85.88383913040161)</string>
-                        <key>Building Image</key>
-                        <string>PewLivingCenter.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Pew, Robert.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>33</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Wiliam F. Pickard Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>William F. Pickard</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1941-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>William F. Pickard was born in La Grange, Georgia and moved to Flint, MI in 1958.  He became active in NAACP and was well-known leader in the black community.  He was successful on many fronts both as an entrepreneur and college teacher.  He moved to Detroit to oversee McDonald\x92s franchise in 1972, eventually acquiring six restaurants.  He joined the GVSU Board of Control and served between 1976 and 1988.  In 1972 he would receive an Honorary doctorate from GVSU.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96803472557756, -85.88425755500793)</string>
-                        <key>Building Image</key>
-                        <string>Pickard.png</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>34</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Kenneth W. Robinson Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Kenneth W. Robinson</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1922-1976</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Kenneth W. Robinson was born in Grand Rapids, attended Central High School.  He was the Regional Director of UAW between 1955 and 1974.  He was active both in politics and civil rights.  He was even a Delegate at several Democratic National Conventions.  He was appointed to Grand Valley State College\x92s first Board of Control in 1960 and reappointed in 1968, 1972, 1973.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96699057961106, -85.88583469390869)</string>
-                        <key>Building Image</key>
-                        <string>Robinson.png</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>35</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Seidman House</string>
-                        <key>Donor Name 1</key>
-                        <string>L. William Seidman and Sally Siedman</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1921-2009</string>
-                        <key>Secondary Birth Date</key>
-                        <string>?-2009</string>
-                        <key>Building Description 1</key>
-                        <string>L. William \x93Bill\x94 Seidman is known as Grand Valley State University\x92s founding father.  He led the initiative to charter Grand Valley State College in 1960.  He was a partner of Seidman &amp; Seidman \x96 accounting firm founded by his father, Frank Edward Seidman (namesake of Seidman College of Business).  He served as Special Assistant on Financial Affairs to Governor George Romney between 1963 and 1966.  He also served as an economic advisor to President Gerald R. Ford between 1974 and 1977.  He chaired the Federal Deposit Insurance Corporation (FDIC) under President Ronald Reagan and George H.W. Bush.  He is credited with being very influential in leading  the US through banking/financial crisis.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96217000679583, -85.88569521903991)</string>
-                        <key>Building Image</key>
-                        <string>SeidmanHouse.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Seidman, Bill.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>Seidman, Bill and Sally.jpg</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>36</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Dale Stafford Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Dale Stafford</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1908-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Dale Stafford was an accomplished journalist and newspaper publisher working for the Pontiac Press, Associated Press and the Detroit Free Press.  He was a correspondent for the Lansing State Journal and sports writer for Lansing Capital News while in high school.  He was the Editor and Publisher, Greenville Daily News, as well as the president of the Greenville Chamber of Commerce.   He was the first publicity director for athletics at Michigan State College.   He was appointed to Grand Valley\x92s Board of Control and served between 1960 and 1968.  </string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96827809539866, -85.88217616081238)</string>
-                        <key>Building Image</key>
-                        <string>Stafford.png</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>37</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Maxine M. Swanson Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Maxine M. Swanson</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1927-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Maxine M. Swanson was a Nurse and administrator at Gratiot Community Hospital.  She was very active with GOP in her county \x96 began as precinct delegate, then Gratiot County Executive Committee, then chairman of President Ford campaign.  She was also a member the League of Women Voters, Coalition to Women\x92s Assembly, Michigan Republican Women\x92s Task Force, United Way, Alma Symphony, Sierra Club, Michigan Society for Mental Health.  She also served as a member of the Grand Valley State University Board of Trustees between 1981 and 1990.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.967877712278735, -85.88216543197632)</string>
-                        <key>Building Image</key>
-                        <string>Swanson.png</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>38</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Ronald F. VanSteeland Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Ronald F. VanSteeland</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1940-?</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Ronald F. VanSteeland was the Vice President for Finance and Administration at GVSU serving between 1966 and 2001.  He helped build the financial backbone of GVSU and make it one of the \x93Top 100 Best Buys\x94 in the US.  He was a board member of the West Michigan Environmental Action Council between 2006 and 2008.  He also met his wife Peggy while working at GVSU \x96 she was secretary to President Don Lubbers.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.9584718846586, -85.88742256164551)</string>
-                        <key>Building Image</key>
-                        <string>vansteeland.jpg</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>39</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Ella Koeze Weed Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Ella Koeze Weed</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1905-1986</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Ella Koeze Weed was born in in Grand Rapids, MI and graduated from South High School, Davenport Business College.  She entered politics in 1940 and is known as a frontrunner for all women to follow in politics.  She was elected to Michigan\x92s Constitutional Convention in 1961 and was appointed Chairman of National Alliance of Businessmen in 1971.  She also served on GVSU Board of Control between 1967 and 1981.  She married Albert Koeze and helped manage his successful peanut butter factory.  </string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96563630374172, -85.88557183742523)</string>
-                        <key>Building Image</key>
-                        <string>Weed.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Weed, Ella.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>40</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>James H. Zumberge Library</string>
-                        <key>Donor Name 1</key>
-                        <string>James H. Zumberge</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>?-1992</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>James H. Zumberge was the president of Grand Valley State Colleges between 1963 and 1969.  After that he became president of Southern Methodist University and fourth president of University of California.  As an educator he was a geology professor, even leading expedition to Antarctica.  Cape Zumberge and Zumberge Coast in Antarctica are named for him.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96288840601213, -85.88691294193268)</string>
-                        <key>Building Image</key>
-                        <string>Zumberge.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Zumberge, James.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>41</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Richard M. DeVos Living Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Richard M. DeVos</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Richard M. DeVos was the president and chairman of the Grand valley University Foundation.  He is the co-founder of Amway Corporation.  He is both an entrepreneur and a philanthropist.  He has a love for sports, owning the Orlando Magic, and NBA franchise in Florida, naming the arena for the company he started.  He was instrumental in leading the revitalization of downtown Grand Rapids when he opened the Amway Grand plaza Hotel.  He is one of Grand Valleys\x92 most charitable donors leading nearly every campaign since the early 1990\x92s.  </string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.969361471950414, -85.88389277458191)</string>
-                        <key>Building Image</key>
-                        <string>DeVosLivingCenter.png</string>
-                        <key>Donor Image 1</key>
-                        <string>DeVos, Rich.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>42</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Cook Carillon Tower</string>
-                        <key>Donor Name 1</key>
-                        <string>Peter C. and Pat Cook</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>1914-2010</string>
-                        <key>Secondary Birth Date</key>
-                        <string>1915-2008</string>
-                        <key>Building Description 1</key>
-                        <string>Peter C. Cook created Mazda Great Lakes, the first and only independent direct distributorship in the U.S. until Mazda bought it back.  He is a renowned member of the prestigious Grand Valley Hall of Fame.  He also enjoyed playing the trumpet, as well as he had a love for Dixie bands.  He believed strongly in giving back to his community stating that, \x93There are two necessary things in giving: one is to be willing, the other is to be able.  Able is secondary because many people who are not willing to do become able but still never give.  People who have little yet give what they can become the big givers because they are able.  That\x92s because they had always been willing.\x94</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96345369785849, -85.88860809803009)</string>
-                        <key>Building Image</key>
-                        <string>allendale clock.jpg</string>
-                        <key>Donor Image 1</key>
-                        <string>Cook, Peter &amp; Pat.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>43</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Cook-DeWitt Center</string>
-                        <key>Donor Name 1</key>
-                        <string>Peter C. and Pat Cook</string>
-                        <key>Donor Name 2</key>
-                        <string>Marvin and Jerene DeWitt</string>
-                        <key>Primary Birth Date</key>
-                        <string>1914-2010</string>
-                        <key>Secondary Birth Date</key>
-                        <string>1919-2011</string>
-                        <key>Building Description 1</key>
-                        <string>Peter C. Cook created Mazda Great Lakes, the first and only independent direct distributorship in the U.S. until Mazda bought it back.  He is a renowned member of the prestigious Grand Valley Hall of Fame.  He also enjoyed playing the trumpet, as well as he had a love for Dixie bands.  He believed strongly in giving back to his community stating that, \x93There are two necessary things in giving: one is to be willing, the other is to be able.  Able is secondary because many people who are not willing to do become able but still never give.  People who have little yet give what they can become the big givers because they are able.  That\x92s because they had always been willing.\x94</string>
-                        <key>Building Description 2</key>
-                        <string>Marvin Dewitt started Bil Mar Foods when he was 18 years old and bought 17 turkeys for $60.  Bill Mar was one of the top three turkey producers in the country.  He served on Zeeland School Board, Ottawa County Road Commission and the board of Northwestern College in Iowa.  He also served on the Grand Valley University Foundation\x92s Advisory Cabinet between 2001 and 2009.  </string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.963854109773685, -85.88838815689087)</string>
-                        <key>Building Image</key>
-                        <string>CookDewitt.png</string>
-                        <key>Donor Image 1</key>
-                        <string>Cook, Peter &amp; Pat.jpg</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-                <dict>
-                        <key>Building ID</key>
-                        <integer>45</integer>
-                        <key>Campus</key>
-                        <string>Allendale</string>
-                        <key>Building Name</key>
-                        <string>Henry Hall</string>
-                        <key>Donor Name 1</key>
-                        <string>Paul B. Henry</string>
-                        <key>Donor Name 2</key>
-                        <string>NULL</string>
-                        <key>Primary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Secondary Birth Date</key>
-                        <string>NULL</string>
-                        <key>Building Description 1</key>
-                        <string>Paul B. Henry was elected to the Michigan State House of Representatives between 1979 and 1982 and served on the Michigan State Senate between 1983 and 1985.  He was elected to U.S. House of Representatives in 1984, served until his death in 1993.  He was also a Peace Corps volunteer in Liberia and Ethiopia between 1963 and 1965.</string>
-                        <key>Building Description 2</key>
-                        <string>NULL</string>
-                        <key>GPS Coordinates</key>
-                        <string>(42.96469418120448, -85.88830232620239)</string>
-                        <key>Building Image</key>
-                        <string>HenryHall.png</string>
-                        <key>Donor Image 1</key>
-                        <string>NULL</string>
-                        <key>Donor Image 2</key>
-                        <string>NULL</string>
-                </dict>
-        </array>
+<array>
+	<dict>
+		<key>Building ID</key>
+		<integer>1</integer>
+		<key>Campus</key>
+		<string>Pew</string>
+		<key>Building Name</key>
+		<string>Robert C. Pew Grand Rapids Campus</string>
+		<key>Donor Name 1</key>
+		<string>Robert C. Pew</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1923-2012</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Robert C. Pew was the distinguished founder and President of Steelcase from 1966 to 1974.  He was a prominent member of the citizen\x92s group that established the GVSU charter.  He was also instrumental in chairing the committee that raised over nine million dollars to build and equip the Eberhard Center.   He was a member of the board of trustees from 1985 to 1988 as well as donating 10 acres of real estate that were pivotal in building the Grand Rapids campus the bears his name.  He was a member of the board of trustees.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>Null</string>
+		<key>Building Image</key>
+		<string>pew.png</string>
+		<key>Donor Image 1</key>
+		<string>Pew, Robert.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>2</integer>
+		<key>Campus</key>
+		<string>Pew</string>
+		<key>Building Name</key>
+		<string>Beckering Family Carillon Tower</string>
+		<key>Donor Name 1</key>
+		<string>Thomas E. Beckering</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>NULL</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Thomas E. Beckering was the third generation owner of Pioneer Construction.  He was influential in propelling Pioneer Construction to become one of the largest full-service construction companies in the Midwest.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>Null</string>
+		<key>Building Image</key>
+		<string>NULL</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>3</integer>
+		<key>Campus</key>
+		<string>Pew</string>
+		<key>Building Name</key>
+		<string>Cook-DeVos Center for Health Sciences</string>
+		<key>Donor Name 1</key>
+		<string>Peter C. Cook</string>
+		<key>Donor Name 2</key>
+		<string>Richard M. DeVos</string>
+		<key>Primary Birth Date</key>
+		<string>1914-2010</string>
+		<key>Secondary Birth Date</key>
+		<string>1926-?</string>
+		<key>Building Description 1</key>
+		<string>Peter C. Cook created Mazda Great Lakes, the first and only independent direct distributorship in the U.S. until Mazda bought it back.  He is a renowned member of the prestigious Grand Valley Hall of Fame.  He also enjoyed playing the trumpet, as well as he had a love for Dixie bands.  He believed strongly in giving back to his community stating that, \x93There are two necessary things in giving: one is to be willing, the other is to be able.  Able is secondary because many people who are not willing to do become able but still never give.  People who have little yet give what they can become the big givers because they are able.  That\x92s because they had always been willing.\x94</string>
+		<key>Building Description 2</key>
+		<string>Richard M. DeVos was the president and chairman of the Grand valley University Foundation.  He is the co-founder of Amway Corporation.  He is both an entrepreneur and a philanthropist.  He has a love for sports, owning the Orlando Magic, and NBA franchise in Florida, naming the arena for the company he started.  He was instrumental in leading the revitalization of downtown Grand Rapids when he opened the Amway Grand plaza Hotel.  He is one of Grand Valleys\x92 most charitable donors leading nearly every campaign since the early 1990\x92s.  </string>
+		<key>GPS Coordinates</key>
+		<string>42.97069996517887, -85.66144645214081</string>
+		<key>Building Image</key>
+		<string>CHS.png</string>
+		<key>Donor Image 1</key>
+		<string>Cook, Peter.jpg</string>
+		<key>Donor Image 2</key>
+		<string>DeVos, Rich.jpg</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>5</integer>
+		<key>Campus</key>
+		<string>Pew</string>
+		<key>Building Name</key>
+		<string>L.V. Eberhard Center</string>
+		<key>Donor Name 1</key>
+		<string>L.V. Eberhard</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1902-1991</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>L.V Eberhard is the founder of Eberhard Foods, a company who spent more the 70 years in the grocery business.  He donated to Grand Valley in 1988 for the expansion of the downtown campus as well as financing addition scholarship for students in need.  He was a member of the Grand Valley University Foundation Advisory Cabinet form 1989 to 1991.  He is a noted charitable member of our community, receiving the Enrichment Award in 1988.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96407001707781, -85.67709445953369</string>
+		<key>Building Image</key>
+		<string>Eberhard.png</string>
+		<key>Donor Image 1</key>
+		<string>Eberhard, LV.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>6</integer>
+		<key>Campus</key>
+		<string>Pew</string>
+		<key>Building Name</key>
+		<string>L. William Seidman Center</string>
+		<key>Donor Name 1</key>
+		<string>L. William Seidman</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1921-2009</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>L. William \x93Bill\x94 Seidman is the Founder of Grand Valle State University, leading the efforts to charter a public university in West Michigan.  He served as the board of control chairman for two separate sessions, both between 1960 and 1974 as well as between 1977 and 1983.  He is a member of the Grand Valley State University Hall of Fame.  And he even served as the chairman of the FDIC between 1985 and 1991.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>Null</string>
+		<key>Building Image</key>
+		<string>NULL</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>7</integer>
+		<key>Campus</key>
+		<string>Pew</string>
+		<key>Building Name</key>
+		<string>Fred M. Keller Engineering Labs</string>
+		<key>Donor Name 1</key>
+		<string>Fred M. Keller</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1910-2004</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Fred M. Keller is the individual who patented the single-action flush lever.   As a business man he bout Paragon Tool &amp; Die Company for a single dollar, he would later become a member of the Greater Grand Rapids Business Hall of Fame.   Although being recognized for his charitable contributions to our community by receiving the Enrichment Award in 2000, he is not the only charitable one in his family.  Both Fred and his wife, Bernie believed in giving back to their community and were both recognized as two of the community\x92s largest philanthropists.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96350865651097, -85.67745387554168</string>
+		<key>Building Image</key>
+		<string>Kennedy.png</string>
+		<key>Donor Image 1</key>
+		<string>Keller, Fred.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>8</integer>
+		<key>Campus</key>
+		<string>Pew</string>
+		<key>Building Name</key>
+		<string>John C. Kennedy Hall of Engineering</string>
+		<key>Donor Name 1</key>
+		<string>John C. Kennedy III</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1958-?</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>John C. Kennedy III is currently a member of the Grand Valley State University Board of Trustees, starting his term in 2010.  He founded Autocam in 1988 when he was only thirty.  He is a member of the West Michigan Business Hall of Fame.  He remains highly involve in West Michigan, including Grand Rapids Catholic Secondary Schools as well as Saint Mary\x92s Health Care.  Both his wife Nancy and he have received the Chaille Community Philanthropy Award from the Grand Rapids Community Foundation in 2012.  He is also a recipient of the Grand Valley University Foundation Leadership Award in 2002.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96397580307465, -85.67788034677505</string>
+		<key>Building Image</key>
+		<string>Kennedy.png</string>
+		<key>Donor Image 1</key>
+		<string>Kennedy, John.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>9</integer>
+		<key>Campus</key>
+		<string>Pew</string>
+		<key>Building Name</key>
+		<string>Peter F Secchia Hall</string>
+		<key>Donor Name 1</key>
+		<string>Peter F. Secchia</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1937-?</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Peter F. Secchia served as the United States ambassador to Italy between 1989 and 1993, and was declared Michigan\x92s Entrepreneur of the Year in 1994.  He received an honorary Doctor of Laws Degree from GVSU in 1991.  He also donated the bronze sculpture of Chief Noonday that is located near the blue bridge.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96315142439234, -85.68065375089645</string>
+		<key>Building Image</key>
+		<string>SecciaHall.png</string>
+		<key>Donor Image 1</key>
+		<string>Secchia, Peter.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>10</integer>
+		<key>Campus</key>
+		<string>Pew</string>
+		<key>Building Name</key>
+		<string>Richard M.DeVos Center</string>
+		<key>Donor Name 1</key>
+		<string>Richard M. DeVos</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1926-?</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Richard M. DeVos was the president and chairman of the Grand valley University Foundation.  He is the co-founder of Amway Corporation.  He is both an entrepreneur and a philanthropist.  He has a love for sports, owning the Orlando Magic, and NBA franchise in Florida, naming the arena for the company he started.  He was instrumental in leading the revitalization of downtown Grand Rapids when he opened the Amway Grand plaza Hotel.  He is one of Grand Valleys\x92 most charitable donors leading nearly every campaign since the early 1990\x92s.  </string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96507299470907, -85.68017363548279</string>
+		<key>Building Image</key>
+		<string>DeVosCenter.png</string>
+		<key>Donor Image 1</key>
+		<string>DeVos, Rich.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>11</integer>
+		<key>Campus</key>
+		<string>Pew</string>
+		<key>Building Name</key>
+		<string>Meijer Public Broadcast Center</string>
+		<key>Donor Name 1</key>
+		<string>Frederik Meijer</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1919-2011</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Frederik Meijer worked in his father\x92s grocery store, and together they created the first \x93supercenter\x94 concept with Meijer thrifty acres in 1962.  He created the Fredrik Meijer gardens and sculpture park in in Grand Rapids.  At Grand Valley he also helped establish the Fredrik Meijer Honors College as well as the Meijer campus in Holland.  He served as the Grand Valley University Foundation Director between 1981 and 2011. He had a love for the arts, education, health and the many parks of West Michigan.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>Null</string>
+		<key>Building Image</key>
+		<string>NULL</string>
+		<key>Donor Image 1</key>
+		<string>Meijer, Fred.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>12</integer>
+		<key>Campus</key>
+		<string>Pew</string>
+		<key>Building Name</key>
+		<string>Steelcase Library</string>
+		<key>Donor Name 1</key>
+		<string>Steelcase Foundation / Steelcase Inc.</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>NULL</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Steelcase was founded in Grand Rapids in 1912 and has become one of the world\x92s largest furniture manufacturers.  Steelcase donated a substantial portion of land to Grand Valley that became part of the Robert C. Pew campus.  As a company they have always believed in supporting their community through their beliefs and values stating that, \x93being a good neighbor is just an important part of being a good company.\x94  Like there founder, Robert C. Pew, as a company they have always been supportive of the arts, the environment, human services and economic development throughout West Michigan.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96383055620375, -85.68098902702331</string>
+		<key>Building Image</key>
+		<string>NULL</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>13</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Alexander Calder Fine Arts Center</string>
+		<key>Donor Name 1</key>
+		<string>Alexander Calder</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>NULL</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Alexander Calder is the American sculptor credited with inventing the mobile.  He also created prolific paintings, lithographs, toys, tapestry and jewelry.  One of his most famous sculptures is the, \x93La Grand Vitesse\x94 which still stands in downtown Grand Rapids.  La Grand Vitesse was the first public art in the United States that was funded with federal money, being financed by the National Endowment for the Arts.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.961329900896835, -85.88285207748413</string>
+		<key>Building Image</key>
+		<string>Calder.png</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>14</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Arthur C Hills Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Arthur C. Hills</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1920-?</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Arthur C. Hills was part of the Original faculty at Grand Valley State University when the school opened in 1958.  In 1963 he was charged with creating an arts curriculum and organize arts activities for all students.  In the spring of 1964 he produced the fine arts on campus series for students and community.  He is renowned for creating the Grand Valley alma mater, \x93Hail to Thee Grand Valley.\x94  He remained an active member of the Grand Valley community till the day he retired in 1988.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96845080888109, -85.88424146175384</string>
+		<key>Building Image</key>
+		<string>HillsLivingCenter.png</string>
+		<key>Donor Image 1</key>
+		<string>Art Hills.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>15</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Icie Macy Hoobler Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Icie Macy Hoobler</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1892-1984</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Icie Macy Hoobler served as a member of the Grand Valley State College Board of Trustees between 1960 and 1968.  She was a scientist, an educator, a leader, an author and much more.  She was the first woman president of the American Chemical Society.  Her works included heading the Nutrition Research Project for the Merrill-Palmer School in Detroit, where she studied the effects of various foods on growth and well-being of children.  She is an honorary recipient of a Grand Valley doctorate as well as Humane Letters.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96651953051644, -85.88443994522095</string>
+		<key>Building Image</key>
+		<string>Hoobler.png</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>16</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>James M. Copeland Living Center</string>
+		<key>Donor Name 1</key>
+		<string>James M. Copeland</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>?-1968</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>James M. Copeland served as a member of the Grand Valley State College Board of Trustees between 1960 and 1968 where he was instrumental in starting the Grand Valley State College Library.  As a businessman he was the President of Security National Bank in Manistee as well as the President of the Wyoming State Bank in Grand Rapids.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.967689295791125, -85.88625311851501</string>
+		<key>Building Image</key>
+		<string>Copeland.png</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>17</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Edward J. Frey Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Edward J. Frey</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1910-1988</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Edward J. Frey served on the Grand Valley State College founding committee, and was instrumental in selecting the first president, James H. Zumberge.  He is the heir to the Union Bank and Trust Company.  Frey and his wife Frances we both civic leaders in West Michigan, establishing the Frey Foundation in 1974 to help fund the arts, education, economic development, and to help improve the lives of women and children.  He also helped establish Grand Rapids Chapter of Junior Achievement.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96976969584623, -85.88456869125366</string>
+		<key>Building Image</key>
+		<string>FreyLivingCenter.png</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>18</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Paul A. Johnson Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Paul A. Johnson</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1919-2003</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Paul A. Johnson served on the Grand Valley State College founding committee, as well as serving on the Grand Valley University Foundation between 1981 and 2003.  He was a member of the Grand Valley State University Board of Trustees between 1968 and 1994.  In his business life he acted as the chairman of JSJ Corporation, and also the Kent County Director of Road Maintenance between 1978 and 1986.  HE would also receive an Honorary Doctorate in Humanities in 1994.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96598567051525, -85.88424682617187</string>
+		<key>Building Image</key>
+		<string>Johnson.png</string>
+		<key>Donor Image 1</key>
+		<string>Johnson, Paul A.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>19</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Kelly Family Sports Center</string>
+		<key>Donor Name 1</key>
+		<string>Brain and Paqui Kelly</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1961-?</string>
+		<key>Secondary Birth Date</key>
+		<string>1966-?</string>
+		<key>Building Description 1</key>
+		<string>Brian Kelley served as GVSU\x92s Head Football Coach from 1991-2003 and in 2009 was inducted into the Laker Hall of Fame.  While acting as head coach he led GVSU to National Championships in 2002 &amp; 2003.  Paqui, Brian\x92s wife, met Brian while she was working at GVSU in Financial Aid.  And together they started the Kelly Cares Foundation in 2007.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96710834132109, -85.89247584342956</string>
+		<key>Building Image</key>
+		<string>Turf.png</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>20</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Russel H. Kirkhof Center</string>
+		<key>Donor Name 1</key>
+		<string>Russel H. Kirkhof</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1986-1979</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Russel H. Kirkhof donated a million dollars to Grand Valley State College in 1978 to help maintain the landscaping throughout campus.  The Kirkhof Center and Kirkhof College of Nursing were both named in honor of this gift, which at the time was the largest gift ever received by the university.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96270389991014, -85.88877439498901</string>
+		<key>Building Image</key>
+		<string>Kirkhof.png</string>
+		<key>Donor Image 1</key>
+		<string>Kirkhof, Russel.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>21</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>William A Kirkpatrick Living Center</string>
+		<key>Donor Name 1</key>
+		<string>William A.Kirkpatrick</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1917-2000</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>William A. Kirkpatrick served as a member of the Grand Valley State College Board of Trustees between 1960 and 1978.  In his business life he acted as President, Treasurer, and Board Member, Kalamazoo Paper Box Company.  As well as serving as President of Goodwill Industries\x97Southwestern Michigan.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96839585464383, -85.88316321372986</string>
+		<key>Building Image</key>
+		<string>Kirkpatrick_Living_Center_3.jpg</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>22</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Robert Kliener Commons</string>
+		<key>Donor Name 1</key>
+		<string>Robert Kleiner</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1916-1987</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Robert Kleiner served on the Grand Valley State University Board of Trustees between 1983 and 1987.  He was a practicing attorney as well as a supporter of Democratic Party, acting as a Democratic National Convention Delegate in 1964, 1968 and 1976.  With a love for art he was also a member of the Grand Rapids Art Museum Board.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96885118827063, -85.88569521903991</string>
+		<key>Building Image</key>
+		<string>Kleiner.png</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>23</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Grace Olsen Kistler Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Grace Olsen Kistler</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1899-1967</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Grace Olsen Kistler was a member of the Grand Valley State College Board of Control between 1960 and 1967.  She was a devoted volunteer and community leader, serving as a Board Member of the Ottawa County Red Cross.  She was the president of the State Federation of Women\x92s Clubs in Michigan.  And she even served as the secretary of the North Ottawa Community Hospital Authority.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96834875097281, -85.88537335395813</string>
+		<key>Building Image</key>
+		<string>Kistler.png</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>24</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Loutit Lecture Halls</string>
+		<key>Donor Name 1</key>
+		<string>Loutit Foundation</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>NULL</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>The Loutit Foundation was formed in 1957 by William R. Loutit.  The Loutit family has ties to Grand Haven and Spring Lake that date back to 1856 when Captain William R. Loutit settled in the area and grew a lumber and shipping business.  They were huge supporters of Grand Valley State College\x92s construction of a new science building\x97GVSU was first and only public institution to receive funding from the foundation.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.965035702291395, -85.8881413936615</string>
+		<key>Building Image</key>
+		<string>NULL</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>25</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Arend D Lubbers Stadium</string>
+		<key>Donor Name 1</key>
+		<string>Arend D. Lubbers</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1931-?</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Arend D. Lubbers served as the Grand Valley State University President between 1969 and 2001, becoming president of GVSU at only 37 years old.  He was very influential in establishing the Seidman College of Business, Kirkhof College of Nursing, Schools of Education, Social Work, Health Sciences, Engineering, and Communication during his tenure.   Famous nation-wide LIFE Magazine named him to list of top 100 young men under 40 in the U.S.  He is also a Laker Hall of Fame Inductee.  </string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.9689218431865, -85.89470744132995</string>
+		<key>Building Image</key>
+		<string>NULL</string>
+		<key>Donor Image 1</key>
+		<string>Lubbers, Don.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>26</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Mark A. Murry Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Mark A. Murray</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1954-?</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Mark A. Murray was the third President of Grand Valley State University serving between 2001 and 2006.  Participating in politics in his career he also served as Treasurer of Michigan under Governor John Engler.  As an educator he acted as Michigan Education Assessment Program (MEAP) testing and developed the Michigan Merit Award.  In 2006 he would move on to become President of Meijer, Inc.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.95956328564849, -85.88736891746521</string>
+		<key>Building Image</key>
+		<string>Murray.png</string>
+		<key>Donor Image 1</key>
+		<string>Murray, Mark.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>27</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Glen A. Niemeyer East Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Glenn A. Niemeyer</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1934-?</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Glenn A. Niemeyer was one of first faculty members appointed at Grand Valley in 1963, serving as the Dean of the College of Arts &amp; Sciences between 1970 and 1976, as well as the Vice President for Academic Affairs between 1976 and 1980, and even as Provost between 1980 and 2001.  He chaired the North Central Association Higher Learning Commission, as well as acting as Vice President of North Central Association of Colleges and Schools.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.960207124635716, -85.88514804840088</string>
+		<key>Building Image</key>
+		<string>NeimeyerLivingEast.png</string>
+		<key>Donor Image 1</key>
+		<string>Niemeyer, Glenn.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>28</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Glen A. Niemeyer Honors Hall</string>
+		<key>Donor Name 1</key>
+		<string>Glenn A. Niemeyer</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1934-?</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Glenn A. Niemeyer was one of first faculty members appointed at Grand Valley in 1963, serving as the Dean of the College of Arts &amp; Sciences between 1970 and 1976, as well as the Vice President for Academic Affairs between 1976 and 1980, and even as Provost between 1980 and 2001.  He chaired the North Central Association Higher Learning Commission, as well as acting as Vice President of North Central Association of Colleges and Schools.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.95986950259231, -85.88581323623657</string>
+		<key>Building Image</key>
+		<string>NeimeyerHall.png</string>
+		<key>Donor Image 1</key>
+		<string>Niemeyer, Glenn.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>29</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Glen A. Niemeyer West Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Glenn A. Niemeyer</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1934-?</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Glenn A. Niemeyer was one of first faculty members appointed at Grand Valley in 1963, serving as the Dean of the College of Arts &amp; Sciences between 1970 and 1976, as well as the Vice President for Academic Affairs between 1976 and 1980, and even as Provost between 1980 and 2001.  He chaired the North Central Association Higher Learning Commission, as well as acting as Vice President of North Central Association of Colleges and Schools.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.959704616734996, -85.88633894920349</string>
+		<key>Building Image</key>
+		<string>NeimeyerLivingWest.png</string>
+		<key>Donor Image 1</key>
+		<string>Niemeyer, Glenn.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>30</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Arnold C. Ott Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Arnold C. Ott</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1917-2008</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Arnold C. Ott served on Grand Valley\x92s Board of Trustees for 29 years, which is the longest serving board member at a public university in Michigan.  He founded the Ott Chemical Company in Muskegon in 1956.  He was a prolific inventor authoring 50+ domestic and foreign patents, even acting as a Science Consultant for the Amway Corporation.  HE would eventually establish the Arnold C. Ott Lectureship in Chemistry in 2001 at GVSU.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96570303687424, -85.88480472564697</string>
+		<key>Building Image</key>
+		<string>Ott.png</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>31</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Seymour &amp; Esther Padnos Hall of Science</string>
+		<key>Donor Name 1</key>
+		<string>Seymour and Esther Padnos</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1920-?</string>
+		<key>Secondary Birth Date</key>
+		<string>1928-?</string>
+		<key>Building Description 1</key>
+		<string>Seymour Padnos is the Chairman and CEO, Louis Padnos Iron &amp; Metal Company, 1955-Present.  He was inducted into GVSU Hall of Fame in 1988 as well as the West MI Business Hall of Fame.  He served as trustee to the Gerald R. Ford Foundation.  Both Seymore and Esther, Seymores Wife, were huge supporters of projects for the State of Michigan and the Holland area.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96512206364521, -85.88751912117004</string>
+		<key>Building Image</key>
+		<string>Padnos.png</string>
+		<key>Donor Image 1</key>
+		<string>Padnos, Seymour.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>32</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Robert C. Pew Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Robert C. Pew</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1923-2012</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Robert C. Pew was the distinguished founder and President of Steelcase from 1966 to 1974.  He was a prominent member of the citizen\x92s group that established the GVSU charter.  He was also instrumental in chairing the committee that raised over nine million dollars to build and equip the Eberhard Center.   He was a member of the board of trustees from 1985 to 1988 as well as donating 10 acres of real estate that were pivotal in building the Grand Rapids campus the bears his name.  He was a member of the board of trustees.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96884333771941, -85.88383913040161</string>
+		<key>Building Image</key>
+		<string>PewLivingCenter.png</string>
+		<key>Donor Image 1</key>
+		<string>Pew, Robert.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>33</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Wiliam F. Pickard Living Center</string>
+		<key>Donor Name 1</key>
+		<string>William F. Pickard</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1941-?</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>William F. Pickard was born in La Grange, Georgia and moved to Flint, MI in 1958.  He became active in NAACP and was well-known leader in the black community.  He was successful on many fronts both as an entrepreneur and college teacher.  He moved to Detroit to oversee McDonald\x92s franchise in 1972, eventually acquiring six restaurants.  He joined the GVSU Board of Control and served between 1976 and 1988.  In 1972 he would receive an Honorary doctorate from GVSU.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96803472557756, -85.88425755500793</string>
+		<key>Building Image</key>
+		<string>Pickard.png</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>34</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Kenneth W. Robinson Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Kenneth W. Robinson</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1922-1976</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Kenneth W. Robinson was born in Grand Rapids, attended Central High School.  He was the Regional Director of UAW between 1955 and 1974.  He was active both in politics and civil rights.  He was even a Delegate at several Democratic National Conventions.  He was appointed to Grand Valley State College\x92s first Board of Control in 1960 and reappointed in 1968, 1972, 1973.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96699057961106, -85.88583469390869</string>
+		<key>Building Image</key>
+		<string>Robinson.png</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>35</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Seidman House</string>
+		<key>Donor Name 1</key>
+		<string>L. William Seidman and Sally Siedman</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1921-2009</string>
+		<key>Secondary Birth Date</key>
+		<string>?-2009</string>
+		<key>Building Description 1</key>
+		<string>L. William \x93Bill\x94 Seidman is known as Grand Valley State University\x92s founding father.  He led the initiative to charter Grand Valley State College in 1960.  He was a partner of Seidman &amp; Seidman \x96 accounting firm founded by his father, Frank Edward Seidman (namesake of Seidman College of Business).  He served as Special Assistant on Financial Affairs to Governor George Romney between 1963 and 1966.  He also served as an economic advisor to President Gerald R. Ford between 1974 and 1977.  He chaired the Federal Deposit Insurance Corporation (FDIC) under President Ronald Reagan and George H.W. Bush.  He is credited with being very influential in leading  the US through banking/financial crisis.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96217000679583, -85.88569521903991</string>
+		<key>Building Image</key>
+		<string>SeidmanHouse.png</string>
+		<key>Donor Image 1</key>
+		<string>Seidman, Bill.jpg</string>
+		<key>Donor Image 2</key>
+		<string>Seidman, Bill and Sally.jpg</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>36</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Dale Stafford Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Dale Stafford</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1908-?</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Dale Stafford was an accomplished journalist and newspaper publisher working for the Pontiac Press, Associated Press and the Detroit Free Press.  He was a correspondent for the Lansing State Journal and sports writer for Lansing Capital News while in high school.  He was the Editor and Publisher, Greenville Daily News, as well as the president of the Greenville Chamber of Commerce.   He was the first publicity director for athletics at Michigan State College.   He was appointed to Grand Valley\x92s Board of Control and served between 1960 and 1968.  </string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96827809539866, -85.88217616081238</string>
+		<key>Building Image</key>
+		<string>Stafford.png</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>37</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Maxine M. Swanson Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Maxine M. Swanson</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1927-?</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Maxine M. Swanson was a Nurse and administrator at Gratiot Community Hospital.  She was very active with GOP in her county \x96 began as precinct delegate, then Gratiot County Executive Committee, then chairman of President Ford campaign.  She was also a member the League of Women Voters, Coalition to Women\x92s Assembly, Michigan Republican Women\x92s Task Force, United Way, Alma Symphony, Sierra Club, Michigan Society for Mental Health.  She also served as a member of the Grand Valley State University Board of Trustees between 1981 and 1990.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.967877712278735, -85.88216543197632</string>
+		<key>Building Image</key>
+		<string>Swanson.png</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>38</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Ronald F. VanSteeland Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Ronald F. VanSteeland</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1940-?</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Ronald F. VanSteeland was the Vice President for Finance and Administration at GVSU serving between 1966 and 2001.  He helped build the financial backbone of GVSU and make it one of the \x93Top 100 Best Buys\x94 in the US.  He was a board member of the West Michigan Environmental Action Council between 2006 and 2008.  He also met his wife Peggy while working at GVSU \x96 she was secretary to President Don Lubbers.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.9584718846586, -85.88742256164551</string>
+		<key>Building Image</key>
+		<string>vansteeland.jpg</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>39</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Ella Koeze Weed Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Ella Koeze Weed</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1905-1986</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Ella Koeze Weed was born in in Grand Rapids, MI and graduated from South High School, Davenport Business College.  She entered politics in 1940 and is known as a frontrunner for all women to follow in politics.  She was elected to Michigan\x92s Constitutional Convention in 1961 and was appointed Chairman of National Alliance of Businessmen in 1971.  She also served on GVSU Board of Control between 1967 and 1981.  She married Albert Koeze and helped manage his successful peanut butter factory.  </string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96563630374172, -85.88557183742523</string>
+		<key>Building Image</key>
+		<string>Weed.png</string>
+		<key>Donor Image 1</key>
+		<string>Weed, Ella.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>40</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>James H. Zumberge Library</string>
+		<key>Donor Name 1</key>
+		<string>James H. Zumberge</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>?-1992</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>James H. Zumberge was the president of Grand Valley State Colleges between 1963 and 1969.  After that he became president of Southern Methodist University and fourth president of University of California.  As an educator he was a geology professor, even leading expedition to Antarctica.  Cape Zumberge and Zumberge Coast in Antarctica are named for him.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96288840601213, -85.88691294193268</string>
+		<key>Building Image</key>
+		<string>Zumberge.png</string>
+		<key>Donor Image 1</key>
+		<string>Zumberge, James.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>41</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Richard M. DeVos Living Center</string>
+		<key>Donor Name 1</key>
+		<string>Richard M. DeVos</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>NULL</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Richard M. DeVos was the president and chairman of the Grand valley University Foundation.  He is the co-founder of Amway Corporation.  He is both an entrepreneur and a philanthropist.  He has a love for sports, owning the Orlando Magic, and NBA franchise in Florida, naming the arena for the company he started.  He was instrumental in leading the revitalization of downtown Grand Rapids when he opened the Amway Grand plaza Hotel.  He is one of Grand Valleys\x92 most charitable donors leading nearly every campaign since the early 1990\x92s.  </string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.969361471950414, -85.88389277458191</string>
+		<key>Building Image</key>
+		<string>DeVosLivingCenter.png</string>
+		<key>Donor Image 1</key>
+		<string>DeVos, Rich.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>42</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Cook Carillon Tower</string>
+		<key>Donor Name 1</key>
+		<string>Peter C. and Pat Cook</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>1914-2010</string>
+		<key>Secondary Birth Date</key>
+		<string>1915-2008</string>
+		<key>Building Description 1</key>
+		<string>Peter C. Cook created Mazda Great Lakes, the first and only independent direct distributorship in the U.S. until Mazda bought it back.  He is a renowned member of the prestigious Grand Valley Hall of Fame.  He also enjoyed playing the trumpet, as well as he had a love for Dixie bands.  He believed strongly in giving back to his community stating that, \x93There are two necessary things in giving: one is to be willing, the other is to be able.  Able is secondary because many people who are not willing to do become able but still never give.  People who have little yet give what they can become the big givers because they are able.  That\x92s because they had always been willing.\x94</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96345369785849, -85.88860809803009</string>
+		<key>Building Image</key>
+		<string>allendale clock.jpg</string>
+		<key>Donor Image 1</key>
+		<string>Cook, Peter &amp; Pat.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>43</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Cook-DeWitt Center</string>
+		<key>Donor Name 1</key>
+		<string>Peter C. and Pat Cook</string>
+		<key>Donor Name 2</key>
+		<string>Marvin and Jerene DeWitt</string>
+		<key>Primary Birth Date</key>
+		<string>1914-2010</string>
+		<key>Secondary Birth Date</key>
+		<string>1919-2011</string>
+		<key>Building Description 1</key>
+		<string>Peter C. Cook created Mazda Great Lakes, the first and only independent direct distributorship in the U.S. until Mazda bought it back.  He is a renowned member of the prestigious Grand Valley Hall of Fame.  He also enjoyed playing the trumpet, as well as he had a love for Dixie bands.  He believed strongly in giving back to his community stating that, \x93There are two necessary things in giving: one is to be willing, the other is to be able.  Able is secondary because many people who are not willing to do become able but still never give.  People who have little yet give what they can become the big givers because they are able.  That\x92s because they had always been willing.\x94</string>
+		<key>Building Description 2</key>
+		<string>Marvin Dewitt started Bil Mar Foods when he was 18 years old and bought 17 turkeys for $60.  Bill Mar was one of the top three turkey producers in the country.  He served on Zeeland School Board, Ottawa County Road Commission and the board of Northwestern College in Iowa.  He also served on the Grand Valley University Foundation\x92s Advisory Cabinet between 2001 and 2009.  </string>
+		<key>GPS Coordinates</key>
+		<string>42.963854109773685, -85.88838815689087</string>
+		<key>Building Image</key>
+		<string>CookDewitt.png</string>
+		<key>Donor Image 1</key>
+		<string>Cook, Peter &amp; Pat.jpg</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+	<dict>
+		<key>Building ID</key>
+		<integer>45</integer>
+		<key>Campus</key>
+		<string>Allendale</string>
+		<key>Building Name</key>
+		<string>Henry Hall</string>
+		<key>Donor Name 1</key>
+		<string>Paul B. Henry</string>
+		<key>Donor Name 2</key>
+		<string>NULL</string>
+		<key>Primary Birth Date</key>
+		<string>NULL</string>
+		<key>Secondary Birth Date</key>
+		<string>NULL</string>
+		<key>Building Description 1</key>
+		<string>Paul B. Henry was elected to the Michigan State House of Representatives between 1979 and 1982 and served on the Michigan State Senate between 1983 and 1985.  He was elected to U.S. House of Representatives in 1984, served until his death in 1993.  He was also a Peace Corps volunteer in Liberia and Ethiopia between 1963 and 1965.</string>
+		<key>Building Description 2</key>
+		<string>NULL</string>
+		<key>GPS Coordinates</key>
+		<string>42.96469418120448, -85.88830232620239</string>
+		<key>Building Image</key>
+		<string>HenryHall.png</string>
+		<key>Donor Image 1</key>
+		<string>NULL</string>
+		<key>Donor Image 2</key>
+		<string>NULL</string>
+	</dict>
+</array>
 </plist>
