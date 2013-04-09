@@ -36,8 +36,11 @@
     UIViewController *homescreen = [[HomeScreenViewController alloc]
         initWithNibName:@"HomeScreenViewController" bundle:nil];
    
-    UIViewController *map = [[MyMapViewController alloc]
-        initWithNibName:@"MyMapViewController" bundle:nil];
+    MyMapViewController *ma = [[MyMapViewController alloc]
+                                    initWithNibName:@"MyMapViewController" bundle:nil];
+    
+    UINavigationController *map = [[UINavigationController alloc]
+        initWithRootViewController:ma];
     
     DirectoryViewController *dir = [[DirectoryViewController alloc]
                                   initWithNibName:@"DirectoryViewController" bundle:nil];

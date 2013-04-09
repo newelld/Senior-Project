@@ -120,7 +120,6 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    //ClosestDetailViewController *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"closestdetail"];
     ClosestDetailViewController *detail = [[ClosestDetailViewController alloc]
                                            initWithNibName:@"ClosestDetailViewController" bundle:nil];
     

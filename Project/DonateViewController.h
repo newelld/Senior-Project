@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DonateViewController : UIViewController
-
+@interface DonateViewController : UIViewController<UIWebViewDelegate>
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 @end

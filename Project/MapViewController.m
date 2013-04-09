@@ -38,18 +38,9 @@ NSArray *data;
         {
             NSString *x = deliminated_coords[0];
             NSString *y = deliminated_coords[1];
-            
             locations.position = CLLocationCoordinate2DMake([x doubleValue], [y doubleValue]);
             locations.title = [[data objectAtIndex:i]objectForKey:@"Building Name"];
-            //locations.snippet = @"Australia";
-            
-            //annotation = [[MKPointAnnotation alloc] init];
-            //coordinate.latitude = [x doubleValue];
-            //coordinate.longitude = [y doubleValue];
-            //[annotation setCoordinate:coordinate];
-            //[annotation setTitle:[[data objectAtIndex:i]objectForKey:@"Building Name"]];
             [mapView addMarkerWithOptions:locations];
-            //[locations addObject:annotation];
         }
     }
     

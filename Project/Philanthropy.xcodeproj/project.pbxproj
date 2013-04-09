@@ -392,6 +392,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5441923C17146FE7005575D7 /* Donate */ = {
+			isa = PBXGroup;
+			children = (
+				54D8558E1713B24F00AACF76 /* DonateViewController.h */,
+				54D8558F1713B24F00AACF76 /* DonateViewController.m */,
+				54D855901713B24F00AACF76 /* DonateViewController.xib */,
+			);
+			name = Donate;
+			sourceTree = "<group>";
+		};
+		5441923D17146FF6005575D7 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				54D855931713BFE000AACF76 /* MyMapViewController.h */,
+				54D855941713BFE000AACF76 /* MyMapViewController.m */,
+				54D855951713BFE000AACF76 /* MyMapViewController.xib */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		5441923E17147005005575D7 /* Directory */ = {
+			isa = PBXGroup;
+			children = (
+				54D8559E1713CF3F00AACF76 /* DirectoryViewController.h */,
+				54D8559F1713CF3F00AACF76 /* DirectoryViewController.m */,
+				54D855A01713CF3F00AACF76 /* DirectoryViewController.xib */,
+			);
+			name = Directory;
+			sourceTree = "<group>";
+		};
+		5441923F1714701D005575D7 /* Closest */ = {
+			isa = PBXGroup;
+			children = (
+				54D855981713BFF500AACF76 /* ClosestViewController.h */,
+				54D855991713BFF500AACF76 /* ClosestViewController.m */,
+				54D8559A1713BFF500AACF76 /* ClosestViewController.xib */,
+			);
+			name = Closest;
+			sourceTree = "<group>";
+		};
+		544192401714703E005575D7 /* DetailedView / Cells */ = {
+			isa = PBXGroup;
+			children = (
+				54D855B917141ABF00AACF76 /* TableViewCell.h */,
+				54D855BA17141ABF00AACF76 /* TableViewCell.m */,
+				54D855BB17141AD700AACF76 /* TableViewCell.xib */,
+				54D855A31713D26F00AACF76 /* ClosestDetailViewController.h */,
+				54D855A41713D26F00AACF76 /* ClosestDetailViewController.m */,
+				54D855A51713D26F00AACF76 /* ClosestDetailViewController.xib */,
+			);
+			name = "DetailedView / Cells";
+			sourceTree = "<group>";
+		};
+		5441924117147059005575D7 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				54D855891713B23A00AACF76 /* HomeScreenViewController.h */,
+				54D8558A1713B23A00AACF76 /* HomeScreenViewController.m */,
+				54D8558B1713B23A00AACF76 /* HomeScreenViewController.xib */,
+			);
+			name = HomeScreen;
+			sourceTree = "<group>";
+		};
+		5441924217147089005575D7 /* Old Storyboard Files */ = {
+			isa = PBXGroup;
+			children = (
+				54715AE816FDE8BD0030E4D7 /* Closest */,
+				5447D03D16FABD46008A70D3 /* Directory */,
+				5447D03B16FABCF5008A70D3 /* Map */,
+			);
+			name = "Old Storyboard Files";
+			sourceTree = "<group>";
+		};
 		5447D03B16FABCF5008A70D3 /* Map */ = {
 			isa = PBXGroup;
 			children = (
@@ -493,13 +566,8 @@
 		54BD2E5D16B06C470099FB02 = {
 			isa = PBXGroup;
 			children = (
-				54D855B917141ABF00AACF76 /* TableViewCell.h */,
-				54D855BA17141ABF00AACF76 /* TableViewCell.m */,
-				54D855BB17141AD700AACF76 /* TableViewCell.xib */,
 				54D8559D1713C03F00AACF76 /* Tabs */,
-				54715AE816FDE8BD0030E4D7 /* Closest */,
-				5447D03D16FABD46008A70D3 /* Directory */,
-				5447D03B16FABCF5008A70D3 /* Map */,
+				5441924217147089005575D7 /* Old Storyboard Files */,
 				54BD2E7216B06C470099FB02 /* Philanthropy */,
 				5447D03C16FABD1A008A70D3 /* Pictures */,
 				5447D04016FACA00008A70D3 /* Startup_Screen */,
@@ -551,24 +619,12 @@
 		54D8559D1713C03F00AACF76 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
-				54D8559E1713CF3F00AACF76 /* DirectoryViewController.h */,
-				54D8559F1713CF3F00AACF76 /* DirectoryViewController.m */,
-				54D855A01713CF3F00AACF76 /* DirectoryViewController.xib */,
-				54D855981713BFF500AACF76 /* ClosestViewController.h */,
-				54D855991713BFF500AACF76 /* ClosestViewController.m */,
-				54D8559A1713BFF500AACF76 /* ClosestViewController.xib */,
-				54D855A31713D26F00AACF76 /* ClosestDetailViewController.h */,
-				54D855A41713D26F00AACF76 /* ClosestDetailViewController.m */,
-				54D855A51713D26F00AACF76 /* ClosestDetailViewController.xib */,
-				54D855931713BFE000AACF76 /* MyMapViewController.h */,
-				54D855941713BFE000AACF76 /* MyMapViewController.m */,
-				54D855951713BFE000AACF76 /* MyMapViewController.xib */,
-				54D8558E1713B24F00AACF76 /* DonateViewController.h */,
-				54D8558F1713B24F00AACF76 /* DonateViewController.m */,
-				54D855901713B24F00AACF76 /* DonateViewController.xib */,
-				54D855891713B23A00AACF76 /* HomeScreenViewController.h */,
-				54D8558A1713B23A00AACF76 /* HomeScreenViewController.m */,
-				54D8558B1713B23A00AACF76 /* HomeScreenViewController.xib */,
+				5441924117147059005575D7 /* HomeScreen */,
+				5441923D17146FF6005575D7 /* Map */,
+				5441923E17147005005575D7 /* Directory */,
+				5441923F1714701D005575D7 /* Closest */,
+				544192401714703E005575D7 /* DetailedView / Cells */,
+				5441923C17146FE7005575D7 /* Donate */,
 			);
 			name = Tabs;
 			sourceTree = "<group>";

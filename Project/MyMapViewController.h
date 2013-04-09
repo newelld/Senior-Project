@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <GoogleMaps/GoogleMaps.h>
 @interface MyMapViewController : UIViewController
 
+- (IBAction)getLocation;
+- (IBAction)setMap:(id)sender;
+- (UIView *)mapView:(GMSMapView *)mapView markerInfoWindow:(id<GMSMarker>)marker;
 @end

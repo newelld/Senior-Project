@@ -414,6 +414,54 @@
     <resources>
         <image name="grandvalley3.jpg" width="200" height="255"/>
     </resources>
+    <classes>
+        <class className="ClosestDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ClosestDetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="donorsDescription" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="donorsName" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="donorsPic" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="DetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="buildingLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="campusLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="donorLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="getLocation"/>
+                <relationship kind="action" name="setMap:"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="gvsuCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuCell.h"/>
+        </class>
+        <class className="gvsuClosestViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuClosestViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="locationLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="locationPic" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="gvsuTableView" superclassName="UITableView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuTableView.h"/>
+        </class>
+        <class className="gvsuTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuTableViewController.h"/>
+        </class>
+        <class className="gvsuViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/gvsuViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
