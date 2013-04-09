@@ -32,7 +32,7 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    NSString *mylist = [[NSBundle mainBundle] pathForResource:@"DataFile" ofType:@"plist"];
+    NSString *mylist = [[NSBundle mainBundle] pathForResource:@"Senior Project Data" ofType:@"plist"];
     data = [[NSArray alloc]initWithContentsOfFile:mylist];
     filteredData = [[NSMutableArray alloc]init];
     
@@ -96,18 +96,18 @@
     }
     cell.textLabel.text = [[rows objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
     cell.textLabel.font = [UIFont boldSystemFontOfSize:11.0];
-    cell.detailTextLabel.text = [[rows objectAtIndex:indexPath.row]objectForKey:@"Donor Name"];
+    cell.detailTextLabel.text = [[rows objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
     cell.detailTextLabel.font = [UIFont boldSystemFontOfSize:11.0];
-    cell.imageView.image = [UIImage imageNamed:[[rows objectAtIndex:indexPath.row]objectForKey:@"Image"]];
+    //cell.imageView.image = [UIImage imageNamed:[[rows objectAtIndex:indexPath.row]objectForKey:@"Image"]];
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     DetailViewController *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"detail"];
     detail.building = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
-    detail.donorName = [[data objectAtIndex:indexPath.row]objectForKey:@"Donor Name"];
+    detail.donorName = [[data objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
     detail.campus = [[data objectAtIndex:indexPath.row]objectForKey:@"Campus"];
-    detail.description = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Description"];
+    detail.description = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
     [self.navigationController pushViewController:detail animated:YES];
 }
 
