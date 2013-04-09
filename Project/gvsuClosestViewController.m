@@ -81,7 +81,8 @@
     NSDictionary *fourthBuilding;
     NSDictionary *fifthBuilding;
     	
-    for (NSDictionary *currentBuilding in data){
+    for (NSDictionary *currentBuilding in data)
+    {
         NSString *full_coords = [currentBuilding valueForKey:@"GPS Coordinates"];
         NSArray *deliminated_coords = [full_coords componentsSeparatedByString:@","];
         if([deliminated_coords count] > 1)
@@ -92,7 +93,8 @@
             CLLocation *locA = [[CLLocation alloc] initWithLatitude:[x doubleValue] longitude:[y doubleValue]];
             CLLocation *locB = [[CLLocation alloc] initWithLatitude:clController.locationManager.location.coordinate.latitude longitude:clController.locationManager.location.coordinate.longitude];
             CLLocationDistance distance = [locA distanceFromLocation:locB];
-            if (distance < firstDistance) {
+            if (distance < firstDistance)
+            {
                 fifthDistance = fourthDistance;
                 fifthBuilding = fourthBuilding;
                 fourthDistance = thirdDistance;
@@ -164,10 +166,13 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     ClosestDetailViewController *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"closestdetail"];
+    
     detail.building = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
-    detail.donorName = [[data objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
     detail.campus = [[data objectAtIndex:indexPath.row]objectForKey:@"Campus"];
-    detail.description = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
+    detail.donorName1 = [[data objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
+    detail.donorName2 = [[data objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
+    detail.description1 = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
+    detail.description2 = [[data objectAtIndex:indexPath.row]objectForKey:@"Building Description 2"];
     [self.navigationController pushViewController:detail animated:YES];
 }
 

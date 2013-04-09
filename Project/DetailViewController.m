@@ -2,14 +2,14 @@
 //  DetailViewController.m
 //  Philanthropy
 //
-//  Created by Thomas Peterson on 4/7/13.
+//  Created by Thomas Peterson on 3/19/13.
 //  Copyright (c) 2013 Nickolas Workman. All rights reserved.
 //
 
 #import "DetailViewController.h"
 
 @implementation DetailViewController
-@synthesize building, campus, description, donor, buildingLabel, campusLabel, descriptionLabel, donorLabel;
+@synthesize building, campus, description, donor, donorName, buildingLabel, campusLabel, descriptionLabel, donorLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -42,10 +42,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    buildingLabel.text = building;
-    campusLabel.text = campus;
+    
+    CGRect frame = CGRectMake(0, 0, 400, 44);
+    UILabel *label = [[UILabel alloc] initWithFrame:frame];
+    label.backgroundColor = [UIColor clearColor];
+    label.adjustsFontSizeToFitWidth=YES;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = [UIColor whiteColor];
+    label.text = building;
+    [label setShadowColor:[UIColor darkGrayColor]];
+    [label setShadowOffset:CGSizeMake(0, -0.5)];
+    self.navigationItem.titleView = label;
+    
+    buildingLabel.text = donorName;
+    buildingLabel.adjustsFontSizeToFitWidth=YES;
     descriptionLabel.text = description;
+    descriptionLabel.adjustsFontSizeToFitWidth=YES;
     donorLabel.text = donor;
+    donorLabel.adjustsFontSizeToFitWidth=YES;
 }
 
 

@@ -27,17 +27,13 @@
 		5432BBB416FADFE20014AB2B /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5432BBB316FADFE20014AB2B /* GoogleMaps.bundle */; };
 		5432BBB916FAE4600014AB2B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5432BBB716FAE4600014AB2B /* MapViewController.m */; };
 		5432BBBA16FAE4600014AB2B /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5432BBB816FAE4600014AB2B /* MapViewController.xib */; };
-		5446E11416F94ABC00C876C8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5446E11316F94ABC00C876C8 /* DetailViewController.m */; };
+		544C0E3E17142B8900A9C773 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855BA17141ABF00AACF76 /* TableViewCell.m */; };
+		544C0E401714513000A9C773 /* searchbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 544C0E3F1714512F00A9C773 /* searchbar.png */; };
 		544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E047816F7C3C800FC64B4 /* gvsuCell.m */; };
-		544E047C16F7CA4F00FC64B4 /* gvsuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E047B16F7CA4F00FC64B4 /* gvsuTableView.m */; };
 		54600BA216DC6475004AFA84 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54600BA116DC6475004AFA84 /* MapKit.framework */; };
-		54715AE716FB3EF70030E4D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54715AE616FB3EF70030E4D7 /* Default-568h@2x.png */; };
 		54715AEE16FDE9B30030E4D7 /* gvsuCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54715AED16FDE9B30030E4D7 /* gvsuCLController.m */; };
 		54715AF116FDEA6D0030E4D7 /* gvsuClosestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54715AF016FDEA6D0030E4D7 /* gvsuClosestViewController.m */; };
 		54777C6116EE5DC4000BD24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54777C6016EE5DC4000BD24C /* main.m */; };
-		54981AC517138FCD007DBCD6 /* DataFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54981AC417138FCD007DBCD6 /* DataFile.plist */; };
-		54B62CE71711C1ED00ABEE95 /* ClosestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B62CE61711C1ED00ABEE95 /* ClosestDetailViewController.m */; };
-		54B7C33916DD59CA00324612 /* gvsuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B7C33816DD59CA00324612 /* gvsuTableViewController.m */; };
 		54BD2E6D16B06C470099FB02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6C16B06C470099FB02 /* UIKit.framework */; };
 		54BD2E6F16B06C470099FB02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6E16B06C470099FB02 /* Foundation.framework */; };
 		54BD2E7116B06C470099FB02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E7016B06C470099FB02 /* CoreGraphics.framework */; };
@@ -67,17 +63,118 @@
 		54C2952917137CE900490AE7 /* Art  Hills.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951417137CE900490AE7 /* Art  Hills.jpg */; };
 		54C2952E1713820400490AE7 /* gvsuCLController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2952D1713820000490AE7 /* gvsuCLController.h */; };
 		54C295311713821400490AE7 /* gvsuClosestViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295301713821000490AE7 /* gvsuClosestViewController.h */; };
-		54C295341713821C00490AE7 /* ClosestDetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295331713821900490AE7 /* ClosestDetailViewController.h */; };
 		54C295371713822700490AE7 /* gvsuDetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295361713822500490AE7 /* gvsuDetailViewController.h */; };
-		54C2953A1713823000490AE7 /* gvsuTableViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295391713822D00490AE7 /* gvsuTableViewController.h */; };
-		54C2953D1713823C00490AE7 /* DetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2953C1713823600490AE7 /* DetailViewController.h */; };
-		54C295401713824600490AE7 /* gvsuTableView.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2953F1713824200490AE7 /* gvsuTableView.h */; };
 		54C295431713825400490AE7 /* gvsuCell.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295421713825100490AE7 /* gvsuCell.h */; };
 		54C295461713826D00490AE7 /* MapViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295451713826900490AE7 /* MapViewController.h */; };
 		54C29550171382CC00490AE7 /* gvsuAppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2954F171382C700490AE7 /* gvsuAppDelegate.h */; };
 		54C29554171382F800490AE7 /* gvsuMasterViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C29553171382F500490AE7 /* gvsuMasterViewController.h */; };
 		54C295571713830000490AE7 /* gvsuViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C29556171382FD00490AE7 /* gvsuViewController.h */; };
 		54C295581713830200490AE7 /* gvsuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5446E11616F94D4700C876C8 /* gvsuViewController.m */; };
+		54D8557F1713A9DE00AACF76 /* Senior Project Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54D8557E1713A9DE00AACF76 /* Senior Project Data.plist */; };
+		54D855821713AF1600AACF76 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855811713AD3C00AACF76 /* DetailViewController.m */; };
+		54D8558C1713B23A00AACF76 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D8558A1713B23A00AACF76 /* HomeScreenViewController.m */; };
+		54D8558D1713B23A00AACF76 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D8558B1713B23A00AACF76 /* HomeScreenViewController.xib */; };
+		54D855911713B24F00AACF76 /* DonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D8558F1713B24F00AACF76 /* DonateViewController.m */; };
+		54D855921713B24F00AACF76 /* DonateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D855901713B24F00AACF76 /* DonateViewController.xib */; };
+		54D855961713BFE000AACF76 /* MyMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855941713BFE000AACF76 /* MyMapViewController.m */; };
+		54D855971713BFE000AACF76 /* MyMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D855951713BFE000AACF76 /* MyMapViewController.xib */; };
+		54D8559B1713BFF600AACF76 /* ClosestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855991713BFF500AACF76 /* ClosestViewController.m */; };
+		54D8559C1713BFF600AACF76 /* ClosestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D8559A1713BFF500AACF76 /* ClosestViewController.xib */; };
+		54D855A11713CF3F00AACF76 /* DirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D8559F1713CF3F00AACF76 /* DirectoryViewController.m */; };
+		54D855A21713CF3F00AACF76 /* DirectoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D855A01713CF3F00AACF76 /* DirectoryViewController.xib */; };
+		54D855A61713D26F00AACF76 /* ClosestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855A41713D26F00AACF76 /* ClosestDetailViewController.m */; };
+		54D855A71713D26F00AACF76 /* ClosestDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D855A51713D26F00AACF76 /* ClosestDetailViewController.xib */; };
+		54D855B51714114500AACF76 /* nameplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855B41714114500AACF76 /* nameplate.png */; };
+		54D855BC17141AD700AACF76 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D855BB17141AD700AACF76 /* TableViewCell.xib */; };
+		54D855DD17141CA100AACF76 /* back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855BD17141C9C00AACF76 /* back-button.png */; };
+		54D855DE17141CA100AACF76 /* back-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855BE17141C9C00AACF76 /* back-button@2x.png */; };
+		54D855DF17141CA100AACF76 /* navbar-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855BF17141C9D00AACF76 /* navbar-icon@2x.png */; };
+		54D855E017141CA100AACF76 /* navbar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855C017141C9D00AACF76 /* navbar-icon.png */; };
+		54D855E317141CA100AACF76 /* tabbar-item.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855C317141C9E00AACF76 /* tabbar-item.png */; };
+		54D855E417141CA100AACF76 /* tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855C417141C9E00AACF76 /* tabbar.png */; };
+		54D855E517141CA100AACF76 /* step-bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855C517141C9F00AACF76 /* step-bullet.png */; };
+		54D855E617141CA100AACF76 /* input-text.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855C617141C9F00AACF76 /* input-text.png */; };
+		54D855E717141CA100AACF76 /* leather-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855C717141C9F00AACF76 /* leather-background.png */; };
+		54D855E817141CA100AACF76 /* list-item.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855C817141C9F00AACF76 /* list-item.png */; };
+		54D855E917141CA100AACF76 /* list-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855C917141C9F00AACF76 /* list-mask.png */; };
+		54D855EA17141CA100AACF76 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855CA17141CA000AACF76 /* navbar.png */; };
+		54D855EB17141CA100AACF76 /* button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855CB17141CA000AACF76 /* button-pressed.png */; };
+		54D855EC17141CA100AACF76 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855CC17141CA000AACF76 /* button.png */; };
+		54D855ED17141CA100AACF76 /* country.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855CD17141CA000AACF76 /* country.png */; };
+		54D855EE17141CA100AACF76 /* details-photo-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855CE17141CA000AACF76 /* details-photo-mask.png */; };
+		54D855EF17141CA100AACF76 /* ingredients-list.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855CF17141CA000AACF76 /* ingredients-list.png */; };
+		54D855F017141CA100AACF76 /* list-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855D017141CA000AACF76 /* list-mask@2x.png */; };
+		54D855F117141CA100AACF76 /* country@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855D117141CA000AACF76 /* country@2x.png */; };
+		54D855F217141CA100AACF76 /* ingredients-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855D217141CA000AACF76 /* ingredients-list@2x.png */; };
+		54D855F317141CA100AACF76 /* details-photo-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855D317141CA000AACF76 /* details-photo-mask@2x.png */; };
+		54D855F417141CA100AACF76 /* list-item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855D417141CA000AACF76 /* list-item@2x.png */; };
+		54D855F517141CA100AACF76 /* step-bullet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855D517141CA100AACF76 /* step-bullet@2x.png */; };
+		54D855F617141CA100AACF76 /* leather-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855D617141CA100AACF76 /* leather-background@2x.png */; };
+		54D855F717141CA100AACF76 /* input-text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855D717141CA100AACF76 /* input-text@2x.png */; };
+		54D855F817141CA100AACF76 /* button-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855D817141CA100AACF76 /* button-pressed@2x.png */; };
+		54D855F917141CA100AACF76 /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855D917141CA100AACF76 /* button@2x.png */; };
+		54D855FA17141CA100AACF76 /* tabbar-item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855DA17141CA100AACF76 /* tabbar-item@2x.png */; };
+		54D855FB17141CA100AACF76 /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855DB17141CA100AACF76 /* tabbar@2x.png */; };
+		54D855FC17141CA100AACF76 /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855DC17141CA100AACF76 /* navbar@2x.png */; };
+		54D856391714262200AACF76 /* Allendale.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855FE1714260100AACF76 /* Allendale.png */; };
+		54D8563A1714262200AACF76 /* Alumni.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855FF1714260200AACF76 /* Alumni.png */; };
+		54D8563B1714262200AACF76 /* ArtGallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856001714260200AACF76 /* ArtGallery.png */; };
+		54D8563C1714262200AACF76 /* AuSableHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856011714260300AACF76 /* AuSableHall.png */; };
+		54D8563D1714262200AACF76 /* BikeFactory.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856021714260400AACF76 /* BikeFactory.png */; };
+		54D8563E1714262200AACF76 /* Calder.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856031714260500AACF76 /* Calder.png */; };
+		54D8563F1714262200AACF76 /* CalderResidence.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856041714260600AACF76 /* CalderResidence.png */; };
+		54D856401714262200AACF76 /* CHS.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856051714260600AACF76 /* CHS.png */; };
+		54D856411714262200AACF76 /* Commons.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856061714260700AACF76 /* Commons.png */; };
+		54D856421714262200AACF76 /* CookDewitt.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856071714260700AACF76 /* CookDewitt.png */; };
+		54D856431714262200AACF76 /* Copeland.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856081714260800AACF76 /* Copeland.png */; };
+		54D856441714262200AACF76 /* Daycare.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856091714260900AACF76 /* Daycare.png */; };
+		54D856451714262200AACF76 /* DeVosCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8560A1714260A00AACF76 /* DeVosCenter.png */; };
+		54D856461714262200AACF76 /* DeVosLivingCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8560B1714260A00AACF76 /* DeVosLivingCenter.png */; };
+		54D856471714262200AACF76 /* Eberhard.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8560C1714260B00AACF76 /* Eberhard.png */; };
+		54D856481714262200AACF76 /* Fieldhouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8560D1714260B00AACF76 /* Fieldhouse.png */; };
+		54D856491714262200AACF76 /* FreyLivingCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8560E1714260C00AACF76 /* FreyLivingCenter.png */; };
+		54D8564A1714262200AACF76 /* HenryHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8560F1714260C00AACF76 /* HenryHall.png */; };
+		54D8564B1714262200AACF76 /* HillsLivingCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856101714260D00AACF76 /* HillsLivingCenter.png */; };
+		54D8564C1714262200AACF76 /* Hoobler.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856111714260E00AACF76 /* Hoobler.png */; };
+		54D8564D1714262200AACF76 /* Johnson.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856121714260F00AACF76 /* Johnson.png */; };
+		54D8564E1714262200AACF76 /* Kennedy.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856131714261000AACF76 /* Kennedy.png */; };
+		54D8564F1714262200AACF76 /* Kirkhof.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856141714261100AACF76 /* Kirkhof.png */; };
+		54D856501714262200AACF76 /* Kistler.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856151714261200AACF76 /* Kistler.png */; };
+		54D856511714262200AACF76 /* Kleiner.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856161714261300AACF76 /* Kleiner.png */; };
+		54D856521714262200AACF76 /* LakeHuronHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856171714261300AACF76 /* LakeHuronHall.png */; };
+		54D856531714262200AACF76 /* LakeMichiganCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856181714261400AACF76 /* LakeMichiganCenter.png */; };
+		54D856541714262200AACF76 /* LakeMichiganHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856191714261400AACF76 /* LakeMichiganHall.png */; };
+		54D856551714262200AACF76 /* LakeOntarioHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8561A1714261500AACF76 /* LakeOntarioHall.png */; };
+		54D856561714262200AACF76 /* LakerVillage.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8561B1714261600AACF76 /* LakerVillage.png */; };
+		54D856571714262200AACF76 /* LakeSuperiorHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8561C1714261600AACF76 /* LakeSuperiorHall.png */; };
+		54D856581714262200AACF76 /* MackinawHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8561D1714261600AACF76 /* MackinawHall.png */; };
+		54D856591714262200AACF76 /* ManitouHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8561E1714261700AACF76 /* ManitouHall.png */; };
+		54D8565A1714262200AACF76 /* MeadowsClubHouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8561F1714261700AACF76 /* MeadowsClubHouse.png */; };
+		54D8565B1714262200AACF76 /* MeijerBuilding.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856201714261700AACF76 /* MeijerBuilding.png */; };
+		54D8565C1714262200AACF76 /* Murray.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856211714261800AACF76 /* Murray.png */; };
+		54D8565D1714262200AACF76 /* MuskegonCampus.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856221714261800AACF76 /* MuskegonCampus.png */; };
+		54D8565E1714262200AACF76 /* NeimeyerHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856231714261900AACF76 /* NeimeyerHall.png */; };
+		54D8565F1714262200AACF76 /* NeimeyerLivingEast.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856241714261900AACF76 /* NeimeyerLivingEast.png */; };
+		54D856601714262200AACF76 /* NeimeyerLivingWest.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856251714261A00AACF76 /* NeimeyerLivingWest.png */; };
+		54D856611714262200AACF76 /* Ott.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856261714261A00AACF76 /* Ott.png */; };
+		54D856621714262200AACF76 /* Padnos.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856271714261A00AACF76 /* Padnos.png */; };
+		54D856631714262200AACF76 /* PerformingArtsCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856281714261B00AACF76 /* PerformingArtsCenter.png */; };
+		54D856641714262200AACF76 /* Pew.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856291714261B00AACF76 /* Pew.png */; };
+		54D856651714262200AACF76 /* PewLivingCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8562A1714261C00AACF76 /* PewLivingCenter.png */; };
+		54D856661714262200AACF76 /* Pickard.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8562B1714261C00AACF76 /* Pickard.png */; };
+		54D856671714262200AACF76 /* RecCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8562C1714261C00AACF76 /* RecCenter.png */; };
+		54D856681714262200AACF76 /* Robinson.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8562D1714261D00AACF76 /* Robinson.png */; };
+		54D856691714262200AACF76 /* SecciaHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8562E1714261E00AACF76 /* SecciaHall.png */; };
+		54D8566A1714262200AACF76 /* Seidman.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D8562F1714261E00AACF76 /* Seidman.png */; };
+		54D8566B1714262200AACF76 /* SeidmanHouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856301714261E00AACF76 /* SeidmanHouse.png */; };
+		54D8566C1714262200AACF76 /* Stafford.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856311714261F00AACF76 /* Stafford.png */; };
+		54D8566D1714262200AACF76 /* StudentServices.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856321714261F00AACF76 /* StudentServices.png */; };
+		54D8566E1714262200AACF76 /* Swanson.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856331714261F00AACF76 /* Swanson.png */; };
+		54D8566F1714262200AACF76 /* TheConnection.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856341714262000AACF76 /* TheConnection.png */; };
+		54D856701714262200AACF76 /* Turf.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856351714262000AACF76 /* Turf.png */; };
+		54D856711714262200AACF76 /* Weed.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856361714262100AACF76 /* Weed.png */; };
+		54D856721714262200AACF76 /* WinterHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856371714262100AACF76 /* WinterHall.png */; };
+		54D856731714262200AACF76 /* Zumberge.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D856381714262100AACF76 /* Zumberge.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,18 +200,13 @@
 		5432BBB316FADFE20014AB2B /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		5432BBB716FAE4600014AB2B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		5432BBB816FAE4600014AB2B /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
-		5446E11316F94ABC00C876C8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Philanthropy/DetailViewController.m; sourceTree = "<group>"; };
 		5446E11616F94D4700C876C8 /* gvsuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuViewController.m; path = Philanthropy/gvsuViewController.m; sourceTree = "<group>"; };
+		544C0E3F1714512F00A9C773 /* searchbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchbar.png; sourceTree = "<group>"; };
 		544E047816F7C3C800FC64B4 /* gvsuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuCell.m; path = Philanthropy/gvsuCell.m; sourceTree = "<group>"; };
-		544E047B16F7CA4F00FC64B4 /* gvsuTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuTableView.m; path = Philanthropy/gvsuTableView.m; sourceTree = "<group>"; };
 		54600BA116DC6475004AFA84 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		54715AE616FB3EF70030E4D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		54715AED16FDE9B30030E4D7 /* gvsuCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuCLController.m; sourceTree = "<group>"; };
 		54715AF016FDEA6D0030E4D7 /* gvsuClosestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuClosestViewController.m; sourceTree = "<group>"; };
 		54777C6016EE5DC4000BD24C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		54981AC417138FCD007DBCD6 /* DataFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataFile.plist; sourceTree = "<group>"; };
-		54B62CE61711C1ED00ABEE95 /* ClosestDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClosestDetailViewController.m; sourceTree = "<group>"; };
-		54B7C33816DD59CA00324612 /* gvsuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuTableViewController.m; path = Philanthropy/gvsuTableViewController.m; sourceTree = "<group>"; };
 		54BD2E6C16B06C470099FB02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		54BD2E6E16B06C470099FB02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54BD2E7016B06C470099FB02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -145,17 +237,131 @@
 		54C2951417137CE900490AE7 /* Art  Hills.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Art  Hills.jpg"; sourceTree = "<group>"; };
 		54C2952C1713820000490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuCLController.h; sourceTree = "<group>"; };
 		54C2952F1713821000490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuClosestViewController.h; sourceTree = "<group>"; };
-		54C295321713821900490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/ClosestDetailViewController.h; sourceTree = "<group>"; };
 		54C295351713822500490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuDetailViewController.h; sourceTree = "<group>"; };
-		54C295381713822D00490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuTableViewController.h; sourceTree = "<group>"; };
-		54C2953B1713823600490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/DetailViewController.h; sourceTree = "<group>"; };
-		54C2953E1713824200490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuTableView.h; sourceTree = "<group>"; };
 		54C295411713825100490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuCell.h; sourceTree = "<group>"; };
 		54C295441713826900490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/MapViewController.h; sourceTree = "<group>"; };
 		54C2954E171382C700490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuAppDelegate.h; sourceTree = "<group>"; };
 		54C29552171382F500490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuMasterViewController.h; sourceTree = "<group>"; };
 		54C29555171382FD00490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuViewController.h; sourceTree = "<group>"; };
 		54C862D0171392DB0086E97C /* Philanthropy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Philanthropy-Prefix.pch"; sourceTree = "<group>"; };
+		54D8557E1713A9DE00AACF76 /* Senior Project Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Senior Project Data.plist"; sourceTree = "<group>"; };
+		54D855801713AD3C00AACF76 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		54D855811713AD3C00AACF76 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		54D855851713B00B00AACF76 /* gvsuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gvsuTableViewController.m; sourceTree = "<group>"; };
+		54D855861713B00B00AACF76 /* gvsuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvsuTableViewController.h; sourceTree = "<group>"; };
+		54D855871713B16C00AACF76 /* gvsuTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvsuTableView.h; sourceTree = "<group>"; };
+		54D855881713B16C00AACF76 /* gvsuTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gvsuTableView.m; sourceTree = "<group>"; };
+		54D855891713B23A00AACF76 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		54D8558A1713B23A00AACF76 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		54D8558B1713B23A00AACF76 /* HomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeScreenViewController.xib; sourceTree = "<group>"; };
+		54D8558E1713B24F00AACF76 /* DonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateViewController.h; sourceTree = "<group>"; };
+		54D8558F1713B24F00AACF76 /* DonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateViewController.m; sourceTree = "<group>"; };
+		54D855901713B24F00AACF76 /* DonateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DonateViewController.xib; sourceTree = "<group>"; };
+		54D855931713BFE000AACF76 /* MyMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMapViewController.h; sourceTree = "<group>"; };
+		54D855941713BFE000AACF76 /* MyMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMapViewController.m; sourceTree = "<group>"; };
+		54D855951713BFE000AACF76 /* MyMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMapViewController.xib; sourceTree = "<group>"; };
+		54D855981713BFF500AACF76 /* ClosestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClosestViewController.h; sourceTree = "<group>"; };
+		54D855991713BFF500AACF76 /* ClosestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClosestViewController.m; sourceTree = "<group>"; };
+		54D8559A1713BFF500AACF76 /* ClosestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClosestViewController.xib; sourceTree = "<group>"; };
+		54D8559E1713CF3F00AACF76 /* DirectoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryViewController.h; sourceTree = "<group>"; };
+		54D8559F1713CF3F00AACF76 /* DirectoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryViewController.m; sourceTree = "<group>"; };
+		54D855A01713CF3F00AACF76 /* DirectoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectoryViewController.xib; sourceTree = "<group>"; };
+		54D855A31713D26F00AACF76 /* ClosestDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClosestDetailViewController.h; sourceTree = "<group>"; };
+		54D855A41713D26F00AACF76 /* ClosestDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClosestDetailViewController.m; sourceTree = "<group>"; };
+		54D855A51713D26F00AACF76 /* ClosestDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClosestDetailViewController.xib; sourceTree = "<group>"; };
+		54D855B41714114500AACF76 /* nameplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nameplate.png; sourceTree = "<group>"; };
+		54D855B917141ABF00AACF76 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		54D855BA17141ABF00AACF76 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		54D855BB17141AD700AACF76 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		54D855BD17141C9C00AACF76 /* back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button.png"; sourceTree = "<group>"; };
+		54D855BE17141C9C00AACF76 /* back-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button@2x.png"; sourceTree = "<group>"; };
+		54D855BF17141C9D00AACF76 /* navbar-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar-icon@2x.png"; sourceTree = "<group>"; };
+		54D855C017141C9D00AACF76 /* navbar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar-icon.png"; sourceTree = "<group>"; };
+		54D855C317141C9E00AACF76 /* tabbar-item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-item.png"; sourceTree = "<group>"; };
+		54D855C417141C9E00AACF76 /* tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar.png; sourceTree = "<group>"; };
+		54D855C517141C9F00AACF76 /* step-bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step-bullet.png"; sourceTree = "<group>"; };
+		54D855C617141C9F00AACF76 /* input-text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input-text.png"; sourceTree = "<group>"; };
+		54D855C717141C9F00AACF76 /* leather-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leather-background.png"; sourceTree = "<group>"; };
+		54D855C817141C9F00AACF76 /* list-item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-item.png"; sourceTree = "<group>"; };
+		54D855C917141C9F00AACF76 /* list-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-mask.png"; sourceTree = "<group>"; };
+		54D855CA17141CA000AACF76 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
+		54D855CB17141CA000AACF76 /* button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed.png"; sourceTree = "<group>"; };
+		54D855CC17141CA000AACF76 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		54D855CD17141CA000AACF76 /* country.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = country.png; sourceTree = "<group>"; };
+		54D855CE17141CA000AACF76 /* details-photo-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "details-photo-mask.png"; sourceTree = "<group>"; };
+		54D855CF17141CA000AACF76 /* ingredients-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ingredients-list.png"; sourceTree = "<group>"; };
+		54D855D017141CA000AACF76 /* list-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-mask@2x.png"; sourceTree = "<group>"; };
+		54D855D117141CA000AACF76 /* country@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "country@2x.png"; sourceTree = "<group>"; };
+		54D855D217141CA000AACF76 /* ingredients-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ingredients-list@2x.png"; sourceTree = "<group>"; };
+		54D855D317141CA000AACF76 /* details-photo-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "details-photo-mask@2x.png"; sourceTree = "<group>"; };
+		54D855D417141CA000AACF76 /* list-item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-item@2x.png"; sourceTree = "<group>"; };
+		54D855D517141CA100AACF76 /* step-bullet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step-bullet@2x.png"; sourceTree = "<group>"; };
+		54D855D617141CA100AACF76 /* leather-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leather-background@2x.png"; sourceTree = "<group>"; };
+		54D855D717141CA100AACF76 /* input-text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input-text@2x.png"; sourceTree = "<group>"; };
+		54D855D817141CA100AACF76 /* button-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed@2x.png"; sourceTree = "<group>"; };
+		54D855D917141CA100AACF76 /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
+		54D855DA17141CA100AACF76 /* tabbar-item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-item@2x.png"; sourceTree = "<group>"; };
+		54D855DB17141CA100AACF76 /* tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@2x.png"; sourceTree = "<group>"; };
+		54D855DC17141CA100AACF76 /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
+		54D855FE1714260100AACF76 /* Allendale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Allendale.png; sourceTree = "<group>"; };
+		54D855FF1714260200AACF76 /* Alumni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alumni.png; sourceTree = "<group>"; };
+		54D856001714260200AACF76 /* ArtGallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArtGallery.png; sourceTree = "<group>"; };
+		54D856011714260300AACF76 /* AuSableHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AuSableHall.png; sourceTree = "<group>"; };
+		54D856021714260400AACF76 /* BikeFactory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BikeFactory.png; sourceTree = "<group>"; };
+		54D856031714260500AACF76 /* Calder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calder.png; sourceTree = "<group>"; };
+		54D856041714260600AACF76 /* CalderResidence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalderResidence.png; sourceTree = "<group>"; };
+		54D856051714260600AACF76 /* CHS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CHS.png; sourceTree = "<group>"; };
+		54D856061714260700AACF76 /* Commons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Commons.png; sourceTree = "<group>"; };
+		54D856071714260700AACF76 /* CookDewitt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CookDewitt.png; sourceTree = "<group>"; };
+		54D856081714260800AACF76 /* Copeland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Copeland.png; sourceTree = "<group>"; };
+		54D856091714260900AACF76 /* Daycare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Daycare.png; sourceTree = "<group>"; };
+		54D8560A1714260A00AACF76 /* DeVosCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeVosCenter.png; sourceTree = "<group>"; };
+		54D8560B1714260A00AACF76 /* DeVosLivingCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeVosLivingCenter.png; sourceTree = "<group>"; };
+		54D8560C1714260B00AACF76 /* Eberhard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eberhard.png; sourceTree = "<group>"; };
+		54D8560D1714260B00AACF76 /* Fieldhouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fieldhouse.png; sourceTree = "<group>"; };
+		54D8560E1714260C00AACF76 /* FreyLivingCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FreyLivingCenter.png; sourceTree = "<group>"; };
+		54D8560F1714260C00AACF76 /* HenryHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HenryHall.png; sourceTree = "<group>"; };
+		54D856101714260D00AACF76 /* HillsLivingCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HillsLivingCenter.png; sourceTree = "<group>"; };
+		54D856111714260E00AACF76 /* Hoobler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hoobler.png; sourceTree = "<group>"; };
+		54D856121714260F00AACF76 /* Johnson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Johnson.png; sourceTree = "<group>"; };
+		54D856131714261000AACF76 /* Kennedy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kennedy.png; sourceTree = "<group>"; };
+		54D856141714261100AACF76 /* Kirkhof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kirkhof.png; sourceTree = "<group>"; };
+		54D856151714261200AACF76 /* Kistler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kistler.png; sourceTree = "<group>"; };
+		54D856161714261300AACF76 /* Kleiner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kleiner.png; sourceTree = "<group>"; };
+		54D856171714261300AACF76 /* LakeHuronHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LakeHuronHall.png; sourceTree = "<group>"; };
+		54D856181714261400AACF76 /* LakeMichiganCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LakeMichiganCenter.png; sourceTree = "<group>"; };
+		54D856191714261400AACF76 /* LakeMichiganHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LakeMichiganHall.png; sourceTree = "<group>"; };
+		54D8561A1714261500AACF76 /* LakeOntarioHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LakeOntarioHall.png; sourceTree = "<group>"; };
+		54D8561B1714261600AACF76 /* LakerVillage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LakerVillage.png; sourceTree = "<group>"; };
+		54D8561C1714261600AACF76 /* LakeSuperiorHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LakeSuperiorHall.png; sourceTree = "<group>"; };
+		54D8561D1714261600AACF76 /* MackinawHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MackinawHall.png; sourceTree = "<group>"; };
+		54D8561E1714261700AACF76 /* ManitouHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ManitouHall.png; sourceTree = "<group>"; };
+		54D8561F1714261700AACF76 /* MeadowsClubHouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MeadowsClubHouse.png; sourceTree = "<group>"; };
+		54D856201714261700AACF76 /* MeijerBuilding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MeijerBuilding.png; sourceTree = "<group>"; };
+		54D856211714261800AACF76 /* Murray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Murray.png; sourceTree = "<group>"; };
+		54D856221714261800AACF76 /* MuskegonCampus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MuskegonCampus.png; sourceTree = "<group>"; };
+		54D856231714261900AACF76 /* NeimeyerHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeimeyerHall.png; sourceTree = "<group>"; };
+		54D856241714261900AACF76 /* NeimeyerLivingEast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeimeyerLivingEast.png; sourceTree = "<group>"; };
+		54D856251714261A00AACF76 /* NeimeyerLivingWest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeimeyerLivingWest.png; sourceTree = "<group>"; };
+		54D856261714261A00AACF76 /* Ott.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ott.png; sourceTree = "<group>"; };
+		54D856271714261A00AACF76 /* Padnos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Padnos.png; sourceTree = "<group>"; };
+		54D856281714261B00AACF76 /* PerformingArtsCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PerformingArtsCenter.png; sourceTree = "<group>"; };
+		54D856291714261B00AACF76 /* Pew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pew.png; sourceTree = "<group>"; };
+		54D8562A1714261C00AACF76 /* PewLivingCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PewLivingCenter.png; sourceTree = "<group>"; };
+		54D8562B1714261C00AACF76 /* Pickard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pickard.png; sourceTree = "<group>"; };
+		54D8562C1714261C00AACF76 /* RecCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecCenter.png; sourceTree = "<group>"; };
+		54D8562D1714261D00AACF76 /* Robinson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Robinson.png; sourceTree = "<group>"; };
+		54D8562E1714261E00AACF76 /* SecciaHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecciaHall.png; sourceTree = "<group>"; };
+		54D8562F1714261E00AACF76 /* Seidman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Seidman.png; sourceTree = "<group>"; };
+		54D856301714261E00AACF76 /* SeidmanHouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeidmanHouse.png; sourceTree = "<group>"; };
+		54D856311714261F00AACF76 /* Stafford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stafford.png; sourceTree = "<group>"; };
+		54D856321714261F00AACF76 /* StudentServices.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudentServices.png; sourceTree = "<group>"; };
+		54D856331714261F00AACF76 /* Swanson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swanson.png; sourceTree = "<group>"; };
+		54D856341714262000AACF76 /* TheConnection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TheConnection.png; sourceTree = "<group>"; };
+		54D856351714262000AACF76 /* Turf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turf.png; sourceTree = "<group>"; };
+		54D856361714262100AACF76 /* Weed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weed.png; sourceTree = "<group>"; };
+		54D856371714262100AACF76 /* WinterHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WinterHall.png; sourceTree = "<group>"; };
+		54D856381714262100AACF76 /* Zumberge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zumberge.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,28 +405,9 @@
 		5447D03C16FABD1A008A70D3 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
-				54C2950017137CE900490AE7 /* Zumberge, James.jpg */,
-				54C2950117137CE900490AE7 /* Weed, Ella.jpg */,
-				54C2950217137CE900490AE7 /* Seidman, Bill.jpg */,
-				54C2950317137CE900490AE7 /* Seidman, Bill and Sally.jpg */,
-				54C2950417137CE900490AE7 /* Secchia, Peter.jpg */,
-				54C2950517137CE900490AE7 /* Pew, Robert.jpg */,
-				54C2950617137CE900490AE7 /* Pew, Mary Idema.jpg */,
-				54C2950717137CE900490AE7 /* Padnos, Seymour.jpg */,
-				54C2950817137CE900490AE7 /* Niemeyer, Glenn.jpg */,
-				54C2950917137CE900490AE7 /* Murray, Mark.jpg */,
-				54C2950A17137CE900490AE7 /* Meijer, Fred.jpg */,
-				54C2950B17137CE900490AE7 /* Lubbers, Don.jpg */,
-				54C2950C17137CE900490AE7 /* Kirkhof, Russel.jpg */,
-				54C2950D17137CE900490AE7 /* Kennedy, John.jpg */,
-				54C2950E17137CE900490AE7 /* Keller, Fred.jpg */,
-				54C2950F17137CE900490AE7 /* Johnson, Paul A.jpg */,
-				54C2951017137CE900490AE7 /* Eberhard, LV.jpg */,
-				54C2951117137CE900490AE7 /* DeVos, Rich.jpg */,
-				54C2951217137CE900490AE7 /* Cook, Peter.jpg */,
-				54C2951317137CE900490AE7 /* Cook, Peter & Pat.jpg */,
-				54C2951417137CE900490AE7 /* Art  Hills.jpg */,
-				54715AE616FB3EF70030E4D7 /* Default-568h@2x.png */,
+				54D856741714263100AACF76 /* Building Thumbnails */,
+				54D855FD17141CAA00AACF76 /* Icons */,
+				544C0E3D1714273300A9C773 /* Donors */,
 				541D83BC16EE631C00D0D2AA /* gvsu1.jpg */,
 				541D83BD16EE631C00D0D2AA /* grandvalley3.jpg */,
 			);
@@ -230,14 +417,14 @@
 		5447D03D16FABD46008A70D3 /* Directory */ = {
 			isa = PBXGroup;
 			children = (
+				54D855871713B16C00AACF76 /* gvsuTableView.h */,
+				54D855881713B16C00AACF76 /* gvsuTableView.m */,
+				54D855861713B00B00AACF76 /* gvsuTableViewController.h */,
+				54D855851713B00B00AACF76 /* gvsuTableViewController.m */,
+				54D855801713AD3C00AACF76 /* DetailViewController.h */,
+				54D855811713AD3C00AACF76 /* DetailViewController.m */,
 				54C295361713822500490AE7 /* gvsuDetailViewController.h */,
 				54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */,
-				54C295391713822D00490AE7 /* gvsuTableViewController.h */,
-				54B7C33816DD59CA00324612 /* gvsuTableViewController.m */,
-				54C2953C1713823600490AE7 /* DetailViewController.h */,
-				5446E11316F94ABC00C876C8 /* DetailViewController.m */,
-				54C2953F1713824200490AE7 /* gvsuTableView.h */,
-				544E047B16F7CA4F00FC64B4 /* gvsuTableView.m */,
 				54C295421713825100490AE7 /* gvsuCell.h */,
 				544E047816F7C3C800FC64B4 /* gvsuCell.m */,
 			);
@@ -264,6 +451,34 @@
 			name = Startup_Screen;
 			sourceTree = "<group>";
 		};
+		544C0E3D1714273300A9C773 /* Donors */ = {
+			isa = PBXGroup;
+			children = (
+				54C2950017137CE900490AE7 /* Zumberge, James.jpg */,
+				54C2950117137CE900490AE7 /* Weed, Ella.jpg */,
+				54C2950217137CE900490AE7 /* Seidman, Bill.jpg */,
+				54C2950317137CE900490AE7 /* Seidman, Bill and Sally.jpg */,
+				54C2950417137CE900490AE7 /* Secchia, Peter.jpg */,
+				54C2950517137CE900490AE7 /* Pew, Robert.jpg */,
+				54C2950617137CE900490AE7 /* Pew, Mary Idema.jpg */,
+				54C2950717137CE900490AE7 /* Padnos, Seymour.jpg */,
+				54C2950817137CE900490AE7 /* Niemeyer, Glenn.jpg */,
+				54C2950917137CE900490AE7 /* Murray, Mark.jpg */,
+				54C2950A17137CE900490AE7 /* Meijer, Fred.jpg */,
+				54C2950B17137CE900490AE7 /* Lubbers, Don.jpg */,
+				54C2950C17137CE900490AE7 /* Kirkhof, Russel.jpg */,
+				54C2950D17137CE900490AE7 /* Kennedy, John.jpg */,
+				54C2950E17137CE900490AE7 /* Keller, Fred.jpg */,
+				54C2950F17137CE900490AE7 /* Johnson, Paul A.jpg */,
+				54C2951017137CE900490AE7 /* Eberhard, LV.jpg */,
+				54C2951117137CE900490AE7 /* DeVos, Rich.jpg */,
+				54C2951217137CE900490AE7 /* Cook, Peter.jpg */,
+				54C2951317137CE900490AE7 /* Cook, Peter & Pat.jpg */,
+				54C2951417137CE900490AE7 /* Art  Hills.jpg */,
+			);
+			name = Donors;
+			sourceTree = "<group>";
+		};
 		54715AE816FDE8BD0030E4D7 /* Closest */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,8 +486,6 @@
 				54715AED16FDE9B30030E4D7 /* gvsuCLController.m */,
 				54C295301713821000490AE7 /* gvsuClosestViewController.h */,
 				54715AF016FDEA6D0030E4D7 /* gvsuClosestViewController.m */,
-				54C295331713821900490AE7 /* ClosestDetailViewController.h */,
-				54B62CE61711C1ED00ABEE95 /* ClosestDetailViewController.m */,
 			);
 			name = Closest;
 			sourceTree = "<group>";
@@ -280,6 +493,10 @@
 		54BD2E5D16B06C470099FB02 = {
 			isa = PBXGroup;
 			children = (
+				54D855B917141ABF00AACF76 /* TableViewCell.h */,
+				54D855BA17141ABF00AACF76 /* TableViewCell.m */,
+				54D855BB17141AD700AACF76 /* TableViewCell.xib */,
+				54D8559D1713C03F00AACF76 /* Tabs */,
 				54715AE816FDE8BD0030E4D7 /* Closest */,
 				5447D03D16FABD46008A70D3 /* Directory */,
 				5447D03B16FABCF5008A70D3 /* Map */,
@@ -320,8 +537,8 @@
 		54BD2E7216B06C470099FB02 /* Philanthropy */ = {
 			isa = PBXGroup;
 			children = (
+				54D8557E1713A9DE00AACF76 /* Senior Project Data.plist */,
 				54C862D0171392DB0086E97C /* Philanthropy-Prefix.pch */,
-				54981AC417138FCD007DBCD6 /* DataFile.plist */,
 				542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */,
 				54777C6016EE5DC4000BD24C /* main.m */,
 				54C2954F171382C700490AE7 /* gvsuAppDelegate.h */,
@@ -329,6 +546,136 @@
 				542C4D8216EE584200D556E0 /* Philanthropy.app */,
 			);
 			path = Philanthropy;
+			sourceTree = "<group>";
+		};
+		54D8559D1713C03F00AACF76 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				54D8559E1713CF3F00AACF76 /* DirectoryViewController.h */,
+				54D8559F1713CF3F00AACF76 /* DirectoryViewController.m */,
+				54D855A01713CF3F00AACF76 /* DirectoryViewController.xib */,
+				54D855981713BFF500AACF76 /* ClosestViewController.h */,
+				54D855991713BFF500AACF76 /* ClosestViewController.m */,
+				54D8559A1713BFF500AACF76 /* ClosestViewController.xib */,
+				54D855A31713D26F00AACF76 /* ClosestDetailViewController.h */,
+				54D855A41713D26F00AACF76 /* ClosestDetailViewController.m */,
+				54D855A51713D26F00AACF76 /* ClosestDetailViewController.xib */,
+				54D855931713BFE000AACF76 /* MyMapViewController.h */,
+				54D855941713BFE000AACF76 /* MyMapViewController.m */,
+				54D855951713BFE000AACF76 /* MyMapViewController.xib */,
+				54D8558E1713B24F00AACF76 /* DonateViewController.h */,
+				54D8558F1713B24F00AACF76 /* DonateViewController.m */,
+				54D855901713B24F00AACF76 /* DonateViewController.xib */,
+				54D855891713B23A00AACF76 /* HomeScreenViewController.h */,
+				54D8558A1713B23A00AACF76 /* HomeScreenViewController.m */,
+				54D8558B1713B23A00AACF76 /* HomeScreenViewController.xib */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		54D855FD17141CAA00AACF76 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				544C0E3F1714512F00A9C773 /* searchbar.png */,
+				54D855B41714114500AACF76 /* nameplate.png */,
+				54D855BD17141C9C00AACF76 /* back-button.png */,
+				54D855BE17141C9C00AACF76 /* back-button@2x.png */,
+				54D855BF17141C9D00AACF76 /* navbar-icon@2x.png */,
+				54D855C017141C9D00AACF76 /* navbar-icon.png */,
+				54D855C317141C9E00AACF76 /* tabbar-item.png */,
+				54D855C417141C9E00AACF76 /* tabbar.png */,
+				54D855C517141C9F00AACF76 /* step-bullet.png */,
+				54D855C617141C9F00AACF76 /* input-text.png */,
+				54D855C717141C9F00AACF76 /* leather-background.png */,
+				54D855C817141C9F00AACF76 /* list-item.png */,
+				54D855C917141C9F00AACF76 /* list-mask.png */,
+				54D855CA17141CA000AACF76 /* navbar.png */,
+				54D855CB17141CA000AACF76 /* button-pressed.png */,
+				54D855CC17141CA000AACF76 /* button.png */,
+				54D855CD17141CA000AACF76 /* country.png */,
+				54D855CE17141CA000AACF76 /* details-photo-mask.png */,
+				54D855CF17141CA000AACF76 /* ingredients-list.png */,
+				54D855D017141CA000AACF76 /* list-mask@2x.png */,
+				54D855D117141CA000AACF76 /* country@2x.png */,
+				54D855D217141CA000AACF76 /* ingredients-list@2x.png */,
+				54D855D317141CA000AACF76 /* details-photo-mask@2x.png */,
+				54D855D417141CA000AACF76 /* list-item@2x.png */,
+				54D855D517141CA100AACF76 /* step-bullet@2x.png */,
+				54D855D617141CA100AACF76 /* leather-background@2x.png */,
+				54D855D717141CA100AACF76 /* input-text@2x.png */,
+				54D855D817141CA100AACF76 /* button-pressed@2x.png */,
+				54D855D917141CA100AACF76 /* button@2x.png */,
+				54D855DA17141CA100AACF76 /* tabbar-item@2x.png */,
+				54D855DB17141CA100AACF76 /* tabbar@2x.png */,
+				54D855DC17141CA100AACF76 /* navbar@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		54D856741714263100AACF76 /* Building Thumbnails */ = {
+			isa = PBXGroup;
+			children = (
+				54D855FE1714260100AACF76 /* Allendale.png */,
+				54D855FF1714260200AACF76 /* Alumni.png */,
+				54D856001714260200AACF76 /* ArtGallery.png */,
+				54D856011714260300AACF76 /* AuSableHall.png */,
+				54D856021714260400AACF76 /* BikeFactory.png */,
+				54D856031714260500AACF76 /* Calder.png */,
+				54D856041714260600AACF76 /* CalderResidence.png */,
+				54D856051714260600AACF76 /* CHS.png */,
+				54D856061714260700AACF76 /* Commons.png */,
+				54D856071714260700AACF76 /* CookDewitt.png */,
+				54D856081714260800AACF76 /* Copeland.png */,
+				54D856091714260900AACF76 /* Daycare.png */,
+				54D8560A1714260A00AACF76 /* DeVosCenter.png */,
+				54D8560B1714260A00AACF76 /* DeVosLivingCenter.png */,
+				54D8560C1714260B00AACF76 /* Eberhard.png */,
+				54D8560D1714260B00AACF76 /* Fieldhouse.png */,
+				54D8560E1714260C00AACF76 /* FreyLivingCenter.png */,
+				54D8560F1714260C00AACF76 /* HenryHall.png */,
+				54D856101714260D00AACF76 /* HillsLivingCenter.png */,
+				54D856111714260E00AACF76 /* Hoobler.png */,
+				54D856121714260F00AACF76 /* Johnson.png */,
+				54D856131714261000AACF76 /* Kennedy.png */,
+				54D856141714261100AACF76 /* Kirkhof.png */,
+				54D856151714261200AACF76 /* Kistler.png */,
+				54D856161714261300AACF76 /* Kleiner.png */,
+				54D856171714261300AACF76 /* LakeHuronHall.png */,
+				54D856181714261400AACF76 /* LakeMichiganCenter.png */,
+				54D856191714261400AACF76 /* LakeMichiganHall.png */,
+				54D8561A1714261500AACF76 /* LakeOntarioHall.png */,
+				54D8561B1714261600AACF76 /* LakerVillage.png */,
+				54D8561C1714261600AACF76 /* LakeSuperiorHall.png */,
+				54D8561D1714261600AACF76 /* MackinawHall.png */,
+				54D8561E1714261700AACF76 /* ManitouHall.png */,
+				54D8561F1714261700AACF76 /* MeadowsClubHouse.png */,
+				54D856201714261700AACF76 /* MeijerBuilding.png */,
+				54D856211714261800AACF76 /* Murray.png */,
+				54D856221714261800AACF76 /* MuskegonCampus.png */,
+				54D856231714261900AACF76 /* NeimeyerHall.png */,
+				54D856241714261900AACF76 /* NeimeyerLivingEast.png */,
+				54D856251714261A00AACF76 /* NeimeyerLivingWest.png */,
+				54D856261714261A00AACF76 /* Ott.png */,
+				54D856271714261A00AACF76 /* Padnos.png */,
+				54D856281714261B00AACF76 /* PerformingArtsCenter.png */,
+				54D856291714261B00AACF76 /* Pew.png */,
+				54D8562A1714261C00AACF76 /* PewLivingCenter.png */,
+				54D8562B1714261C00AACF76 /* Pickard.png */,
+				54D8562C1714261C00AACF76 /* RecCenter.png */,
+				54D8562D1714261D00AACF76 /* Robinson.png */,
+				54D8562E1714261E00AACF76 /* SecciaHall.png */,
+				54D8562F1714261E00AACF76 /* Seidman.png */,
+				54D856301714261E00AACF76 /* SeidmanHouse.png */,
+				54D856311714261F00AACF76 /* Stafford.png */,
+				54D856321714261F00AACF76 /* StudentServices.png */,
+				54D856331714261F00AACF76 /* Swanson.png */,
+				54D856341714262000AACF76 /* TheConnection.png */,
+				54D856351714262000AACF76 /* Turf.png */,
+				54D856361714262100AACF76 /* Weed.png */,
+				54D856371714262100AACF76 /* WinterHall.png */,
+				54D856381714262100AACF76 /* Zumberge.png */,
+			);
+			name = "Building Thumbnails";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,7 +734,6 @@
 				541D83BF16EE631C00D0D2AA /* grandvalley3.jpg in Resources */,
 				5432BBB416FADFE20014AB2B /* GoogleMaps.bundle in Resources */,
 				5432BBBA16FAE4600014AB2B /* MapViewController.xib in Resources */,
-				54715AE716FB3EF70030E4D7 /* Default-568h@2x.png in Resources */,
 				54C2951517137CE900490AE7 /* Zumberge, James.jpg in Resources */,
 				54C2951617137CE900490AE7 /* Weed, Ella.jpg in Resources */,
 				54C2951717137CE900490AE7 /* Seidman, Bill.jpg in Resources */,
@@ -411,19 +757,113 @@
 				54C2952917137CE900490AE7 /* Art  Hills.jpg in Resources */,
 				54C2952E1713820400490AE7 /* gvsuCLController.h in Resources */,
 				54C295311713821400490AE7 /* gvsuClosestViewController.h in Resources */,
-				54C295341713821C00490AE7 /* ClosestDetailViewController.h in Resources */,
 				54C295371713822700490AE7 /* gvsuDetailViewController.h in Resources */,
-				54C2953A1713823000490AE7 /* gvsuTableViewController.h in Resources */,
-				54C2953D1713823C00490AE7 /* DetailViewController.h in Resources */,
-				54C295401713824600490AE7 /* gvsuTableView.h in Resources */,
 				54C295431713825400490AE7 /* gvsuCell.h in Resources */,
 				54C295461713826D00490AE7 /* MapViewController.h in Resources */,
 				54C29550171382CC00490AE7 /* gvsuAppDelegate.h in Resources */,
 				54C29554171382F800490AE7 /* gvsuMasterViewController.h in Resources */,
 				54C295571713830000490AE7 /* gvsuViewController.h in Resources */,
-				54981AC517138FCD007DBCD6 /* DataFile.plist in Resources */,
 				540C03C21713A35E0012425F /* MainStoryboard_iPhone.storyboard in Resources */,
 				540C03C31713A35E0012425F /* MainStoryboard_iPad.storyboard in Resources */,
+				54D8557F1713A9DE00AACF76 /* Senior Project Data.plist in Resources */,
+				54D8558D1713B23A00AACF76 /* HomeScreenViewController.xib in Resources */,
+				54D855921713B24F00AACF76 /* DonateViewController.xib in Resources */,
+				54D855971713BFE000AACF76 /* MyMapViewController.xib in Resources */,
+				54D8559C1713BFF600AACF76 /* ClosestViewController.xib in Resources */,
+				54D855A21713CF3F00AACF76 /* DirectoryViewController.xib in Resources */,
+				54D855A71713D26F00AACF76 /* ClosestDetailViewController.xib in Resources */,
+				54D855B51714114500AACF76 /* nameplate.png in Resources */,
+				54D855BC17141AD700AACF76 /* TableViewCell.xib in Resources */,
+				54D855DD17141CA100AACF76 /* back-button.png in Resources */,
+				54D855DE17141CA100AACF76 /* back-button@2x.png in Resources */,
+				54D855DF17141CA100AACF76 /* navbar-icon@2x.png in Resources */,
+				54D855E017141CA100AACF76 /* navbar-icon.png in Resources */,
+				54D855E317141CA100AACF76 /* tabbar-item.png in Resources */,
+				54D855E417141CA100AACF76 /* tabbar.png in Resources */,
+				54D855E517141CA100AACF76 /* step-bullet.png in Resources */,
+				54D855E617141CA100AACF76 /* input-text.png in Resources */,
+				54D855E717141CA100AACF76 /* leather-background.png in Resources */,
+				54D855E817141CA100AACF76 /* list-item.png in Resources */,
+				54D855E917141CA100AACF76 /* list-mask.png in Resources */,
+				54D855EA17141CA100AACF76 /* navbar.png in Resources */,
+				54D855EB17141CA100AACF76 /* button-pressed.png in Resources */,
+				54D855EC17141CA100AACF76 /* button.png in Resources */,
+				54D855ED17141CA100AACF76 /* country.png in Resources */,
+				54D855EE17141CA100AACF76 /* details-photo-mask.png in Resources */,
+				54D855EF17141CA100AACF76 /* ingredients-list.png in Resources */,
+				54D855F017141CA100AACF76 /* list-mask@2x.png in Resources */,
+				54D855F117141CA100AACF76 /* country@2x.png in Resources */,
+				54D855F217141CA100AACF76 /* ingredients-list@2x.png in Resources */,
+				54D855F317141CA100AACF76 /* details-photo-mask@2x.png in Resources */,
+				54D855F417141CA100AACF76 /* list-item@2x.png in Resources */,
+				54D855F517141CA100AACF76 /* step-bullet@2x.png in Resources */,
+				54D855F617141CA100AACF76 /* leather-background@2x.png in Resources */,
+				54D855F717141CA100AACF76 /* input-text@2x.png in Resources */,
+				54D855F817141CA100AACF76 /* button-pressed@2x.png in Resources */,
+				54D855F917141CA100AACF76 /* button@2x.png in Resources */,
+				54D855FA17141CA100AACF76 /* tabbar-item@2x.png in Resources */,
+				54D855FB17141CA100AACF76 /* tabbar@2x.png in Resources */,
+				54D855FC17141CA100AACF76 /* navbar@2x.png in Resources */,
+				54D856391714262200AACF76 /* Allendale.png in Resources */,
+				54D8563A1714262200AACF76 /* Alumni.png in Resources */,
+				54D8563B1714262200AACF76 /* ArtGallery.png in Resources */,
+				54D8563C1714262200AACF76 /* AuSableHall.png in Resources */,
+				54D8563D1714262200AACF76 /* BikeFactory.png in Resources */,
+				54D8563E1714262200AACF76 /* Calder.png in Resources */,
+				54D8563F1714262200AACF76 /* CalderResidence.png in Resources */,
+				54D856401714262200AACF76 /* CHS.png in Resources */,
+				54D856411714262200AACF76 /* Commons.png in Resources */,
+				54D856421714262200AACF76 /* CookDewitt.png in Resources */,
+				54D856431714262200AACF76 /* Copeland.png in Resources */,
+				54D856441714262200AACF76 /* Daycare.png in Resources */,
+				54D856451714262200AACF76 /* DeVosCenter.png in Resources */,
+				54D856461714262200AACF76 /* DeVosLivingCenter.png in Resources */,
+				54D856471714262200AACF76 /* Eberhard.png in Resources */,
+				54D856481714262200AACF76 /* Fieldhouse.png in Resources */,
+				54D856491714262200AACF76 /* FreyLivingCenter.png in Resources */,
+				54D8564A1714262200AACF76 /* HenryHall.png in Resources */,
+				54D8564B1714262200AACF76 /* HillsLivingCenter.png in Resources */,
+				54D8564C1714262200AACF76 /* Hoobler.png in Resources */,
+				54D8564D1714262200AACF76 /* Johnson.png in Resources */,
+				54D8564E1714262200AACF76 /* Kennedy.png in Resources */,
+				54D8564F1714262200AACF76 /* Kirkhof.png in Resources */,
+				54D856501714262200AACF76 /* Kistler.png in Resources */,
+				54D856511714262200AACF76 /* Kleiner.png in Resources */,
+				54D856521714262200AACF76 /* LakeHuronHall.png in Resources */,
+				54D856531714262200AACF76 /* LakeMichiganCenter.png in Resources */,
+				54D856541714262200AACF76 /* LakeMichiganHall.png in Resources */,
+				54D856551714262200AACF76 /* LakeOntarioHall.png in Resources */,
+				54D856561714262200AACF76 /* LakerVillage.png in Resources */,
+				54D856571714262200AACF76 /* LakeSuperiorHall.png in Resources */,
+				54D856581714262200AACF76 /* MackinawHall.png in Resources */,
+				54D856591714262200AACF76 /* ManitouHall.png in Resources */,
+				54D8565A1714262200AACF76 /* MeadowsClubHouse.png in Resources */,
+				54D8565B1714262200AACF76 /* MeijerBuilding.png in Resources */,
+				54D8565C1714262200AACF76 /* Murray.png in Resources */,
+				54D8565D1714262200AACF76 /* MuskegonCampus.png in Resources */,
+				54D8565E1714262200AACF76 /* NeimeyerHall.png in Resources */,
+				54D8565F1714262200AACF76 /* NeimeyerLivingEast.png in Resources */,
+				54D856601714262200AACF76 /* NeimeyerLivingWest.png in Resources */,
+				54D856611714262200AACF76 /* Ott.png in Resources */,
+				54D856621714262200AACF76 /* Padnos.png in Resources */,
+				54D856631714262200AACF76 /* PerformingArtsCenter.png in Resources */,
+				54D856641714262200AACF76 /* Pew.png in Resources */,
+				54D856651714262200AACF76 /* PewLivingCenter.png in Resources */,
+				54D856661714262200AACF76 /* Pickard.png in Resources */,
+				54D856671714262200AACF76 /* RecCenter.png in Resources */,
+				54D856681714262200AACF76 /* Robinson.png in Resources */,
+				54D856691714262200AACF76 /* SecciaHall.png in Resources */,
+				54D8566A1714262200AACF76 /* Seidman.png in Resources */,
+				54D8566B1714262200AACF76 /* SeidmanHouse.png in Resources */,
+				54D8566C1714262200AACF76 /* Stafford.png in Resources */,
+				54D8566D1714262200AACF76 /* StudentServices.png in Resources */,
+				54D8566E1714262200AACF76 /* Swanson.png in Resources */,
+				54D8566F1714262200AACF76 /* TheConnection.png in Resources */,
+				54D856701714262200AACF76 /* Turf.png in Resources */,
+				54D856711714262200AACF76 /* Weed.png in Resources */,
+				54D856721714262200AACF76 /* WinterHall.png in Resources */,
+				54D856731714262200AACF76 /* Zumberge.png in Resources */,
+				544C0E401714513000A9C773 /* searchbar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,19 +874,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544C0E3E17142B8900A9C773 /* TableViewCell.m in Sources */,
 				54BD2E7D16B06C480099FB02 /* gvsuAppDelegate.m in Sources */,
 				54BD2E8C16B06C480099FB02 /* gvsuMasterViewController.m in Sources */,
 				54BD2E8F16B06C480099FB02 /* gvsuDetailViewController.m in Sources */,
-				54B7C33916DD59CA00324612 /* gvsuTableViewController.m in Sources */,
 				54777C6116EE5DC4000BD24C /* main.m in Sources */,
 				544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */,
-				544E047C16F7CA4F00FC64B4 /* gvsuTableView.m in Sources */,
-				5446E11416F94ABC00C876C8 /* DetailViewController.m in Sources */,
 				5432BBB916FAE4600014AB2B /* MapViewController.m in Sources */,
 				54715AEE16FDE9B30030E4D7 /* gvsuCLController.m in Sources */,
 				54715AF116FDEA6D0030E4D7 /* gvsuClosestViewController.m in Sources */,
-				54B62CE71711C1ED00ABEE95 /* ClosestDetailViewController.m in Sources */,
 				54C295581713830200490AE7 /* gvsuViewController.m in Sources */,
+				54D855821713AF1600AACF76 /* DetailViewController.m in Sources */,
+				54D8558C1713B23A00AACF76 /* HomeScreenViewController.m in Sources */,
+				54D855911713B24F00AACF76 /* DonateViewController.m in Sources */,
+				54D855961713BFE000AACF76 /* MyMapViewController.m in Sources */,
+				54D8559B1713BFF600AACF76 /* ClosestViewController.m in Sources */,
+				54D855A11713CF3F00AACF76 /* DirectoryViewController.m in Sources */,
+				54D855A61713D26F00AACF76 /* ClosestDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,47 +913,12 @@
 			name = gvsuClosestViewController.h;
 			sourceTree = "<group>";
 		};
-		54C295331713821900490AE7 /* ClosestDetailViewController.h */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C295321713821900490AE7 /* en */,
-			);
-			name = ClosestDetailViewController.h;
-			sourceTree = "<group>";
-		};
 		54C295361713822500490AE7 /* gvsuDetailViewController.h */ = {
 			isa = PBXVariantGroup;
 			children = (
 				54C295351713822500490AE7 /* en */,
 			);
 			name = gvsuDetailViewController.h;
-			path = Philanthropy;
-			sourceTree = "<group>";
-		};
-		54C295391713822D00490AE7 /* gvsuTableViewController.h */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C295381713822D00490AE7 /* en */,
-			);
-			name = gvsuTableViewController.h;
-			path = Philanthropy;
-			sourceTree = "<group>";
-		};
-		54C2953C1713823600490AE7 /* DetailViewController.h */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C2953B1713823600490AE7 /* en */,
-			);
-			name = DetailViewController.h;
-			path = Philanthropy;
-			sourceTree = "<group>";
-		};
-		54C2953F1713824200490AE7 /* gvsuTableView.h */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C2953E1713824200490AE7 /* en */,
-			);
-			name = gvsuTableView.h;
 			path = Philanthropy;
 			sourceTree = "<group>";
 		};

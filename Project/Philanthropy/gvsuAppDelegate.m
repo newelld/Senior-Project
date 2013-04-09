@@ -8,7 +8,16 @@
  
 #import "gvsuAppDelegate.h"
 
+#import "HomeScreenViewController.h"
+#import "MyMapViewController.h"
+#import "DirectoryViewController.h"
+#import "ClosestViewController.h"
+#import "DonateViewController.h"
+
+
 @implementation gvsuAppDelegate
+
+@synthesize tabBarController = _tabBarController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -21,10 +30,55 @@
         UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
         splitViewController.delegate = (id)navigationController.topViewController;
     }
-        
+    
+    [self customizeAppearance];
+    
+    UIViewController *homescreen = [[HomeScreenViewController alloc]
+        initWithNibName:@"HomeScreenViewController" bundle:nil];
+   
+    UIViewController *map = [[MyMapViewController alloc]
+        initWithNibName:@"MyMapViewController" bundle:nil];
+    
+    DirectoryViewController *dir = [[DirectoryViewController alloc]
+                                  initWithNibName:@"DirectoryViewController" bundle:nil];
+    
+    UINavigationController *directory = [[UINavigationController alloc]
+                                       initWithRootViewController:dir];
+    
+    ClosestViewController *clo = [[ClosestViewController alloc]
+                                  initWithNibName:@"DirectoryViewController" bundle:nil];
+    
+    UINavigationController *closest = [[UINavigationController alloc]
+                                             initWithRootViewController:clo];
+    
+    UIViewController *donate = [[DonateViewController alloc]
+                             initWithNibName:@"DonateViewController" bundle:nil];
+    
+    
+    
+    self.tabBarController = [[UITabBarController alloc] init];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects: homescreen, map, directory, closest, donate, nil];
+    self.window.rootViewController = self.tabBarController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
-							
+
+-(void)customizeAppearance
+{
+    UIImage *navbarBackground = [UIImage imageNamed:@"navbar.png"];
+    [[UINavigationBar appearance] setBackgroundImage:navbarBackground forBarMetrics:UIBarMetricsDefault];
+    
+    UIImage *backButtonBackground = [UIImage imageNamed:@"back-button.png"];
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButtonBackground  forState:UIControlStateNormal barMetrics: UIBarMetricsDefault];
+    
+    UIImage *searchBackground = [UIImage imageNamed:@"searchbar.png"];
+    [[UISearchBar appearance] setBackgroundImage:searchBackground];
+    
+    UIImage *tabbarBackground = [UIImage imageNamed:@"tabbar.png"];
+    [[UITabBar appearance] setBackgroundImage:tabbarBackground];
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
