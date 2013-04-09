@@ -60,6 +60,7 @@
 
     [imageView startAnimating];
     [self.view addSubview:imageView];
+    [self.view addSubview:logoView];
 
     
 }
