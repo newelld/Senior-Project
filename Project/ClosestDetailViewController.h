@@ -18,6 +18,7 @@
     IBOutlet UILabel *donorsName;
     IBOutlet UIImageView *donorsPic;
     IBOutlet UITextView *donorsDescription;
+    IBOutlet UIScrollView *scrollview;
 }
 
 @property (nonatomic, retain)NSString *building, *campus, *description1, *description2,

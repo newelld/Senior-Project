@@ -28,8 +28,21 @@
     self.navigationItem.title = building;
     donorsName.text = donorName1;
     donorsName.adjustsFontSizeToFitWidth=YES;
-    donorsDescription.text = description1;
-    donorsPic.image = [UIImage imageNamed:donorPic1];
+    
+    UIImageView *dPic = [[UIImageView alloc] initWithImage:[UIImage imageNamed:donorPic1]];
+    UITextView *dDescription = [[UITextView alloc] initWithFrame:CGRectMake(0, dPic.frame.size.height, 320, 50)];
+    dDescription.editable = NO;
+    dDescription.backgroundColor = [UIColor clearColor];
+    [dDescription setFont:[UIFont fontWithName:@"Georgia" size:14]];
+    
+    dDescription.text = description1;
+    
+    [scrollview addSubview:dPic];
+    [scrollview addSubview:dDescription];
+    
+    
+    dDescription.frame = CGRectMake(dDescription.frame.origin.x, dDescription.frame.origin.y, dDescription.frame.size.width, dDescription.contentSize.height);
+    scrollview.contentSize = CGSizeMake(320, dPic.frame.size.height +dDescription.frame.size.height);
     
     UIImage *backgroundImage = [UIImage imageNamed:@"leather-background.png"];
     UIColor *backgroundPattern = [UIColor colorWithPatternImage:backgroundImage];
