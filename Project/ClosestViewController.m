@@ -30,6 +30,7 @@
     if (self) {
         self.title = @"Near me";
         self.tabBarItem.title = @"Near me";
+        self.tabBarItem.image = [UIImage imageNamed:@"radar.png"];
         
         // Custom initialization
     }

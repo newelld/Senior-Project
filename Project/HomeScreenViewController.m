@@ -19,7 +19,9 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        self.title = @"Home";
+        self.tabBarItem.title = @"Home";
+        self.tabBarItem.image = [UIImage imageNamed:@"house.png"];
     }
     return self;
 }

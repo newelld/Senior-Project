@@ -27,6 +27,22 @@
 		5432BBB416FADFE20014AB2B /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5432BBB316FADFE20014AB2B /* GoogleMaps.bundle */; };
 		5432BBB916FAE4600014AB2B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5432BBB716FAE4600014AB2B /* MapViewController.m */; };
 		5432BBBA16FAE4600014AB2B /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5432BBB816FAE4600014AB2B /* MapViewController.xib */; };
+		5441924417149700005575D7 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924317149700005575D7 /* house.png */; };
+		5441924617149764005575D7 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924517149764005575D7 /* compass.png */; };
+		5441924817149775005575D7 /* radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924717149775005575D7 /* radar.png */; };
+		5441924A17149782005575D7 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924917149782005575D7 /* map.png */; };
+		5441924C171497D8005575D7 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924B171497D8005575D7 /* book.png */; };
+		5441924E17149822005575D7 /* piggy-bank.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924D17149822005575D7 /* piggy-bank.png */; };
+		5441925C1714A3C6005575D7 /* gvlegacies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441925B1714A3C6005575D7 /* gvlegacies@2x.png */; };
+		5441925E1714A3D9005575D7 /* gvlegacies.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441925D1714A3D9005575D7 /* gvlegacies.png */; };
+		544192601714A3E9005575D7 /* gvlegacies.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441925F1714A3E8005575D7 /* gvlegacies.png */; };
+		544192621714A3EC005575D7 /* gvlegacies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192611714A3EC005575D7 /* gvlegacies@2x.png */; };
+		544192631714A4CF005575D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192571714A287005575D7 /* Default.png */; };
+		544192641714A4D7005575D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192551714A280005575D7 /* Default@2x.png */; };
+		544192651714A4DB005575D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192591714A294005575D7 /* Default-568h@2x.png */; };
+		544192671714AA50005575D7 /* startup640long.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192661714AA4F005575D7 /* startup640long.png */; };
+		544192691714AA58005575D7 /* startup640.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192681714AA58005575D7 /* startup640.png */; };
+		5441926B1714AA5F005575D7 /* startup320.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441926A1714AA5F005575D7 /* startup320.png */; };
 		544C0E3E17142B8900A9C773 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855BA17141ABF00AACF76 /* TableViewCell.m */; };
 		544C0E401714513000A9C773 /* searchbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 544C0E3F1714512F00A9C773 /* searchbar.png */; };
 		544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E047816F7C3C800FC64B4 /* gvsuCell.m */; };
@@ -201,6 +217,22 @@
 		5432BBB316FADFE20014AB2B /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		5432BBB716FAE4600014AB2B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		5432BBB816FAE4600014AB2B /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		5441924317149700005575D7 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		5441924517149764005575D7 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		5441924717149775005575D7 /* radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar.png; sourceTree = "<group>"; };
+		5441924917149782005575D7 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		5441924B171497D8005575D7 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		5441924D17149822005575D7 /* piggy-bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "piggy-bank.png"; sourceTree = "<group>"; };
+		544192551714A280005575D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		544192571714A287005575D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		544192591714A294005575D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5441925B1714A3C6005575D7 /* gvlegacies@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gvlegacies@2x.png"; path = "../../../../../../var/folders/m8/16zdw2n51h97ptv4j6sg8wq00000gn/T/Messages/Transfers/gvlegacies@2x.png"; sourceTree = "<group>"; };
+		5441925D1714A3D9005575D7 /* gvlegacies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gvlegacies.png; path = ../../../../../../var/folders/m8/16zdw2n51h97ptv4j6sg8wq00000gn/T/Messages/Transfers/gvlegacies.png; sourceTree = "<group>"; };
+		5441925F1714A3E8005575D7 /* gvlegacies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gvlegacies.png; sourceTree = "<group>"; };
+		544192611714A3EC005575D7 /* gvlegacies@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gvlegacies@2x.png"; sourceTree = "<group>"; };
+		544192661714AA4F005575D7 /* startup640long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startup640long.png; path = ../../../../../../var/folders/m8/16zdw2n51h97ptv4j6sg8wq00000gn/T/Messages/Transfers/startup640long.png; sourceTree = "<group>"; };
+		544192681714AA58005575D7 /* startup640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startup640.png; path = ../../../../../../var/folders/m8/16zdw2n51h97ptv4j6sg8wq00000gn/T/Messages/Transfers/startup640.png; sourceTree = "<group>"; };
+		5441926A1714AA5F005575D7 /* startup320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startup320.png; path = ../../../../../../var/folders/m8/16zdw2n51h97ptv4j6sg8wq00000gn/T/Messages/Transfers/startup320.png; sourceTree = "<group>"; };
 		5446E11616F94D4700C876C8 /* gvsuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuViewController.m; path = Philanthropy/gvsuViewController.m; sourceTree = "<group>"; };
 		544C0E3F1714512F00A9C773 /* searchbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchbar.png; sourceTree = "<group>"; };
 		544E047816F7C3C800FC64B4 /* gvsuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuCell.m; path = Philanthropy/gvsuCell.m; sourceTree = "<group>"; };
@@ -569,6 +601,11 @@
 		54BD2E5D16B06C470099FB02 = {
 			isa = PBXGroup;
 			children = (
+				544192611714A3EC005575D7 /* gvlegacies@2x.png */,
+				5441925F1714A3E8005575D7 /* gvlegacies.png */,
+				544192591714A294005575D7 /* Default-568h@2x.png */,
+				544192571714A287005575D7 /* Default.png */,
+				544192551714A280005575D7 /* Default@2x.png */,
 				54D8559D1713C03F00AACF76 /* Tabs */,
 				5441924217147089005575D7 /* Old Storyboard Files */,
 				54BD2E7216B06C470099FB02 /* Philanthropy */,
@@ -635,6 +672,17 @@
 		54D855FD17141CAA00AACF76 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				5441926A1714AA5F005575D7 /* startup320.png */,
+				544192681714AA58005575D7 /* startup640.png */,
+				544192661714AA4F005575D7 /* startup640long.png */,
+				5441925B1714A3C6005575D7 /* gvlegacies@2x.png */,
+				5441925D1714A3D9005575D7 /* gvlegacies.png */,
+				5441924D17149822005575D7 /* piggy-bank.png */,
+				5441924B171497D8005575D7 /* book.png */,
+				5441924917149782005575D7 /* map.png */,
+				5441924717149775005575D7 /* radar.png */,
+				5441924517149764005575D7 /* compass.png */,
+				5441924317149700005575D7 /* house.png */,
 				544C0E3F1714512F00A9C773 /* searchbar.png */,
 				54D855B41714114500AACF76 /* nameplate.png */,
 				54D855BD17141C9C00AACF76 /* back-button.png */,
@@ -924,6 +972,22 @@
 				54D856731714262200AACF76 /* Zumberge.png in Resources */,
 				544C0E401714513000A9C773 /* searchbar.png in Resources */,
 				5455F21D1714740A0088DA27 /* LakerLegacies.png in Resources */,
+				5441924417149700005575D7 /* house.png in Resources */,
+				5441924617149764005575D7 /* compass.png in Resources */,
+				5441924817149775005575D7 /* radar.png in Resources */,
+				5441924A17149782005575D7 /* map.png in Resources */,
+				5441924C171497D8005575D7 /* book.png in Resources */,
+				5441924E17149822005575D7 /* piggy-bank.png in Resources */,
+				5441925C1714A3C6005575D7 /* gvlegacies@2x.png in Resources */,
+				5441925E1714A3D9005575D7 /* gvlegacies.png in Resources */,
+				544192601714A3E9005575D7 /* gvlegacies.png in Resources */,
+				544192621714A3EC005575D7 /* gvlegacies@2x.png in Resources */,
+				544192631714A4CF005575D7 /* Default.png in Resources */,
+				544192641714A4D7005575D7 /* Default@2x.png in Resources */,
+				544192651714A4DB005575D7 /* Default-568h@2x.png in Resources */,
+				544192671714AA50005575D7 /* startup640long.png in Resources */,
+				544192691714AA58005575D7 /* startup640.png in Resources */,
+				5441926B1714AA5F005575D7 /* startup320.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1057,6 +1121,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-ObjC";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Legacies;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1085,6 +1150,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-ObjC";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Legacies;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1105,6 +1171,7 @@
 				INFOPLIST_FILE = "Philanthropy/Philanthropy-Info.plist";
 				OTHER_CFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1123,6 +1190,7 @@
 				INFOPLIST_FILE = "Philanthropy/Philanthropy-Info.plist";
 				OTHER_CFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

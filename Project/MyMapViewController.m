@@ -22,6 +22,7 @@ NSArray *data;
     if (self) {
         self.title = @"Map";
         self.tabBarItem.title = @"Map";
+        self.tabBarItem.image = [UIImage imageNamed:@"map.png"];
     }
     return self;
 }
@@ -41,7 +42,7 @@ NSArray *data;
 }
 
 - (IBAction)getLocation{
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:42.961329900896835 longitude:-85.88285207748413 zoom:14];
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:42.961329900896835 longitude:-85.88285207748413 zoom:16];
     mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView.myLocationEnabled = YES;
     mapView.delegate = self;

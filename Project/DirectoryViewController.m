@@ -25,6 +25,7 @@
     if (self) {
         self.title = @"Directory";
         self.tabBarItem.title = @"Directory";
+        self.tabBarItem.image = [UIImage imageNamed:@"book.png"];
     }
     return self;
 }

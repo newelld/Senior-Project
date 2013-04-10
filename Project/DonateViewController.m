@@ -18,6 +18,7 @@
     if (self) {
         self.title = @"Donate";
         self.tabBarItem.title = @"Donate";
+        self.tabBarItem.image = [UIImage imageNamed:@"piggy-bank.png"];
     }
     return self;
 }
