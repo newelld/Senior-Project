@@ -123,15 +123,21 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     ClosestDetailViewController *detail = [[ClosestDetailViewController alloc]
                                            initWithNibName:@"ClosestDetailViewController" bundle:nil];
-    
-    detail.building = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
-    detail.campus = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Campus"];
-    detail.donorName1 = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
-    detail.donorName2 = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Donor Name 2"];
-    detail.donorPic1 = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Donor Image 1"];
-    detail.donorPic2 = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Donor Image 2"];
-    detail.description1 = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
-    detail.description2 = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Building Description 2"];
+    NSArray *rows;
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+    {
+        rows = [filteredData copy];
+    } else {
+        rows = sortedData;
+    }
+    detail.building = [[rows objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
+    detail.campus = [[rows objectAtIndex:indexPath.row]objectForKey:@"Campus"];
+    detail.donorName1 = [[rows objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
+    detail.donorName2 = [[rows objectAtIndex:indexPath.row]objectForKey:@"Donor Name 2"];
+    detail.donorPic1 = [[rows objectAtIndex:indexPath.row]objectForKey:@"Donor Image 1"];
+    detail.donorPic2 = [[rows objectAtIndex:indexPath.row]objectForKey:@"Donor Image 2"];
+    detail.description1 = [[rows objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
+    detail.description2 = [[rows objectAtIndex:indexPath.row]objectForKey:@"Building Description 2"];
     [self.navigationController pushViewController:detail animated:YES];
 }
 
