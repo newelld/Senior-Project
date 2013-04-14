@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <GoogleMaps/GoogleMaps.h>
-@interface MyMapViewController : UIViewController
+@interface MapViewController : UIViewController
 
 - (IBAction)getLocation;
--(void)centerCamera:(GMSCameraPosition*)camera;
 - (IBAction)setMap:(id)sender;
 - (UIView *)mapView:(GMSMapView *)mapView markerInfoWindow:(id<GMSMarker>)marker;
 @end

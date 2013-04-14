@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>Legacies</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -25,8 +25,7 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>gvlegacies@2x.png</string>
-				<string>gvlegacies.png</string>
+				<string>GV Blue Leaves 2-1 Icon (1).png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<true/>
@@ -62,6 +61,8 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
 	<key>UIStatusBarTintParameters</key>
 	<dict>
 		<key>UINavigationBar</key>

@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		540C03C21713A35E0012425F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540C03C01713A35E0012425F /* MainStoryboard_iPhone.storyboard */; };
 		540C03C31713A35E0012425F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540C03C11713A35E0012425F /* MainStoryboard_iPad.storyboard */; };
-		541D83BE16EE631C00D0D2AA /* gvsu1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 541D83BC16EE631C00D0D2AA /* gvsu1.jpg */; };
-		541D83BF16EE631C00D0D2AA /* grandvalley3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 541D83BD16EE631C00D0D2AA /* grandvalley3.jpg */; };
 		5432BB9616FAD7380014AB2B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BB9516FAD7380014AB2B /* AVFoundation.framework */; };
 		5432BB9816FAD7410014AB2B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BB9716FAD7410014AB2B /* CoreData.framework */; };
 		5432BB9A16FAD7490014AB2B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BB9916FAD7490014AB2B /* CoreLocation.framework */; };
@@ -25,8 +23,6 @@
 		5432BBAC16FAD7AE0014AB2B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BBAB16FAD7AE0014AB2B /* SystemConfiguration.framework */; };
 		5432BBB216FADFD10014AB2B /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BBB116FADFD10014AB2B /* GoogleMaps.framework */; };
 		5432BBB416FADFE20014AB2B /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5432BBB316FADFE20014AB2B /* GoogleMaps.bundle */; };
-		5432BBB916FAE4600014AB2B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5432BBB716FAE4600014AB2B /* MapViewController.m */; };
-		5432BBBA16FAE4600014AB2B /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5432BBB816FAE4600014AB2B /* MapViewController.xib */; };
 		5441924417149700005575D7 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924317149700005575D7 /* house.png */; };
 		5441924617149764005575D7 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924517149764005575D7 /* compass.png */; };
 		5441924817149775005575D7 /* radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924717149775005575D7 /* radar.png */; };
@@ -36,13 +32,61 @@
 		5441925C1714A3C6005575D7 /* gvlegacies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441925B1714A3C6005575D7 /* gvlegacies@2x.png */; };
 		5441925E1714A3D9005575D7 /* gvlegacies.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441925D1714A3D9005575D7 /* gvlegacies.png */; };
 		544192601714A3E9005575D7 /* gvlegacies.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441925F1714A3E8005575D7 /* gvlegacies.png */; };
-		544192621714A3EC005575D7 /* gvlegacies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192611714A3EC005575D7 /* gvlegacies@2x.png */; };
 		544192631714A4CF005575D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192571714A287005575D7 /* Default.png */; };
-		544192641714A4D7005575D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192551714A280005575D7 /* Default@2x.png */; };
-		544192651714A4DB005575D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192591714A294005575D7 /* Default-568h@2x.png */; };
 		544192671714AA50005575D7 /* startup640long.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192661714AA4F005575D7 /* startup640long.png */; };
 		544192691714AA58005575D7 /* startup640.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192681714AA58005575D7 /* startup640.png */; };
 		5441926B1714AA5F005575D7 /* startup320.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441926A1714AA5F005575D7 /* startup320.png */; };
+		5441929F17175079005575D7 /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441929E17175077005575D7 /* plate.png */; };
+		544192AB1717D4D6005575D7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544192A91717D4D4005575D7 /* MapViewController.m */; };
+		544192AC1717D4D6005575D7 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544192AA1717D4D5005575D7 /* MapViewController.xib */; };
+		544192AE1717DB41005575D7 /* 3-oak-wood-back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192AD1717DB3F005575D7 /* 3-oak-wood-back-button.png */; };
+		544192B01717DB4B005575D7 /* 3-oak-wood-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 544192AF1717DB49005575D7 /* 3-oak-wood-background.jpg */; };
+		544192B21717DB54005575D7 /* 3-oak-wood-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192B11717DB52005575D7 /* 3-oak-wood-button.png */; };
+		544192B41717DB62005575D7 /* 3-oak-wood-menu-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192B31717DB60005575D7 /* 3-oak-wood-menu-bar.png */; };
+		544192B61717DB6F005575D7 /* 3-oak-wood-underbar-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192B51717DB6D005575D7 /* 3-oak-wood-underbar-shadow.png */; };
+		544193171718DBF4005575D7 /* Art Hills.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192F71718DBF4005575D7 /* Art Hills.png */; };
+		544193181718DBF4005575D7 /* Calder, Alexander.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192F81718DBF4005575D7 /* Calder, Alexander.png */; };
+		544193191718DBF4005575D7 /* Cook, Peter.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192F91718DBF4005575D7 /* Cook, Peter.png */; };
+		5441931A1718DBF4005575D7 /* Cook, Peter & Pat.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192FA1718DBF4005575D7 /* Cook, Peter & Pat.png */; };
+		5441931B1718DBF4005575D7 /* DeVos, Rich.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192FB1718DBF4005575D7 /* DeVos, Rich.png */; };
+		5441931C1718DBF4005575D7 /* Eberhard, LV.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192FC1718DBF4005575D7 /* Eberhard, LV.png */; };
+		5441931D1718DBF4005575D7 /* Frey, Edward.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192FD1718DBF4005575D7 /* Frey, Edward.png */; };
+		5441931E1718DBF4005575D7 /* Henry, Paul.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192FE1718DBF4005575D7 /* Henry, Paul.png */; };
+		5441931F1718DBF4005575D7 /* Hills, Art.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192FF1718DBF4005575D7 /* Hills, Art.png */; };
+		544193201718DBF4005575D7 /* Hoobler, Icie Macy.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193001718DBF4005575D7 /* Hoobler, Icie Macy.png */; };
+		544193211718DBF4005575D7 /* Johnson, Paul A.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193011718DBF4005575D7 /* Johnson, Paul A.png */; };
+		544193221718DBF4005575D7 /* Keller, Fred.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193021718DBF4005575D7 /* Keller, Fred.png */; };
+		544193231718DBF4005575D7 /* Kelly, Brian and Paqui.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193031718DBF4005575D7 /* Kelly, Brian and Paqui.png */; };
+		544193241718DBF4005575D7 /* Kennedy, John.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193041718DBF4005575D7 /* Kennedy, John.png */; };
+		544193251718DBF4005575D7 /* Kirkhof, Russel.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193051718DBF4005575D7 /* Kirkhof, Russel.png */; };
+		544193261718DBF4005575D7 /* Kirkpatrick, William.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193061718DBF4005575D7 /* Kirkpatrick, William.png */; };
+		544193271718DBF4005575D7 /* Kistler, Grace.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193071718DBF4005575D7 /* Kistler, Grace.png */; };
+		544193281718DBF4005575D7 /* Kleiner, Robert.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193081718DBF4005575D7 /* Kleiner, Robert.png */; };
+		544193291718DBF4005575D7 /* Lubbers, Don.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193091718DBF4005575D7 /* Lubbers, Don.png */; };
+		5441932A1718DBF4005575D7 /* Meijer, Fred.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441930A1718DBF4005575D7 /* Meijer, Fred.png */; };
+		5441932B1718DBF4005575D7 /* Murray, Mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441930B1718DBF4005575D7 /* Murray, Mark.png */; };
+		5441932C1718DBF4005575D7 /* Niemeyer, Glenn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441930C1718DBF4005575D7 /* Niemeyer, Glenn.png */; };
+		5441932D1718DBF4005575D7 /* Ott, Arnold.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441930D1718DBF4005575D7 /* Ott, Arnold.png */; };
+		5441932E1718DBF4005575D7 /* Padnos, Seymour.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441930E1718DBF4005575D7 /* Padnos, Seymour.png */; };
+		5441932F1718DBF4005575D7 /* Pew, Mary Idema.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441930F1718DBF4005575D7 /* Pew, Mary Idema.png */; };
+		544193301718DBF4005575D7 /* Pew, Robert.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193101718DBF4005575D7 /* Pew, Robert.png */; };
+		544193311718DBF4005575D7 /* Secchia, Peter.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193111718DBF4005575D7 /* Secchia, Peter.png */; };
+		544193321718DBF4005575D7 /* Seidman, Bill.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193121718DBF4005575D7 /* Seidman, Bill.png */; };
+		544193331718DBF4005575D7 /* Seidman, Bill and Sally.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193131718DBF4005575D7 /* Seidman, Bill and Sally.png */; };
+		544193341718DBF4005575D7 /* Stafford, Dale.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193141718DBF4005575D7 /* Stafford, Dale.png */; };
+		544193351718DBF4005575D7 /* Weed, Ella.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193151718DBF4005575D7 /* Weed, Ella.png */; };
+		544193361718DBF4005575D7 /* Zumberge, James.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193161718DBF4005575D7 /* Zumberge, James.png */; };
+		5441933F1718E541005575D7 /* Loutit Hall.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193371718E541005575D7 /* Loutit Hall.png */; };
+		544193401718E541005575D7 /* Steelcase Library.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193381718E541005575D7 /* Steelcase Library.png */; };
+		544193411718E541005575D7 /* VanSteeland LC.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193391718E541005575D7 /* VanSteeland LC.png */; };
+		544193421718E541005575D7 /* Seidman Center.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441933A1718E541005575D7 /* Seidman Center.png */; };
+		544193431718E541005575D7 /* Mary Idema Pew Library.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441933B1718E541005575D7 /* Mary Idema Pew Library.png */; };
+		544193441718E541005575D7 /* Kirkpatrick Living Center.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441933C1718E541005575D7 /* Kirkpatrick Living Center.png */; };
+		544193451718E541005575D7 /* Cook Carillon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441933D1718E541005575D7 /* Cook Carillon.png */; };
+		544193461718E541005575D7 /* Beckering Carillon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441933E1718E541005575D7 /* Beckering Carillon.png */; };
+		544193491718E6A8005575D7 /* GV Blue Leaves 2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193471718E69B005575D7 /* GV Blue Leaves 2-1.png */; };
+		5441934E1718F410005575D7 /* GV Blue Leaves 2-1 Icon (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5441934D1718F403005575D7 /* GV Blue Leaves 2-1 Icon (1).png */; };
+		544193501718F442005575D7 /* GV Blue Leaves 2-1 Icon (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5441934F1718F441005575D7 /* GV Blue Leaves 2-1 Icon (1).png */; };
 		544C0E3E17142B8900A9C773 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855BA17141ABF00AACF76 /* TableViewCell.m */; };
 		544C0E401714513000A9C773 /* searchbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 544C0E3F1714512F00A9C773 /* searchbar.png */; };
 		544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E047816F7C3C800FC64B4 /* gvsuCell.m */; };
@@ -57,32 +101,10 @@
 		54BD2E7D16B06C480099FB02 /* gvsuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E7C16B06C480099FB02 /* gvsuAppDelegate.m */; };
 		54BD2E8C16B06C480099FB02 /* gvsuMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8B16B06C480099FB02 /* gvsuMasterViewController.m */; };
 		54BD2E8F16B06C480099FB02 /* gvsuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */; };
-		54C2951517137CE900490AE7 /* Zumberge, James.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950017137CE900490AE7 /* Zumberge, James.jpg */; };
-		54C2951617137CE900490AE7 /* Weed, Ella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950117137CE900490AE7 /* Weed, Ella.jpg */; };
-		54C2951717137CE900490AE7 /* Seidman, Bill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950217137CE900490AE7 /* Seidman, Bill.jpg */; };
-		54C2951817137CE900490AE7 /* Seidman, Bill and Sally.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950317137CE900490AE7 /* Seidman, Bill and Sally.jpg */; };
-		54C2951917137CE900490AE7 /* Secchia, Peter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950417137CE900490AE7 /* Secchia, Peter.jpg */; };
-		54C2951A17137CE900490AE7 /* Pew, Robert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950517137CE900490AE7 /* Pew, Robert.jpg */; };
-		54C2951B17137CE900490AE7 /* Pew, Mary Idema.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950617137CE900490AE7 /* Pew, Mary Idema.jpg */; };
-		54C2951C17137CE900490AE7 /* Padnos, Seymour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950717137CE900490AE7 /* Padnos, Seymour.jpg */; };
-		54C2951D17137CE900490AE7 /* Niemeyer, Glenn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950817137CE900490AE7 /* Niemeyer, Glenn.jpg */; };
-		54C2951E17137CE900490AE7 /* Murray, Mark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950917137CE900490AE7 /* Murray, Mark.jpg */; };
-		54C2951F17137CE900490AE7 /* Meijer, Fred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950A17137CE900490AE7 /* Meijer, Fred.jpg */; };
-		54C2952017137CE900490AE7 /* Lubbers, Don.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950B17137CE900490AE7 /* Lubbers, Don.jpg */; };
-		54C2952117137CE900490AE7 /* Kirkhof, Russel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950C17137CE900490AE7 /* Kirkhof, Russel.jpg */; };
-		54C2952217137CE900490AE7 /* Kennedy, John.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950D17137CE900490AE7 /* Kennedy, John.jpg */; };
-		54C2952317137CE900490AE7 /* Keller, Fred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950E17137CE900490AE7 /* Keller, Fred.jpg */; };
-		54C2952417137CE900490AE7 /* Johnson, Paul A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2950F17137CE900490AE7 /* Johnson, Paul A.jpg */; };
-		54C2952517137CE900490AE7 /* Eberhard, LV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951017137CE900490AE7 /* Eberhard, LV.jpg */; };
-		54C2952617137CE900490AE7 /* DeVos, Rich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951117137CE900490AE7 /* DeVos, Rich.jpg */; };
-		54C2952717137CE900490AE7 /* Cook, Peter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951217137CE900490AE7 /* Cook, Peter.jpg */; };
-		54C2952817137CE900490AE7 /* Cook, Peter & Pat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951317137CE900490AE7 /* Cook, Peter & Pat.jpg */; };
-		54C2952917137CE900490AE7 /* Art Hills.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54C2951417137CE900490AE7 /* Art Hills.jpg */; };
 		54C2952E1713820400490AE7 /* gvsuCLController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2952D1713820000490AE7 /* gvsuCLController.h */; };
 		54C295311713821400490AE7 /* gvsuClosestViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295301713821000490AE7 /* gvsuClosestViewController.h */; };
 		54C295371713822700490AE7 /* gvsuDetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295361713822500490AE7 /* gvsuDetailViewController.h */; };
 		54C295431713825400490AE7 /* gvsuCell.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295421713825100490AE7 /* gvsuCell.h */; };
-		54C295461713826D00490AE7 /* MapViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295451713826900490AE7 /* MapViewController.h */; };
 		54C29550171382CC00490AE7 /* gvsuAppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2954F171382C700490AE7 /* gvsuAppDelegate.h */; };
 		54C29554171382F800490AE7 /* gvsuMasterViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C29553171382F500490AE7 /* gvsuMasterViewController.h */; };
 		54C295571713830000490AE7 /* gvsuViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C29556171382FD00490AE7 /* gvsuViewController.h */; };
@@ -197,8 +219,6 @@
 /* Begin PBXFileReference section */
 		540C03C01713A35E0012425F /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		540C03C11713A35E0012425F /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		541D83BC16EE631C00D0D2AA /* gvsu1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gvsu1.jpg; path = Philanthropy/gvsu1.jpg; sourceTree = "<group>"; };
-		541D83BD16EE631C00D0D2AA /* grandvalley3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grandvalley3.jpg; path = Philanthropy/grandvalley3.jpg; sourceTree = "<group>"; };
 		542C4D8216EE584200D556E0 /* Philanthropy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Philanthropy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Philanthropy-Info.plist"; sourceTree = "<group>"; };
 		5432BB9516FAD7380014AB2B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -215,8 +235,6 @@
 		5432BBAB16FAD7AE0014AB2B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5432BBB116FADFD10014AB2B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		5432BBB316FADFE20014AB2B /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		5432BBB716FAE4600014AB2B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		5432BBB816FAE4600014AB2B /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		5441924317149700005575D7 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
 		5441924517149764005575D7 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
 		5441924717149775005575D7 /* radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar.png; sourceTree = "<group>"; };
@@ -233,6 +251,59 @@
 		544192661714AA4F005575D7 /* startup640long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startup640long.png; path = ../../../../../../var/folders/m8/16zdw2n51h97ptv4j6sg8wq00000gn/T/Messages/Transfers/startup640long.png; sourceTree = "<group>"; };
 		544192681714AA58005575D7 /* startup640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startup640.png; path = ../../../../../../var/folders/m8/16zdw2n51h97ptv4j6sg8wq00000gn/T/Messages/Transfers/startup640.png; sourceTree = "<group>"; };
 		5441926A1714AA5F005575D7 /* startup320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startup320.png; path = ../../../../../../var/folders/m8/16zdw2n51h97ptv4j6sg8wq00000gn/T/Messages/Transfers/startup320.png; sourceTree = "<group>"; };
+		5441929E17175077005575D7 /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plate.png; path = ../../../../Downloads/plate.png; sourceTree = "<group>"; };
+		544192A81717D4D3005575D7 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		544192A91717D4D4005575D7 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		544192AA1717D4D5005575D7 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		544192AD1717DB3F005575D7 /* 3-oak-wood-back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3-oak-wood-back-button.png"; path = "../../../../Downloads/pimlico/Assets/Oak Wood/3-oak-wood-back-button.png"; sourceTree = "<group>"; };
+		544192AF1717DB49005575D7 /* 3-oak-wood-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "3-oak-wood-background.jpg"; path = "../../../../Downloads/pimlico/Assets/Oak Wood/3-oak-wood-background.jpg"; sourceTree = "<group>"; };
+		544192B11717DB52005575D7 /* 3-oak-wood-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3-oak-wood-button.png"; path = "../../../../Downloads/pimlico/Assets/Oak Wood/3-oak-wood-button.png"; sourceTree = "<group>"; };
+		544192B31717DB60005575D7 /* 3-oak-wood-menu-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3-oak-wood-menu-bar.png"; path = "../../../../Downloads/pimlico/Assets/Oak Wood/3-oak-wood-menu-bar.png"; sourceTree = "<group>"; };
+		544192B51717DB6D005575D7 /* 3-oak-wood-underbar-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3-oak-wood-underbar-shadow.png"; path = "../../../../Downloads/pimlico/Assets/Oak Wood/3-oak-wood-underbar-shadow.png"; sourceTree = "<group>"; };
+		544192F71718DBF4005575D7 /* Art Hills.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Art Hills.png"; path = "../../../../Downloads/Donors/Art Hills.png"; sourceTree = "<group>"; };
+		544192F81718DBF4005575D7 /* Calder, Alexander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Calder, Alexander.png"; path = "../../../../Downloads/Donors/Calder, Alexander.png"; sourceTree = "<group>"; };
+		544192F91718DBF4005575D7 /* Cook, Peter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cook, Peter.png"; path = "../../../../Downloads/Donors/Cook, Peter.png"; sourceTree = "<group>"; };
+		544192FA1718DBF4005575D7 /* Cook, Peter & Pat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cook, Peter & Pat.png"; path = "../../../../Downloads/Donors/Cook, Peter & Pat.png"; sourceTree = "<group>"; };
+		544192FB1718DBF4005575D7 /* DeVos, Rich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DeVos, Rich.png"; path = "../../../../Downloads/Donors/DeVos, Rich.png"; sourceTree = "<group>"; };
+		544192FC1718DBF4005575D7 /* Eberhard, LV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Eberhard, LV.png"; path = "../../../../Downloads/Donors/Eberhard, LV.png"; sourceTree = "<group>"; };
+		544192FD1718DBF4005575D7 /* Frey, Edward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Frey, Edward.png"; path = "../../../../Downloads/Donors/Frey, Edward.png"; sourceTree = "<group>"; };
+		544192FE1718DBF4005575D7 /* Henry, Paul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Henry, Paul.png"; path = "../../../../Downloads/Donors/Henry, Paul.png"; sourceTree = "<group>"; };
+		544192FF1718DBF4005575D7 /* Hills, Art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hills, Art.png"; path = "../../../../Downloads/Donors/Hills, Art.png"; sourceTree = "<group>"; };
+		544193001718DBF4005575D7 /* Hoobler, Icie Macy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hoobler, Icie Macy.png"; path = "../../../../Downloads/Donors/Hoobler, Icie Macy.png"; sourceTree = "<group>"; };
+		544193011718DBF4005575D7 /* Johnson, Paul A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Johnson, Paul A.png"; path = "../../../../Downloads/Donors/Johnson, Paul A.png"; sourceTree = "<group>"; };
+		544193021718DBF4005575D7 /* Keller, Fred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Keller, Fred.png"; path = "../../../../Downloads/Donors/Keller, Fred.png"; sourceTree = "<group>"; };
+		544193031718DBF4005575D7 /* Kelly, Brian and Paqui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kelly, Brian and Paqui.png"; path = "../../../../Downloads/Donors/Kelly, Brian and Paqui.png"; sourceTree = "<group>"; };
+		544193041718DBF4005575D7 /* Kennedy, John.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kennedy, John.png"; path = "../../../../Downloads/Donors/Kennedy, John.png"; sourceTree = "<group>"; };
+		544193051718DBF4005575D7 /* Kirkhof, Russel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kirkhof, Russel.png"; path = "../../../../Downloads/Donors/Kirkhof, Russel.png"; sourceTree = "<group>"; };
+		544193061718DBF4005575D7 /* Kirkpatrick, William.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kirkpatrick, William.png"; path = "../../../../Downloads/Donors/Kirkpatrick, William.png"; sourceTree = "<group>"; };
+		544193071718DBF4005575D7 /* Kistler, Grace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kistler, Grace.png"; path = "../../../../Downloads/Donors/Kistler, Grace.png"; sourceTree = "<group>"; };
+		544193081718DBF4005575D7 /* Kleiner, Robert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kleiner, Robert.png"; path = "../../../../Downloads/Donors/Kleiner, Robert.png"; sourceTree = "<group>"; };
+		544193091718DBF4005575D7 /* Lubbers, Don.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lubbers, Don.png"; path = "../../../../Downloads/Donors/Lubbers, Don.png"; sourceTree = "<group>"; };
+		5441930A1718DBF4005575D7 /* Meijer, Fred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Meijer, Fred.png"; path = "../../../../Downloads/Donors/Meijer, Fred.png"; sourceTree = "<group>"; };
+		5441930B1718DBF4005575D7 /* Murray, Mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Murray, Mark.png"; path = "../../../../Downloads/Donors/Murray, Mark.png"; sourceTree = "<group>"; };
+		5441930C1718DBF4005575D7 /* Niemeyer, Glenn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Niemeyer, Glenn.png"; path = "../../../../Downloads/Donors/Niemeyer, Glenn.png"; sourceTree = "<group>"; };
+		5441930D1718DBF4005575D7 /* Ott, Arnold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ott, Arnold.png"; path = "../../../../Downloads/Donors/Ott, Arnold.png"; sourceTree = "<group>"; };
+		5441930E1718DBF4005575D7 /* Padnos, Seymour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Padnos, Seymour.png"; path = "../../../../Downloads/Donors/Padnos, Seymour.png"; sourceTree = "<group>"; };
+		5441930F1718DBF4005575D7 /* Pew, Mary Idema.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pew, Mary Idema.png"; path = "../../../../Downloads/Donors/Pew, Mary Idema.png"; sourceTree = "<group>"; };
+		544193101718DBF4005575D7 /* Pew, Robert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pew, Robert.png"; path = "../../../../Downloads/Donors/Pew, Robert.png"; sourceTree = "<group>"; };
+		544193111718DBF4005575D7 /* Secchia, Peter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Secchia, Peter.png"; path = "../../../../Downloads/Donors/Secchia, Peter.png"; sourceTree = "<group>"; };
+		544193121718DBF4005575D7 /* Seidman, Bill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Seidman, Bill.png"; path = "../../../../Downloads/Donors/Seidman, Bill.png"; sourceTree = "<group>"; };
+		544193131718DBF4005575D7 /* Seidman, Bill and Sally.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Seidman, Bill and Sally.png"; path = "../../../../Downloads/Donors/Seidman, Bill and Sally.png"; sourceTree = "<group>"; };
+		544193141718DBF4005575D7 /* Stafford, Dale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stafford, Dale.png"; path = "../../../../Downloads/Donors/Stafford, Dale.png"; sourceTree = "<group>"; };
+		544193151718DBF4005575D7 /* Weed, Ella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Weed, Ella.png"; path = "../../../../Downloads/Donors/Weed, Ella.png"; sourceTree = "<group>"; };
+		544193161718DBF4005575D7 /* Zumberge, James.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Zumberge, James.png"; path = "../../../../Downloads/Donors/Zumberge, James.png"; sourceTree = "<group>"; };
+		544193371718E541005575D7 /* Loutit Hall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Loutit Hall.png"; path = "../../../../Downloads/Buildings/Loutit Hall.png"; sourceTree = "<group>"; };
+		544193381718E541005575D7 /* Steelcase Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Steelcase Library.png"; path = "../../../../Downloads/Buildings/Steelcase Library.png"; sourceTree = "<group>"; };
+		544193391718E541005575D7 /* VanSteeland LC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VanSteeland LC.png"; path = "../../../../Downloads/Buildings/VanSteeland LC.png"; sourceTree = "<group>"; };
+		5441933A1718E541005575D7 /* Seidman Center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Seidman Center.png"; path = "../../../../Downloads/Buildings/Seidman Center.png"; sourceTree = "<group>"; };
+		5441933B1718E541005575D7 /* Mary Idema Pew Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mary Idema Pew Library.png"; path = "../../../../Downloads/Buildings/Mary Idema Pew Library.png"; sourceTree = "<group>"; };
+		5441933C1718E541005575D7 /* Kirkpatrick Living Center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kirkpatrick Living Center.png"; path = "../../../../Downloads/Buildings/Kirkpatrick Living Center.png"; sourceTree = "<group>"; };
+		5441933D1718E541005575D7 /* Cook Carillon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cook Carillon.png"; path = "../../../../Downloads/Buildings/Cook Carillon.png"; sourceTree = "<group>"; };
+		5441933E1718E541005575D7 /* Beckering Carillon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beckering Carillon.png"; path = "../../../../Downloads/Buildings/Beckering Carillon.png"; sourceTree = "<group>"; };
+		544193471718E69B005575D7 /* GV Blue Leaves 2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GV Blue Leaves 2-1.png"; path = "../../../../Downloads/GV Blue Leaves 2-1.png"; sourceTree = "<group>"; };
+		5441934B1718E6C5005575D7 /* GV Blue Leaves 2-1 Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GV Blue Leaves 2-1 Icon.png"; sourceTree = "<group>"; };
+		5441934D1718F403005575D7 /* GV Blue Leaves 2-1 Icon (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GV Blue Leaves 2-1 Icon (1).png"; path = "../../../../Downloads/GV Blue Leaves 2-1 Icon (1).png"; sourceTree = "<group>"; };
+		5441934F1718F441005575D7 /* GV Blue Leaves 2-1 Icon (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GV Blue Leaves 2-1 Icon (1).png"; sourceTree = "<group>"; };
 		5446E11616F94D4700C876C8 /* gvsuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuViewController.m; path = Philanthropy/gvsuViewController.m; sourceTree = "<group>"; };
 		544C0E3F1714512F00A9C773 /* searchbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchbar.png; sourceTree = "<group>"; };
 		544E047816F7C3C800FC64B4 /* gvsuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuCell.m; path = Philanthropy/gvsuCell.m; sourceTree = "<group>"; };
@@ -248,32 +319,10 @@
 		54BD2E8B16B06C480099FB02 /* gvsuMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuMasterViewController.m; path = Philanthropy/gvsuMasterViewController.m; sourceTree = "<group>"; };
 		54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuDetailViewController.m; path = Philanthropy/gvsuDetailViewController.m; sourceTree = "<group>"; };
 		54BD2E9616B06C480099FB02 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		54C2950017137CE900490AE7 /* Zumberge, James.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Zumberge, James.jpg"; sourceTree = "<group>"; };
-		54C2950117137CE900490AE7 /* Weed, Ella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Weed, Ella.jpg"; sourceTree = "<group>"; };
-		54C2950217137CE900490AE7 /* Seidman, Bill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Seidman, Bill.jpg"; sourceTree = "<group>"; };
-		54C2950317137CE900490AE7 /* Seidman, Bill and Sally.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Seidman, Bill and Sally.jpg"; sourceTree = "<group>"; };
-		54C2950417137CE900490AE7 /* Secchia, Peter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Secchia, Peter.jpg"; sourceTree = "<group>"; };
-		54C2950517137CE900490AE7 /* Pew, Robert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pew, Robert.jpg"; sourceTree = "<group>"; };
-		54C2950617137CE900490AE7 /* Pew, Mary Idema.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pew, Mary Idema.jpg"; sourceTree = "<group>"; };
-		54C2950717137CE900490AE7 /* Padnos, Seymour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Padnos, Seymour.jpg"; sourceTree = "<group>"; };
-		54C2950817137CE900490AE7 /* Niemeyer, Glenn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Niemeyer, Glenn.jpg"; sourceTree = "<group>"; };
-		54C2950917137CE900490AE7 /* Murray, Mark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Murray, Mark.jpg"; sourceTree = "<group>"; };
-		54C2950A17137CE900490AE7 /* Meijer, Fred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Meijer, Fred.jpg"; sourceTree = "<group>"; };
-		54C2950B17137CE900490AE7 /* Lubbers, Don.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lubbers, Don.jpg"; sourceTree = "<group>"; };
-		54C2950C17137CE900490AE7 /* Kirkhof, Russel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kirkhof, Russel.jpg"; sourceTree = "<group>"; };
-		54C2950D17137CE900490AE7 /* Kennedy, John.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kennedy, John.jpg"; sourceTree = "<group>"; };
-		54C2950E17137CE900490AE7 /* Keller, Fred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Keller, Fred.jpg"; sourceTree = "<group>"; };
-		54C2950F17137CE900490AE7 /* Johnson, Paul A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Johnson, Paul A.jpg"; sourceTree = "<group>"; };
-		54C2951017137CE900490AE7 /* Eberhard, LV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eberhard, LV.jpg"; sourceTree = "<group>"; };
-		54C2951117137CE900490AE7 /* DeVos, Rich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DeVos, Rich.jpg"; sourceTree = "<group>"; };
-		54C2951217137CE900490AE7 /* Cook, Peter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cook, Peter.jpg"; sourceTree = "<group>"; };
-		54C2951317137CE900490AE7 /* Cook, Peter & Pat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cook, Peter & Pat.jpg"; sourceTree = "<group>"; };
-		54C2951417137CE900490AE7 /* Art Hills.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Art Hills.jpg"; sourceTree = "<group>"; };
 		54C2952C1713820000490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuCLController.h; sourceTree = "<group>"; };
 		54C2952F1713821000490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuClosestViewController.h; sourceTree = "<group>"; };
 		54C295351713822500490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuDetailViewController.h; sourceTree = "<group>"; };
 		54C295411713825100490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuCell.h; sourceTree = "<group>"; };
-		54C295441713826900490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/MapViewController.h; sourceTree = "<group>"; };
 		54C2954E171382C700490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuAppDelegate.h; sourceTree = "<group>"; };
 		54C29552171382F500490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuMasterViewController.h; sourceTree = "<group>"; };
 		54C29555171382FD00490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuViewController.h; sourceTree = "<group>"; };
@@ -494,19 +543,8 @@
 			children = (
 				54715AE816FDE8BD0030E4D7 /* Closest */,
 				5447D03D16FABD46008A70D3 /* Directory */,
-				5447D03B16FABCF5008A70D3 /* Map */,
 			);
 			name = "Old Storyboard Files";
-			sourceTree = "<group>";
-		};
-		5447D03B16FABCF5008A70D3 /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				54C295451713826900490AE7 /* MapViewController.h */,
-				5432BBB716FAE4600014AB2B /* MapViewController.m */,
-				5432BBB816FAE4600014AB2B /* MapViewController.xib */,
-			);
-			name = Map;
 			sourceTree = "<group>";
 		};
 		5447D03C16FABD1A008A70D3 /* Pictures */ = {
@@ -516,8 +554,6 @@
 				54D856741714263100AACF76 /* Building Thumbnails */,
 				54D855FD17141CAA00AACF76 /* Icons */,
 				544C0E3D1714273300A9C773 /* Donors */,
-				541D83BC16EE631C00D0D2AA /* gvsu1.jpg */,
-				541D83BD16EE631C00D0D2AA /* grandvalley3.jpg */,
 			);
 			name = Pictures;
 			sourceTree = "<group>";
@@ -562,27 +598,38 @@
 		544C0E3D1714273300A9C773 /* Donors */ = {
 			isa = PBXGroup;
 			children = (
-				54C2950017137CE900490AE7 /* Zumberge, James.jpg */,
-				54C2950117137CE900490AE7 /* Weed, Ella.jpg */,
-				54C2950217137CE900490AE7 /* Seidman, Bill.jpg */,
-				54C2950317137CE900490AE7 /* Seidman, Bill and Sally.jpg */,
-				54C2950417137CE900490AE7 /* Secchia, Peter.jpg */,
-				54C2950517137CE900490AE7 /* Pew, Robert.jpg */,
-				54C2950617137CE900490AE7 /* Pew, Mary Idema.jpg */,
-				54C2950717137CE900490AE7 /* Padnos, Seymour.jpg */,
-				54C2950817137CE900490AE7 /* Niemeyer, Glenn.jpg */,
-				54C2950917137CE900490AE7 /* Murray, Mark.jpg */,
-				54C2950A17137CE900490AE7 /* Meijer, Fred.jpg */,
-				54C2950B17137CE900490AE7 /* Lubbers, Don.jpg */,
-				54C2950C17137CE900490AE7 /* Kirkhof, Russel.jpg */,
-				54C2950D17137CE900490AE7 /* Kennedy, John.jpg */,
-				54C2950E17137CE900490AE7 /* Keller, Fred.jpg */,
-				54C2950F17137CE900490AE7 /* Johnson, Paul A.jpg */,
-				54C2951017137CE900490AE7 /* Eberhard, LV.jpg */,
-				54C2951117137CE900490AE7 /* DeVos, Rich.jpg */,
-				54C2951217137CE900490AE7 /* Cook, Peter.jpg */,
-				54C2951317137CE900490AE7 /* Cook, Peter & Pat.jpg */,
-				54C2951417137CE900490AE7 /* Art Hills.jpg */,
+				544192F71718DBF4005575D7 /* Art Hills.png */,
+				544192F81718DBF4005575D7 /* Calder, Alexander.png */,
+				544192F91718DBF4005575D7 /* Cook, Peter.png */,
+				544192FA1718DBF4005575D7 /* Cook, Peter & Pat.png */,
+				544192FB1718DBF4005575D7 /* DeVos, Rich.png */,
+				544192FC1718DBF4005575D7 /* Eberhard, LV.png */,
+				544192FD1718DBF4005575D7 /* Frey, Edward.png */,
+				544192FE1718DBF4005575D7 /* Henry, Paul.png */,
+				544192FF1718DBF4005575D7 /* Hills, Art.png */,
+				544193001718DBF4005575D7 /* Hoobler, Icie Macy.png */,
+				544193011718DBF4005575D7 /* Johnson, Paul A.png */,
+				544193021718DBF4005575D7 /* Keller, Fred.png */,
+				544193031718DBF4005575D7 /* Kelly, Brian and Paqui.png */,
+				544193041718DBF4005575D7 /* Kennedy, John.png */,
+				544193051718DBF4005575D7 /* Kirkhof, Russel.png */,
+				544193061718DBF4005575D7 /* Kirkpatrick, William.png */,
+				544193071718DBF4005575D7 /* Kistler, Grace.png */,
+				544193081718DBF4005575D7 /* Kleiner, Robert.png */,
+				544193091718DBF4005575D7 /* Lubbers, Don.png */,
+				5441930A1718DBF4005575D7 /* Meijer, Fred.png */,
+				5441930B1718DBF4005575D7 /* Murray, Mark.png */,
+				5441930C1718DBF4005575D7 /* Niemeyer, Glenn.png */,
+				5441930D1718DBF4005575D7 /* Ott, Arnold.png */,
+				5441930E1718DBF4005575D7 /* Padnos, Seymour.png */,
+				5441930F1718DBF4005575D7 /* Pew, Mary Idema.png */,
+				544193101718DBF4005575D7 /* Pew, Robert.png */,
+				544193111718DBF4005575D7 /* Secchia, Peter.png */,
+				544193121718DBF4005575D7 /* Seidman, Bill.png */,
+				544193131718DBF4005575D7 /* Seidman, Bill and Sally.png */,
+				544193141718DBF4005575D7 /* Stafford, Dale.png */,
+				544193151718DBF4005575D7 /* Weed, Ella.png */,
+				544193161718DBF4005575D7 /* Zumberge, James.png */,
 			);
 			name = Donors;
 			sourceTree = "<group>";
@@ -601,6 +648,11 @@
 		54BD2E5D16B06C470099FB02 = {
 			isa = PBXGroup;
 			children = (
+				5441934F1718F441005575D7 /* GV Blue Leaves 2-1 Icon (1).png */,
+				5441934B1718E6C5005575D7 /* GV Blue Leaves 2-1 Icon.png */,
+				544192A81717D4D3005575D7 /* MapViewController.h */,
+				544192A91717D4D4005575D7 /* MapViewController.m */,
+				544192AA1717D4D5005575D7 /* MapViewController.xib */,
 				544192611714A3EC005575D7 /* gvlegacies@2x.png */,
 				5441925F1714A3E8005575D7 /* gvlegacies.png */,
 				544192591714A294005575D7 /* Default-568h@2x.png */,
@@ -672,6 +724,14 @@
 		54D855FD17141CAA00AACF76 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				5441934D1718F403005575D7 /* GV Blue Leaves 2-1 Icon (1).png */,
+				544193471718E69B005575D7 /* GV Blue Leaves 2-1.png */,
+				544192B51717DB6D005575D7 /* 3-oak-wood-underbar-shadow.png */,
+				544192B31717DB60005575D7 /* 3-oak-wood-menu-bar.png */,
+				544192B11717DB52005575D7 /* 3-oak-wood-button.png */,
+				544192AF1717DB49005575D7 /* 3-oak-wood-background.jpg */,
+				544192AD1717DB3F005575D7 /* 3-oak-wood-back-button.png */,
+				5441929E17175077005575D7 /* plate.png */,
 				5441926A1714AA5F005575D7 /* startup320.png */,
 				544192681714AA58005575D7 /* startup640.png */,
 				544192661714AA4F005575D7 /* startup640long.png */,
@@ -722,6 +782,14 @@
 		54D856741714263100AACF76 /* Building Thumbnails */ = {
 			isa = PBXGroup;
 			children = (
+				544193371718E541005575D7 /* Loutit Hall.png */,
+				544193381718E541005575D7 /* Steelcase Library.png */,
+				544193391718E541005575D7 /* VanSteeland LC.png */,
+				5441933A1718E541005575D7 /* Seidman Center.png */,
+				5441933B1718E541005575D7 /* Mary Idema Pew Library.png */,
+				5441933C1718E541005575D7 /* Kirkpatrick Living Center.png */,
+				5441933D1718E541005575D7 /* Cook Carillon.png */,
+				5441933E1718E541005575D7 /* Beckering Carillon.png */,
 				54D855FE1714260100AACF76 /* Allendale.png */,
 				54D855FF1714260200AACF76 /* Alumni.png */,
 				54D856001714260200AACF76 /* ArtGallery.png */,
@@ -837,36 +905,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				541D83BE16EE631C00D0D2AA /* gvsu1.jpg in Resources */,
-				541D83BF16EE631C00D0D2AA /* grandvalley3.jpg in Resources */,
 				5432BBB416FADFE20014AB2B /* GoogleMaps.bundle in Resources */,
-				5432BBBA16FAE4600014AB2B /* MapViewController.xib in Resources */,
-				54C2951517137CE900490AE7 /* Zumberge, James.jpg in Resources */,
-				54C2951617137CE900490AE7 /* Weed, Ella.jpg in Resources */,
-				54C2951717137CE900490AE7 /* Seidman, Bill.jpg in Resources */,
-				54C2951817137CE900490AE7 /* Seidman, Bill and Sally.jpg in Resources */,
-				54C2951917137CE900490AE7 /* Secchia, Peter.jpg in Resources */,
-				54C2951A17137CE900490AE7 /* Pew, Robert.jpg in Resources */,
-				54C2951B17137CE900490AE7 /* Pew, Mary Idema.jpg in Resources */,
-				54C2951C17137CE900490AE7 /* Padnos, Seymour.jpg in Resources */,
-				54C2951D17137CE900490AE7 /* Niemeyer, Glenn.jpg in Resources */,
-				54C2951E17137CE900490AE7 /* Murray, Mark.jpg in Resources */,
-				54C2951F17137CE900490AE7 /* Meijer, Fred.jpg in Resources */,
-				54C2952017137CE900490AE7 /* Lubbers, Don.jpg in Resources */,
-				54C2952117137CE900490AE7 /* Kirkhof, Russel.jpg in Resources */,
-				54C2952217137CE900490AE7 /* Kennedy, John.jpg in Resources */,
-				54C2952317137CE900490AE7 /* Keller, Fred.jpg in Resources */,
-				54C2952417137CE900490AE7 /* Johnson, Paul A.jpg in Resources */,
-				54C2952517137CE900490AE7 /* Eberhard, LV.jpg in Resources */,
-				54C2952617137CE900490AE7 /* DeVos, Rich.jpg in Resources */,
-				54C2952717137CE900490AE7 /* Cook, Peter.jpg in Resources */,
-				54C2952817137CE900490AE7 /* Cook, Peter & Pat.jpg in Resources */,
-				54C2952917137CE900490AE7 /* Art Hills.jpg in Resources */,
 				54C2952E1713820400490AE7 /* gvsuCLController.h in Resources */,
 				54C295311713821400490AE7 /* gvsuClosestViewController.h in Resources */,
 				54C295371713822700490AE7 /* gvsuDetailViewController.h in Resources */,
 				54C295431713825400490AE7 /* gvsuCell.h in Resources */,
-				54C295461713826D00490AE7 /* MapViewController.h in Resources */,
 				54C29550171382CC00490AE7 /* gvsuAppDelegate.h in Resources */,
 				54C29554171382F800490AE7 /* gvsuMasterViewController.h in Resources */,
 				54C295571713830000490AE7 /* gvsuViewController.h in Resources */,
@@ -981,13 +1024,60 @@
 				5441925C1714A3C6005575D7 /* gvlegacies@2x.png in Resources */,
 				5441925E1714A3D9005575D7 /* gvlegacies.png in Resources */,
 				544192601714A3E9005575D7 /* gvlegacies.png in Resources */,
-				544192621714A3EC005575D7 /* gvlegacies@2x.png in Resources */,
 				544192631714A4CF005575D7 /* Default.png in Resources */,
-				544192641714A4D7005575D7 /* Default@2x.png in Resources */,
-				544192651714A4DB005575D7 /* Default-568h@2x.png in Resources */,
 				544192671714AA50005575D7 /* startup640long.png in Resources */,
 				544192691714AA58005575D7 /* startup640.png in Resources */,
 				5441926B1714AA5F005575D7 /* startup320.png in Resources */,
+				5441929F17175079005575D7 /* plate.png in Resources */,
+				544192AC1717D4D6005575D7 /* MapViewController.xib in Resources */,
+				544192AE1717DB41005575D7 /* 3-oak-wood-back-button.png in Resources */,
+				544192B01717DB4B005575D7 /* 3-oak-wood-background.jpg in Resources */,
+				544192B21717DB54005575D7 /* 3-oak-wood-button.png in Resources */,
+				544192B41717DB62005575D7 /* 3-oak-wood-menu-bar.png in Resources */,
+				544192B61717DB6F005575D7 /* 3-oak-wood-underbar-shadow.png in Resources */,
+				544193171718DBF4005575D7 /* Art Hills.png in Resources */,
+				544193181718DBF4005575D7 /* Calder, Alexander.png in Resources */,
+				544193191718DBF4005575D7 /* Cook, Peter.png in Resources */,
+				5441931A1718DBF4005575D7 /* Cook, Peter & Pat.png in Resources */,
+				5441931B1718DBF4005575D7 /* DeVos, Rich.png in Resources */,
+				5441931C1718DBF4005575D7 /* Eberhard, LV.png in Resources */,
+				5441931D1718DBF4005575D7 /* Frey, Edward.png in Resources */,
+				5441931E1718DBF4005575D7 /* Henry, Paul.png in Resources */,
+				5441931F1718DBF4005575D7 /* Hills, Art.png in Resources */,
+				544193201718DBF4005575D7 /* Hoobler, Icie Macy.png in Resources */,
+				544193211718DBF4005575D7 /* Johnson, Paul A.png in Resources */,
+				544193221718DBF4005575D7 /* Keller, Fred.png in Resources */,
+				544193231718DBF4005575D7 /* Kelly, Brian and Paqui.png in Resources */,
+				544193241718DBF4005575D7 /* Kennedy, John.png in Resources */,
+				544193251718DBF4005575D7 /* Kirkhof, Russel.png in Resources */,
+				544193261718DBF4005575D7 /* Kirkpatrick, William.png in Resources */,
+				544193271718DBF4005575D7 /* Kistler, Grace.png in Resources */,
+				544193281718DBF4005575D7 /* Kleiner, Robert.png in Resources */,
+				544193291718DBF4005575D7 /* Lubbers, Don.png in Resources */,
+				5441932A1718DBF4005575D7 /* Meijer, Fred.png in Resources */,
+				5441932B1718DBF4005575D7 /* Murray, Mark.png in Resources */,
+				5441932C1718DBF4005575D7 /* Niemeyer, Glenn.png in Resources */,
+				5441932D1718DBF4005575D7 /* Ott, Arnold.png in Resources */,
+				5441932E1718DBF4005575D7 /* Padnos, Seymour.png in Resources */,
+				5441932F1718DBF4005575D7 /* Pew, Mary Idema.png in Resources */,
+				544193301718DBF4005575D7 /* Pew, Robert.png in Resources */,
+				544193311718DBF4005575D7 /* Secchia, Peter.png in Resources */,
+				544193321718DBF4005575D7 /* Seidman, Bill.png in Resources */,
+				544193331718DBF4005575D7 /* Seidman, Bill and Sally.png in Resources */,
+				544193341718DBF4005575D7 /* Stafford, Dale.png in Resources */,
+				544193351718DBF4005575D7 /* Weed, Ella.png in Resources */,
+				544193361718DBF4005575D7 /* Zumberge, James.png in Resources */,
+				5441933F1718E541005575D7 /* Loutit Hall.png in Resources */,
+				544193401718E541005575D7 /* Steelcase Library.png in Resources */,
+				544193411718E541005575D7 /* VanSteeland LC.png in Resources */,
+				544193421718E541005575D7 /* Seidman Center.png in Resources */,
+				544193431718E541005575D7 /* Mary Idema Pew Library.png in Resources */,
+				544193441718E541005575D7 /* Kirkpatrick Living Center.png in Resources */,
+				544193451718E541005575D7 /* Cook Carillon.png in Resources */,
+				544193461718E541005575D7 /* Beckering Carillon.png in Resources */,
+				544193491718E6A8005575D7 /* GV Blue Leaves 2-1.png in Resources */,
+				5441934E1718F410005575D7 /* GV Blue Leaves 2-1 Icon (1).png in Resources */,
+				544193501718F442005575D7 /* GV Blue Leaves 2-1 Icon (1).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1004,7 +1094,6 @@
 				54BD2E8F16B06C480099FB02 /* gvsuDetailViewController.m in Sources */,
 				54777C6116EE5DC4000BD24C /* main.m in Sources */,
 				544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */,
-				5432BBB916FAE4600014AB2B /* MapViewController.m in Sources */,
 				54715AEE16FDE9B30030E4D7 /* gvsuCLController.m in Sources */,
 				54715AF116FDEA6D0030E4D7 /* gvsuClosestViewController.m in Sources */,
 				54C295581713830200490AE7 /* gvsuViewController.m in Sources */,
@@ -1015,6 +1104,7 @@
 				54D8559B1713BFF600AACF76 /* ClosestViewController.m in Sources */,
 				54D855A11713CF3F00AACF76 /* DirectoryViewController.m in Sources */,
 				54D855A61713D26F00AACF76 /* ClosestDetailViewController.m in Sources */,
+				544192AB1717D4D6005575D7 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1053,14 +1143,6 @@
 			);
 			name = gvsuCell.h;
 			path = Philanthropy;
-			sourceTree = "<group>";
-		};
-		54C295451713826900490AE7 /* MapViewController.h */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C295441713826900490AE7 /* en */,
-			);
-			name = MapViewController.h;
 			sourceTree = "<group>";
 		};
 		54C2954F171382C700490AE7 /* gvsuAppDelegate.h */ = {

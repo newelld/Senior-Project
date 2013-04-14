@@ -1,6 +1,14 @@
+//
+//  MyMapViewController.m
+//  Philanthropy
+//
+//  Created by Nickolas Workman on 4/8/13.
+//  Copyright (c) 2013 Nickolas Workman. All rights reserved.
+//
+
 #import "MapViewController.h"
-#import <GoogleMaps/GoogleMaps.h>
 #import "ClosestDetailViewController.h"
+#import <GoogleMaps/GoogleMaps.h>
 
 @implementation MapViewController{
     GMSMapView *mapView;
@@ -8,13 +16,37 @@
 }
 NSArray *data;
 
-- (IBAction)getLocation{
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:42.961329900896835 longitude:-85.88285207748413 zoom:12];
-    mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        self.title = @"Map";
+        self.tabBarItem.title = @"Map";
+        self.tabBarItem.image = [UIImage imageNamed:@"map.png"];
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [self getLocation];
     mapView.myLocationEnabled = YES;
-    mapView.delegate = self;
+    // Do any additional setup after loading the view from its nib.
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)getLocation{
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:42.961329900896835 longitude:-85.88285207748413 zoom:15];
+    mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    //mapView.delegate = self;
     self.view = mapView;
-    
+    //[mapView animateToCameraPosition:camera];
     //[mapView setUserTrackingMode:MKUserTrackingModeFollow animated: YES ];
     
     NSString *mylist = [[NSBundle mainBundle] pathForResource:@"Senior Project Data" ofType:@"plist"];
@@ -22,12 +54,7 @@ NSArray *data;
     NSInteger count = [data count];
     NSLog(@"%@", data);
     
-    CLLocationCoordinate2D coordinate;
-    //MKPointAnnotation *annotation;
-    
     GMSMarkerOptions *locations = [[GMSMarkerOptions alloc] init];
-    //NSMutableArray *locations = [[NSMutableArray alloc] init];
-    
     
     for(int i = 0; i < count; i++)
     {
@@ -43,16 +70,13 @@ NSArray *data;
             [mapView addMarkerWithOptions:locations];
         }
     }
-    
-    
-    //[self.mapView addAnnotations:locations];
 }
 
 - (BOOL)mapView:(GMSMapView *)mapView didTapMarker:(id<GMSMarker>)marker {
     NSString *title = marker.title;
     if (title != nil) {
         //NSLog(@"%@", title);
-    } 
+    }
     return NO;
 }
 
@@ -65,11 +89,16 @@ didTapInfoWindowOfMarker:(id<GMSMarker>)marker
         NSString *string = [building valueForKey:@"Building Name"];
         if ([string isEqualToString:title])
         {
-            ClosestDetailViewController *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"detail"];
+            ClosestDetailViewController *detail = [[ClosestDetailViewController alloc]
+                                                   initWithNibName:@"ClosestDetailViewController" bundle:nil];
             detail.building = [building objectForKey:@"Building Name"];
-            detail.donorName1 = [building objectForKey:@"Donor Name 1"];
+            detail.donorPic1 = [building objectForKey:@"Donor Image 1"];
+            detail.donorPic2 = [building objectForKey:@"Donor Image 2"];
             detail.campus = [building objectForKey:@"Campus"];
+            detail.donorName1 = [building objectForKey:@"Donor Name 1"];
+            detail.donorName2 = [building objectForKey:@"Donor Name 2"];
             detail.description1 = [building objectForKey:@"Building Description 1"];
+            detail.description2 = [building objectForKey:@"Building Description 2"];
             [self.navigationController pushViewController:detail animated:YES];
         }
     }
@@ -84,36 +113,14 @@ didTapInfoWindowOfMarker:(id<GMSMarker>)marker
             //mapView.mapType = MKMapTypeSatellite;
             break;
         case 2:
-           // mapView.mapType = MKMapTypeHybrid;
+            // mapView.mapType = MKMapTypeHybrid;
             break;
             
     }
 }
 
-//@synthesize mapView;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
-- (void)viewDidLoad
-{
-    [self getLocation];
-    mapView.myLocationEnabled = YES;
-    //mapView.showsUserLocation = YES;
-    
-    // Do any additional setup after loading the view from its nib.
-}
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

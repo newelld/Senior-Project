@@ -42,20 +42,17 @@ NSArray *data;
 }
 
 - (IBAction)getLocation{
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:42.961329900896835 longitude:-85.88285207748413 zoom:16];
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:42.961329900896835 longitude:-85.88285207748413 zoom:15];
     mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
-    mapView.myLocationEnabled = YES;
-    mapView.delegate = self;
+    //mapView.delegate = self;
     self.view = mapView;
-    
+    //[mapView animateToCameraPosition:camera];
     //[mapView setUserTrackingMode:MKUserTrackingModeFollow animated: YES ];
     
     NSString *mylist = [[NSBundle mainBundle] pathForResource:@"Senior Project Data" ofType:@"plist"];
     data = [[NSArray alloc]initWithContentsOfFile:mylist];
     NSInteger count = [data count];
     NSLog(@"%@", data);
-    
-    CLLocationCoordinate2D coordinate;
     
     GMSMarkerOptions *locations = [[GMSMarkerOptions alloc] init];
     
@@ -93,7 +90,7 @@ didTapInfoWindowOfMarker:(id<GMSMarker>)marker
         if ([string isEqualToString:title])
         {
             ClosestDetailViewController *detail = [[ClosestDetailViewController alloc]
-                                                   initWithNibName:@"ClosestDetailViewController" bundle:nil];
+                    initWithNibName:@"ClosestDetailViewController" bundle:nil];
             detail.building = [building objectForKey:@"Building Name"];
             detail.donorPic1 = [building objectForKey:@"Donor Image 1"];
             detail.donorPic2 = [building objectForKey:@"Donor Image 2"];

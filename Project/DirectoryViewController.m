@@ -99,8 +99,6 @@
                 break;
             }
         }
-        
-        
     }
     
     NSArray *rows;
@@ -122,7 +120,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     ClosestDetailViewController *detail = [[ClosestDetailViewController alloc]
-                                           initWithNibName:@"ClosestDetailViewController" bundle:nil];
+                    initWithNibName:@"ClosestDetailViewController" bundle:nil];
     
     detail.building = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
     detail.campus = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Campus"];

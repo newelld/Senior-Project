@@ -9,7 +9,7 @@
 #import "gvsuAppDelegate.h"
 
 #import "HomeScreenViewController.h"
-#import "MyMapViewController.h"
+#import "MapViewController.h"
 #import "DirectoryViewController.h"
 #import "ClosestViewController.h"
 #import "DonateViewController.h"
@@ -31,13 +31,13 @@
         splitViewController.delegate = (id)navigationController.topViewController;
     }
     
-    [self customizeAppearance];
+    
     
     UIViewController *homescreen = [[HomeScreenViewController alloc]
         initWithNibName:@"HomeScreenViewController" bundle:nil];
    
-    MyMapViewController *ma = [[MyMapViewController alloc]
-                                    initWithNibName:@"MyMapViewController" bundle:nil];
+    MapViewController *ma = [[MapViewController alloc]
+                                    initWithNibName:@"MapViewController" bundle:nil];
     
     UINavigationController *map = [[UINavigationController alloc]
         initWithRootViewController:ma];
@@ -63,7 +63,7 @@
     self.tabBarController.viewControllers = [NSArray arrayWithObjects: homescreen, map, directory, closest, donate, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
-    
+    [self customizeAppearance];
     return YES;
 }
 
@@ -77,6 +77,10 @@
     
     UIImage *searchBackground = [UIImage imageNamed:@"searchbar.png"];
     [[UISearchBar appearance] setBackgroundImage:searchBackground];
+    
+    UIImage *cancelButtonBackground = [UIImage imageNamed:@"navbar-icon.png"];
+    UIBarButtonItem *searchBarButton = [UIBarButtonItem appearanceWhenContainedIn:[UISearchBar class], nil];
+    [searchBarButton setBackgroundImage:cancelButtonBackground forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
     
     UIImage *tabbarBackground = [UIImage imageNamed:@"tabbar.png"];
     [[UITabBar appearance] setBackgroundImage:tabbarBackground];

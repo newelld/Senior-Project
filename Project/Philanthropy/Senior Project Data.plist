@@ -26,7 +26,7 @@
 		<key>Building Image</key>
 		<string>pew.png</string>
 		<key>Donor Image 1</key>
-		<string>Pew, Robert.jpg</string>
+		<string>Pew, Robert.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -52,7 +52,7 @@
 		<key>GPS Coordinates</key>
 		<string>Null</string>
 		<key>Building Image</key>
-		<string>NULL</string>
+		<string>Beckering Carillon.png</string>
 		<key>Donor Image 1</key>
 		<string>NULL</string>
 		<key>Donor Image 2</key>
@@ -82,9 +82,9 @@
 		<key>Building Image</key>
 		<string>CHS.png</string>
 		<key>Donor Image 1</key>
-		<string>Cook, Peter.jpg</string>
+		<string>Cook, Peter.png</string>
 		<key>Donor Image 2</key>
-		<string>DeVos, Rich.jpg</string>
+		<string>DeVos, Rich.png</string>
 	</dict>
 	<dict>
 		<key>Building ID</key>
@@ -110,7 +110,7 @@
 		<key>Building Image</key>
 		<string>Eberhard.png</string>
 		<key>Donor Image 1</key>
-		<string>Eberhard, LV.jpg</string>
+		<string>Eberhard, LV.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -136,9 +136,9 @@
 		<key>GPS Coordinates</key>
 		<string>Null</string>
 		<key>Building Image</key>
-		<string>NULL</string>
+		<string>Seidman Center.png</string>
 		<key>Donor Image 1</key>
-		<string>NULL</string>
+		<string>Seidman, Bill.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -166,7 +166,7 @@
 		<key>Building Image</key>
 		<string>Kennedy.png</string>
 		<key>Donor Image 1</key>
-		<string>Keller, Fred.jpg</string>
+		<string>Keller, Fred.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -194,7 +194,7 @@
 		<key>Building Image</key>
 		<string>Kennedy.png</string>
 		<key>Donor Image 1</key>
-		<string>Kennedy, John.jpg</string>
+		<string>Kennedy, John.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -222,7 +222,7 @@
 		<key>Building Image</key>
 		<string>SecciaHall.png</string>
 		<key>Donor Image 1</key>
-		<string>Secchia, Peter.jpg</string>
+		<string>Secchia, Peter.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -250,7 +250,7 @@
 		<key>Building Image</key>
 		<string>DeVosCenter.png</string>
 		<key>Donor Image 1</key>
-		<string>DeVos, Rich.jpg</string>
+		<string>DeVos, Rich.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -278,7 +278,7 @@
 		<key>Building Image</key>
 		<string>NULL</string>
 		<key>Donor Image 1</key>
-		<string>Meijer, Fred.jpg</string>
+		<string>Meijer, Fred.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -304,7 +304,7 @@
 		<key>GPS Coordinates</key>
 		<string>42.96383055620375, -85.68098902702331</string>
 		<key>Building Image</key>
-		<string>NULL</string>
+		<string>Steelcase Library.png</string>
 		<key>Donor Image 1</key>
 		<string>NULL</string>
 		<key>Donor Image 2</key>
@@ -334,7 +334,7 @@
 		<key>Building Image</key>
 		<string>Calder.png</string>
 		<key>Donor Image 1</key>
-		<string>NULL</string>
+		<string>Calder, Alexander.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -362,7 +362,7 @@
 		<key>Building Image</key>
 		<string>HillsLivingCenter.png</string>
 		<key>Donor Image 1</key>
-		<string>Art Hills.jpg</string>
+		<string>Hills, Art.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -390,7 +390,7 @@
 		<key>Building Image</key>
 		<string>Hoobler.png</string>
 		<key>Donor Image 1</key>
-		<string>NULL</string>
+		<string>Hoobler, Icie Macy.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -446,7 +446,7 @@
 		<key>Building Image</key>
 		<string>FreyLivingCenter.png</string>
 		<key>Donor Image 1</key>
-		<string>NULL</string>
+		<string>Frey, Edward.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -474,7 +474,7 @@
 		<key>Building Image</key>
 		<string>Johnson.png</string>
 		<key>Donor Image 1</key>
-		<string>Johnson, Paul A.jpg</string>
+		<string>Johnson, Paul A.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -502,7 +502,7 @@
 		<key>Building Image</key>
 		<string>Turf.png</string>
 		<key>Donor Image 1</key>
-		<string>NULL</string>
+		<string>Kelly, Brian and Paqui</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -530,7 +530,7 @@
 		<key>Building Image</key>
 		<string>Kirkhof.png</string>
 		<key>Donor Image 1</key>
-		<string>Kirkhof, Russel.jpg</string>
+		<string>Kirkhof, Russel.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -556,9 +556,9 @@
 		<key>GPS Coordinates</key>
 		<string>42.96839585464383, -85.88316321372986</string>
 		<key>Building Image</key>
-		<string>Kirkpatrick_Living_Center_3.jpg</string>
+		<string>Kirkpatrick Living Center.png</string>
 		<key>Donor Image 1</key>
-		<string>NULL</string>
+		<string>Kirkpatrick, William.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -586,7 +586,7 @@
 		<key>Building Image</key>
 		<string>Kleiner.png</string>
 		<key>Donor Image 1</key>
-		<string>NULL</string>
+		<string>Kleiner, Robert.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -614,7 +614,7 @@
 		<key>Building Image</key>
 		<string>Kistler.png</string>
 		<key>Donor Image 1</key>
-		<string>NULL</string>
+		<string>Kistler, Grace.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -640,7 +640,7 @@
 		<key>GPS Coordinates</key>
 		<string>42.965035702291395, -85.8881413936615</string>
 		<key>Building Image</key>
-		<string>NULL</string>
+		<string>Loutit Hall.png</string>
 		<key>Donor Image 1</key>
 		<string>NULL</string>
 		<key>Donor Image 2</key>
@@ -670,7 +670,7 @@
 		<key>Building Image</key>
 		<string>NULL</string>
 		<key>Donor Image 1</key>
-		<string>Lubbers, Don.jpg</string>
+		<string>Lubbers, Don.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -698,7 +698,7 @@
 		<key>Building Image</key>
 		<string>Murray.png</string>
 		<key>Donor Image 1</key>
-		<string>Murray, Mark.jpg</string>
+		<string>Murray, Mark.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -726,7 +726,7 @@
 		<key>Building Image</key>
 		<string>NeimeyerLivingEast.png</string>
 		<key>Donor Image 1</key>
-		<string>Niemeyer, Glenn.jpg</string>
+		<string>Niemeyer, Glenn.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -754,7 +754,7 @@
 		<key>Building Image</key>
 		<string>NeimeyerHall.png</string>
 		<key>Donor Image 1</key>
-		<string>Niemeyer, Glenn.jpg</string>
+		<string>Niemeyer, Glenn.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -782,7 +782,7 @@
 		<key>Building Image</key>
 		<string>NeimeyerLivingWest.png</string>
 		<key>Donor Image 1</key>
-		<string>Niemeyer, Glenn.jpg</string>
+		<string>Niemeyer, Glenn.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -810,7 +810,7 @@
 		<key>Building Image</key>
 		<string>Ott.png</string>
 		<key>Donor Image 1</key>
-		<string>NULL</string>
+		<string>Ott, Arnold.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -838,7 +838,7 @@
 		<key>Building Image</key>
 		<string>Padnos.png</string>
 		<key>Donor Image 1</key>
-		<string>Padnos, Seymour.jpg</string>
+		<string>Padnos, Seymour.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -866,7 +866,7 @@
 		<key>Building Image</key>
 		<string>PewLivingCenter.png</string>
 		<key>Donor Image 1</key>
-		<string>Pew, Robert.jpg</string>
+		<string>Pew, Robert.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -950,9 +950,9 @@
 		<key>Building Image</key>
 		<string>SeidmanHouse.png</string>
 		<key>Donor Image 1</key>
-		<string>Seidman, Bill.jpg</string>
+		<string>Seidman, Bill.png</string>
 		<key>Donor Image 2</key>
-		<string>Seidman, Bill and Sally.jpg</string>
+		<string>NULL</string>
 	</dict>
 	<dict>
 		<key>Building ID</key>
@@ -978,7 +978,7 @@
 		<key>Building Image</key>
 		<string>Stafford.png</string>
 		<key>Donor Image 1</key>
-		<string>NULL</string>
+		<string>Stafford, Dale.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -1032,7 +1032,7 @@
 		<key>GPS Coordinates</key>
 		<string>42.9584718846586, -85.88742256164551</string>
 		<key>Building Image</key>
-		<string>vansteeland.jpg</string>
+		<string>VanSteeland LC.png</string>
 		<key>Donor Image 1</key>
 		<string>NULL</string>
 		<key>Donor Image 2</key>
@@ -1062,7 +1062,7 @@
 		<key>Building Image</key>
 		<string>Weed.png</string>
 		<key>Donor Image 1</key>
-		<string>Weed, Ella.jpg</string>
+		<string>Weed, Ella.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -1090,7 +1090,7 @@
 		<key>Building Image</key>
 		<string>Zumberge.png</string>
 		<key>Donor Image 1</key>
-		<string>Zumberge, James.jpg</string>
+		<string>Zumberge, James.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -1118,7 +1118,7 @@
 		<key>Building Image</key>
 		<string>DeVosLivingCenter.png</string>
 		<key>Donor Image 1</key>
-		<string>DeVos, Rich.jpg</string>
+		<string>DeVos, Rich.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -1144,9 +1144,9 @@
 		<key>GPS Coordinates</key>
 		<string>42.96345369785849, -85.88860809803009</string>
 		<key>Building Image</key>
-		<string>allendale clock.jpg</string>
+		<string>Cook Carillon.png</string>
 		<key>Donor Image 1</key>
-		<string>Cook, Peter &amp; Pat.jpg</string>
+		<string>Cook, Peter &amp; Pat.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -1174,7 +1174,7 @@
 		<key>Building Image</key>
 		<string>CookDewitt.png</string>
 		<key>Donor Image 1</key>
-		<string>Cook, Peter &amp; Pat.jpg</string>
+		<string>Cook, Peter &amp; Pat.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
@@ -1202,7 +1202,7 @@
 		<key>Building Image</key>
 		<string>HenryHall.png</string>
 		<key>Donor Image 1</key>
-		<string>NULL</string>
+		<string>Henry, Paul.png</string>
 		<key>Donor Image 2</key>
 		<string>NULL</string>
 	</dict>
