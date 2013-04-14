@@ -29,10 +29,9 @@
 		5441924A17149782005575D7 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924917149782005575D7 /* map.png */; };
 		5441924C171497D8005575D7 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924B171497D8005575D7 /* book.png */; };
 		5441924E17149822005575D7 /* piggy-bank.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924D17149822005575D7 /* piggy-bank.png */; };
-		5441925C1714A3C6005575D7 /* gvlegacies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441925B1714A3C6005575D7 /* gvlegacies@2x.png */; };
-		5441925E1714A3D9005575D7 /* gvlegacies.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441925D1714A3D9005575D7 /* gvlegacies.png */; };
 		544192601714A3E9005575D7 /* gvlegacies.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441925F1714A3E8005575D7 /* gvlegacies.png */; };
 		544192631714A4CF005575D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192571714A287005575D7 /* Default.png */; };
+<<<<<<< HEAD
 		544192671714AA50005575D7 /* startup640long.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192661714AA4F005575D7 /* startup640long.png */; };
 		544192691714AA58005575D7 /* startup640.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192681714AA58005575D7 /* startup640.png */; };
 		5441926B1714AA5F005575D7 /* startup320.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441926A1714AA5F005575D7 /* startup320.png */; };
@@ -87,6 +86,10 @@
 		544193491718E6A8005575D7 /* GV Blue Leaves 2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193471718E69B005575D7 /* GV Blue Leaves 2-1.png */; };
 		5441934E1718F410005575D7 /* GV Blue Leaves 2-1 Icon (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5441934D1718F403005575D7 /* GV Blue Leaves 2-1 Icon (1).png */; };
 		544193501718F442005575D7 /* GV Blue Leaves 2-1 Icon (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5441934F1718F441005575D7 /* GV Blue Leaves 2-1 Icon (1).png */; };
+=======
+		544192641714A4D7005575D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192551714A280005575D7 /* Default@2x.png */; };
+		544192651714A4DB005575D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192591714A294005575D7 /* Default-568h@2x.png */; };
+>>>>>>> 4b768639983eb581853123d39570802f0ead7ad7
 		544C0E3E17142B8900A9C773 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855BA17141ABF00AACF76 /* TableViewCell.m */; };
 		544C0E401714513000A9C773 /* searchbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 544C0E3F1714512F00A9C773 /* searchbar.png */; };
 		544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E047816F7C3C800FC64B4 /* gvsuCell.m */; };
@@ -1021,10 +1024,9 @@
 				5441924A17149782005575D7 /* map.png in Resources */,
 				5441924C171497D8005575D7 /* book.png in Resources */,
 				5441924E17149822005575D7 /* piggy-bank.png in Resources */,
-				5441925C1714A3C6005575D7 /* gvlegacies@2x.png in Resources */,
-				5441925E1714A3D9005575D7 /* gvlegacies.png in Resources */,
 				544192601714A3E9005575D7 /* gvlegacies.png in Resources */,
 				544192631714A4CF005575D7 /* Default.png in Resources */,
+<<<<<<< HEAD
 				544192671714AA50005575D7 /* startup640long.png in Resources */,
 				544192691714AA58005575D7 /* startup640.png in Resources */,
 				5441926B1714AA5F005575D7 /* startup320.png in Resources */,
@@ -1078,6 +1080,10 @@
 				544193491718E6A8005575D7 /* GV Blue Leaves 2-1.png in Resources */,
 				5441934E1718F410005575D7 /* GV Blue Leaves 2-1 Icon (1).png in Resources */,
 				544193501718F442005575D7 /* GV Blue Leaves 2-1 Icon (1).png in Resources */,
+=======
+				544192641714A4D7005575D7 /* Default@2x.png in Resources */,
+				544192651714A4DB005575D7 /* Default-568h@2x.png in Resources */,
+>>>>>>> 4b768639983eb581853123d39570802f0ead7ad7
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
