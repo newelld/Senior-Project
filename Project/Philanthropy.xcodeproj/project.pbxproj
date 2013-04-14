@@ -29,20 +29,9 @@
 		5441924A17149782005575D7 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924917149782005575D7 /* map.png */; };
 		5441924C171497D8005575D7 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924B171497D8005575D7 /* book.png */; };
 		5441924E17149822005575D7 /* piggy-bank.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924D17149822005575D7 /* piggy-bank.png */; };
-		544192601714A3E9005575D7 /* gvlegacies.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441925F1714A3E8005575D7 /* gvlegacies.png */; };
-		544192631714A4CF005575D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192571714A287005575D7 /* Default.png */; };
-<<<<<<< HEAD
-		544192671714AA50005575D7 /* startup640long.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192661714AA4F005575D7 /* startup640long.png */; };
-		544192691714AA58005575D7 /* startup640.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192681714AA58005575D7 /* startup640.png */; };
-		5441926B1714AA5F005575D7 /* startup320.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441926A1714AA5F005575D7 /* startup320.png */; };
 		5441929F17175079005575D7 /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441929E17175077005575D7 /* plate.png */; };
 		544192AB1717D4D6005575D7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544192A91717D4D4005575D7 /* MapViewController.m */; };
 		544192AC1717D4D6005575D7 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544192AA1717D4D5005575D7 /* MapViewController.xib */; };
-		544192AE1717DB41005575D7 /* 3-oak-wood-back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192AD1717DB3F005575D7 /* 3-oak-wood-back-button.png */; };
-		544192B01717DB4B005575D7 /* 3-oak-wood-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 544192AF1717DB49005575D7 /* 3-oak-wood-background.jpg */; };
-		544192B21717DB54005575D7 /* 3-oak-wood-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192B11717DB52005575D7 /* 3-oak-wood-button.png */; };
-		544192B41717DB62005575D7 /* 3-oak-wood-menu-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192B31717DB60005575D7 /* 3-oak-wood-menu-bar.png */; };
-		544192B61717DB6F005575D7 /* 3-oak-wood-underbar-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192B51717DB6D005575D7 /* 3-oak-wood-underbar-shadow.png */; };
 		544193171718DBF4005575D7 /* Art Hills.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192F71718DBF4005575D7 /* Art Hills.png */; };
 		544193181718DBF4005575D7 /* Calder, Alexander.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192F81718DBF4005575D7 /* Calder, Alexander.png */; };
 		544193191718DBF4005575D7 /* Cook, Peter.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192F91718DBF4005575D7 /* Cook, Peter.png */; };
@@ -84,12 +73,9 @@
 		544193451718E541005575D7 /* Cook Carillon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441933D1718E541005575D7 /* Cook Carillon.png */; };
 		544193461718E541005575D7 /* Beckering Carillon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441933E1718E541005575D7 /* Beckering Carillon.png */; };
 		544193491718E6A8005575D7 /* GV Blue Leaves 2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193471718E69B005575D7 /* GV Blue Leaves 2-1.png */; };
-		5441934E1718F410005575D7 /* GV Blue Leaves 2-1 Icon (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5441934D1718F403005575D7 /* GV Blue Leaves 2-1 Icon (1).png */; };
-		544193501718F442005575D7 /* GV Blue Leaves 2-1 Icon (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5441934F1718F441005575D7 /* GV Blue Leaves 2-1 Icon (1).png */; };
-=======
-		544192641714A4D7005575D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192551714A280005575D7 /* Default@2x.png */; };
-		544192651714A4DB005575D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192591714A294005575D7 /* Default-568h@2x.png */; };
->>>>>>> 4b768639983eb581853123d39570802f0ead7ad7
+		54419352171B5365005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 54419351171B535F005575D7 /* GV Blue Leaves 2-1 Icon (2).png */; };
+		54419354171B537F005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 54419353171B5374005575D7 /* GV Blue Leaves 2-1 Icon (2).png */; };
+		54419356171B538D005575D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 54419355171B5389005575D7 /* Default.png */; };
 		544C0E3E17142B8900A9C773 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855BA17141ABF00AACF76 /* TableViewCell.m */; };
 		544C0E401714513000A9C773 /* searchbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 544C0E3F1714512F00A9C773 /* searchbar.png */; };
 		544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E047816F7C3C800FC64B4 /* gvsuCell.m */; };
@@ -126,7 +112,6 @@
 		54D855A21713CF3F00AACF76 /* DirectoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D855A01713CF3F00AACF76 /* DirectoryViewController.xib */; };
 		54D855A61713D26F00AACF76 /* ClosestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855A41713D26F00AACF76 /* ClosestDetailViewController.m */; };
 		54D855A71713D26F00AACF76 /* ClosestDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D855A51713D26F00AACF76 /* ClosestDetailViewController.xib */; };
-		54D855B51714114500AACF76 /* nameplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855B41714114500AACF76 /* nameplate.png */; };
 		54D855BC17141AD700AACF76 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D855BB17141AD700AACF76 /* TableViewCell.xib */; };
 		54D855DD17141CA100AACF76 /* back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855BD17141C9C00AACF76 /* back-button.png */; };
 		54D855DE17141CA100AACF76 /* back-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D855BE17141C9C00AACF76 /* back-button@2x.png */; };
@@ -244,25 +229,10 @@
 		5441924917149782005575D7 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 		5441924B171497D8005575D7 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
 		5441924D17149822005575D7 /* piggy-bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "piggy-bank.png"; sourceTree = "<group>"; };
-		544192551714A280005575D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		544192571714A287005575D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		544192591714A294005575D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		5441925B1714A3C6005575D7 /* gvlegacies@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gvlegacies@2x.png"; path = "../../../../../../var/folders/m8/16zdw2n51h97ptv4j6sg8wq00000gn/T/Messages/Transfers/gvlegacies@2x.png"; sourceTree = "<group>"; };
-		5441925D1714A3D9005575D7 /* gvlegacies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gvlegacies.png; path = ../../../../../../var/folders/m8/16zdw2n51h97ptv4j6sg8wq00000gn/T/Messages/Transfers/gvlegacies.png; sourceTree = "<group>"; };
-		5441925F1714A3E8005575D7 /* gvlegacies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gvlegacies.png; sourceTree = "<group>"; };
-		544192611714A3EC005575D7 /* gvlegacies@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gvlegacies@2x.png"; sourceTree = "<group>"; };
-		544192661714AA4F005575D7 /* startup640long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startup640long.png; path = ../../../../../../var/folders/m8/16zdw2n51h97ptv4j6sg8wq00000gn/T/Messages/Transfers/startup640long.png; sourceTree = "<group>"; };
-		544192681714AA58005575D7 /* startup640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startup640.png; path = ../../../../../../var/folders/m8/16zdw2n51h97ptv4j6sg8wq00000gn/T/Messages/Transfers/startup640.png; sourceTree = "<group>"; };
-		5441926A1714AA5F005575D7 /* startup320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startup320.png; path = ../../../../../../var/folders/m8/16zdw2n51h97ptv4j6sg8wq00000gn/T/Messages/Transfers/startup320.png; sourceTree = "<group>"; };
 		5441929E17175077005575D7 /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plate.png; path = ../../../../Downloads/plate.png; sourceTree = "<group>"; };
 		544192A81717D4D3005575D7 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		544192A91717D4D4005575D7 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		544192AA1717D4D5005575D7 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
-		544192AD1717DB3F005575D7 /* 3-oak-wood-back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3-oak-wood-back-button.png"; path = "../../../../Downloads/pimlico/Assets/Oak Wood/3-oak-wood-back-button.png"; sourceTree = "<group>"; };
-		544192AF1717DB49005575D7 /* 3-oak-wood-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "3-oak-wood-background.jpg"; path = "../../../../Downloads/pimlico/Assets/Oak Wood/3-oak-wood-background.jpg"; sourceTree = "<group>"; };
-		544192B11717DB52005575D7 /* 3-oak-wood-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3-oak-wood-button.png"; path = "../../../../Downloads/pimlico/Assets/Oak Wood/3-oak-wood-button.png"; sourceTree = "<group>"; };
-		544192B31717DB60005575D7 /* 3-oak-wood-menu-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3-oak-wood-menu-bar.png"; path = "../../../../Downloads/pimlico/Assets/Oak Wood/3-oak-wood-menu-bar.png"; sourceTree = "<group>"; };
-		544192B51717DB6D005575D7 /* 3-oak-wood-underbar-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3-oak-wood-underbar-shadow.png"; path = "../../../../Downloads/pimlico/Assets/Oak Wood/3-oak-wood-underbar-shadow.png"; sourceTree = "<group>"; };
 		544192F71718DBF4005575D7 /* Art Hills.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Art Hills.png"; path = "../../../../Downloads/Donors/Art Hills.png"; sourceTree = "<group>"; };
 		544192F81718DBF4005575D7 /* Calder, Alexander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Calder, Alexander.png"; path = "../../../../Downloads/Donors/Calder, Alexander.png"; sourceTree = "<group>"; };
 		544192F91718DBF4005575D7 /* Cook, Peter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cook, Peter.png"; path = "../../../../Downloads/Donors/Cook, Peter.png"; sourceTree = "<group>"; };
@@ -304,9 +274,9 @@
 		5441933D1718E541005575D7 /* Cook Carillon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cook Carillon.png"; path = "../../../../Downloads/Buildings/Cook Carillon.png"; sourceTree = "<group>"; };
 		5441933E1718E541005575D7 /* Beckering Carillon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beckering Carillon.png"; path = "../../../../Downloads/Buildings/Beckering Carillon.png"; sourceTree = "<group>"; };
 		544193471718E69B005575D7 /* GV Blue Leaves 2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GV Blue Leaves 2-1.png"; path = "../../../../Downloads/GV Blue Leaves 2-1.png"; sourceTree = "<group>"; };
-		5441934B1718E6C5005575D7 /* GV Blue Leaves 2-1 Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GV Blue Leaves 2-1 Icon.png"; sourceTree = "<group>"; };
-		5441934D1718F403005575D7 /* GV Blue Leaves 2-1 Icon (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GV Blue Leaves 2-1 Icon (1).png"; path = "../../../../Downloads/GV Blue Leaves 2-1 Icon (1).png"; sourceTree = "<group>"; };
-		5441934F1718F441005575D7 /* GV Blue Leaves 2-1 Icon (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GV Blue Leaves 2-1 Icon (1).png"; sourceTree = "<group>"; };
+		54419351171B535F005575D7 /* GV Blue Leaves 2-1 Icon (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GV Blue Leaves 2-1 Icon (2).png"; path = "../../../../Downloads/GV Blue Leaves 2-1 Icon (2).png"; sourceTree = "<group>"; };
+		54419353171B5374005575D7 /* GV Blue Leaves 2-1 Icon (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GV Blue Leaves 2-1 Icon (2).png"; sourceTree = "<group>"; };
+		54419355171B5389005575D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5446E11616F94D4700C876C8 /* gvsuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuViewController.m; path = Philanthropy/gvsuViewController.m; sourceTree = "<group>"; };
 		544C0E3F1714512F00A9C773 /* searchbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchbar.png; sourceTree = "<group>"; };
 		544E047816F7C3C800FC64B4 /* gvsuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuCell.m; path = Philanthropy/gvsuCell.m; sourceTree = "<group>"; };
@@ -355,7 +325,6 @@
 		54D855A31713D26F00AACF76 /* ClosestDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClosestDetailViewController.h; sourceTree = "<group>"; };
 		54D855A41713D26F00AACF76 /* ClosestDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClosestDetailViewController.m; sourceTree = "<group>"; };
 		54D855A51713D26F00AACF76 /* ClosestDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClosestDetailViewController.xib; sourceTree = "<group>"; };
-		54D855B41714114500AACF76 /* nameplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nameplate.png; sourceTree = "<group>"; };
 		54D855B917141ABF00AACF76 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		54D855BA17141ABF00AACF76 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		54D855BB17141AD700AACF76 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
@@ -544,6 +513,7 @@
 		5441924217147089005575D7 /* Old Storyboard Files */ = {
 			isa = PBXGroup;
 			children = (
+				5447D04016FACA00008A70D3 /* Startup_Screen */,
 				54715AE816FDE8BD0030E4D7 /* Closest */,
 				5447D03D16FABD46008A70D3 /* Directory */,
 			);
@@ -553,7 +523,6 @@
 		5447D03C16FABD1A008A70D3 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
-				5455F21C1714740A0088DA27 /* LakerLegacies.png */,
 				54D856741714263100AACF76 /* Building Thumbnails */,
 				54D855FD17141CAA00AACF76 /* Icons */,
 				544C0E3D1714273300A9C773 /* Donors */,
@@ -651,21 +620,15 @@
 		54BD2E5D16B06C470099FB02 = {
 			isa = PBXGroup;
 			children = (
-				5441934F1718F441005575D7 /* GV Blue Leaves 2-1 Icon (1).png */,
-				5441934B1718E6C5005575D7 /* GV Blue Leaves 2-1 Icon.png */,
+				54419355171B5389005575D7 /* Default.png */,
+				54419353171B5374005575D7 /* GV Blue Leaves 2-1 Icon (2).png */,
 				544192A81717D4D3005575D7 /* MapViewController.h */,
 				544192A91717D4D4005575D7 /* MapViewController.m */,
 				544192AA1717D4D5005575D7 /* MapViewController.xib */,
-				544192611714A3EC005575D7 /* gvlegacies@2x.png */,
-				5441925F1714A3E8005575D7 /* gvlegacies.png */,
-				544192591714A294005575D7 /* Default-568h@2x.png */,
-				544192571714A287005575D7 /* Default.png */,
-				544192551714A280005575D7 /* Default@2x.png */,
 				54D8559D1713C03F00AACF76 /* Tabs */,
 				5441924217147089005575D7 /* Old Storyboard Files */,
 				54BD2E7216B06C470099FB02 /* Philanthropy */,
 				5447D03C16FABD1A008A70D3 /* Pictures */,
-				5447D04016FACA00008A70D3 /* Startup_Screen */,
 				5447D03E16FAC949008A70D3 /* Storyboards */,
 				54BD2E6B16B06C470099FB02 /* Frameworks */,
 			);
@@ -727,19 +690,10 @@
 		54D855FD17141CAA00AACF76 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
-				5441934D1718F403005575D7 /* GV Blue Leaves 2-1 Icon (1).png */,
+				54419351171B535F005575D7 /* GV Blue Leaves 2-1 Icon (2).png */,
+				5455F21C1714740A0088DA27 /* LakerLegacies.png */,
 				544193471718E69B005575D7 /* GV Blue Leaves 2-1.png */,
-				544192B51717DB6D005575D7 /* 3-oak-wood-underbar-shadow.png */,
-				544192B31717DB60005575D7 /* 3-oak-wood-menu-bar.png */,
-				544192B11717DB52005575D7 /* 3-oak-wood-button.png */,
-				544192AF1717DB49005575D7 /* 3-oak-wood-background.jpg */,
-				544192AD1717DB3F005575D7 /* 3-oak-wood-back-button.png */,
 				5441929E17175077005575D7 /* plate.png */,
-				5441926A1714AA5F005575D7 /* startup320.png */,
-				544192681714AA58005575D7 /* startup640.png */,
-				544192661714AA4F005575D7 /* startup640long.png */,
-				5441925B1714A3C6005575D7 /* gvlegacies@2x.png */,
-				5441925D1714A3D9005575D7 /* gvlegacies.png */,
 				5441924D17149822005575D7 /* piggy-bank.png */,
 				5441924B171497D8005575D7 /* book.png */,
 				5441924917149782005575D7 /* map.png */,
@@ -747,7 +701,6 @@
 				5441924517149764005575D7 /* compass.png */,
 				5441924317149700005575D7 /* house.png */,
 				544C0E3F1714512F00A9C773 /* searchbar.png */,
-				54D855B41714114500AACF76 /* nameplate.png */,
 				54D855BD17141C9C00AACF76 /* back-button.png */,
 				54D855BE17141C9C00AACF76 /* back-button@2x.png */,
 				54D855BF17141C9D00AACF76 /* navbar-icon@2x.png */,
@@ -925,7 +878,6 @@
 				54D8559C1713BFF600AACF76 /* ClosestViewController.xib in Resources */,
 				54D855A21713CF3F00AACF76 /* DirectoryViewController.xib in Resources */,
 				54D855A71713D26F00AACF76 /* ClosestDetailViewController.xib in Resources */,
-				54D855B51714114500AACF76 /* nameplate.png in Resources */,
 				54D855BC17141AD700AACF76 /* TableViewCell.xib in Resources */,
 				54D855DD17141CA100AACF76 /* back-button.png in Resources */,
 				54D855DE17141CA100AACF76 /* back-button@2x.png in Resources */,
@@ -1024,19 +976,8 @@
 				5441924A17149782005575D7 /* map.png in Resources */,
 				5441924C171497D8005575D7 /* book.png in Resources */,
 				5441924E17149822005575D7 /* piggy-bank.png in Resources */,
-				544192601714A3E9005575D7 /* gvlegacies.png in Resources */,
-				544192631714A4CF005575D7 /* Default.png in Resources */,
-<<<<<<< HEAD
-				544192671714AA50005575D7 /* startup640long.png in Resources */,
-				544192691714AA58005575D7 /* startup640.png in Resources */,
-				5441926B1714AA5F005575D7 /* startup320.png in Resources */,
 				5441929F17175079005575D7 /* plate.png in Resources */,
 				544192AC1717D4D6005575D7 /* MapViewController.xib in Resources */,
-				544192AE1717DB41005575D7 /* 3-oak-wood-back-button.png in Resources */,
-				544192B01717DB4B005575D7 /* 3-oak-wood-background.jpg in Resources */,
-				544192B21717DB54005575D7 /* 3-oak-wood-button.png in Resources */,
-				544192B41717DB62005575D7 /* 3-oak-wood-menu-bar.png in Resources */,
-				544192B61717DB6F005575D7 /* 3-oak-wood-underbar-shadow.png in Resources */,
 				544193171718DBF4005575D7 /* Art Hills.png in Resources */,
 				544193181718DBF4005575D7 /* Calder, Alexander.png in Resources */,
 				544193191718DBF4005575D7 /* Cook, Peter.png in Resources */,
@@ -1078,12 +1019,9 @@
 				544193451718E541005575D7 /* Cook Carillon.png in Resources */,
 				544193461718E541005575D7 /* Beckering Carillon.png in Resources */,
 				544193491718E6A8005575D7 /* GV Blue Leaves 2-1.png in Resources */,
-				5441934E1718F410005575D7 /* GV Blue Leaves 2-1 Icon (1).png in Resources */,
-				544193501718F442005575D7 /* GV Blue Leaves 2-1 Icon (1).png in Resources */,
-=======
-				544192641714A4D7005575D7 /* Default@2x.png in Resources */,
-				544192651714A4DB005575D7 /* Default-568h@2x.png in Resources */,
->>>>>>> 4b768639983eb581853123d39570802f0ead7ad7
+				54419352171B5365005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */,
+				54419354171B537F005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */,
+				54419356171B538D005575D7 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

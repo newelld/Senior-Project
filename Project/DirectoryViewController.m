@@ -120,19 +120,8 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     ClosestDetailViewController *detail = [[ClosestDetailViewController alloc]
-<<<<<<< HEAD
                     initWithNibName:@"ClosestDetailViewController" bundle:nil];
     
-    detail.building = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Building Name"];
-    detail.campus = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Campus"];
-    detail.donorName1 = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Donor Name 1"];
-    detail.donorName2 = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Donor Name 2"];
-    detail.donorPic1 = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Donor Image 1"];
-    detail.donorPic2 = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Donor Image 2"];
-    detail.description1 = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
-    detail.description2 = [[sortedData objectAtIndex:indexPath.row]objectForKey:@"Building Description 2"];
-=======
-                                           initWithNibName:@"ClosestDetailViewController" bundle:nil];
     NSArray *rows;
     if (tableView == self.searchDisplayController.searchResultsTableView)
     {
@@ -148,7 +137,6 @@
     detail.donorPic2 = [[rows objectAtIndex:indexPath.row]objectForKey:@"Donor Image 2"];
     detail.description1 = [[rows objectAtIndex:indexPath.row]objectForKey:@"Building Description 1"];
     detail.description2 = [[rows objectAtIndex:indexPath.row]objectForKey:@"Building Description 2"];
->>>>>>> 4b768639983eb581853123d39570802f0ead7ad7
     [self.navigationController pushViewController:detail animated:YES];
 }
 
