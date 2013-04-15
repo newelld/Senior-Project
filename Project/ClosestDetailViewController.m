@@ -33,9 +33,9 @@
     if (numberOfViews == 2) {
         for (int i = 0; i < 2; i++) {
             CGFloat xOrigin = i * self.view.frame.size.width;
-            UIView *donorView = [[UIView alloc] initWithFrame:CGRectMake(xOrigin, 0, self.view.frame.size.width, self.view.frame.size.height)];
-            UIScrollView *innerScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-            
+            UIView *donorView = [[UIView alloc] initWithFrame:CGRectMake(xOrigin, 0, self.view.frame.size.width, 335)];
+            UIScrollView *innerScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 335)];
+            innerScrollView.scrollEnabled = YES;
             UIImageView *dPic = [[UIImageView alloc] initWithImage:[UIImage imageNamed:donorPic1]];
             UITextView *dDescription = [[UITextView alloc] initWithFrame:CGRectMake(0, dPic.frame.size.height, 320, 50)];
             dDescription.editable = NO;
@@ -44,12 +44,17 @@
             dDescription.text = description1;
             [innerScrollView addSubview:dPic];
             [innerScrollView addSubview:dDescription];
-            
             [donorView addSubview:innerScrollView];
+            UIImageView *plate = [[UIImageView alloc] initWithFrame:CGRectMake(xOrigin, 335, self.view.frame.size.width, 50)];
+            [plate setImage:[UIImage imageNamed:@"plate.png"]];
             
+            [donorView addSubview:plate];
             UIImage *backgroundImage = [UIImage imageNamed:@"leather-background.png"]; //the background gets set twice for a
             UIColor *backgroundPattern = [UIColor colorWithPatternImage:backgroundImage];//reason
             [donorView setBackgroundColor: backgroundPattern];
+            
+            
+            
             [scrollView addSubview:donorView];
         }
     }
