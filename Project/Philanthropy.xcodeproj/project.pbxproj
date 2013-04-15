@@ -155,7 +155,6 @@
 		5441953A171BA15B005575D7 /* Weed.png in Resources */ = {isa = PBXBuildFile; fileRef = 544194F4171BA15B005575D7 /* Weed.png */; };
 		5441953B171BA15B005575D7 /* WinterHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 544194F5171BA15B005575D7 /* WinterHall.png */; };
 		5441953C171BA15B005575D7 /* Zumberge.png in Resources */ = {isa = PBXBuildFile; fileRef = 544194F6171BA15B005575D7 /* Zumberge.png */; };
-		54419543171BA3B1005575D7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54419541171BA251005575D7 /* MapViewController.m */; };
 		54419548171BA600005575D7 /* gvsuCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54419545171BA5E2005575D7 /* gvsuCLController.m */; };
 		54419549171BA603005575D7 /* gvsuCLController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54419547171BA5FA005575D7 /* gvsuCLController.h */; };
 		544195A0171BAA99005575D7 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5441959F171BAA99005575D7 /* GoogleMaps.framework */; };
@@ -164,6 +163,8 @@
 		544195A6171BAE69005575D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 544195A5171BAE68005575D7 /* Default.png */; };
 		544195A8171BAE6D005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 544195A7171BAE6C005575D7 /* GV Blue Leaves 2-1 Icon (2).png */; };
 		544195AA171BAF26005575D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544195A9171BAF26005575D7 /* Default-568h@2x.png */; };
+		544195AE171BB306005575D7 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544195AB171BB306005575D7 /* MapViewController.xib */; };
+		544195AF171BB306005575D7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544195AC171BB306005575D7 /* MapViewController.m */; };
 		544C0E3E17142B8900A9C773 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855BA17141ABF00AACF76 /* TableViewCell.m */; };
 		54600BA216DC6475004AFA84 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54600BA116DC6475004AFA84 /* MapKit.framework */; };
 		54777C6116EE5DC4000BD24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54777C6016EE5DC4000BD24C /* main.m */; };
@@ -340,9 +341,6 @@
 		544194F4171BA15B005575D7 /* Weed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Weed.png; path = ../Buildings/Weed.png; sourceTree = "<group>"; };
 		544194F5171BA15B005575D7 /* WinterHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WinterHall.png; path = ../Buildings/WinterHall.png; sourceTree = "<group>"; };
 		544194F6171BA15B005575D7 /* Zumberge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Zumberge.png; path = ../Buildings/Zumberge.png; sourceTree = "<group>"; };
-		54419540171BA251005575D7 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
-		54419541171BA251005575D7 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		54419542171BA251005575D7 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		54419545171BA5E2005575D7 /* gvsuCLController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuCLController.m; path = Philanthropy/gvsuCLController.m; sourceTree = "<group>"; };
 		54419546171BA5FA005575D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/gvsuCLController.h; sourceTree = "<group>"; };
 		5441959F171BAA99005575D7 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "GoogleMaps-iOS-1.1.2/GoogleMaps.framework"; sourceTree = "<group>"; };
@@ -351,6 +349,9 @@
 		544195A5171BAE68005575D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		544195A7171BAE6C005575D7 /* GV Blue Leaves 2-1 Icon (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GV Blue Leaves 2-1 Icon (2).png"; sourceTree = "<group>"; };
 		544195A9171BAF26005575D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		544195AB171BB306005575D7 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapViewController.xib; path = Philanthropy/MapViewController.xib; sourceTree = "<group>"; };
+		544195AC171BB306005575D7 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = Philanthropy/MapViewController.m; sourceTree = "<group>"; };
+		544195AD171BB306005575D7 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = Philanthropy/MapViewController.h; sourceTree = "<group>"; };
 		54600BA116DC6475004AFA84 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		54777C6016EE5DC4000BD24C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54BD2E6C16B06C470099FB02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -423,9 +424,9 @@
 		5441923D17146FF6005575D7 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				54419540171BA251005575D7 /* MapViewController.xib */,
-				54419541171BA251005575D7 /* MapViewController.m */,
-				54419542171BA251005575D7 /* MapViewController.h */,
+				544195AD171BB306005575D7 /* MapViewController.h */,
+				544195AC171BB306005575D7 /* MapViewController.m */,
+				544195AB171BB306005575D7 /* MapViewController.xib */,
 			);
 			name = Map;
 			sourceTree = "<group>";
@@ -932,6 +933,7 @@
 				544195A6171BAE69005575D7 /* Default.png in Resources */,
 				544195A8171BAE6D005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */,
 				544195AA171BAF26005575D7 /* Default-568h@2x.png in Resources */,
+				544195AE171BB306005575D7 /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -950,8 +952,8 @@
 				54D8559B1713BFF600AACF76 /* ClosestViewController.m in Sources */,
 				54D855A11713CF3F00AACF76 /* DirectoryViewController.m in Sources */,
 				54D855A61713D26F00AACF76 /* ClosestDetailViewController.m in Sources */,
-				54419543171BA3B1005575D7 /* MapViewController.m in Sources */,
 				54419548171BA600005575D7 /* gvsuCLController.m in Sources */,
+				544195AF171BB306005575D7 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

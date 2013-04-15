@@ -1,14 +1,18 @@
+//
+//  MyMapViewController.h
+//  Philanthropy
+//
+//  Created by Nickolas Workman on 4/8/13.
+//  Copyright (c) 2013 Nickolas Workman. All rights reserved.
+//
+
 #import <UIKit/UIKit.h>
-#import <MapKit/MapKit.h>
-
-@interface MapViewController : UIViewController {    
-	MKMapView *mapView;
-    NSArray *data;    
-}
-
-@property (nonatomic, retain) IBOutlet MKMapView *mapView;
+#import <GoogleMaps/GoogleMaps.h>
+@interface MapViewController : UIViewController
 
 - (IBAction)getLocation;
-- (IBAction)setMap:(id)sender;
-
+//- (IBAction)setMap:(id)sender;
+-(BOOL)mapView:(GMSMapView *)mapView didTapMarker:(id<GMSMarker>)marker;
+-(void)mapView:(GMSMapView *)mapView didTapInfoWindowOfMarker:(id<GMSMarker>)marker;
+//- (UIView *)mapView:(GMSMapView *)mapView markerInfoWindow:(id<GMSMarker>)marker;
 @end
