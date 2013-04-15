@@ -9,7 +9,7 @@
 #import "gvsuAppDelegate.h"
 
 #import "HomeScreenViewController.h"
-#import "MyMapViewController.h"
+#import "MapViewController.h"
 #import "DirectoryViewController.h"
 #import "ClosestViewController.h"
 #import "DonateViewController.h"
@@ -36,8 +36,8 @@
     UIViewController *homescreen = [[HomeScreenViewController alloc]
         initWithNibName:@"HomeScreenViewController" bundle:nil];
    
-    MyMapViewController *ma = [[MyMapViewController alloc]
-                                    initWithNibName:@"MyMapViewController" bundle:nil];
+    MapViewController *ma = [[MapViewController alloc]
+                                    initWithNibName:@"MapViewController" bundle:nil];
     
     UINavigationController *map = [[UINavigationController alloc]
         initWithRootViewController:ma];

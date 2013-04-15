@@ -11,7 +11,7 @@
 @interface MyMapViewController : UIViewController
 
 - (IBAction)getLocation;
--(void)centerCamera:(GMSCameraPosition*)camera;
+//-(void)centerCamera:(GMSCameraPosition*)camera;
 - (IBAction)setMap:(id)sender;
-- (UIView *)mapView:(GMSMapView *)mapView markerInfoWindow:(id<GMSMarker>)marker;
+//- (UIView *)mapView:(GMSMapView *)mapView markerInfoWindow:(id<GMSMarker>)marker;
 @end
