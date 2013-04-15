@@ -30,8 +30,6 @@
 		5441924C171497D8005575D7 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924B171497D8005575D7 /* book.png */; };
 		5441924E17149822005575D7 /* piggy-bank.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441924D17149822005575D7 /* piggy-bank.png */; };
 		5441929F17175079005575D7 /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441929E17175077005575D7 /* plate.png */; };
-		544192AB1717D4D6005575D7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544192A91717D4D4005575D7 /* MapViewController.m */; };
-		544192AC1717D4D6005575D7 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544192AA1717D4D5005575D7 /* MapViewController.xib */; };
 		544193171718DBF4005575D7 /* Art Hills.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192F71718DBF4005575D7 /* Art Hills.png */; };
 		544193181718DBF4005575D7 /* Calder, Alexander.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192F81718DBF4005575D7 /* Calder, Alexander.png */; };
 		544193191718DBF4005575D7 /* Cook, Peter.png in Resources */ = {isa = PBXBuildFile; fileRef = 544192F91718DBF4005575D7 /* Cook, Peter.png */; };
@@ -74,8 +72,6 @@
 		544193461718E541005575D7 /* Beckering Carillon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441933E1718E541005575D7 /* Beckering Carillon.png */; };
 		544193491718E6A8005575D7 /* GV Blue Leaves 2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 544193471718E69B005575D7 /* GV Blue Leaves 2-1.png */; };
 		54419352171B5365005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 54419351171B535F005575D7 /* GV Blue Leaves 2-1 Icon (2).png */; };
-		54419354171B537F005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 54419353171B5374005575D7 /* GV Blue Leaves 2-1 Icon (2).png */; };
-		54419356171B538D005575D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 54419355171B5389005575D7 /* Default.png */; };
 		544C0E3E17142B8900A9C773 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855BA17141ABF00AACF76 /* TableViewCell.m */; };
 		544C0E401714513000A9C773 /* searchbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 544C0E3F1714512F00A9C773 /* searchbar.png */; };
 		544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E047816F7C3C800FC64B4 /* gvsuCell.m */; };
@@ -230,9 +226,6 @@
 		5441924B171497D8005575D7 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
 		5441924D17149822005575D7 /* piggy-bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "piggy-bank.png"; sourceTree = "<group>"; };
 		5441929E17175077005575D7 /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plate.png; path = ../../../../Downloads/plate.png; sourceTree = "<group>"; };
-		544192A81717D4D3005575D7 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		544192A91717D4D4005575D7 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		544192AA1717D4D5005575D7 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		544192F71718DBF4005575D7 /* Art Hills.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Art Hills.png"; path = "../../../../Downloads/Donors/Art Hills.png"; sourceTree = "<group>"; };
 		544192F81718DBF4005575D7 /* Calder, Alexander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Calder, Alexander.png"; path = "../../../../Downloads/Donors/Calder, Alexander.png"; sourceTree = "<group>"; };
 		544192F91718DBF4005575D7 /* Cook, Peter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cook, Peter.png"; path = "../../../../Downloads/Donors/Cook, Peter.png"; sourceTree = "<group>"; };
@@ -275,8 +268,6 @@
 		5441933E1718E541005575D7 /* Beckering Carillon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beckering Carillon.png"; path = "../../../../Downloads/Buildings/Beckering Carillon.png"; sourceTree = "<group>"; };
 		544193471718E69B005575D7 /* GV Blue Leaves 2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GV Blue Leaves 2-1.png"; path = "../../../../Downloads/GV Blue Leaves 2-1.png"; sourceTree = "<group>"; };
 		54419351171B535F005575D7 /* GV Blue Leaves 2-1 Icon (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GV Blue Leaves 2-1 Icon (2).png"; path = "../../../../Downloads/GV Blue Leaves 2-1 Icon (2).png"; sourceTree = "<group>"; };
-		54419353171B5374005575D7 /* GV Blue Leaves 2-1 Icon (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GV Blue Leaves 2-1 Icon (2).png"; sourceTree = "<group>"; };
-		54419355171B5389005575D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5446E11616F94D4700C876C8 /* gvsuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuViewController.m; path = Philanthropy/gvsuViewController.m; sourceTree = "<group>"; };
 		544C0E3F1714512F00A9C773 /* searchbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchbar.png; sourceTree = "<group>"; };
 		544E047816F7C3C800FC64B4 /* gvsuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuCell.m; path = Philanthropy/gvsuCell.m; sourceTree = "<group>"; };
@@ -620,11 +611,6 @@
 		54BD2E5D16B06C470099FB02 = {
 			isa = PBXGroup;
 			children = (
-				54419355171B5389005575D7 /* Default.png */,
-				54419353171B5374005575D7 /* GV Blue Leaves 2-1 Icon (2).png */,
-				544192A81717D4D3005575D7 /* MapViewController.h */,
-				544192A91717D4D4005575D7 /* MapViewController.m */,
-				544192AA1717D4D5005575D7 /* MapViewController.xib */,
 				54D8559D1713C03F00AACF76 /* Tabs */,
 				5441924217147089005575D7 /* Old Storyboard Files */,
 				54BD2E7216B06C470099FB02 /* Philanthropy */,
@@ -977,7 +963,6 @@
 				5441924C171497D8005575D7 /* book.png in Resources */,
 				5441924E17149822005575D7 /* piggy-bank.png in Resources */,
 				5441929F17175079005575D7 /* plate.png in Resources */,
-				544192AC1717D4D6005575D7 /* MapViewController.xib in Resources */,
 				544193171718DBF4005575D7 /* Art Hills.png in Resources */,
 				544193181718DBF4005575D7 /* Calder, Alexander.png in Resources */,
 				544193191718DBF4005575D7 /* Cook, Peter.png in Resources */,
@@ -1020,8 +1005,6 @@
 				544193461718E541005575D7 /* Beckering Carillon.png in Resources */,
 				544193491718E6A8005575D7 /* GV Blue Leaves 2-1.png in Resources */,
 				54419352171B5365005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */,
-				54419354171B537F005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */,
-				54419356171B538D005575D7 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1048,7 +1031,6 @@
 				54D8559B1713BFF600AACF76 /* ClosestViewController.m in Sources */,
 				54D855A11713CF3F00AACF76 /* DirectoryViewController.m in Sources */,
 				54D855A61713D26F00AACF76 /* ClosestDetailViewController.m in Sources */,
-				544192AB1717D4D6005575D7 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
