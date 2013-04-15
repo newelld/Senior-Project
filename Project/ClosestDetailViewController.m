@@ -24,29 +24,60 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    self.navigationItem.title = building;
-    donorsName.text = donorName1;
-    donorsName.adjustsFontSizeToFitWidth=YES;
-    
-    UIImageView *dPic = [[UIImageView alloc] initWithImage:[UIImage imageNamed:donorPic1]];
-    UITextView *dDescription = [[UITextView alloc] initWithFrame:CGRectMake(0, dPic.frame.size.height, 320, 50)];
-    dDescription.editable = NO;
-    dDescription.backgroundColor = [UIColor clearColor];
-    [dDescription setFont:[UIFont fontWithName:@"Georgia" size:14]];
-    
-    dDescription.text = description1;
-    
-    [scrollview addSubview:dPic];
-    [scrollview addSubview:dDescription];
-    
-    
-    dDescription.frame = CGRectMake(dDescription.frame.origin.x, dDescription.frame.origin.y, dDescription.frame.size.width, dDescription.contentSize.height);
-    scrollview.contentSize = CGSizeMake(320, dPic.frame.size.height +dDescription.frame.size.height);
-    
     UIImage *backgroundImage = [UIImage imageNamed:@"leather-background.png"];
     UIColor *backgroundPattern = [UIColor colorWithPatternImage:backgroundImage];
     [self.view setBackgroundColor: backgroundPattern];
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    scrollView.pagingEnabled = YES;
+    NSInteger numberOfViews = 2;
+    if (numberOfViews == 2) {
+        for (int i = 0; i < 2; i++) {
+            CGFloat xOrigin = i * self.view.frame.size.width;
+            UIView *donorView = [[UIView alloc] initWithFrame:CGRectMake(xOrigin, 0, self.view.frame.size.width, self.view.frame.size.height)];
+            UIScrollView *innerScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+            
+            UIImageView *dPic = [[UIImageView alloc] initWithImage:[UIImage imageNamed:donorPic1]];
+            UITextView *dDescription = [[UITextView alloc] initWithFrame:CGRectMake(0, dPic.frame.size.height, 320, 50)];
+            dDescription.editable = NO;
+            dDescription.backgroundColor = [UIColor clearColor];
+            [dDescription setFont:[UIFont fontWithName:@"Georgia" size:14]];
+            dDescription.text = description1;
+            [innerScrollView addSubview:dPic];
+            [innerScrollView addSubview:dDescription];
+            
+            [donorView addSubview:innerScrollView];
+            
+            UIImage *backgroundImage = [UIImage imageNamed:@"leather-background.png"]; //the background gets set twice for a
+            UIColor *backgroundPattern = [UIColor colorWithPatternImage:backgroundImage];//reason
+            [donorView setBackgroundColor: backgroundPattern];
+            [scrollView addSubview:donorView];
+        }
+    }
+    scrollView.contentSize = CGSizeMake(self.view.frame.size.width * numberOfViews, self.view.frame.size.height);
+    [self.view addSubview:scrollView];
+    
+//    self.navigationItem.title = building;
+//    donorsName.text = donorName1;
+//    donorsName.adjustsFontSizeToFitWidth=YES;
+//    
+//    UIImageView *dPic = [[UIImageView alloc] initWithImage:[UIImage imageNamed:donorPic1]];
+//    UITextView *dDescription = [[UITextView alloc] initWithFrame:CGRectMake(0, dPic.frame.size.height, 320, 50)];
+//    dDescription.editable = NO;
+//    dDescription.backgroundColor = [UIColor clearColor];
+//    [dDescription setFont:[UIFont fontWithName:@"Georgia" size:14]];
+//    
+//    dDescription.text = description1;
+//    
+//    [scrollview addSubview:dPic];
+//    [scrollview addSubview:dDescription];
+//    
+//    
+//    dDescription.frame = CGRectMake(dDescription.frame.origin.x, dDescription.frame.origin.y, dDescription.frame.size.width, dDescription.contentSize.height);
+//    scrollview.contentSize = CGSizeMake(320, dPic.frame.size.height +dDescription.frame.size.height);
+//    
+//    UIImage *backgroundImage = [UIImage imageNamed:@"leather-background.png"];
+//    UIColor *backgroundPattern = [UIColor colorWithPatternImage:backgroundImage];
+//    [self.view setBackgroundColor: backgroundPattern];
 }
 
 - (void)didReceiveMemoryWarning
