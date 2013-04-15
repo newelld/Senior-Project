@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		540C03C21713A35E0012425F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540C03C01713A35E0012425F /* MainStoryboard_iPhone.storyboard */; };
-		540C03C31713A35E0012425F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540C03C11713A35E0012425F /* MainStoryboard_iPad.storyboard */; };
 		5432BB9616FAD7380014AB2B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BB9516FAD7380014AB2B /* AVFoundation.framework */; };
 		5432BB9816FAD7410014AB2B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BB9716FAD7410014AB2B /* CoreData.framework */; };
 		5432BB9A16FAD7490014AB2B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BB9916FAD7490014AB2B /* CoreLocation.framework */; };
@@ -21,8 +19,6 @@
 		5432BBA816FAD7980014AB2B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BBA716FAD7980014AB2B /* OpenGLES.framework */; };
 		5432BBAA16FAD7A20014AB2B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BBA916FAD7A20014AB2B /* QuartzCore.framework */; };
 		5432BBAC16FAD7AE0014AB2B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BBAB16FAD7AE0014AB2B /* SystemConfiguration.framework */; };
-		5432BBB216FADFD10014AB2B /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BBB116FADFD10014AB2B /* GoogleMaps.framework */; };
-		5432BBB416FADFE20014AB2B /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5432BBB316FADFE20014AB2B /* GoogleMaps.bundle */; };
 		54419445171B86A8005575D7 /* Art Hills.png in Resources */ = {isa = PBXBuildFile; fileRef = 54419425171B86A8005575D7 /* Art Hills.png */; };
 		54419446171B86A8005575D7 /* Calder, Alexander.png in Resources */ = {isa = PBXBuildFile; fileRef = 54419426171B86A8005575D7 /* Calder, Alexander.png */; };
 		54419447171B86A8005575D7 /* Cook, Peter & Pat.png in Resources */ = {isa = PBXBuildFile; fileRef = 54419427171B86A8005575D7 /* Cook, Peter & Pat.png */; };
@@ -55,8 +51,6 @@
 		54419462171B86A8005575D7 /* Stafford, Dale.png in Resources */ = {isa = PBXBuildFile; fileRef = 54419442171B86A8005575D7 /* Stafford, Dale.png */; };
 		54419463171B86A8005575D7 /* Weed, Ella.png in Resources */ = {isa = PBXBuildFile; fileRef = 54419443171B86A8005575D7 /* Weed, Ella.png */; };
 		54419464171B86A8005575D7 /* Zumberge, James.png in Resources */ = {isa = PBXBuildFile; fileRef = 54419444171B86A8005575D7 /* Zumberge, James.png */; };
-		54419469171BA0D1005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 54419465171BA0D1005575D7 /* GV Blue Leaves 2-1 Icon (2).png */; };
-		5441946A171BA0D1005575D7 /* GV Blue Leaves 2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 54419466171BA0D1005575D7 /* GV Blue Leaves 2-1.png */; };
 		5441946B171BA0D1005575D7 /* LakerLegacies.png in Resources */ = {isa = PBXBuildFile; fileRef = 54419467171BA0D1005575D7 /* LakerLegacies.png */; };
 		5441946C171BA0D1005575D7 /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = 54419468171BA0D1005575D7 /* plate.png */; };
 		54419474171BA112005575D7 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 5441946E171BA112005575D7 /* book.png */; };
@@ -111,7 +105,6 @@
 		54419507171BA15B005575D7 /* Eberhard.png in Resources */ = {isa = PBXBuildFile; fileRef = 544194C1171BA15B005575D7 /* Eberhard.png */; };
 		54419508171BA15B005575D7 /* Fieldhouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 544194C2171BA15B005575D7 /* Fieldhouse.png */; };
 		54419509171BA15B005575D7 /* FreyLivingCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 544194C3171BA15B005575D7 /* FreyLivingCenter.png */; };
-		5441950A171BA15B005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 544194C4171BA15B005575D7 /* GV Blue Leaves 2-1 Icon (2).png */; };
 		5441950B171BA15B005575D7 /* GV Blue Leaves 2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 544194C5171BA15B005575D7 /* GV Blue Leaves 2-1.png */; };
 		5441950C171BA15B005575D7 /* HenryHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 544194C6171BA15B005575D7 /* HenryHall.png */; };
 		5441950D171BA15B005575D7 /* HillsLivingCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 544194C7171BA15B005575D7 /* HillsLivingCenter.png */; };
@@ -163,34 +156,27 @@
 		5441953B171BA15B005575D7 /* WinterHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 544194F5171BA15B005575D7 /* WinterHall.png */; };
 		5441953C171BA15B005575D7 /* Zumberge.png in Resources */ = {isa = PBXBuildFile; fileRef = 544194F6171BA15B005575D7 /* Zumberge.png */; };
 		54419543171BA3B1005575D7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54419541171BA251005575D7 /* MapViewController.m */; };
+		54419548171BA600005575D7 /* gvsuCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54419545171BA5E2005575D7 /* gvsuCLController.m */; };
+		54419549171BA603005575D7 /* gvsuCLController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54419547171BA5FA005575D7 /* gvsuCLController.h */; };
+		544195A0171BAA99005575D7 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5441959F171BAA99005575D7 /* GoogleMaps.framework */; };
+		544195A2171BAABF005575D7 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 544195A1171BAABF005575D7 /* GoogleMaps.bundle */; };
+		544195A4171BAB4A005575D7 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 544195A3171BAB4A005575D7 /* libc++.dylib */; };
+		544195A6171BAE69005575D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 544195A5171BAE68005575D7 /* Default.png */; };
+		544195A8171BAE6D005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 544195A7171BAE6C005575D7 /* GV Blue Leaves 2-1 Icon (2).png */; };
+		544195AA171BAF26005575D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 544195A9171BAF26005575D7 /* Default-568h@2x.png */; };
 		544C0E3E17142B8900A9C773 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855BA17141ABF00AACF76 /* TableViewCell.m */; };
-		544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E047816F7C3C800FC64B4 /* gvsuCell.m */; };
 		54600BA216DC6475004AFA84 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54600BA116DC6475004AFA84 /* MapKit.framework */; };
-		54715AEE16FDE9B30030E4D7 /* gvsuCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54715AED16FDE9B30030E4D7 /* gvsuCLController.m */; };
-		54715AF116FDEA6D0030E4D7 /* gvsuClosestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54715AF016FDEA6D0030E4D7 /* gvsuClosestViewController.m */; };
 		54777C6116EE5DC4000BD24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54777C6016EE5DC4000BD24C /* main.m */; };
 		54BD2E6D16B06C470099FB02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6C16B06C470099FB02 /* UIKit.framework */; };
 		54BD2E6F16B06C470099FB02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6E16B06C470099FB02 /* Foundation.framework */; };
 		54BD2E7116B06C470099FB02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E7016B06C470099FB02 /* CoreGraphics.framework */; };
 		54BD2E7D16B06C480099FB02 /* gvsuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E7C16B06C480099FB02 /* gvsuAppDelegate.m */; };
-		54BD2E8C16B06C480099FB02 /* gvsuMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8B16B06C480099FB02 /* gvsuMasterViewController.m */; };
-		54BD2E8F16B06C480099FB02 /* gvsuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */; };
-		54C2952E1713820400490AE7 /* gvsuCLController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2952D1713820000490AE7 /* gvsuCLController.h */; };
-		54C295311713821400490AE7 /* gvsuClosestViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295301713821000490AE7 /* gvsuClosestViewController.h */; };
-		54C295371713822700490AE7 /* gvsuDetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295361713822500490AE7 /* gvsuDetailViewController.h */; };
-		54C295431713825400490AE7 /* gvsuCell.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C295421713825100490AE7 /* gvsuCell.h */; };
 		54C29550171382CC00490AE7 /* gvsuAppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2954F171382C700490AE7 /* gvsuAppDelegate.h */; };
-		54C29554171382F800490AE7 /* gvsuMasterViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C29553171382F500490AE7 /* gvsuMasterViewController.h */; };
-		54C295571713830000490AE7 /* gvsuViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C29556171382FD00490AE7 /* gvsuViewController.h */; };
-		54C295581713830200490AE7 /* gvsuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5446E11616F94D4700C876C8 /* gvsuViewController.m */; };
 		54D8557F1713A9DE00AACF76 /* Senior Project Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54D8557E1713A9DE00AACF76 /* Senior Project Data.plist */; };
-		54D855821713AF1600AACF76 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855811713AD3C00AACF76 /* DetailViewController.m */; };
 		54D8558C1713B23A00AACF76 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D8558A1713B23A00AACF76 /* HomeScreenViewController.m */; };
 		54D8558D1713B23A00AACF76 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D8558B1713B23A00AACF76 /* HomeScreenViewController.xib */; };
 		54D855911713B24F00AACF76 /* DonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D8558F1713B24F00AACF76 /* DonateViewController.m */; };
 		54D855921713B24F00AACF76 /* DonateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D855901713B24F00AACF76 /* DonateViewController.xib */; };
-		54D855961713BFE000AACF76 /* MyMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855941713BFE000AACF76 /* MyMapViewController.m */; };
-		54D855971713BFE000AACF76 /* MyMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D855951713BFE000AACF76 /* MyMapViewController.xib */; };
 		54D8559B1713BFF600AACF76 /* ClosestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855991713BFF500AACF76 /* ClosestViewController.m */; };
 		54D8559C1713BFF600AACF76 /* ClosestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D8559A1713BFF500AACF76 /* ClosestViewController.xib */; };
 		54D855A11713CF3F00AACF76 /* DirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D8559F1713CF3F00AACF76 /* DirectoryViewController.m */; };
@@ -201,8 +187,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		540C03C01713A35E0012425F /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		540C03C11713A35E0012425F /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		542C4D8216EE584200D556E0 /* Philanthropy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Philanthropy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Philanthropy-Info.plist"; sourceTree = "<group>"; };
 		5432BB9516FAD7380014AB2B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -217,8 +201,6 @@
 		5432BBA716FAD7980014AB2B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		5432BBA916FAD7A20014AB2B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5432BBAB16FAD7AE0014AB2B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		5432BBB116FADFD10014AB2B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		5432BBB316FADFE20014AB2B /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		54419425171B86A8005575D7 /* Art Hills.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Art Hills.png"; sourceTree = "<group>"; };
 		54419426171B86A8005575D7 /* Calder, Alexander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calder, Alexander.png"; sourceTree = "<group>"; };
 		54419427171B86A8005575D7 /* Cook, Peter & Pat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cook, Peter & Pat.png"; sourceTree = "<group>"; };
@@ -361,43 +343,30 @@
 		54419540171BA251005575D7 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		54419541171BA251005575D7 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		54419542171BA251005575D7 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		5446E11616F94D4700C876C8 /* gvsuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuViewController.m; path = Philanthropy/gvsuViewController.m; sourceTree = "<group>"; };
-		544E047816F7C3C800FC64B4 /* gvsuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gvsuCell.m; path = Philanthropy/gvsuCell.m; sourceTree = "<group>"; };
+		54419545171BA5E2005575D7 /* gvsuCLController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuCLController.m; path = Philanthropy/gvsuCLController.m; sourceTree = "<group>"; };
+		54419546171BA5FA005575D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/gvsuCLController.h; sourceTree = "<group>"; };
+		5441959F171BAA99005575D7 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "GoogleMaps-iOS-1.1.2/GoogleMaps.framework"; sourceTree = "<group>"; };
+		544195A1171BAABF005575D7 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "GoogleMaps-iOS-1.1.2/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		544195A3171BAB4A005575D7 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		544195A5171BAE68005575D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		544195A7171BAE6C005575D7 /* GV Blue Leaves 2-1 Icon (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GV Blue Leaves 2-1 Icon (2).png"; sourceTree = "<group>"; };
+		544195A9171BAF26005575D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		54600BA116DC6475004AFA84 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		54715AED16FDE9B30030E4D7 /* gvsuCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuCLController.m; sourceTree = "<group>"; };
-		54715AF016FDEA6D0030E4D7 /* gvsuClosestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuClosestViewController.m; sourceTree = "<group>"; };
 		54777C6016EE5DC4000BD24C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54BD2E6C16B06C470099FB02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		54BD2E6E16B06C470099FB02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54BD2E7016B06C470099FB02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		54BD2E7C16B06C480099FB02 /* gvsuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gvsuAppDelegate.m; sourceTree = "<group>"; };
-		54BD2E8B16B06C480099FB02 /* gvsuMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuMasterViewController.m; path = Philanthropy/gvsuMasterViewController.m; sourceTree = "<group>"; };
-		54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuDetailViewController.m; path = Philanthropy/gvsuDetailViewController.m; sourceTree = "<group>"; };
 		54BD2E9616B06C480099FB02 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		54C2952C1713820000490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuCLController.h; sourceTree = "<group>"; };
-		54C2952F1713821000490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuClosestViewController.h; sourceTree = "<group>"; };
-		54C295351713822500490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuDetailViewController.h; sourceTree = "<group>"; };
-		54C295411713825100490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuCell.h; sourceTree = "<group>"; };
 		54C2954E171382C700490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuAppDelegate.h; sourceTree = "<group>"; };
-		54C29552171382F500490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuMasterViewController.h; sourceTree = "<group>"; };
-		54C29555171382FD00490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuViewController.h; sourceTree = "<group>"; };
 		54C862D0171392DB0086E97C /* Philanthropy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Philanthropy-Prefix.pch"; sourceTree = "<group>"; };
 		54D8557E1713A9DE00AACF76 /* Senior Project Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Senior Project Data.plist"; sourceTree = "<group>"; };
-		54D855801713AD3C00AACF76 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		54D855811713AD3C00AACF76 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		54D855851713B00B00AACF76 /* gvsuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gvsuTableViewController.m; sourceTree = "<group>"; };
-		54D855861713B00B00AACF76 /* gvsuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvsuTableViewController.h; sourceTree = "<group>"; };
-		54D855871713B16C00AACF76 /* gvsuTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvsuTableView.h; sourceTree = "<group>"; };
-		54D855881713B16C00AACF76 /* gvsuTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gvsuTableView.m; sourceTree = "<group>"; };
 		54D855891713B23A00AACF76 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
 		54D8558A1713B23A00AACF76 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
 		54D8558B1713B23A00AACF76 /* HomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeScreenViewController.xib; sourceTree = "<group>"; };
 		54D8558E1713B24F00AACF76 /* DonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateViewController.h; sourceTree = "<group>"; };
 		54D8558F1713B24F00AACF76 /* DonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateViewController.m; sourceTree = "<group>"; };
 		54D855901713B24F00AACF76 /* DonateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DonateViewController.xib; sourceTree = "<group>"; };
-		54D855931713BFE000AACF76 /* MyMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMapViewController.h; sourceTree = "<group>"; };
-		54D855941713BFE000AACF76 /* MyMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMapViewController.m; sourceTree = "<group>"; };
-		54D855951713BFE000AACF76 /* MyMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMapViewController.xib; sourceTree = "<group>"; };
 		54D855981713BFF500AACF76 /* ClosestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClosestViewController.h; sourceTree = "<group>"; };
 		54D855991713BFF500AACF76 /* ClosestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClosestViewController.m; sourceTree = "<group>"; };
 		54D8559A1713BFF500AACF76 /* ClosestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClosestViewController.xib; sourceTree = "<group>"; };
@@ -417,6 +386,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544195A4171BAB4A005575D7 /* libc++.dylib in Frameworks */,
 				5432BBAC16FAD7AE0014AB2B /* SystemConfiguration.framework in Frameworks */,
 				5432BBAA16FAD7A20014AB2B /* QuartzCore.framework in Frameworks */,
 				5432BBA816FAD7980014AB2B /* OpenGLES.framework in Frameworks */,
@@ -433,7 +403,7 @@
 				54BD2E6D16B06C470099FB02 /* UIKit.framework in Frameworks */,
 				54BD2E6F16B06C470099FB02 /* Foundation.framework in Frameworks */,
 				54BD2E7116B06C470099FB02 /* CoreGraphics.framework in Frameworks */,
-				5432BBB216FADFD10014AB2B /* GoogleMaps.framework in Frameworks */,
+				544195A0171BAA99005575D7 /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,9 +426,6 @@
 				54419540171BA251005575D7 /* MapViewController.xib */,
 				54419541171BA251005575D7 /* MapViewController.m */,
 				54419542171BA251005575D7 /* MapViewController.h */,
-				54D855931713BFE000AACF76 /* MyMapViewController.h */,
-				54D855941713BFE000AACF76 /* MyMapViewController.m */,
-				54D855951713BFE000AACF76 /* MyMapViewController.xib */,
 			);
 			name = Map;
 			sourceTree = "<group>";
@@ -476,6 +443,8 @@
 		5441923F1714701D005575D7 /* Closest */ = {
 			isa = PBXGroup;
 			children = (
+				54419547171BA5FA005575D7 /* gvsuCLController.h */,
+				54419545171BA5E2005575D7 /* gvsuCLController.m */,
 				54D855981713BFF500AACF76 /* ClosestViewController.h */,
 				54D855991713BFF500AACF76 /* ClosestViewController.m */,
 				54D8559A1713BFF500AACF76 /* ClosestViewController.xib */,
@@ -504,16 +473,6 @@
 				54D8558B1713B23A00AACF76 /* HomeScreenViewController.xib */,
 			);
 			name = HomeScreen;
-			sourceTree = "<group>";
-		};
-		5441924217147089005575D7 /* Old Storyboard Files */ = {
-			isa = PBXGroup;
-			children = (
-				5447D04016FACA00008A70D3 /* Startup_Screen */,
-				54715AE816FDE8BD0030E4D7 /* Closest */,
-				5447D03D16FABD46008A70D3 /* Directory */,
-			);
-			name = "Old Storyboard Files";
 			sourceTree = "<group>";
 		};
 		54419424171B86A6005575D7 /* Donors */ = {
@@ -617,62 +576,15 @@
 			name = Pictures;
 			sourceTree = "<group>";
 		};
-		5447D03D16FABD46008A70D3 /* Directory */ = {
-			isa = PBXGroup;
-			children = (
-				54D855871713B16C00AACF76 /* gvsuTableView.h */,
-				54D855881713B16C00AACF76 /* gvsuTableView.m */,
-				54D855861713B00B00AACF76 /* gvsuTableViewController.h */,
-				54D855851713B00B00AACF76 /* gvsuTableViewController.m */,
-				54D855801713AD3C00AACF76 /* DetailViewController.h */,
-				54D855811713AD3C00AACF76 /* DetailViewController.m */,
-				54C295361713822500490AE7 /* gvsuDetailViewController.h */,
-				54BD2E8E16B06C480099FB02 /* gvsuDetailViewController.m */,
-				54C295421713825100490AE7 /* gvsuCell.h */,
-				544E047816F7C3C800FC64B4 /* gvsuCell.m */,
-			);
-			name = Directory;
-			sourceTree = "<group>";
-		};
-		5447D03E16FAC949008A70D3 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				540C03C01713A35E0012425F /* MainStoryboard_iPhone.storyboard */,
-				540C03C11713A35E0012425F /* MainStoryboard_iPad.storyboard */,
-			);
-			name = Storyboards;
-			sourceTree = "<group>";
-		};
-		5447D04016FACA00008A70D3 /* Startup_Screen */ = {
-			isa = PBXGroup;
-			children = (
-				54C29553171382F500490AE7 /* gvsuMasterViewController.h */,
-				54BD2E8B16B06C480099FB02 /* gvsuMasterViewController.m */,
-				54C29556171382FD00490AE7 /* gvsuViewController.h */,
-				5446E11616F94D4700C876C8 /* gvsuViewController.m */,
-			);
-			name = Startup_Screen;
-			sourceTree = "<group>";
-		};
-		54715AE816FDE8BD0030E4D7 /* Closest */ = {
-			isa = PBXGroup;
-			children = (
-				54C2952D1713820000490AE7 /* gvsuCLController.h */,
-				54715AED16FDE9B30030E4D7 /* gvsuCLController.m */,
-				54C295301713821000490AE7 /* gvsuClosestViewController.h */,
-				54715AF016FDEA6D0030E4D7 /* gvsuClosestViewController.m */,
-			);
-			name = Closest;
-			sourceTree = "<group>";
-		};
 		54BD2E5D16B06C470099FB02 = {
 			isa = PBXGroup;
 			children = (
+				544195A9171BAF26005575D7 /* Default-568h@2x.png */,
+				544195A7171BAE6C005575D7 /* GV Blue Leaves 2-1 Icon (2).png */,
+				544195A5171BAE68005575D7 /* Default.png */,
 				54D8559D1713C03F00AACF76 /* Tabs */,
-				5441924217147089005575D7 /* Old Storyboard Files */,
 				54BD2E7216B06C470099FB02 /* Philanthropy */,
 				5447D03C16FABD1A008A70D3 /* Pictures */,
-				5447D03E16FAC949008A70D3 /* Storyboards */,
 				54BD2E6B16B06C470099FB02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -680,8 +592,9 @@
 		54BD2E6B16B06C470099FB02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5432BBB316FADFE20014AB2B /* GoogleMaps.bundle */,
-				5432BBB116FADFD10014AB2B /* GoogleMaps.framework */,
+				544195A3171BAB4A005575D7 /* libc++.dylib */,
+				544195A1171BAABF005575D7 /* GoogleMaps.bundle */,
+				5441959F171BAA99005575D7 /* GoogleMaps.framework */,
 				5432BBAB16FAD7AE0014AB2B /* SystemConfiguration.framework */,
 				5432BBA916FAD7A20014AB2B /* QuartzCore.framework */,
 				5432BBA716FAD7980014AB2B /* OpenGLES.framework */,
@@ -870,20 +783,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5432BBB416FADFE20014AB2B /* GoogleMaps.bundle in Resources */,
-				54C2952E1713820400490AE7 /* gvsuCLController.h in Resources */,
-				54C295311713821400490AE7 /* gvsuClosestViewController.h in Resources */,
-				54C295371713822700490AE7 /* gvsuDetailViewController.h in Resources */,
-				54C295431713825400490AE7 /* gvsuCell.h in Resources */,
 				54C29550171382CC00490AE7 /* gvsuAppDelegate.h in Resources */,
-				54C29554171382F800490AE7 /* gvsuMasterViewController.h in Resources */,
-				54C295571713830000490AE7 /* gvsuViewController.h in Resources */,
-				540C03C21713A35E0012425F /* MainStoryboard_iPhone.storyboard in Resources */,
-				540C03C31713A35E0012425F /* MainStoryboard_iPad.storyboard in Resources */,
 				54D8557F1713A9DE00AACF76 /* Senior Project Data.plist in Resources */,
 				54D8558D1713B23A00AACF76 /* HomeScreenViewController.xib in Resources */,
 				54D855921713B24F00AACF76 /* DonateViewController.xib in Resources */,
-				54D855971713BFE000AACF76 /* MyMapViewController.xib in Resources */,
 				54D8559C1713BFF600AACF76 /* ClosestViewController.xib in Resources */,
 				54D855A21713CF3F00AACF76 /* DirectoryViewController.xib in Resources */,
 				54D855A71713D26F00AACF76 /* ClosestDetailViewController.xib in Resources */,
@@ -920,8 +823,6 @@
 				54419462171B86A8005575D7 /* Stafford, Dale.png in Resources */,
 				54419463171B86A8005575D7 /* Weed, Ella.png in Resources */,
 				54419464171B86A8005575D7 /* Zumberge, James.png in Resources */,
-				54419469171BA0D1005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */,
-				5441946A171BA0D1005575D7 /* GV Blue Leaves 2-1.png in Resources */,
 				5441946B171BA0D1005575D7 /* LakerLegacies.png in Resources */,
 				5441946C171BA0D1005575D7 /* plate.png in Resources */,
 				54419474171BA112005575D7 /* book.png in Resources */,
@@ -976,7 +877,6 @@
 				54419507171BA15B005575D7 /* Eberhard.png in Resources */,
 				54419508171BA15B005575D7 /* Fieldhouse.png in Resources */,
 				54419509171BA15B005575D7 /* FreyLivingCenter.png in Resources */,
-				5441950A171BA15B005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */,
 				5441950B171BA15B005575D7 /* GV Blue Leaves 2-1.png in Resources */,
 				5441950C171BA15B005575D7 /* HenryHall.png in Resources */,
 				5441950D171BA15B005575D7 /* HillsLivingCenter.png in Resources */,
@@ -1027,6 +927,11 @@
 				5441953A171BA15B005575D7 /* Weed.png in Resources */,
 				5441953B171BA15B005575D7 /* WinterHall.png in Resources */,
 				5441953C171BA15B005575D7 /* Zumberge.png in Resources */,
+				54419549171BA603005575D7 /* gvsuCLController.h in Resources */,
+				544195A2171BAABF005575D7 /* GoogleMaps.bundle in Resources */,
+				544195A6171BAE69005575D7 /* Default.png in Resources */,
+				544195A8171BAE6D005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */,
+				544195AA171BAF26005575D7 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1039,58 +944,26 @@
 			files = (
 				544C0E3E17142B8900A9C773 /* TableViewCell.m in Sources */,
 				54BD2E7D16B06C480099FB02 /* gvsuAppDelegate.m in Sources */,
-				54BD2E8C16B06C480099FB02 /* gvsuMasterViewController.m in Sources */,
-				54BD2E8F16B06C480099FB02 /* gvsuDetailViewController.m in Sources */,
 				54777C6116EE5DC4000BD24C /* main.m in Sources */,
-				544E047916F7C3C800FC64B4 /* gvsuCell.m in Sources */,
-				54715AEE16FDE9B30030E4D7 /* gvsuCLController.m in Sources */,
-				54715AF116FDEA6D0030E4D7 /* gvsuClosestViewController.m in Sources */,
-				54C295581713830200490AE7 /* gvsuViewController.m in Sources */,
-				54D855821713AF1600AACF76 /* DetailViewController.m in Sources */,
 				54D8558C1713B23A00AACF76 /* HomeScreenViewController.m in Sources */,
 				54D855911713B24F00AACF76 /* DonateViewController.m in Sources */,
-				54D855961713BFE000AACF76 /* MyMapViewController.m in Sources */,
 				54D8559B1713BFF600AACF76 /* ClosestViewController.m in Sources */,
 				54D855A11713CF3F00AACF76 /* DirectoryViewController.m in Sources */,
 				54D855A61713D26F00AACF76 /* ClosestDetailViewController.m in Sources */,
 				54419543171BA3B1005575D7 /* MapViewController.m in Sources */,
+				54419548171BA600005575D7 /* gvsuCLController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		54C2952D1713820000490AE7 /* gvsuCLController.h */ = {
+		54419547171BA5FA005575D7 /* gvsuCLController.h */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54C2952C1713820000490AE7 /* en */,
+				54419546171BA5FA005575D7 /* en */,
 			);
 			name = gvsuCLController.h;
-			sourceTree = "<group>";
-		};
-		54C295301713821000490AE7 /* gvsuClosestViewController.h */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C2952F1713821000490AE7 /* en */,
-			);
-			name = gvsuClosestViewController.h;
-			sourceTree = "<group>";
-		};
-		54C295361713822500490AE7 /* gvsuDetailViewController.h */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C295351713822500490AE7 /* en */,
-			);
-			name = gvsuDetailViewController.h;
-			path = Philanthropy;
-			sourceTree = "<group>";
-		};
-		54C295421713825100490AE7 /* gvsuCell.h */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C295411713825100490AE7 /* en */,
-			);
-			name = gvsuCell.h;
 			path = Philanthropy;
 			sourceTree = "<group>";
 		};
@@ -1100,24 +973,6 @@
 				54C2954E171382C700490AE7 /* en */,
 			);
 			name = gvsuAppDelegate.h;
-			sourceTree = "<group>";
-		};
-		54C29553171382F500490AE7 /* gvsuMasterViewController.h */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C29552171382F500490AE7 /* en */,
-			);
-			name = gvsuMasterViewController.h;
-			path = Philanthropy;
-			sourceTree = "<group>";
-		};
-		54C29556171382FD00490AE7 /* gvsuViewController.h */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C29555171382FD00490AE7 /* en */,
-			);
-			name = gvsuViewController.h;
-			path = Philanthropy;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1193,9 +1048,9 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../../Downloads/GoogleMaps-iOS-1.1.1\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/GoogleMaps-iOS-1.1.2\"",
+					"\"$(SRCROOT)/GoogleMaps-iOS-1.1.2/GoogleMapsSDKDemos\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Philanthropy/Philanthropy-Prefix.pch";
@@ -1212,9 +1067,9 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../../Downloads/GoogleMaps-iOS-1.1.1\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/GoogleMaps-iOS-1.1.2\"",
+					"\"$(SRCROOT)/GoogleMaps-iOS-1.1.2/GoogleMapsSDKDemos\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Philanthropy/Philanthropy-Prefix.pch";
