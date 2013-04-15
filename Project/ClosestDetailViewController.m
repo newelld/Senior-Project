@@ -49,6 +49,10 @@
         [innerScrollView addSubview:dPic];
         [innerScrollView addSubview:dDescription];
         [donorView addSubview:innerScrollView];
+        
+        dDescription.frame = CGRectMake(dDescription.frame.origin.x, dDescription.frame.origin.y, dDescription.frame.size.width, dDescription.contentSize.height);
+        innerScrollView.contentSize = CGSizeMake(320, dPic.frame.size.height +dDescription.frame.size.height);
+        
         UIImageView *plate = [[UIImageView alloc] initWithFrame:CGRectMake(0, 335, self.view.frame.size.width, 50)];
         [plate setImage:[UIImage imageNamed:@"plate.png"]];
         
@@ -73,7 +77,6 @@
             CGFloat xOrigin = i * self.view.frame.size.width;
             UIView *donorView = [[UIView alloc] initWithFrame:CGRectMake(xOrigin, 0, self.view.frame.size.width, 335)];
             UIScrollView *innerScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 335)];
-            innerScrollView.scrollEnabled = YES;
             
             UIImageView *dPic;
             if (i == 0)
@@ -93,6 +96,10 @@
             [innerScrollView addSubview:dPic];
             [innerScrollView addSubview:dDescription];
             [donorView addSubview:innerScrollView];
+            
+            dDescription.frame = CGRectMake(dDescription.frame.origin.x, dDescription.frame.origin.y, dDescription.frame.size.width, dDescription.contentSize.height);
+            innerScrollView.contentSize = CGSizeMake(320, dPic.frame.size.height +dDescription.frame.size.height);
+            
             UIImageView *plate = [[UIImageView alloc] initWithFrame:CGRectMake(0, 335, self.view.frame.size.width, 50)];
             [plate setImage:[UIImage imageNamed:@"plate.png"]];
             
