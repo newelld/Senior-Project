@@ -30,6 +30,11 @@ NSArray *data;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _locationManager = [[CLLocationManager alloc] init];
+    _locationManager.delegate = self;
+    [_locationManager startUpdatingLocation];
+    
+    _currentLocation = [[CLLocation alloc] initWithLatitude:_locationManager.location.coordinate.latitude longitude:_locationManager.location.coordinate.longitude];
     [self getLocation];
     mapView.myLocationEnabled = YES;
     // Do any additional setup after loading the view from its nib.
@@ -41,13 +46,14 @@ NSArray *data;
     // Dispose of any resources that can be recreated.
 }
 
+
+
 - (IBAction)getLocation{
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:42.961329900896835 longitude:-85.88285207748413 zoom:15];
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:_currentLocation.coordinate.latitude longitude:_currentLocation.coordinate.longitude zoom:15];
     mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
-    //mapView.delegate = self;
+    mapView.delegate = self;
     self.view = mapView;
-    //[mapView animateToCameraPosition:camera];
-    //[mapView setUserTrackingMode:MKUserTrackingModeFollow animated: YES ];
+    [mapView animateToCameraPosition:camera];
     
     NSString *mylist = [[NSBundle mainBundle] pathForResource:@"Senior Project Data" ofType:@"plist"];
     data = [[NSArray alloc]initWithContentsOfFile:mylist];
@@ -71,6 +77,10 @@ NSArray *data;
         }
     }
 }
+
+
+
+
 
 - (BOOL)mapView:(GMSMapView *)mapView didTapMarker:(id<GMSMarker>)marker {
     NSString *title = marker.title;

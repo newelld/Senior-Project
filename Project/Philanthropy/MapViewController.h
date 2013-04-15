@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <GoogleMaps/GoogleMaps.h>
-@interface MapViewController : UIViewController
+@interface MapViewController : UIViewController <GMSMapViewDelegate, CLLocationManagerDelegate>
+
+@property (strong,nonatomic) CLLocationManager *locationManager;
+@property (strong,nonatomic) CLLocation *currentLocation;
 
 - (IBAction)getLocation;
 //- (IBAction)setMap:(id)sender;
