@@ -15,8 +15,6 @@
     NSString *donorName1, *donorName2;
     NSString *donorPic1, * donorPic2;
     
-    IBOutlet UILabel *donorsName;
-    IBOutlet UIImageView *donorsPic;
     IBOutlet UITextView *donorsDescription;
 }
 
