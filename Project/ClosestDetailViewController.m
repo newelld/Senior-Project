@@ -93,7 +93,6 @@
                 dDescription.text = description1;
             else
                 dDescription.text = description2;
-            
             [innerScrollView addSubview:dPic];
             [innerScrollView addSubview:dDescription];
             [donorView addSubview:innerScrollView];
