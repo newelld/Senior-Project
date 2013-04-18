@@ -24,6 +24,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //self.navigationItem.rightBarButtonItem
     UIImage *backgroundImage = [UIImage imageNamed:@"leather-background.png"];
     UIColor *backgroundPattern = [UIColor colorWithPatternImage:backgroundImage];
     [self.view setBackgroundColor: backgroundPattern];

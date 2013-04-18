@@ -117,15 +117,15 @@ didTapInfoWindowOfMarker:(id<GMSMarker>)marker
 //- (IBAction)setMap:(id)sender{
 //    switch (((UISegmentedControl *)sender).selectedSegmentIndex) {
 //        case 0:
-            //mapView.mapType = MKMapTypeStandard;
+//mapView.mapType = MKMapTypeStandard;
 //            break;
 //        case 1:
-            //mapView.mapType = MKMapTypeSatellite;
+//mapView.mapType = MKMapTypeSatellite;
 //            break;
 //        case 2:
-            // mapView.mapType = MKMapTypeHybrid;
+// mapView.mapType = MKMapTypeHybrid;
 //            break;
-            
+
 //   }
 //}
 @end

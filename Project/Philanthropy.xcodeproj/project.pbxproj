@@ -342,7 +342,7 @@
 		544194F5171BA15B005575D7 /* WinterHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WinterHall.png; path = ../Buildings/WinterHall.png; sourceTree = "<group>"; };
 		544194F6171BA15B005575D7 /* Zumberge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Zumberge.png; path = ../Buildings/Zumberge.png; sourceTree = "<group>"; };
 		54419545171BA5E2005575D7 /* gvsuCLController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gvsuCLController.m; path = Philanthropy/gvsuCLController.m; sourceTree = "<group>"; };
-		54419546171BA5FA005575D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/gvsuCLController.h; sourceTree = "<group>"; };
+		54419546171BA5FA005575D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuCLController.h; sourceTree = "<group>"; };
 		5441959F171BAA99005575D7 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "GoogleMaps-iOS-1.1.2/GoogleMaps.framework"; sourceTree = "<group>"; };
 		544195A1171BAABF005575D7 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "GoogleMaps-iOS-1.1.2/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
 		544195A3171BAB4A005575D7 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
@@ -1049,6 +1049,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/GoogleMaps-iOS-1.1.2\"",
@@ -1059,6 +1061,8 @@
 				INFOPLIST_FILE = "Philanthropy/Philanthropy-Info.plist";
 				OTHER_CFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1068,6 +1072,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/GoogleMaps-iOS-1.1.2\"",
@@ -1078,6 +1084,8 @@
 				INFOPLIST_FILE = "Philanthropy/Philanthropy-Info.plist";
 				OTHER_CFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
