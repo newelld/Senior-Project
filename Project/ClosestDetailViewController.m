@@ -77,7 +77,7 @@
             UIPageControl *pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, 370, self.view.frame.size.width, 20)];
             pageControl.numberOfPages = 2;
             pageControl.currentPage = i;
-            pageControl.pageIndicatorTintColor = [UIColor blackColor];
+            pageControl.pageIndicatorTintColor = [UIColor darkGrayColor];
             CGFloat xOrigin = i * self.view.frame.size.width;
             UIView *donorView = [[UIView alloc] initWithFrame:CGRectMake(xOrigin, 0, self.view.frame.size.width, 325)];
             UIScrollView *innerScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 325)];
