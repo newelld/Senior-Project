@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		541EF7971720353A00B624FF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541EF7961720353A00B624FF /* MainStoryboard_iPhone.storyboard */; };
-		541EF79917203C4900B624FF /* lubbers.png in Resources */ = {isa = PBXBuildFile; fileRef = 541EF79817203C4900B624FF /* lubbers.png */; };
 		542A18D5171F99C700BC20E5 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542A18D4171F99C700BC20E5 /* GoogleMaps.framework */; };
 		542A18D7171F99D500BC20E5 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 542A18D6171F99D500BC20E5 /* GoogleMaps.bundle */; };
 		5432BB9616FAD7380014AB2B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BB9516FAD7380014AB2B /* AVFoundation.framework */; };
@@ -170,6 +169,7 @@
 		544C0E3E17142B8900A9C773 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855BA17141ABF00AACF76 /* TableViewCell.m */; };
 		54600BA216DC6475004AFA84 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54600BA116DC6475004AFA84 /* MapKit.framework */; };
 		54777C6116EE5DC4000BD24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54777C6016EE5DC4000BD24C /* main.m */; };
+		54B2C2C7172332CB00D11692 /* lubbers.png in Resources */ = {isa = PBXBuildFile; fileRef = 54B2C2C6172332CB00D11692 /* lubbers.png */; };
 		54BD2E6D16B06C470099FB02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6C16B06C470099FB02 /* UIKit.framework */; };
 		54BD2E6F16B06C470099FB02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6E16B06C470099FB02 /* Foundation.framework */; };
 		54BD2E7116B06C470099FB02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E7016B06C470099FB02 /* CoreGraphics.framework */; };
@@ -191,7 +191,6 @@
 
 /* Begin PBXFileReference section */
 		541EF7961720353A00B624FF /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPhone.storyboard; path = ../../../../Desktop/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		541EF79817203C4900B624FF /* lubbers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lubbers.png; path = ../Buildings/lubbers.png; sourceTree = "<group>"; };
 		542A18D4171F99C700BC20E5 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		542A18D6171F99D500BC20E5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../../../Downloads/GoogleMaps-iOS-1.1.1 2/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
 		542C4D8216EE584200D556E0 /* Philanthropy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Philanthropy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -358,6 +357,7 @@
 		544195AD171BB306005575D7 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = Philanthropy/MapViewController.h; sourceTree = "<group>"; };
 		54600BA116DC6475004AFA84 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		54777C6016EE5DC4000BD24C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54B2C2C6172332CB00D11692 /* lubbers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lubbers.png; path = ../Buildings/lubbers.png; sourceTree = "<group>"; };
 		54BD2E6C16B06C470099FB02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		54BD2E6E16B06C470099FB02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54BD2E7016B06C470099FB02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -391,6 +391,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54BD2E6D16B06C470099FB02 /* UIKit.framework in Frameworks */,
 				544195A4171BAB4A005575D7 /* libc++.dylib in Frameworks */,
 				5432BBAC16FAD7AE0014AB2B /* SystemConfiguration.framework in Frameworks */,
 				5432BBAA16FAD7A20014AB2B /* QuartzCore.framework in Frameworks */,
@@ -405,7 +406,6 @@
 				5432BB9816FAD7410014AB2B /* CoreData.framework in Frameworks */,
 				5432BB9616FAD7380014AB2B /* AVFoundation.framework in Frameworks */,
 				54600BA216DC6475004AFA84 /* MapKit.framework in Frameworks */,
-				54BD2E6D16B06C470099FB02 /* UIKit.framework in Frameworks */,
 				54BD2E6F16B06C470099FB02 /* Foundation.framework in Frameworks */,
 				54BD2E7116B06C470099FB02 /* CoreGraphics.framework in Frameworks */,
 				542A18D5171F99C700BC20E5 /* GoogleMaps.framework in Frameworks */,
@@ -663,7 +663,7 @@
 		54D856741714263100AACF76 /* Building Thumbnails */ = {
 			isa = PBXGroup;
 			children = (
-				541EF79817203C4900B624FF /* lubbers.png */,
+				54B2C2C6172332CB00D11692 /* lubbers.png */,
 				544194B1171BA15B005575D7 /* Allendale.png */,
 				544194B2171BA15B005575D7 /* Alumni.png */,
 				544194B3171BA15B005575D7 /* ArtGallery.png */,
@@ -941,7 +941,7 @@
 				544195AE171BB306005575D7 /* MapViewController.xib in Resources */,
 				542A18D7171F99D500BC20E5 /* GoogleMaps.bundle in Resources */,
 				541EF7971720353A00B624FF /* MainStoryboard_iPhone.storyboard in Resources */,
-				541EF79917203C4900B624FF /* lubbers.png in Resources */,
+				54B2C2C7172332CB00D11692 /* lubbers.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
