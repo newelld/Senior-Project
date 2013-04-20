@@ -13,7 +13,6 @@
 #import "DirectoryViewController.h"
 #import "ClosestViewController.h"
 #import "DonateViewController.h"
-#import "GoogleMaps/GoogleMaps.h"
 
 
 @implementation gvsuAppDelegate
