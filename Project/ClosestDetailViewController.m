@@ -74,9 +74,13 @@
     }else{
         numberOfViews = 2;
         for (int i = 0; i < 2; i++) {
+            UIPageControl *pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, 370, self.view.frame.size.width, 20)];
+            pageControl.numberOfPages = 2;
+            pageControl.currentPage = i;
+            pageControl.pageIndicatorTintColor = [UIColor blackColor];
             CGFloat xOrigin = i * self.view.frame.size.width;
-            UIView *donorView = [[UIView alloc] initWithFrame:CGRectMake(xOrigin, 0, self.view.frame.size.width, 335)];
-            UIScrollView *innerScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 335)];
+            UIView *donorView = [[UIView alloc] initWithFrame:CGRectMake(xOrigin, 0, self.view.frame.size.width, 325)];
+            UIScrollView *innerScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 325)];
             
             UIImageView *dPic;
             if (i == 0)
@@ -84,7 +88,7 @@
             else
                 dPic = [[UIImageView alloc] initWithImage:[UIImage imageNamed:donorPic2]];
             
-            UITextView *dDescription = [[UITextView alloc] initWithFrame:CGRectMake(0, dPic.frame.size.height, 320, 50)];
+            UITextView *dDescription = [[UITextView alloc] initWithFrame:CGRectMake(0, dPic.frame.size.height, 300, 50)];
             dDescription.editable = NO;
             dDescription.backgroundColor = [UIColor clearColor];
             [dDescription setFont:[UIFont fontWithName:@"Georgia" size:14]];
@@ -97,9 +101,9 @@
             [donorView addSubview:innerScrollView];
             
             dDescription.frame = CGRectMake(dDescription.frame.origin.x, dDescription.frame.origin.y, dDescription.frame.size.width, dDescription.contentSize.height);
-            innerScrollView.contentSize = CGSizeMake(320, dPic.frame.size.height +dDescription.frame.size.height);
+            innerScrollView.contentSize = CGSizeMake(300, dPic.frame.size.height +dDescription.frame.size.height);
             
-            UIImageView *plate = [[UIImageView alloc] initWithFrame:CGRectMake(0, 335, self.view.frame.size.width, 50)];
+            UIImageView *plate = [[UIImageView alloc] initWithFrame:CGRectMake(0, 325, self.view.frame.size.width, 50)];
             [plate setImage:[UIImage imageNamed:@"plate.png"]];
             
             UILabel *donorsName = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, plate.frame.size.width, plate.frame.size.height)];
@@ -119,6 +123,7 @@
             UIImage *backgroundImage = [UIImage imageNamed:@"leather-background.png"]; //the background gets set twice for a
             UIColor *backgroundPattern = [UIColor colorWithPatternImage:backgroundImage];//reason
             [donorView setBackgroundColor: backgroundPattern];
+            [donorView addSubview:pageControl];
             [scrollView addSubview:donorView];
         }
     }
