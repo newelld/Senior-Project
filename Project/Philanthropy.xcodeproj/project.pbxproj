@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		541EF7971720353A00B624FF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541EF7961720353A00B624FF /* MainStoryboard_iPhone.storyboard */; };
-		542A18D5171F99C700BC20E5 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542A18D4171F99C700BC20E5 /* GoogleMaps.framework */; };
-		542A18D7171F99D500BC20E5 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 542A18D6171F99D500BC20E5 /* GoogleMaps.bundle */; };
 		5432BB9616FAD7380014AB2B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BB9516FAD7380014AB2B /* AVFoundation.framework */; };
 		5432BB9816FAD7410014AB2B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BB9716FAD7410014AB2B /* CoreData.framework */; };
 		5432BB9A16FAD7490014AB2B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5432BB9916FAD7490014AB2B /* CoreLocation.framework */; };
@@ -175,6 +172,9 @@
 		54BD2E7116B06C470099FB02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E7016B06C470099FB02 /* CoreGraphics.framework */; };
 		54BD2E7D16B06C480099FB02 /* gvsuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E7C16B06C480099FB02 /* gvsuAppDelegate.m */; };
 		54C29550171382CC00490AE7 /* gvsuAppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2954F171382C700490AE7 /* gvsuAppDelegate.h */; };
+		54D3EDC91728A94400E863DE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D3EDC81728A94400E863DE /* MainStoryboard_iPhone.storyboard */; };
+		54D3EDCB1728AA9D00E863DE /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D3EDCA1728AA9D00E863DE /* GoogleMaps.framework */; };
+		54D3EDCD1728AABC00E863DE /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54D3EDCC1728AABC00E863DE /* GoogleMaps.bundle */; };
 		54D8557F1713A9DE00AACF76 /* Senior Project Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54D8557E1713A9DE00AACF76 /* Senior Project Data.plist */; };
 		54D8558C1713B23A00AACF76 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D8558A1713B23A00AACF76 /* HomeScreenViewController.m */; };
 		54D8558D1713B23A00AACF76 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D8558B1713B23A00AACF76 /* HomeScreenViewController.xib */; };
@@ -190,9 +190,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		541EF7961720353A00B624FF /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPhone.storyboard; path = ../../../../Desktop/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		542A18D4171F99C700BC20E5 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		542A18D6171F99D500BC20E5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../../../Downloads/GoogleMaps-iOS-1.1.1 2/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
 		542C4D8216EE584200D556E0 /* Philanthropy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Philanthropy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Philanthropy-Info.plist"; sourceTree = "<group>"; };
 		5432BB9516FAD7380014AB2B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -365,6 +362,9 @@
 		54BD2E9616B06C480099FB02 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		54C2954E171382C700490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuAppDelegate.h; sourceTree = "<group>"; };
 		54C862D0171392DB0086E97C /* Philanthropy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Philanthropy-Prefix.pch"; sourceTree = "<group>"; };
+		54D3EDC81728A94400E863DE /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPhone.storyboard; path = ../MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		54D3EDCA1728AA9D00E863DE /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		54D3EDCC1728AABC00E863DE /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		54D8557E1713A9DE00AACF76 /* Senior Project Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Senior Project Data.plist"; sourceTree = "<group>"; };
 		54D855891713B23A00AACF76 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
 		54D8558A1713B23A00AACF76 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
@@ -408,7 +408,7 @@
 				54600BA216DC6475004AFA84 /* MapKit.framework in Frameworks */,
 				54BD2E6F16B06C470099FB02 /* Foundation.framework in Frameworks */,
 				54BD2E7116B06C470099FB02 /* CoreGraphics.framework in Frameworks */,
-				542A18D5171F99C700BC20E5 /* GoogleMaps.framework in Frameworks */,
+				54D3EDCB1728AA9D00E863DE /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,7 +584,6 @@
 		54BD2E5D16B06C470099FB02 = {
 			isa = PBXGroup;
 			children = (
-				541EF7961720353A00B624FF /* MainStoryboard_iPhone.storyboard */,
 				544195A9171BAF26005575D7 /* Default-568h@2x.png */,
 				544195A7171BAE6C005575D7 /* GV Blue Leaves 2-1 Icon (2).png */,
 				544195A5171BAE68005575D7 /* Default.png */,
@@ -598,8 +597,8 @@
 		54BD2E6B16B06C470099FB02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				542A18D6171F99D500BC20E5 /* GoogleMaps.bundle */,
-				542A18D4171F99C700BC20E5 /* GoogleMaps.framework */,
+				54D3EDCC1728AABC00E863DE /* GoogleMaps.bundle */,
+				54D3EDCA1728AA9D00E863DE /* GoogleMaps.framework */,
 				544195A3171BAB4A005575D7 /* libc++.dylib */,
 				5432BBAB16FAD7AE0014AB2B /* SystemConfiguration.framework */,
 				5432BBA916FAD7A20014AB2B /* QuartzCore.framework */,
@@ -625,6 +624,7 @@
 		54BD2E7216B06C470099FB02 /* Philanthropy */ = {
 			isa = PBXGroup;
 			children = (
+				54D3EDC81728A94400E863DE /* MainStoryboard_iPhone.storyboard */,
 				54D8557E1713A9DE00AACF76 /* Senior Project Data.plist */,
 				54C862D0171392DB0086E97C /* Philanthropy-Prefix.pch */,
 				542C4D8416EE585F00D556E0 /* Philanthropy-Info.plist */,
@@ -939,9 +939,9 @@
 				544195A8171BAE6D005575D7 /* GV Blue Leaves 2-1 Icon (2).png in Resources */,
 				544195AA171BAF26005575D7 /* Default-568h@2x.png in Resources */,
 				544195AE171BB306005575D7 /* MapViewController.xib in Resources */,
-				542A18D7171F99D500BC20E5 /* GoogleMaps.bundle in Resources */,
-				541EF7971720353A00B624FF /* MainStoryboard_iPhone.storyboard in Resources */,
 				54B2C2C7172332CB00D11692 /* lubbers.png in Resources */,
+				54D3EDC91728A94400E863DE /* MainStoryboard_iPhone.storyboard in Resources */,
+				54D3EDCD1728AABC00E863DE /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
