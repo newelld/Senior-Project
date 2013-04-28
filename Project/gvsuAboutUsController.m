@@ -13,6 +13,7 @@
 @end
 
 @implementation gvsuAboutUsController
+@synthesize dismissViewButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -25,6 +26,8 @@
 
 - (void)viewDidLoad
 {
+    
+    [self.view addSubview:dismissViewButton];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

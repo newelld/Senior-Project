@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface gvsuAboutUsController : UIViewController {
-    UIButton *dismissViewButton;
+    IBOutlet UIButton *dismissViewButton;
 }
 
 - (IBAction)dismissView:(id)sender;
+
+@property (nonatomic, retain) UIButton *dismissViewButton;
 
 @end
