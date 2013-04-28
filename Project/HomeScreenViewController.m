@@ -50,9 +50,12 @@
     imageView.animationDuration = 100.0;
     imageView.animationRepeatCount = 0;
 
+    aboutUs.hidden = NO;
+    
     [imageView startAnimating];
     [self.view addSubview:imageView];
     [self.view addSubview:logoView];
+    [self.view addSubview:aboutUs];
 }
 
 - (IBAction)showAboutUs:(id)sender {

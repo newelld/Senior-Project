@@ -12,7 +12,7 @@
        
     IBOutlet UIImageView *logoView;
     IBOutlet UIImageView *imageView;
-    UIButton *aboutUs;
+    IBOutlet UIButton *aboutUs;
 }
 
 @property(nonatomic, retain) IBOutlet UIImageView *logoView, *imageView;
