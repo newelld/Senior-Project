@@ -7,13 +7,14 @@
 //
 
 #import "HomeScreenViewController.h"
+#import "gvsuAboutUsController.h"
 
 @interface HomeScreenViewController ()
 
 @end
 
 @implementation HomeScreenViewController
-@synthesize logoView, imageView;
+@synthesize logoView, imageView, aboutUs;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -52,6 +53,12 @@
     [imageView startAnimating];
     [self.view addSubview:imageView];
     [self.view addSubview:logoView];
+}
+
+- (IBAction)showAboutUs:(id)sender {
+    gvsuAboutUsController *aboutUsController = [[gvsuAboutUsController alloc] init] ;
+    [aboutUsController setModalTransitionStyle:UIModalTransitionStylePartialCurl];
+    [self presentViewController:aboutUsController animated:YES completion:Nil];
 }
 
 - (void)didReceiveMemoryWarning

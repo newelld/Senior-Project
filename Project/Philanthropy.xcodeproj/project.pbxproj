@@ -165,6 +165,8 @@
 		544195AF171BB306005575D7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544195AC171BB306005575D7 /* MapViewController.m */; };
 		544C0E3E17142B8900A9C773 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855BA17141ABF00AACF76 /* TableViewCell.m */; };
 		54600BA216DC6475004AFA84 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54600BA116DC6475004AFA84 /* MapKit.framework */; };
+		5461DDA8172DB4F70022C128 /* gvsuAboutUsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5461DDA6172DB4F70022C128 /* gvsuAboutUsController.m */; };
+		5461DDA9172DB4F70022C128 /* gvsuAboutUsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5461DDA7172DB4F70022C128 /* gvsuAboutUsController.xib */; };
 		54777C6116EE5DC4000BD24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54777C6016EE5DC4000BD24C /* main.m */; };
 		54B2C2C7172332CB00D11692 /* lubbers.png in Resources */ = {isa = PBXBuildFile; fileRef = 54B2C2C6172332CB00D11692 /* lubbers.png */; };
 		54BD2E6D16B06C470099FB02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD2E6C16B06C470099FB02 /* UIKit.framework */; };
@@ -353,6 +355,9 @@
 		544195AC171BB306005575D7 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = Philanthropy/MapViewController.m; sourceTree = "<group>"; };
 		544195AD171BB306005575D7 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = Philanthropy/MapViewController.h; sourceTree = "<group>"; };
 		54600BA116DC6475004AFA84 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5461DDA5172DB4F70022C128 /* gvsuAboutUsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gvsuAboutUsController.h; sourceTree = "<group>"; };
+		5461DDA6172DB4F70022C128 /* gvsuAboutUsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gvsuAboutUsController.m; sourceTree = "<group>"; };
+		5461DDA7172DB4F70022C128 /* gvsuAboutUsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = gvsuAboutUsController.xib; sourceTree = "<group>"; };
 		54777C6016EE5DC4000BD24C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54B2C2C6172332CB00D11692 /* lubbers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lubbers.png; path = ../Buildings/lubbers.png; sourceTree = "<group>"; };
 		54BD2E6C16B06C470099FB02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -581,6 +586,16 @@
 			name = Pictures;
 			sourceTree = "<group>";
 		};
+		5461DDA4172DB4BB0022C128 /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				5461DDA5172DB4F70022C128 /* gvsuAboutUsController.h */,
+				5461DDA6172DB4F70022C128 /* gvsuAboutUsController.m */,
+				5461DDA7172DB4F70022C128 /* gvsuAboutUsController.xib */,
+			);
+			name = AboutUs;
+			sourceTree = "<group>";
+		};
 		54BD2E5D16B06C470099FB02 = {
 			isa = PBXGroup;
 			children = (
@@ -639,6 +654,7 @@
 		54D8559D1713C03F00AACF76 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				5461DDA4172DB4BB0022C128 /* AboutUs */,
 				5441924117147059005575D7 /* HomeScreen */,
 				5441923D17146FF6005575D7 /* Map */,
 				5441923E17147005005575D7 /* Directory */,
@@ -942,6 +958,7 @@
 				54B2C2C7172332CB00D11692 /* lubbers.png in Resources */,
 				54D3EDC91728A94400E863DE /* MainStoryboard_iPhone.storyboard in Resources */,
 				54D3EDCD1728AABC00E863DE /* GoogleMaps.bundle in Resources */,
+				5461DDA9172DB4F70022C128 /* gvsuAboutUsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -962,6 +979,7 @@
 				54D855A61713D26F00AACF76 /* ClosestDetailViewController.m in Sources */,
 				54419548171BA600005575D7 /* gvsuCLController.m in Sources */,
 				544195AF171BB306005575D7 /* MapViewController.m in Sources */,
+				5461DDA8172DB4F70022C128 /* gvsuAboutUsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
