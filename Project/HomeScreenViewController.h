@@ -15,8 +15,8 @@
     IBOutlet UIButton *aboutUs;
 }
 
-@property(nonatomic, retain) IBOutlet UIImageView *logoView, *imageView;
-@property(nonatomic, retain) IBOutlet UIButton *aboutUs;
+@property(nonatomic, strong) IBOutlet UIImageView *logoView, *imageView;
+@property(nonatomic, strong) IBOutlet UIButton *aboutUs;
 
 - (IBAction)showAboutUs:(id)sender;
 

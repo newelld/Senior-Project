@@ -19,7 +19,7 @@
 @property IBOutlet UILabel *donors;
 @property IBOutlet UILabel *distance;
 
-@property (nonatomic, retain)NSString *build, *don1, *don2, *thumb, *dist;
+@property (nonatomic, strong)NSString *build, *don1, *don2, *thumb, *dist;
 
 -(void)setDetails:(TableViewCell *)cell;
 

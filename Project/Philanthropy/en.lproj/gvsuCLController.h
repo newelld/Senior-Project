@@ -19,7 +19,7 @@
 	__unsafe_unretained id delegate;
 }
 
-@property (nonatomic, retain) CLLocationManager *locationManager;
+@property (nonatomic, strong) CLLocationManager *locationManager;
 @property (nonatomic, assign) id <gvsuCLControllerDelegate> delegate;
 
 - (void)locationManager:(CLLocationManager *)manager

@@ -14,6 +14,6 @@
 
 - (IBAction)dismissView:(id)sender;
 
-@property (nonatomic, retain) UIButton *dismissViewButton;
+@property (nonatomic, strong) UIButton *dismissViewButton;
 
 @end
