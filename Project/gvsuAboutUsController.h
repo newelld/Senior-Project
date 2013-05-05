@@ -8,12 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface gvsuAboutUsController : UIViewController {
-    IBOutlet UIButton *dismissViewButton;
-}
+@interface gvsuAboutUsController : UIViewController 
 
-- (IBAction)dismissView:(id)sender;
-
-@property (nonatomic, strong) UIButton *dismissViewButton;
+- (IBAction)tap:(id)sender;
 
 @end
